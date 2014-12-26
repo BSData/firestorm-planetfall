@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="3e67d0fe-3690-426d-a326-7ad970c4371b" name="Heavy Gunship Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ad3c65c6-f1f0-38b6-3491-b5648f106dd4" name="Heavy Interceptor Class" defaultEntryId="fd224985-cf27-bb27-4d37-c699ca7a5f73" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="fd224985-cf27-bb27-4d37-c699ca7a5f73" name="Iophon" points="215.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="db327cf9-8a5b-4e95-1a66-18e6f73d3775" name="Nexus When Flat Out" hidden="false" book="Terquai ORBAT" page="8">
+                  <description>This squadron may fire its Nexus Designator while moving Flat Out.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="66fa388c-e567-a91f-1849-eb4d9941e296" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Iophon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="4"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="ac4860bc-56c1-67af-5d7e-0d6d9fa1aef2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Iophon - Nuravi Missiles" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="12"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="10"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel / Terror Weapon"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="d2952515-ee96-2c2b-5bef-80f64fa8319f" targetId="84c7c112-99e0-51d5-5c33-f215b285db0c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e6c373a4-60ff-e3a2-256c-148b8c9e54c8" targetId="92ad4a2c-9359-fc2a-2fd4-e8c6c01e40b7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b8f89dbb-ab82-db67-0454-e2310e0b369b" targetId="4fddf1fa-4639-8539-da44-031c2eaa9f9d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="92cb3855-b9d9-a035-70d8-559de657cce1" targetId="7d85f7b3-bb70-5955-2998-90d7dde550f6" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e341367e-c8bd-9390-2b35-cfb0465b0cf8" targetId="18268857-4ffe-7ad7-46a3-6f965a36ae57" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6ccdc59d-5171-3f68-825a-1997cba00da2" name="Heavy Infantry Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ec0fbf24-25a2-b1c4-c6aa-883aafc8e747" name="Heavy Infantry Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2a3a2a4f-7ecc-71c6-8857-a7e436a88ecb" name="Nabis" points="40.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ede227a7-42d3-b57c-202c-56fb39ea5c0a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Infantry - Nabis" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="212b1d42-e67c-3d8c-ec25-0c95f473da6c" targetId="336a2f30-3ea0-3651-1b3c-2277057aa8c3" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="a18a14a9-7d86-96ea-1b9b-99bc260e501c" targetId="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2c736fb6-ec6a-351f-3ea7-97533f20e3a1" targetId="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3bd6b048-4e1a-3794-b0b1-b2982e1818d4" targetId="7490be39-1253-267f-bd1a-eb0a1c31a85a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6b9b329c-dddc-f69a-3a51-1b75a8edeed7" name="Temporal Portal" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3bd86f0f-5e7c-d5d5-e676-9d8e2bc40617" name="Temporal Portal" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="1b2b1131-6c57-33c4-9a3d-9365dd55bbb5" name="Temporal Portal" points="60.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="df29b560-81aa-73d5-c4a2-8b3e44dde41e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Temporal Portal" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="0"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="1"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="f6f21fef-4b9d-4e3c-513f-affd37be6a0a" targetId="fcd755dd-6502-37aa-a0f4-588907a2b5c2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="bbfeb2bd-41a8-60c3-194e-43a66dfbe417" targetId="0654a0ed-a564-f83d-778a-cca3a6640806" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6c3c6638-0d55-f834-cc35-bdda7ce2beae" targetId="4cdda248-fbaa-0c30-608f-2ab1677ea2d1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b2c66955-14d8-a5c0-c046-c123512343aa" targetId="5134434e-bc4c-b8b4-1c31-81873e0eef3d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="4d46b303-cdbc-9531-3fd6-9863a55c6da3" targetId="41458ec0-7191-91b6-cdc1-d7ea05150f98" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="a50fb0a9-1e95-a5c3-805e-db6c5875fe8d" targetId="61ce68cc-7a35-94d5-876b-4f104b1dc706" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="18268857-4ffe-7ad7-46a3-6f965a36ae57" name="Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
+      <description>These units take up 2 slots in transports.</description>
+      <modifiers/>
+    </rule>
+    <rule id="92ad4a2c-9359-fc2a-2fd4-e8c6c01e40b7" name="Command Element (18&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 18&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="336a2f30-3ea0-3651-1b3c-2277057aa8c3" name="Drone" hidden="false" book="Core Rulebook" page="117">
+      <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
+      <modifiers/>
+    </rule>
+    <rule id="fcd755dd-6502-37aa-a0f4-588907a2b5c2" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
+      <description>Boosts Drones to Regular and gives them +1 CQB within 8&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0654a0ed-a564-f83d-778a-cca3a6640806" name="Fearless" hidden="false" book="Core Rulebook" page="118">
+      <description>Unit never takes Disordered Tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="84c7c112-99e0-51d5-5c33-f215b285db0c" name="Flying" hidden="false" book="Core Rulebook" page="118">
+      <description>When moving at Crusing Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <modifiers/>
+    </rule>
+    <rule id="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+      <description>Main Ordnance is -1 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="61ce68cc-7a35-94d5-876b-4f104b1dc706" name="Must Sky Drop" hidden="false">
+      <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
+      <modifiers/>
+    </rule>
+    <rule id="4cdda248-fbaa-0c30-608f-2ab1677ea2d1" name="Portal Technology (Nabis Drones Only)" hidden="false" book="Core Rulebook" page="82">
+      <description>Nabis Drones may use these portals as per Page 82 of the Core Rulebook.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5134434e-bc4c-b8b4-1c31-81873e0eef3d" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">
+      <description>A model with this MAR is considered to be activated on the turn it is deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="41458ec0-7191-91b6-cdc1-d7ea05150f98" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
+      <description>May use the Sky Drop Deployment rules on Page 79.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4fddf1fa-4639-8539-da44-031c2eaa9f9d" name="Sky Drop Nexus (Temporal Portals Only, 2)" hidden="false" book="Core Rulebook" page="121">
+      <description>Places 2 Drop Site Markers for Temporal Portals in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7490be39-1253-267f-bd1a-eb0a1c31a85a" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+      <description>This unit may claim objectives.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7d85f7b3-bb70-5955-2998-90d7dde550f6" name="Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+      <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>

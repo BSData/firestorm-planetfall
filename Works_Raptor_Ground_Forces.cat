@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="053b775e-ec55-fdce-4f97-0f3a64a7e748" name="Heavy Interceptor Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="cec6c1d2-b50b-6b26-84eb-9ae1ed1927e9" name="Heavy Interceptor Class" defaultEntryId="9a27306a-dc82-d63b-76b1-f2b13c581b92" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9a27306a-dc82-d63b-76b1-f2b13c581b92" name="GX-74 &apos;Witch&apos;" points="125.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="e53333a4-f04e-f5ba-5bdc-5a6508770f9d" name="Fire When Flat Out" hidden="false" book="Works Raptor ORBAT" page="8">
+                  <description>This squadron may fire its Main Ordnance while moving Flat Out. These shots are considered Rushed.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="40c34812-c668-8b94-a885-5fe1931c4d39" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Interceptor - GX-74 &apos;Witch&apos;" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="fa2dc036-5d0e-45f2-5abe-f5f96211fa56" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="GX-74 &apos;Witch&apos; - Liquidation Missiles" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="6"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Corrosive / Interceptor"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="441cc26f-0782-788f-22d4-04fdf6f3b8fd" targetId="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="274e2afb-2ecf-ec46-8ebc-1b50e2aff44e" targetId="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="9a27306a-dc82-d63b-76b1-f2b13c581b92" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="49137048-df3a-64fa-2c41-bc99c66a08e4" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="cad8eac3-90db-93d8-0c95-6a042474d3bc" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+      <entries>
+        <entry id="0820fb53-7326-c4c8-db9f-9e0bed9934a7" name="Logistics Points" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="14deb3e4-2413-4245-b08a-43cb3facaffb" targetId="96ee851c-9c37-40da-f8ad-cac05dd96d0f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="78865eba-cc48-e066-8629-b8724161b131" name="Recon Tank Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e014951a-d684-604f-1f11-3f04bd988c14" name="Recon Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="49137048-df3a-64fa-2c41-bc99c66a08e4" name="LS-6 &apos;Crone&apos;" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="e014951a-d684-604f-1f11-3f04bd988c14" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="49137048-df3a-64fa-2c41-bc99c66a08e4" childId="49137048-df3a-64fa-2c41-bc99c66a08e4" field="selections" type="equal to" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="e25627d3-b3d8-17a8-ba14-96008cd85b5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Interceptor - GX-74 &apos;Witch&apos;" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="c00638b6-b125-4bf4-4765-d71c90598583" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="LS-6 &apos;Crone&apos; - Buy-Out Concussion Blasters" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="4"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="7a5dd644-671b-0f7a-1df9-f8436870f1f0" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b2f0407e-42ad-1397-38c4-8debd8b403f3" targetId="a85459e2-b85f-fec7-eb38-615507af1dc4" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6c48cd9c-0d3b-9499-2404-61c6f21a639c" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="25893c08-f805-9147-3be7-f441f0fb7b03" targetId="f798f246-b32a-ec98-bc4f-03996a6b0324" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="900d4605-02a4-76ce-0978-4ba9dddc4a8e" name="Artillery Attacks" hidden="false">
+      <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+      <modifiers/>
+    </rule>
+    <rule id="38be05d7-9ede-9fd9-4548-a159d3a4c336" name="Artillery Dice" hidden="false">
+      <description>Works Raptor Forces use Artillery with 5D6 Attack Dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7d202cfd-369d-2dd3-a1d9-dd6b456e85e2" name="Sky Drop Capability" hidden="false">
+      <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+      <modifiers/>
+    </rule>
+    <rule id="09617fe3-a35d-f5ff-9d57-25af292161a0" name="Tactical Bonus" hidden="false">
+      <description>Works Raptor forces have a Tactics Bonus of +1.</description>
+      <modifiers/>
+    </rule>
+    <rule id="409d0b81-c389-2a64-541c-4c6e2006b90f" name="Shadow Operatives" hidden="false">
+      <description>The Tactical Value Cost to play any Tactical Action Cards by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 16&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" name="Flying" hidden="false" book="Core Rulebook" page="118">
+      <description>When moving at Crusing Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <modifiers/>
+    </rule>
+    <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+      <description>Main Ordnance is -1 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a85459e2-b85f-fec7-eb38-615507af1dc4" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+      <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
+      <modifiers/>
+    </rule>
+    <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+      <description>May use up to 5 points to bid on an Opossed Tactics test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+      <description>May move in the Recon Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f798f246-b32a-ec98-bc4f-03996a6b0324" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+      <description>This unit may claim objectives.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
