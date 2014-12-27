@@ -90,7 +90,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="0ed92466-f9e4-9a41-1735-a902ce050313" name="Heavy Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0ed92466-f9e4-9a41-1735-a902ce050313" name="Heavy Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="837de666-1f34-15e0-af3e-6889a8e67686" name="Heavy Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -101,7 +101,29 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="809378bd-1315-0869-f1b7-bef50d913a8f" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="bae76e27-0017-17f3-5416-2f5e8816377b" targetId="0bd576ed-3048-d9d7-65f4-26c36886efa6" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f5e266dd-3081-90c9-03ac-951c1616cf65" targetId="0ebc23ba-096b-26ff-350c-aacc4fec6841" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="94afa825-161e-5703-6fd9-d3dc75702a3e" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="88659a99-3c1b-f0c2-4d72-3b4f5c6be17b" targetId="d232a5e9-0df8-7842-9fd8-e1627e746a71" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7373214f-fe87-de80-045e-d29ddf7850a9" targetId="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="25fb7217-2ad2-8464-9638-44d4dff396fb" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="30dcb775-8c30-4406-78f3-5845745c9df1" name="Medium Shield Tank Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -118,29 +140,7 @@
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="2fc87c58-9a32-af7d-eb45-f49c90823226" targetId="0bd576ed-3048-d9d7-65f4-26c36886efa6" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="788f4b79-1252-1d30-72ea-b355baaa123c" targetId="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="c85eab3f-4365-c458-04d4-5cdc07d24c7b" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="b6a2cc7c-a57f-506b-6c46-82ad3c798e03" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="483e35d7-e1b2-efef-0d41-819dcf4f0c60" targetId="0ebc23ba-096b-26ff-350c-aacc4fec6841" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="d255e925-c00b-d14c-4372-3873abfd2d34" targetId="d232a5e9-0df8-7842-9fd8-e1627e746a71" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="70b2d87e-ce64-b690-b349-d0b37544af54" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -191,9 +191,22 @@
       <entries/>
       <entryGroups>
         <entryGroup id="331668f0-c335-4e9b-d70e-c49707222884" name="Light Infantry Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="9159501b-baa5-1c5a-0c5d-a17b89062c62" name="Infantry Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d412ba1c-2045-1052-07c7-57f05990a3fa" targetId="893a37b6-f346-1dbd-a317-ac78685bfd52" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
           <entryGroups>
-            <entryGroup id="68a152fc-14bb-ed41-12f8-6868381bd639" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="68a152fc-14bb-ed41-12f8-6868381bd639" name="Hirdmen Light Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="f3ce8aca-bd0c-6529-beba-c754ace26c59" name="Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -233,9 +246,9 @@
               </entries>
               <entryGroups/>
               <modifiers>
-                <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="68a152fc-14bb-ed41-12f8-6868381bd639" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="68a152fc-14bb-ed41-12f8-6868381bd639" incrementField="selections" incrementValue="1.0">
                   <conditions>
-                    <condition parentId="roster" childId="68a152fc-14bb-ed41-12f8-6868381bd639" field="selections" type="greater than" value="4.0"/>
+                    <condition parentId="roster" childId="68a152fc-14bb-ed41-12f8-6868381bd639" field="selections" type="greater than" value="3.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -248,11 +261,7 @@
             </entryGroup>
           </entryGroups>
           <modifiers/>
-          <links>
-            <link id="53cc1ef9-dda7-5617-c96c-3bfb360c0072" targetId="893a37b6-f346-1dbd-a317-ac78685bfd52" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -260,7 +269,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="38db61d9-9044-e479-3cb2-a0784a1e0a71" name="Light Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="38db61d9-9044-e479-3cb2-a0784a1e0a71" name="Light Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="276671f4-cfdb-27bd-e129-195ef3bc50e6" name="Light Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -406,7 +415,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="b209b93a-ae2a-f694-6a43-dd501be379bf" name="Medium Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b209b93a-ae2a-f694-6a43-dd501be379bf" name="Medium Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b3ce8b7e-02f4-3ec6-ff98-7313ac5ab0a0" name="Medium Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -679,9 +688,9 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="893a37b6-f346-1dbd-a317-ac78685bfd52" name="Infantry Transport" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="893a37b6-f346-1dbd-a317-ac78685bfd52" name="Infantry Transport" defaultEntryId="a5332523-3259-b11e-f826-4706524feefe" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="a5332523-3259-b11e-f826-4706524feefe" name="Medium APC Tank" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a5332523-3259-b11e-f826-4706524feefe" name="Medium APC Tank" points="95.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -704,7 +713,17 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="58eba626-15b6-41d6-6b77-ced9153821c2" targetId="73ac00b0-a06c-bf5c-4649-15608e98f913" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="357a3ac8-28bd-72da-83a9-41d02d90e2c1" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="cd90ba79-ca53-7831-4ce8-3e00547f0563" targetId="ad0a4ad2-e83a-de34-51c9-ea59b788289a" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -754,7 +773,17 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="6489279f-aa0d-4a46-a2c3-fe93983ac25b" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="024d9755-2eac-76f4-bc1e-392d8433496c" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5a2f4402-9595-9ad3-1703-0787ac9ffbe5" targetId="09deee61-ad7d-179d-221f-d13e4866bf94" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="cad355d0-a055-c309-f8eb-9f3f82f4d6a3" name="Breacher Teams" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -779,9 +808,19 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="af2b9aad-6c14-8f38-d8fd-64eb8d688808" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b36fb58a-d3e0-d1ba-6557-b8ddd6ae5685" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c7ea965f-bb39-65a1-5e25-5df34273b579" targetId="09deee61-ad7d-179d-221f-d13e4866bf94" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="a26ae06d-7c4e-cca8-6c2c-7a823b1059ee" name="Hirdmen" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a26ae06d-7c4e-cca8-6c2c-7a823b1059ee" name="Hirdmen" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -804,7 +843,14 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="bf8d66cf-d1ca-e080-28bc-6de7d47223be" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2fa89e65-0c63-207e-a78f-e7a644bdc131" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>

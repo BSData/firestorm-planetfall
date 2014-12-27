@@ -143,7 +143,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="aa36eeb8-247f-4dae-6e59-a929f5bfb433" name="Heavy Crawler Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="aa36eeb8-247f-4dae-6e59-a929f5bfb433" name="Heavy Crawler Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="8c0cab36-655c-2c36-ed0d-3cbdf87e4879" name="Heavy Crawler Class" defaultEntryId="2ed1fcdc-d002-1f71-8fd4-fa1aee0ddc3e" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -313,7 +313,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="7323bf0d-7758-eb19-5e42-8aaf9852be80" name="Light Buggy Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7323bf0d-7758-eb19-5e42-8aaf9852be80" name="Light Buggy Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="eeb203a1-8d9d-02b3-b85a-8146b4838a7b" name="Light Buggy Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -412,7 +412,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7c86ffff-d284-3dac-232e-56512c976cad" name="Medium Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7c86ffff-d284-3dac-232e-56512c976cad" name="Medium Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b7666a77-ab28-656f-6ded-1f86cb99df42" name="Medium Crawler Class" defaultEntryId="dbfba756-5421-a887-da47-6e8026ef113f" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -475,7 +475,20 @@
       <entries/>
       <entryGroups>
         <entryGroup id="e5e4c8f4-b722-f7f6-7424-18329e7d618e" name="Shock Infantry Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="d90e7bf2-b813-bf1c-f341-5cc173f84d99" name="Infantry Transport" points="120.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3c77d9f2-f478-8c38-3398-522c43c936fd" targetId="bd762206-4425-6f9d-da56-b39190008661" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
           <entryGroups>
             <entryGroup id="562831dd-474d-9e0d-d65a-66c0a2b18c6b" name="Partiot Shock Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
@@ -535,11 +548,7 @@
             </entryGroup>
           </entryGroups>
           <modifiers/>
-          <links>
-            <link id="8d2a22f4-0034-b741-d8ba-d1828f5736f3" targetId="bd762206-4425-6f9d-da56-b39190008661" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -714,9 +723,9 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="bd762206-4425-6f9d-da56-b39190008661" name="Infantry Transport" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="bd762206-4425-6f9d-da56-b39190008661" name="Infantry Transport" defaultEntryId="255c39ff-0fe7-6c76-55ec-7540aff8320f" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="255c39ff-0fe7-6c76-55ec-7540aff8320f" name="Combat Carrier" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="255c39ff-0fe7-6c76-55ec-7540aff8320f" name="Combat Carrier" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>

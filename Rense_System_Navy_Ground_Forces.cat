@@ -187,7 +187,7 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups>
-    <entryGroup id="4b942ab3-b0f6-64f6-f693-e3f8cbf68a5a" name="Sky Drop Transport Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="4b942ab3-b0f6-64f6-f693-e3f8cbf68a5a" name="Sky Drop Transport Class" defaultEntryId="1f50d773-117a-c8e3-ed97-394aebfb35cc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="1f50d773-117a-c8e3-ed97-394aebfb35cc" name="Temple of Dramos" points="175.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>

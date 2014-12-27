@@ -110,7 +110,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="b99c3620-cdd2-3e54-f0af-bc2544003232" name="Heavy Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b99c3620-cdd2-3e54-f0af-bc2544003232" name="Heavy Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="22c25115-b0a5-ca6f-cf29-6db1cb187335" name="Heavy Walker Class" defaultEntryId="307e2138-bf2d-eb09-6ec0-296e6672c1d0" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -261,14 +261,22 @@
                 </link>
               </links>
             </entry>
+            <entry id="0dba46ae-5931-4547-b5a1-f24a37ec0b6f" name="Spy Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="10229cab-1ff6-8b66-87b8-6c90d819edd1" targetId="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="e2a9dce1-d0d1-aca6-eb53-c407fe4b1a57" targetId="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -276,7 +284,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="9e5c580b-a2a9-7486-de96-25fa32a58665" name="Light Walker Class" defaultEntryId="686a334a-cb0d-3f2e-b168-b26227a0ea89" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -453,7 +461,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e42d206-97ec-0e3a-0ee5-40d599f539a6" name="Medium Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e42d206-97ec-0e3a-0ee5-40d599f539a6" name="Medium Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="cd4d422b-d5f8-375b-898a-2d258fcd03f3" name="Medium Walker Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -618,7 +626,7 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups>
-    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Pod Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Pod Class" defaultEntryId="7c436e1c-d440-07e6-d51d-852424aa6156" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7c436e1c-d440-07e6-d51d-852424aa6156" name="Yayiss Spire" points="40.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
