@@ -193,7 +193,7 @@
         <entryGroup id="331668f0-c335-4e9b-d70e-c49707222884" name="Light Infantry Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="68a152fc-14bb-ed41-12f8-6868381bd639" name="Hirdmen Light Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="68a152fc-14bb-ed41-12f8-6868381bd639" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="f3ce8aca-bd0c-6529-beba-c754ace26c59" name="Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -233,9 +233,9 @@
               </entries>
               <entryGroups/>
               <modifiers>
-                <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="68a152fc-14bb-ed41-12f8-6868381bd639" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="68a152fc-14bb-ed41-12f8-6868381bd639" incrementField="selections" incrementValue="1.0">
                   <conditions>
-                    <condition parentId="roster" childId="68a152fc-14bb-ed41-12f8-6868381bd639" field="selections" type="greater than" value="3.0"/>
+                    <condition parentId="roster" childId="68a152fc-14bb-ed41-12f8-6868381bd639" field="selections" type="greater than" value="4.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -781,7 +781,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="a26ae06d-7c4e-cca8-6c2c-7a823b1059ee" name="Hirdmen" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a26ae06d-7c4e-cca8-6c2c-7a823b1059ee" name="Hirdmen" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
