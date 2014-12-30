@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="78865eba-cc48-e066-8629-b8724161b131" name="Light Recon Skiff Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -31,11 +31,11 @@
                 <profile id="c00638b6-b125-4bf4-4765-d71c90598583" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="3"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Pinpoint (1)"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -161,22 +161,22 @@
             <profile id="3388ee00-2942-4290-44b3-d2f1d8a897b5" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Dual Ikori Beam Lance" hidden="false">
               <characteristics>
                 <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="6"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
                 <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                 <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Pinpoint (1)"/>
+                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
               </characteristics>
               <modifiers/>
             </profile>
             <profile id="dfc5ba88-1322-3677-04c1-bc481fdf7be7" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Nexus Designator" hidden="false">
               <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="6"/>
+                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="2"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
                 <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                 <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Nexus Designator"/>
+                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -227,7 +227,7 @@
       <modifiers/>
     </rule>
     <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 8&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">

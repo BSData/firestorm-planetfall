@@ -61,11 +61,11 @@
         <profile id="15c70fbb-5a06-ca34-4dad-496ad184e5d1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="12"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Interceptor / Terror Weapon"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -118,11 +118,11 @@
                 <profile id="746100a7-4dfe-8d0b-8421-77fce337b883" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Seraph - Asmodian Laser" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="3"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="2"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="2"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Pinpoint (2)"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -214,9 +214,9 @@
             <profile id="cf2d9a79-2c39-323a-0164-ef614edd7408" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Clamare Missiles - Temple of Dramos" hidden="false">
               <characteristics>
                 <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="12"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
                 <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
                 <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
                 <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
               </characteristics>
@@ -259,7 +259,7 @@
       <modifiers/>
     </rule>
     <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 8&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="064598f7-0c15-ec8a-aacf-fb40d8519488" name="Drone" hidden="false" book="Core Rulebook" page="117">
@@ -315,7 +315,7 @@
       <modifiers/>
     </rule>
     <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
-      <description>Impassible Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
+      <description>Impassable Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
 May not Flat Out over Rough Ground / Craters.
 Increase Movement by 3&quot; on  Roads.</description>
       <modifiers/>
