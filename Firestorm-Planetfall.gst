@@ -29,7 +29,7 @@
         </category>
       </categories>
       <forceTypes>
-        <forceType id="307063a2-13f2-71c8-ec9e-b5bdd3c5c6ac" name="Alliance Battle Group" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <forceType id="307063a2-13f2-71c8-ec9e-b5bdd3c5c6ac" name="Alliance Battle Group" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="50" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <categories>
             <category id="3ce457ee-bf57-8a28-c696-a063d8510ed2" name="Recon Helix" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
               <modifiers/>
@@ -52,7 +52,7 @@
           </categories>
           <forceTypes/>
         </forceType>
-        <forceType id="083c07c6-01aa-69ef-2006-a9f7da7f45f0" name="Natural-Allied Battle Group" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <forceType id="083c07c6-01aa-69ef-2006-a9f7da7f45f0" name="Natural-Allied Battle Group" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="50" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <categories>
             <category id="017e365f-ee66-ee7e-1e49-d70a94dcfba2" name="Air Helix" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
               <modifiers/>
@@ -97,9 +97,9 @@
     <profileType id="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ordnance">
       <characteristics>
         <characteristic id="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF"/>
-        <characteristic id="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD"/>
+        <characteristic id="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD"/>
         <characteristic id="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
-        <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD"/>
+        <characteristic id="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
         <characteristic id="88222587-060a-9230-b947-2bffa3b052dd" name="Arc"/>
         <characteristic id="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs"/>
       </characteristics>

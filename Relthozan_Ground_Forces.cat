@@ -61,11 +61,11 @@
         <profile id="ab8c671d-e745-46dc-f0b5-1523e5c02788" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Heavy Aurelia Shard Cannon" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="30"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Kinetic"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -88,9 +88,9 @@
         <profile id="307f674d-2c1f-1311-7c30-03241fc2a2f1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Nexus Designator" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="5"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value=""/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
             <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
           </characteristics>
@@ -99,18 +99,18 @@
         <profile id="5f9e9612-0656-7349-6c99-93e8ec61c734" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Heavy Aurelia Shard Cannon" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="30"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Kinetic"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links/>
     </entry>
-    <entry id="b99c3620-cdd2-3e54-f0af-bc2544003232" name="Heavy Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b99c3620-cdd2-3e54-f0af-bc2544003232" name="Heavy Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="22c25115-b0a5-ca6f-cf29-6db1cb187335" name="Heavy Walker Class" defaultEntryId="307e2138-bf2d-eb09-6ec0-296e6672c1d0" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -172,11 +172,11 @@
         <profile id="72520ca6-7888-7b14-2fea-c01549344698" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Chrysalis Shard Cannon" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Kinetic"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -199,22 +199,22 @@
         <profile id="16046e48-21e3-30be-f54c-42da2f389a91" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Chelicarae Missiles" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="8"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value=""/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="6"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Barrage"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage"/>
           </characteristics>
           <modifiers/>
         </profile>
         <profile id="6d6f60a2-ce8d-2e71-052c-9c85eef32880" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Nexus Designator" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="4"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Nexus Designator"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -261,14 +261,22 @@
                 </link>
               </links>
             </entry>
+            <entry id="0dba46ae-5931-4547-b5a1-f24a37ec0b6f" name="Spy Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="10229cab-1ff6-8b66-87b8-6c90d819edd1" targetId="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="e2a9dce1-d0d1-aca6-eb53-c407fe4b1a57" targetId="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -276,7 +284,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="9e5c580b-a2a9-7486-de96-25fa32a58665" name="Light Walker Class" defaultEntryId="686a334a-cb0d-3f2e-b168-b26227a0ea89" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -313,11 +321,11 @@
                 <profile id="972e21dd-17ca-5816-f1c5-3971c71ae7d8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc - Blood-Maw Toxin Projector" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="3"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value=""/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -391,11 +399,11 @@
                 <profile id="103a43f2-f612-75a9-ab85-1320201a742e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc - Blood-Maw Toxin Projector" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="3"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value=""/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -453,7 +461,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e42d206-97ec-0e3a-0ee5-40d599f539a6" name="Medium Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e42d206-97ec-0e3a-0ee5-40d599f539a6" name="Medium Walker Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="cd4d422b-d5f8-375b-898a-2d258fcd03f3" name="Medium Walker Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -483,11 +491,11 @@
                 <profile id="88bb3843-f00a-1c4c-5432-c4a8ed69a848" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Salamas - Aurelia Shard Cannon" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Kinetic"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -565,7 +573,7 @@
         <profile id="497f000d-ad08-d7f6-1265-8197f7871419" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Tank Destroyer - Talamis" hidden="false">
           <characteristics>
             <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
-            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="1"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="11"/>
             <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
             <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
             <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
@@ -581,9 +589,9 @@
         <profile id="8cc7a205-3aa0-c06b-3041-7b7a0f50d83c" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Talamis - Nympha Shard Cannons" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="9"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="48"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="6"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
             <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive"/>
           </characteristics>
@@ -618,7 +626,7 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups>
-    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Pod Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Pod Class" defaultEntryId="7c436e1c-d440-07e6-d51d-852424aa6156" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7c436e1c-d440-07e6-d51d-852424aa6156" name="Yayiss Spire" points="40.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -699,9 +707,9 @@
             <profile id="7e6cce8f-a91d-c8b0-a99a-9dfad4efb7f1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varic - Nexus Designator" hidden="false">
               <characteristics>
                 <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="5"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value=""/>
                 <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD"/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
                 <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
                 <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
               </characteristics>
@@ -747,11 +755,11 @@
       <modifiers/>
     </rule>
     <rule id="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 12&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 8&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" name="Corrosive" hidden="false" book="Core Rulebook" page="116">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f9bafef9-a232-ac05-2b43-23d035ec28ce" name="Heavy Attack Fighter Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -46,11 +46,11 @@
         <profile id="8fb92ab1-713b-4ec0-8360-719b14ab2a01" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Guardsman - UX-4B Shredder Cannon" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="4"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel / Barrage"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -130,22 +130,22 @@
         <profile id="6fca953b-d671-ad3e-f655-c1f92bab2877" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="6"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Nexus Designator"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
           </characteristics>
           <modifiers/>
         </profile>
         <profile id="9b8f4e40-6d29-5f16-a1a6-3098b00740e7" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Swift Spear Missiles" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="12"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="8"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Corrosive / Interceptor / Pinpoint (1)"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor / Pinpoint (1)"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -229,7 +229,7 @@
       <modifiers/>
     </rule>
     <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 16&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="8ed47ace-e091-ff8d-c8b2-c8e68670b620" name="Corrosive" hidden="false" book="Core Rulebook" page="116">
@@ -237,7 +237,7 @@
       <modifiers/>
     </rule>
     <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying" hidden="false" book="Core Rulebook" page="118">
-      <description>When moving at Crusing Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
     <rule id="fa6a026d-b99b-78e4-9187-1778fab44641" name="Interceptor" hidden="false" book="Core Rulebook" page="119">

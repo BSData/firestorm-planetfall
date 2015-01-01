@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0ed92466-f9e4-9a41-1735-a902ce050313" name="Heavy Ground Attack Flyer Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -36,11 +36,11 @@
         <profile id="6fca953b-d671-ad3e-f655-c1f92bab2877" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko - Dirge Missiles" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="5"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel / Barrage"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -120,11 +120,11 @@
         <profile id="8fb92ab1-713b-4ec0-8360-719b14ab2a01" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Shriek Cannons" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="16"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
             <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="6"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Scatter / Terror Weapon"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -147,11 +147,11 @@
         <profile id="4b08ebe2-4227-44e0-a694-23be3fcb3089" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Dual Dirge Missiles" hidden="false">
           <characteristics>
             <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="8"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value=""/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
             <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel / Barrage"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -215,7 +215,7 @@
       <modifiers/>
     </rule>
     <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 12&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="181a03e8-a501-b720-01fb-ad6ad2a97200" name="Fearless" hidden="false" book="Core Rulebook" page="118">
@@ -223,7 +223,7 @@
       <modifiers/>
     </rule>
     <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying" hidden="false" book="Core Rulebook" page="118">
-      <description>When moving at Crusing Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
     <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">

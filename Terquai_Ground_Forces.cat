@@ -36,11 +36,11 @@
                 <profile id="ac4860bc-56c1-67af-5d7e-0d6d9fa1aef2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Iophon - Nuravi Missiles" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF AD" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR AD" value="10"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MAR" value="Anti-Personnel / Terror Weapon"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Terror Weapon"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -203,7 +203,7 @@
       <modifiers/>
     </rule>
     <rule id="92ad4a2c-9359-fc2a-2fd4-e8c6c01e40b7" name="Command Element (18&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 18&quot; gain an additional moral die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <description>All helix squadrons in 18&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="336a2f30-3ea0-3651-1b3c-2277057aa8c3" name="Drone" hidden="false" book="Core Rulebook" page="117">
@@ -219,7 +219,7 @@
       <modifiers/>
     </rule>
     <rule id="84c7c112-99e0-51d5-5c33-f215b285db0c" name="Flying" hidden="false" book="Core Rulebook" page="118">
-      <description>When moving at Crusing Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
     <rule id="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
