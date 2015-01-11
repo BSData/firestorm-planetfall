@@ -136,7 +136,7 @@
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="853a63ed-ba49-42b7-9ae8-469bdba64cec" name="Primary Recon Skiff" hidden="false" book="Works Raptor ORBAT" page="8">
+            <rule id="853a63ed-ba49-42b7-9ae8-469bdba64cec" name="Primary Recon Skiff" hidden="false" book="Veydreth Tribes ORBAT" page="8">
               <description>Only one Medium Recon Skiff may get the Command Element (8&quot;) MAR per Helix.</description>
               <modifiers/>
             </rule>

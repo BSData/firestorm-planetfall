@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a981ec51-f4da-35c0-c9a1-9fd8a1a25fa4" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Heroes of Tarxon VI - Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="7e052f26-cd1a-4e7a-0116-297dea3baf97" name="Anti-Aircraft Tank Squadron (Assault Helix)" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f93a1d42-6f49-47f8-ebd0-4aaee05f5365" targetId="8690f95e-cd1d-2776-c714-ef4a048d0ec0" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4c9f3110-054a-c2c5-2d52-cec4b8addb6e" name="Anti-Aircraft Tank Squadron (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5673e8f9-f86f-dfb7-6b21-d1dc6db660a6" targetId="8690f95e-cd1d-2776-c714-ef4a048d0ec0" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3e594b3f-452a-3bc3-efbe-7bcab24aeefb" name="Anti-Aircraft Tank Squadron (Heavy Helix)" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d5a969d9-b830-204b-3f05-7934bddd39aa" targetId="8690f95e-cd1d-2776-c714-ef4a048d0ec0" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="06ce15e4-3e2a-f127-6cb1-789b172bd3f5" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="fb8c69e0-14d8-e2d7-1447-678e43487b15" name="Battle Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="05feeb6c-ab2a-6a16-4187-e7a1f27db4c2" name="Minotaur" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="089f6a91-97b5-4c93-f1db-6dea3e36d520" name="Minotaur" points="210.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="c1906c65-a84e-da3f-35e6-432c5e7348f9" name="Sky Drop" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="c29e1104-7aec-d123-8a65-a3afbcfca495" name="Add Skydrop To Minotaur(s)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="points" value="40.0" repeat="true" numRepeats="1" incrementParentId="fb8c69e0-14d8-e2d7-1447-678e43487b15" incrementChildId="089f6a91-97b5-4c93-f1db-6dea3e36d520" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="d63ab029-a14d-d225-ef63-dac5bc82bc42" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="force type" childId="7e052f26-cd1a-4e7a-0116-297dea3baf97" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="922b6d80-d6dd-3c0f-d3ce-7cc3f1af792a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="14401ae5-dce4-2960-13b4-62e6655e9957" targetId="4353c0f2-ac27-3e57-0fa1-c8a4612248b9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="03d880ab-a594-13fb-2644-25c384b8a22f" targetId="aa07d6da-9e67-8b6a-fc3e-2b3a397e4213" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5efc4680-c568-57f2-6071-1dcf34875e0e" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="928a3dae-00b3-b070-a162-315db6fd11a0" targetId="c40f15e0-8c0a-e522-a4ee-43181065da64" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9662005e-408b-634e-da12-e9dd79e6bc97" targetId="da743f0f-7783-543b-812d-ff7fd0df67e2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9e611ed6-5a98-e0da-6e8c-7828a91ed052" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c91bf89d-325d-e93d-8650-06b74fe4e8d7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Battle Robot - Minotaur" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
+            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
+            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7 / 3"/>
+            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5385fc85-4c98-968f-7ac5-d11a8a6c48ee" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Minotaur - R-Arm Mtd Flambard Coil Launchers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="3"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F + R"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="07bc64a9-3819-5945-ebde-693281458828" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Minotaur - L-Arm Mtd Flambard Coil Launchers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="3"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F + L"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6d427239-1595-b213-6655-c81ea1630e2e" name="Close Support Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b6384571-73bc-29ca-0a41-2f73d5143e3a" targetId="fa35547f-88fd-5202-59b3-a78e737bdfa7" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4df72fa1-22e6-021d-8215-49cb620bfa0b" name="Command Barge Squadron" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3bee8a14-8ec8-f802-b202-1d80c6520368" name="Command Barge Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="67920daa-b6af-ad3b-2f83-03e11662bc79" name="Haros" points="365.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="61310edf-7aec-1b65-a328-b0ae8ba3a6a6" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="88c8698c-7b15-3d34-23b6-0f40eeaff998" targetId="da743f0f-7783-543b-812d-ff7fd0df67e2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="51a29bc5-d369-0032-3f26-6dfd54d648e6" targetId="97b6d0f6-7005-2856-e522-efbd39955197" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="42539251-a2e6-466a-2f01-766548b9d6c0" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7c8d66db-d1c1-2d47-e0b9-3c8d65667717" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ec39b59d-d822-d3e3-2e04-e00a7a54151f" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="0b8a1006-69dd-0e4e-4a36-e9d8345ec5df" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="bc210c67-872e-85d6-e49b-e74ccbbce7b9" targetId="e9fe48c3-9118-7fa6-5b2e-89148a315e4a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="d63ab029-a14d-d225-ef63-dac5bc82bc42" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="force type" childId="cd115b3c-ebee-edd1-5e38-b6584a8abdab" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="df96ece9-2d77-ae65-52c4-b57fd3c23116" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="4c9f3110-054a-c2c5-2d52-cec4b8addb6e" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="31d13e6a-6ea9-06e0-06fa-2932e72844c1" name="Additional Tactical Action Card" hidden="false" book="Heroes of Tarxon VI - Dindrenzi ORBATS">
+          <description>A force containing this model may take an additional Tactical Action Card over and above the number stated for the game size.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d1838730-d7a1-4f4a-9458-6fe6027dcde6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haros - Flambard Coil Launcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7ea572a7-58f4-3a64-b579-00a96593e73a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Command Barge - Haros" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
+            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="10"/>
+            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="10"/>
+            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
+            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7f2245b8-4626-693e-03a5-0f17f6e7eb82" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haros - Heavy Onager Rail Gun" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="154a4052-8678-a6ce-07f1-8f37c8da5e8c" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haros - Nexus Designator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d63ab029-a14d-d225-ef63-dac5bc82bc42" name="Heavy Battle Tank Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="52ee3da9-e16a-c371-0ba1-e5dc3c0fc922" name="Heavy Battle Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c4801745-bb22-1eac-a51c-e34950822b1b" name="Kerberos" points="290.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="569f79d4-ae30-b97e-d84e-5d7c4e7a0532" targetId="a88fff3a-7d2e-e3c0-6c13-770c54f391f4" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f58492a5-de99-cb61-3abd-aea099df03c3" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="db56d678-8fe3-315c-3101-c884c1aa7f82" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="d545132d-1b6f-9ad3-b482-af7692872710" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="d63ab029-a14d-d225-ef63-dac5bc82bc42" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="force type" childId="5d261200-4f11-7531-8baf-e7ba27581932" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="3e594b3f-452a-3bc3-efbe-7bcab24aeefb" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="58acf0d4-88a1-aee5-d62f-ce517012fb96" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kerberos - Linked Skorpio Rail Guns" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="4"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="643a9718-d28c-8eb7-55af-1636e87e0e46" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Battle Tank - Kerberos" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="11"/>
+            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
+            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
+            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a616a6df-7598-b875-6afb-1b5e20b40d64" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kerberos - Heavy Onager Rail Gun" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="cd908c7d-8e37-0dad-f541-8f7fcd469a61" name="Heavy Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="d4a5d8de-f6cd-e586-8f8d-b1021b9dccfe" name="Heavy Gunship Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b030eab2-a103-435d-ab06-8ed5c4a2c24b" name="Black Rain" points="240.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="06c7bd32-eb69-ddc8-24ac-91f193a308b2" targetId="4353c0f2-ac27-3e57-0fa1-c8a4612248b9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0780e81e-59af-68e6-bfd3-4a8c55449f7e" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6d12e970-6f62-90ad-b279-85028f7a306a" targetId="0ca10ced-c7fe-8575-2a37-ddc2c1b60825" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="15e98bfc-6fa0-e031-66a2-1bc3be83d62b" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c619b6f6-1e7d-666f-db26-fdf666dd77d4" targetId="864e8edc-3886-ece2-4a99-7bdee790085c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2d914066-a3a4-7e71-ec69-287f1c7a9659" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="96c03d3e-f673-0824-9e79-871474603816" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="43f26961-249c-52dc-682a-95c38562f1e0" targetId="6ae82f48-a98d-9fb8-458c-a3ba6109c603" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="07afed7f-72b7-ee43-417c-b436b2d7cd13" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Black Rain - Nexus Designator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b141eb24-81d8-15ec-f0b1-063996e6eff9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Black Rain" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
+            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
+            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
+            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="6"/>
+            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7f20d266-9c53-9dd8-ccaa-28d4e5d2136f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Black Rain - Heavy Vulcan Missiles" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic / Pinpoint (2)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="922b6d80-d6dd-3c0f-d3ce-7cc3f1af792a" name="Light Tank Squadron (Assault Helix)" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a54cbdeb-e532-0d3b-20f4-01e42c1c5acc" name="Light Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="01eb9a54-c0b9-707e-4f22-314464922ba9" name="Dagger" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="aab7464e-ec84-6579-fa4a-a2c28faa3bcd" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Tank - Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="f32d6cde-be68-5261-3254-dc0f731b3d31" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Dagger - Heavy Harvester Coil Guns" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="01f7df6b-463e-605e-8675-b142d15ffe7f" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3186bac4-ff80-70a4-6536-18165424d35d" targetId="3bcba4d4-a9c4-4114-ee86-7720a79eb203" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="9109a2c5-a1f3-96e5-b0e8-876629c63853" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="a23a2f84-ec14-661e-f456-da1f9db0b3af" targetId="f43cc78d-e856-80aa-d39a-258b80f8c907" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="14fae381-3e56-df62-37a2-20a520d6138f" targetId="105c9cd2-5e9a-2489-46a1-5a1cce963098" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="57ea7eca-5b56-8da2-4a1a-6f3e173378e8" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="df96ece9-2d77-ae65-52c4-b57fd3c23116" name="Light Tank Squadron (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="796955bc-99af-b575-877b-2f2ef52f38da" name="Light Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="bb31670e-4d4d-5aa8-5cad-108f91f075e7" name="Dagger" points="55.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="91d202be-44f7-b4d7-9c58-feb54b03c7c9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Tank - Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="62fdf7da-f74f-26a4-fa5b-0bf17a3f4c01" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Dagger - Heavy Harvester Coil Guns" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="d61c8396-f874-7867-6756-d28fc20e745c" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="5b3702da-e4f2-fe93-2c99-987afffb962e" targetId="3bcba4d4-a9c4-4114-ee86-7720a79eb203" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="696e610a-6b31-9db5-ada3-d5859150ec2f" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="8c6f0f02-1f86-4391-b5d1-c32862f6772c" targetId="f43cc78d-e856-80aa-d39a-258b80f8c907" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="5d9232c1-aceb-276b-bab5-1773bf763d89" targetId="105c9cd2-5e9a-2489-46a1-5a1cce963098" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="11f2f40f-eabe-f752-5376-7cf2a1ed17d2" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5d261200-4f11-7531-8baf-e7ba27581932" name="Light Tank Squadron (Heavy Helix)" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="658115c3-92ce-0455-5726-c3d1c742de9c" name="Light Tank Class" defaultEntryId="426b2bb9-e152-1db1-bc4b-fdca61c957bc" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="426b2bb9-e152-1db1-bc4b-fdca61c957bc" name="Dagger" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d6dcd02b-28df-ea78-8951-559a19b863f4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Tank - Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="aa34653c-fc43-b1ce-4721-1143e3b01450" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Dagger - Heavy Harvester Coil Guns" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="97554e50-ebad-3497-9be2-d9db2bb03326" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="cee0f11f-85fe-debf-edc0-7a4ffeeabd5d" targetId="3bcba4d4-a9c4-4114-ee86-7720a79eb203" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="fa1cfebe-4f27-d15a-efe6-ce53757fb016" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="abb438c4-8dc2-9156-c0f1-257fb4a786e6" targetId="f43cc78d-e856-80aa-d39a-258b80f8c907" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="8ada50ea-da9a-0b37-0c81-834cbd717442" targetId="105c9cd2-5e9a-2489-46a1-5a1cce963098" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="8ec5fa3b-b815-757c-0e18-10a95cade06a" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="411524c3-ee1d-7f4c-323d-cdea07ccf266" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+      <entries>
+        <entry id="2733f214-ba88-d610-6c9a-857e3194f073" name="Logistics Points" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e0fc1aef-489d-6573-e45a-43db8393c3d2" targetId="addb3847-bb04-e2d0-60a0-7368597abb91" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5dc93ad0-5cad-61ef-7e78-8b027ecf8ef4" name="Medium Battle Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="724b458c-f824-179c-d31e-4ea3db609450" name="Medium Battle Tank Class" defaultEntryId="8efc0501-d6f6-ce91-fad4-0a0908e94107" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8efc0501-d6f6-ce91-fad4-0a0908e94107" name="Night Gaunt" points="130.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="399d981b-1216-15a4-d0ec-65fae4368080" name="Primary Battle Tank" hidden="false" book="Heroes of Tarxon VI - Dindrenzi ORBAT" page="8">
+                  <description>Only one Medium Battle Tank may get the Command Element (12&quot;) MAR per Helix.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="d09b3c80-a1a2-3cbc-b55c-33afc8f89a46" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Battle Tank - Night Gaunt" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6 or 10"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="e60f69ee-7370-e49b-43db-93c1c4384390" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Night Gaunt - Heavy Skorpio Rail Gun" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="4"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="179a62b7-09e1-fe7c-ac16-235e9cb640c3" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="fb273343-b281-e3ad-d925-c1fc5fd5bcbc" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="dd5d9a17-e013-7978-fffc-00ac92511f2b" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="203fc4d0-dd4b-ff25-45df-a515c0a0bb36" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="bd38c1d8-36d1-7c21-133e-d8254e0fbd06" name="Medium Tank Hunter Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="51b9e984-563a-82c3-f186-6e6dad86f349" name="Medium Tank Hunter Class" defaultEntryId="a0f9fca1-5c71-0fc4-f252-3871bea5c3f5" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a0f9fca1-5c71-0fc4-f252-3871bea5c3f5" name="Longbow" points="140.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="60cc4871-e4d7-3275-0060-9fcf082092eb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Tank Hunter - Longbow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="9"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="fed3cc90-f230-aab6-1005-883236ddf368" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Longbow - Heavy Balista Rail Gun" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="99b92e2e-fd8e-ed4c-f2b3-e04f36a069ff" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1326652c-f1db-f11f-4127-e7b97e549ab2" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="4cc216f5-b583-b80d-71e1-876e085737b5" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="b5396b54-b6f4-4d50-cff4-1f54547c4477" name="Sky Drop Field Gun Emplacement" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="0aedf5dd-c99f-244a-0dc6-d47ed25d60bf" name="Sky Drop Field Gun Emplacement" defaultEntryId="b784c61d-f023-7ed5-46f0-c3d14d896345" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b784c61d-f023-7ed5-46f0-c3d14d896345" targetId="1d85662a-5773-726a-6524-47980e0d8a41" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="cd115b3c-ebee-edd1-5e38-b6584a8abdab" name="Sky Drop Field Gun Emplacement (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="1cc9ebe8-9eb7-d6d5-78c3-8e6fda0daac1" name="Sky Drop Field Gun Emplacement" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1c1371b7-77de-0b3e-4576-a9d1ba628e39" targetId="1d85662a-5773-726a-6524-47980e0d8a41" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="0007fd6b-efc1-202b-30de-2e264ad798df" name="Artillery Attacks" hidden="false">
+      <description>All Dindrenzi Artillery Attacks use the Barrage and Scatter MARs.</description>
+      <modifiers/>
+    </rule>
+    <rule id="adfd70e0-1053-9eb5-9710-a14fa809f07d" name="Artillery Dice" hidden="false">
+      <description>Dindrenzi Forces use Artillery with 4D6 Attack Dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="068736f7-9d9b-3191-2925-fb433ad8376a" name="Sky Drop Capability" hidden="false">
+      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e374e7cc-66fc-c275-be79-b6b57fdda0aa" name="Tactical Bonus" hidden="false">
+      <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e6424250-c730-bfac-fe26-8c674b6fe38c" name="Punishing CQB" hidden="false" book="Dindrenzi ORBATS" page="2">
+      <description>All Dindrenzi elements may re-roll any Initial Dice rolls of a 1 during any CQB Engagement, the second result must be accepted.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries>
+    <entry id="1d85662a-5773-726a-6524-47980e0d8a41" name="Sky Drop Field Gun Emplacement" points="70.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6b3a8e6e-7854-f033-8415-e6abed0e2b49" name="Optional Ornance" hidden="false" book="Heroes of Tarxon VI - Dindrenzi ORBATS" page="6">
+          <description>The model may be armed with either the Estock Flak Launcher or the Flambard Coil Launcher (but not both) on deployment.</description>
+          <modifiers/>
+        </rule>
+        <rule id="aa120803-9e3a-54d9-0a40-93adefb01720" name="Sky Drop Emplacement" hidden="false" book="Heroes of Tarxon VI - Dindrenzi ORBATS" page="6">
+          <description>Unless a Scenario Condition applies, this model MUST deploy via Sky Drop.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="74fd4f7f-913e-f907-4557-9fca3ef5296a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sky Drop Field Gun Emplacement - Damocles MkI" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
+            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
+            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2f36c482-8f46-f278-6294-be43f531f048" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Flambard Coil Launcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e704b841-a6f4-d995-052d-975abe68135d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Estock Flak Launcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
+            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="986f0fbe-383c-d2fe-372b-fd2e33d5bee1" targetId="3bcba4d4-a9c4-4114-ee86-7720a79eb203" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a3d747e6-5ccc-2630-2d2a-d7ba250d9ce6" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8ebba7d1-1708-d8ee-cb18-65aede2bd4ea" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3a197ee6-7446-319c-30d1-4c579f0db007" targetId="fe5b7cc9-21e8-b71f-e2c6-393ba8a842a7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2809b507-5201-e007-58fa-43150dcf50f8" targetId="da743f0f-7783-543b-812d-ff7fd0df67e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9657b7bb-4815-5330-2cdb-bbb96e45392a" targetId="5dc59e46-c71e-4741-ac38-107eb4ecc43c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="8690f95e-cd1d-2776-c714-ef4a048d0ec0" name="Anti-Aircraft Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="db704ab8-e007-b29a-4497-ae12c87428f7" name="Pilum" points="95.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="088cc4dd-802d-26ca-063a-b9a42f0b41dd" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Anti-Aircraft Tank - Pilum" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+                <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
+                <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
+                <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+                <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="30f09771-5723-35e6-6685-42a31dcc5763" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Pilum - Estock Flak Launcher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
+                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b3a06925-a54d-80da-2c71-a7aa4dc78349" targetId="5dc59e46-c71e-4741-ac38-107eb4ecc43c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="14974c63-7d96-247a-975f-6997af21f0eb" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a10782d9-8a78-de18-5aa0-b40c4a967994" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="fa35547f-88fd-5202-59b3-a78e737bdfa7" name="Close Support Tank Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c06286fc-1169-347e-22e9-57281bcb336d" name="Armed with Nexus Designator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="081df655-b1c7-58cd-6e22-bbb559a66856" name="Close Support Tank - Stormcaller (Designator)" points="105.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ea9d2837-c24c-7db2-a666-8502c413b10d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Close Support Tank - Stormcaller" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="c45701da-f79d-d6fc-9488-c11a2a6e4ab9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Stormcaller - Nexus Designator" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="cb66d86f-3e8c-da4b-045d-d7dbd3bd9346" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f71511f5-4147-aef7-fb23-822624748d01" targetId="8273195e-78a8-0b2f-9dcb-05cd5c0caa67" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="5fbdf0f0-ac49-3480-49f5-60c3e4b5c6cf" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2c5dc136-9593-3cf6-4ee8-fcfacadc51fb" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="65fe9579-103d-6bbc-ec40-400eb561f1a7" name="Transport Unit with Heavy Infantry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="20478747-00a3-5fed-b607-884e96031981" name="Close Support Tank - Stormcaller (Transport)" points="105.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="14673e8c-5949-99c9-16c3-cea58d5a7221" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Close Support Tank - Stormcaller" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="adf96fa5-6758-beb2-2717-99f5f6d7a7f7" targetId="9360a443-1d70-4a1b-4db5-c96b565cc9f7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="650fccfd-85de-0f3c-c24e-02b0ba6785d0" targetId="8273195e-78a8-0b2f-9dcb-05cd5c0caa67" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="54b64538-b70e-29d8-d987-6187aa88e85d" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="fcf89591-0c54-b328-75ee-dfb2ee65d122" targetId="8d8b46e8-9fca-9d13-cfa7-3ab3e6bd9e48" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="45b4157b-f1b4-225e-93af-99e967f06093" targetId="85445c55-60a7-8490-026b-2b7512f7c96c" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="858b7c7d-a4b2-f869-9bfb-3e7919db1c2b" name="Sky Drop Transport" defaultEntryId="5e6ad9bf-6f89-7b25-0d2e-a96c568c4a6a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="5e6ad9bf-6f89-7b25-0d2e-a96c568c4a6a" name="Sky Drop Transport" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="348c8b70-50ba-6ca0-44b0-55d913f426b2" name="Sky Drop Transport" hidden="false" book="Dindrenzi ORBATS" page="6">
+              <description>Unless a Scenario Condition applies, this model MUST deploy via Sky Drop.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="b9097b9b-23be-0ccf-4437-8f80ee26d2f8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sky Drop Transport - Damocles MkII Sky Pod" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
+                <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
+                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
+                <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+                <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="0"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="fe1ed9da-d308-7206-3da3-89825063a370" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkII Sky Pod - Peacemaker Missiles" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="69c64032-4ffa-3dc7-a822-6e7ef9432030" targetId="c8e09cc3-0f8a-2c53-2b7b-64f024f66d20" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8eb9827e-1468-ebfe-02ad-6620f14f9b31" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2206ac33-378d-4475-58b1-44859edbf62b" targetId="477a69dc-8258-f309-8b27-6ea67902b2a9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="084c1d4f-8ecf-ae8b-07a0-19d50f7d1e75" targetId="fe5b7cc9-21e8-b71f-e2c6-393ba8a842a7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="31f10b7f-5bbc-3dd0-599a-07e1f516f98a" targetId="8d8b46e8-9fca-9d13-cfa7-3ab3e6bd9e48" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="85445c55-60a7-8490-026b-2b7512f7c96c" name="Talos Cadre Group" defaultEntryId="6bd13ec5-34d6-b3b9-cb24-6a0b9a82be35" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6bd13ec5-34d6-b3b9-cb24-6a0b9a82be35" name="Talos Cadre" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e7492b4e-0a48-cf79-a45a-b8dce067a285" name="Talos" points="55.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="fb635615-e555-ce7e-c6e1-7b00d63e4851" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Infantry - Talos Cadre" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="470d0a76-7869-9039-74f3-b411d6eabd26" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Talos Cadre - Heavy Harvester Coil Guns" hidden="true">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="c2ea98ba-d662-a909-4e0b-3d6daf16c4bb" targetId="105c9cd2-5e9a-2489-46a1-5a1cce963098" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b9c0d832-980e-f48e-07a3-18fcf4df3cdc" targetId="3bcba4d4-a9c4-4114-ee86-7720a79eb203" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3c9b223a-30b4-b755-54f4-ca064f15f79f" targetId="6c5c30be-9145-ce42-666a-411e6dc223d0" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2ed2561d-dabc-cf18-0dce-2cf3c4682424" targetId="3905b541-9c28-1031-afee-524491234379" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="85445c55-60a7-8490-026b-2b7512f7c96c" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="85445c55-60a7-8490-026b-2b7512f7c96c" childId="85445c55-60a7-8490-026b-2b7512f7c96c" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="b8c0d6fe-07e5-3745-cd0e-632f784170c9" name="Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="864e8edc-3886-ece2-4a99-7bdee790085c" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
+      <description>May use the Artillery Support rules on Page 82.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c8e09cc3-0f8a-2c53-2b7b-64f024f66d20" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
+      <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="da743f0f-7783-543b-812d-ff7fd0df67e2" name="Barrage" hidden="false" book="Core Rulebook" page="116">
+      <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6c5c30be-9145-ce42-666a-411e6dc223d0" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
+      <description>These units take up 2 slots in transports.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a88fff3a-7d2e-e3c0-6c13-770c54f391f4" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="97b6d0f6-7005-2856-e522-efbd39955197" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4353c0f2-ac27-3e57-0fa1-c8a4612248b9" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3905b541-9c28-1031-afee-524491234379" name="Fearless" hidden="false" book="Core Rulebook" page="118">
+      <description>Unit never takes Disordered Tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0ca10ced-c7fe-8575-2a37-ddc2c1b60825" name="Flying" hidden="false" book="Core Rulebook" page="118">
+      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <modifiers/>
+    </rule>
+    <rule id="3bcba4d4-a9c4-4114-ee86-7720a79eb203" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+      <description>Main Ordnance is -1 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f9c92945-534f-5c0d-d35d-21336a7622af" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
+      <description>Main Ordnance is -2 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2ed1a424-15a7-f77a-a41c-d7801ec890cc" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">
+      <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+      <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5dc59e46-c71e-4741-ac38-107eb4ecc43c" name="Interceptor" hidden="false" book="Core Rulebook" page="119">
+      <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" name="Kinetic" hidden="false" book="Core Rulebook" page="119">
+      <description>Shield saves against this weapon use the Blue Heavy Dice mechanic if the weapon is in Effective Range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="addb3847-bb04-e2d0-60a0-7368597abb91" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+      <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="aa07d6da-9e67-8b6a-fc3e-2b3a397e4213" name="Lumbering" hidden="false" book="Core Rulebook" page="119">
+      <description>The model must use the turning template.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" name="Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" name="Nyx Infantry Deployment" hidden="false" book="Dindrenzi ORBATS" page="3">
+      <description>Each Nyx Light Infantry Cadre MUST be deployed via a Damocles MK II Sky Pod.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6ae82f48-a98d-9fb8-458c-a3ba6109c603" name="Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="477a69dc-8258-f309-8b27-6ea67902b2a9" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">
+      <description>A model with this MAR is considered to be activated on the turn it is deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f43cc78d-e856-80aa-d39a-258b80f8c907" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+      <description>May move in the Recon Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fe5b7cc9-21e8-b71f-e2c6-393ba8a842a7" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
+      <description>May use the Sky Drop Deployment rules on Page 79.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8273195e-78a8-0b2f-9dcb-05cd5c0caa67" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
+      <description>Places 1 Drop Site Marker in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e9fe48c3-9118-7fa6-5b2e-89148a315e4a" name="Sky Drop Nexus (2)" hidden="false" book="Core Rulebook" page="121">
+      <description>Places 2 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="105c9cd2-5e9a-2489-46a1-5a1cce963098" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+      <description>This unit may claim objectives.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2c2792dc-c0fc-a93e-2b9b-303b78b28965" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+      <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9360a443-1d70-4a1b-4db5-c96b565cc9f7" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
+      <description>Impassable Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
+May not Flat Out over Rough Ground / Craters.
+Increase Movement by 3&quot; on  Roads.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8d8b46e8-9fca-9d13-cfa7-3ab3e6bd9e48" name="Transport (6)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 6 slots worth of Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c40f15e0-8c0a-e522-a4ee-43181065da64" name="Walker" hidden="false" book="Core Rulebook" page="77">
+      <description>May not move Flat Out through Vegation or Rivers.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
