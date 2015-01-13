@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="1b2cbfaf-6a2f-ba2c-2cea-2451187f921d" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f097c0b1-9a97-2190-96a2-958fee10d998" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="eeee1ab2-9bcb-1af6-fc45-02a43982f3a5" name="Dindrenzi" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="82a3ea80-55a1-bbad-3a57-0c25986ee764" name="Dindrenzi Artillery Attacks" hidden="false">
+                  <description>All Dindrenzi Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="e05492c3-4f75-2efd-388e-572c24dcc0bc" name="Dindrenzi Artillery Dice" hidden="false">
+                  <description>Dindrenzi Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b6c27f86-47c0-e848-210b-7821a6241dc6" name="Dindrenzi Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="65cf76c2-a0b4-323b-bc93-0a8336c4b933" name="Dindrenzi Tactical Bonus" hidden="false">
+                  <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3a75f5e6-21d3-9af5-73cb-75b2df3971bc" name="Directorate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="2fc11c61-8e8e-bd2f-7572-deb9a5dc4e87" name="Directorate Artillery Attacks" hidden="false">
+                  <description>All Directorate Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b4cca32f-91d9-e66b-819b-c71a93ba0092" name="Directorate Artillery Attacks" hidden="false">
+                  <description>Directorate Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f7b7615e-7ecb-1a19-d9e3-d8962e6f611f" name="Directorate Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="35a4dd9f-6634-f1c5-d6b3-5df6e7006d1d" name="Directorate Tactical Bonus" hidden="false">
+                  <description>Directorate forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c210fedc-16fa-6a47-7a42-bbb08860bab9" name="Rense System Navy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="1a03e20f-0db9-8226-4af5-bd3ac18da876" name="Rense System Navy Artillery Attacks" hidden="false">
+                  <description>All Rense System Navy Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="614f65d4-e5c8-1bbc-5c9b-cefe839c290f" name="Rense System Navy Artillery Dice" hidden="false">
+                  <description>Rense System Navy Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="240fb3b3-7092-6fe1-e8cf-219d6b91bd26" name="Rense System Navy Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="30231f34-5842-8a2c-8736-69a6f95cb62e" name="Rense System Navy Tactical Bonus" hidden="false">
+                  <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1c2a4671-dc5a-a81c-d9bc-c75f85b490d6" name="Works Raptor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="d3793f97-e350-7543-ddcc-5b8e2cf0cc6f" name="Works Raptor Artillery Attacks" hidden="false">
+                  <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="a71d5375-e124-a46f-6288-09492ee3bf5c" name="Works Raptor Artillery Dice" hidden="false">
+                  <description>Works Raptor Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="63cac506-12fc-65d4-2409-e4b643b1e877" name="Works Raptor Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="ece025f8-8fc0-3a36-0b93-cede65b13d7c" name="Works Raptor Tactical Bonus" hidden="false">
+                  <description>Works Raptor forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="ae771d52-a7ab-c67c-9086-71d51e0b17a7" name="Heavy Support Walker Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -32,6 +148,9 @@
                   <modifiers/>
                 </link>
                 <link id="12498ad4-3478-fee0-8ba7-63ab13a7af16" targetId="905da261-b852-0234-5e7b-fbfe0f1000a0" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2f19bec9-73e1-e8b3-c7e2-b87b75ccc6e9" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -144,6 +263,9 @@
                   <modifiers/>
                 </link>
                 <link id="1d93e195-41af-1636-5e2a-3b17bd1ef4c1" targetId="ed91e2b9-0248-8030-c107-2646713fc6bb" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="77b09f65-0a26-eeb2-e52c-f8faa7b67077" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -349,6 +471,9 @@
                 <link id="7d92755a-5c8d-a831-76ca-2594137f96dc" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="61cf727e-adc3-42a1-8b7d-c4f68e2d102d" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -425,6 +550,9 @@
                   <modifiers/>
                 </link>
                 <link id="96cb82ef-1a35-bbf9-dea3-b654104383d6" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c3b52f82-b39b-3288-906b-778326f81a40" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -513,6 +641,9 @@
                 <link id="cf7c25cf-1ba7-c674-9d45-7f5709cbb30c" targetId="905da261-b852-0234-5e7b-fbfe0f1000a0" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="aae4282b-6bab-984a-f91a-9d57c6452fe1" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="1de5d968-9d37-084a-8d42-bf91ce01494b" name="Support Walker Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -562,6 +693,9 @@
               <modifiers/>
             </link>
             <link id="b052505e-6d45-d439-37fe-9893b98f0c5c" targetId="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ee893fdd-2589-d738-d968-3ba93213538b" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -618,10 +752,6 @@
       <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs.</description>
       <modifiers/>
     </rule>
-    <rule id="f34f10de-92ab-e014-c9f8-287aefd5f1ed" name="Nano-Tech" hidden="false" book="Relthozan ORBATS" page="2">
-      <description>All Relthozan non-Infantry elements gain the Enhanced Repair Systems MAR (Page 118, Core Rulebook). Gains +1 to repair rolls.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -671,6 +801,9 @@
               <modifiers/>
             </link>
             <link id="cd944a92-2e11-8ade-6fc5-29df82956818" targetId="1a52ffcc-91b7-3c23-4fc9-d6261a297487" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="15b4e29a-b852-cb95-baad-6b7a7bd613c6" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -727,6 +860,9 @@
               <modifiers/>
             </link>
             <link id="5d596e7d-4192-01a3-1381-1932c9410607" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="cd685a9a-2ba9-d182-b9b1-d9fb3132e92d" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -808,6 +944,10 @@
     </rule>
     <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Must Sky Drop" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
+      <modifiers/>
+    </rule>
+    <rule id="6fac6d35-6455-4c54-7c8d-bd367cf7f639" name="Nano-Tech" hidden="false" book="Relthozan ORBATS" page="2">
+      <description>All Relthozan non-Infantry elements gain the Enhanced Repair Systems MAR (Page 118, Core Rulebook). Gains +1 to repair rolls.</description>
       <modifiers/>
     </rule>
     <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Nexus Designator" hidden="false" book="Core Rulebook" page="79">

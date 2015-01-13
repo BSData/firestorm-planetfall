@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf8706e9-c4a0-d517-26c3-79b6b8f22c07" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf8706e9-c4a0-d517-26c3-79b6b8f22c07" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="8a5c8134-e7b3-6f97-6e23-f5c2f0b28e6f" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="eac6a577-30ec-4507-cf9e-83b201753d10" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="720c6eb6-6e7c-881c-a536-b50c52edb116" name="Aquan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="9ad9b657-8d73-6577-229b-5dac03e19442" name="Aquan Artillery Attacks" hidden="false">
+                  <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="5d811782-06f5-d123-0b4e-05fb3d3e9cb5" name="Aquan Artillery Dice" hidden="false">
+                  <description>Aquan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b681db2c-1456-e944-ce5e-8e390f6cdad7" name="Aquan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f1f4b120-f832-f5bf-071e-3ec404ae4448" name="Aquan Tactical Bonus" hidden="false">
+                  <description>Aquan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3c0fb609-dc8a-84e3-e2e4-c568e875fbc2" name="Sorylian Collective" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="f69b467a-c5d9-2516-ebbe-9fa143c0d608" name="Sorylian Collective Artillery Attacks" hidden="false">
+                  <description>All Sorylian Collective Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="536f1efc-1b35-3b7c-b831-71ee0e739bce" name="Sorylian Collective Artillery Dice" hidden="false">
+                  <description>Sorylian Collective Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b3e94915-4361-77a3-ffed-cc1415b088a7" name="Sorylian Collective Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="4d6a5554-d6ef-642b-958c-da6a973586e6" name="Sorylian Collective Tactical Bonus" hidden="false">
+                  <description>Sorylian Collective forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="92cf625a-e752-9473-c54b-842691b2a893" name="Veydreth Tribes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="e2e970e1-db00-ef3f-98c3-76a14a255d4d" name="Veydreth Tribes Artillery Attacks" hidden="false">
+                  <description>All Veydreth Tribe Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="fbfa84cd-5e85-9667-7fa3-9da78633e537" name="Veydreth Tribes Artillery Dice" hidden="false">
+                  <description>Veydreth Tribe Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b42f1330-eaa3-eb7b-dd6a-88bdfb8580e2" name="Veydreth Tribes Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="77173d55-5f65-3172-fc21-3d6f741dde36" name="Veydreth Tribes Tactical Bonus" hidden="false">
+                  <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="081f58cd-3442-4b53-e417-f69427b2425f" name="Terquai" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="0a0d4475-bd2e-17dc-9897-509dca0ef0b1" name="Terquai Artillery Attacks" hidden="false">
+                  <description>All Terquai Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="cb770a84-04bb-ea30-39a8-62dece614e9a" name="Terquai Artillery Dice" hidden="false">
+                  <description>Terquai Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d8424f92-bb2d-9f7f-8abe-45d75fa04483" name="Terquai Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d0150ea2-ba9a-d1af-5e7f-867e8ddf5bc3" name="Terquai Tactical Bonus" hidden="false">
+                  <description>Terquai forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="2c10c311-9aa0-35d9-3a41-9ecb0436ec5f" name="Heavy Support Tank Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -52,6 +168,9 @@
               <modifiers/>
             </link>
             <link id="e2929d96-a9ca-87d3-bd9d-ea285fbf2e3c" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="e427aebc-41ba-dc18-8e48-a0ec7f870d07" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -121,6 +240,9 @@
                   <modifiers/>
                 </link>
                 <link id="25fb7217-2ad2-8464-9638-44d4dff396fb" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="36993995-872d-1e59-4577-31fa879535a8" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -431,6 +553,9 @@
                 <link id="d42c3762-9a10-e40f-b82f-328e8e7e622e" targetId="0bd576ed-3048-d9d7-65f4-26c36886efa6" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="263eeb74-1345-2383-d20e-0902a7b81385" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="95a3b890-836b-7c63-7fe9-44f93fdce768" name="Medium Shield Tank Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -472,6 +597,9 @@
                   <modifiers/>
                 </link>
                 <link id="a9f05883-01fb-8374-1262-f728b956eaa4" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1a6af8b3-9c40-e119-bf05-c55f98b0c269" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -545,10 +673,6 @@
       <description>Terran Alliance forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="c0aa13de-8495-fd5d-a861-ff0d0ec390ae" name="Strengthened Shields" hidden="false" book="Terran Alliance ORBATS" page="2">
-      <description>All Terran Armoured Squadrons may re-roll any Initial Dice rolls of a 1 when defending with Shields. The second roll must be accepted.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries>
@@ -577,6 +701,9 @@
           <modifiers/>
         </link>
         <link id="5c9e3385-6464-6b7a-e2ea-cbd395937b07" targetId="d5ca4e9b-0af1-4f75-0f25-0fbd87137207" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="fa45b6e9-4778-b9a8-bedf-b6bbf1f3fbae" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -608,6 +735,9 @@
         <link id="b5932d6a-edfe-4916-07d5-aa56f0f5b533" targetId="d5ca4e9b-0af1-4f75-0f25-0fbd87137207" linkType="profile">
           <modifiers/>
         </link>
+        <link id="29c48b07-b6c7-399c-22d0-565d4e403e7e" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="3b163c89-ec5b-8eca-728e-71040db9cc72" name="Medium Shield Tank - Ullr MkII" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -631,6 +761,9 @@
         <link id="7403eb51-0524-7d25-81b8-43a9f073e5a4" targetId="c22304e5-b682-5fde-de22-38649f44b18d" linkType="profile">
           <modifiers/>
         </link>
+        <link id="768e4ace-2463-3ac0-9caa-9b2896c55b66" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="2f0065a4-71dc-2d4b-f0fa-7990619f188f" name="Medium Shield Tank - Ullr MkII (Heavy Helix)" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -652,6 +785,9 @@
           <modifiers/>
         </link>
         <link id="d794718d-39f4-0878-237d-2deca813a419" targetId="c22304e5-b682-5fde-de22-38649f44b18d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7158e535-5238-072a-0f04-b14aa5725ae0" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -733,6 +869,9 @@
               <modifiers/>
             </link>
             <link id="cd90ba79-ca53-7831-4ce8-3e00547f0563" targetId="ad0a4ad2-e83a-de34-51c9-ea59b788289a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9b3715ad-2511-3a7d-963d-d718dca2f905" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -952,6 +1091,10 @@
     </rule>
     <rule id="8774c1ed-d743-feda-ac5e-58258e685dec" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" name="Strengthened Shields" hidden="false" book="Terran Alliance ORBATS" page="2">
+      <description>All Terran Armoured Squadrons may re-roll any Initial Dice rolls of a 1 when defending with Shields. The second roll must be accepted.</description>
       <modifiers/>
     </rule>
     <rule id="a12256c4-fb47-7fca-9af4-a413c5387d63" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">

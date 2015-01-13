@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="2cb99ed0-3ce3-e84d-ab5f-bf959df8d391" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="215aed5f-83f7-578a-1074-40a4d411ef50" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f653761c-5fd0-5e5b-de59-4778090a7a2c" name="Hawker Industries" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="ce2f35ea-c216-915a-3465-58d589f46f72" name="Hawker Industries Artillery Attacks" hidden="false">
+                  <description>All Hawker Industries Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="0e1f79fd-0324-f9b8-6bfb-c3d981dd3f39" name="Hawker Industries Artillery Dice" hidden="false">
+                  <description>Hawker Industries Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="e973d8dc-6b1a-54e6-d945-f240cc2c994b" name="Hawker Industries Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="3216786d-4ffd-7141-70eb-a5b1fbf7f512" name="Hawker Industries Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ee052104-48cf-27bc-d2d3-a2071862567c" name="Terquai" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="31cc9d64-f5aa-7287-39d4-449d8df6cfed" name="Terquai Artillery Attacks" hidden="false">
+                  <description>All Terquai Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="bfffe7d1-dcd6-20bd-d075-8895d4fb4120" name="Terquai Artillery Dice" hidden="false">
+                  <description>Terquai Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="edb3a418-dce9-a70d-eaa6-f8244cd2d31a" name="Terquai Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="4bfa6694-b3dd-8d60-a477-0adacc52b10c" name="Terquai Tactical Bonus" hidden="false">
+                  <description>Terquai forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="965b483f-1b2b-f98a-65d6-70f1671d7e44" name="Terran Alliance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="664d47b9-f8e6-d6ed-cb47-cb90e7ff0913" name="Terran Alliance Artillery Attacks" hidden="false">
+                  <description>All Terran Alliance Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="2bb0f750-25d3-1b28-739f-52198042bab5" name="Terran Alliance Artillery Dice" hidden="false">
+                  <description>Terran Alliance Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="ea4af80e-4884-a7bf-32bd-e4752c0f4440" name="Terran Alliance Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="3c3cc1bf-4573-48c5-2942-0a584bc4088c" name="Terran Alliance Tactical Bonus" hidden="false">
+                  <description>Terran Alliance forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="198237ff-c41b-5086-4151-5f90f24dc31c" name="Aquan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="e4668c41-4910-5031-9043-ed4f6881ec09" name="Aquan Artillery Attacks" hidden="false">
+                  <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="3b02ecd8-651f-6d84-1d64-f071657958eb" name="Aquan Artillery Dice" hidden="false">
+                  <description>Aquan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="0db38108-7961-d571-8dad-8cc97bef9ac3" name="Aquan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="7a963205-9058-cbce-347c-ed6b3c8f98e9" name="Aquan Tactical Bonus" hidden="false">
+                  <description>Aquan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="78865eba-cc48-e066-8629-b8724161b131" name="Light Recon Skiff Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -51,6 +167,9 @@
                   <modifiers/>
                 </link>
                 <link id="9e399793-4c7e-bbac-e3d6-b8f1a026bec7" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6908fedc-1815-7b02-8fd5-aee67f47729a" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -117,14 +236,6 @@
       <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="409d0b81-c389-2a64-541c-4c6e2006b90f" name="Natural Hunters" hidden="false" book="Sorylian ORBATS" page="2">
-      <description>All Veydreth elements using Pinpoint Weapons during a Main Ordnance Attack my re-roll a single die when determining if a Pinpoint Attack has caused an additional point of Damage.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5b0e6b66-b432-c49c-1d6a-4c10f4cc02f7" name="Command Point Bid" hidden="false" book="">
-      <description>Veydreth Tribe forces may spend up to 4 Command Points in a single Bid Action.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -136,7 +247,7 @@
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="853a63ed-ba49-42b7-9ae8-469bdba64cec" name="Primary Recon Skiff" hidden="false" book="Veydreth Tribes ORBAT" page="8">
+            <rule id="853a63ed-ba49-42b7-9ae8-469bdba64cec" name="Primary Recon Skiff" hidden="false" book="Works Raptor ORBAT" page="8">
               <description>Only one Medium Recon Skiff may get the Command Element (8&quot;) MAR per Helix.</description>
               <modifiers/>
             </rule>
@@ -206,6 +317,9 @@
             <link id="d479212e-2cae-a064-69ac-8381b904868c" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
               <modifiers/>
             </link>
+            <link id="d54c88b2-031d-b6ce-6644-7730fa73907e" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -240,6 +354,10 @@
     </rule>
     <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1d9d980a-371e-0ac9-c27e-983297d7e2a4" name="Natural Hunters" hidden="false" book="Sorylian ORBATS" page="2">
+      <description>All Veydreth elements using Pinpoint Weapons during a Main Ordnance Attack my re-roll a single die when determining if a Pinpoint Attack has caused an additional point of Damage.</description>
       <modifiers/>
     </rule>
     <rule id="b372d823-80b5-4b48-f2e0-f990abd5304a" name="Nexus Designator" hidden="false" book="Core Rulebook" page="79">

@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="ec3396b9-c7cc-cc4f-27de-1c7dd096deb1" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="4aecada5-6ca3-9f97-1a96-ca26902e35e1" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="eb183d13-00d2-5e8c-0c2a-db02dc645e2a" name="Dindrenzi" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="62a2225b-b7e2-032d-7464-54dde10c06c5" name="Dindrenzi Artillery Attacks" hidden="false">
+                  <description>All Dindrenzi Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="27d24c5d-d00b-741e-c46e-d3b5e79ae065" name="Dindrenzi Artillery Dice" hidden="false">
+                  <description>Dindrenzi Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="1b43170c-81d8-ced1-760f-0c86e002429d" name="Dindrenzi Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="96e033fa-c4b8-0eb2-3fe2-7d125e8cce48" name="Dindrenzi Tactical Bonus" hidden="false">
+                  <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="81dc9fde-689f-914c-ee91-c8af8eb18cfa" name="Relthozan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="e9ad251f-049b-f779-6310-420d9af50d62" name="Relthozan Artillery Attacks" hidden="false">
+                  <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="a006eb62-3a71-e388-35d7-220109c2fcba" name="Relthozan Artillery Dice" hidden="false">
+                  <description>Relthozan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="5dd1940e-cf37-1467-7f1b-eb508f3dbd2d" name="Relthozan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="eb2963da-18eb-5dd1-4406-7b79d4277945" name="Relthozan Tactical Bonus" hidden="false">
+                  <description>Relthozan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="cc54f957-4111-fd74-08f8-487db1b23450" name="Rense System Navy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="f3ba1078-dc49-cd1a-08b7-4bad625d57cf" name="Rense System Navy Artillery Attacks" hidden="false">
+                  <description>All Rense System Navy Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f8e7d31d-56ee-d1d9-90b2-196f27cd3ddd" name="Rense System Navy Artillery Dice" hidden="false">
+                  <description>Rense System Navy Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="547c369d-b6ab-a836-0237-a60ae5a93898" name="Rense System Navy Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="212de650-3116-4d55-f8ac-37743170968f" name="Rense System Navy Tactical Bonus" hidden="false">
+                  <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e1bc3b18-174f-c51d-14ca-041557582429" name="Ba&apos;Kash Clan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="cbf2bfee-9691-1d68-ecda-fe96d425aa0f" name="Ba&apos;Kash Clan Artillery Attacks" hidden="false">
+                  <description>All Ba&apos;Kash Clans Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="1898c368-cdd6-4e29-a1e9-4ea9c403e898" name="Ba&apos;Kash Clan Artillery Dice" hidden="false">
+                  <description>Ba&apos;Kash Clans Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d8737646-b869-7697-9a07-f6d3c6619030" name="Ba&apos;Kash Clan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="ce3a16fb-6d83-f758-df81-2738d6cab6c6" name="Ba&apos;Kash Clan Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="053b775e-ec55-fdce-4f97-0f3a64a7e748" name="Heavy Interceptor Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -38,7 +154,7 @@
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value=""/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
                     <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
                   </characteristics>
@@ -50,6 +166,9 @@
                   <modifiers/>
                 </link>
                 <link id="274e2afb-2ecf-ec46-8ebc-1b50e2aff44e" targetId="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7da2ba47-cb94-fda3-9fe9-b58562276c8d" targetId="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -111,19 +230,19 @@
               </modifiers>
               <rules/>
               <profiles>
-                <profile id="e25627d3-b3d8-17a8-ba14-96008cd85b5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Interceptor - GX-74 &apos;Witch&apos;" hidden="false">
+                <profile id="e25627d3-b3d8-17a8-ba14-96008cd85b5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Recon Tank - LS-6 &apos;Crone&apos;" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
                     <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
                     <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                     <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -150,6 +269,9 @@
                   <modifiers/>
                 </link>
                 <link id="25893c08-f805-9147-3be7-f441f0fb7b03" targetId="f798f246-b32a-ec98-bc4f-03996a6b0324" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="0172286d-c93f-47f8-436f-6314984aba64" targetId="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -183,10 +305,6 @@
       <description>Works Raptor forces have a Tactics Bonus of +1.</description>
       <modifiers/>
     </rule>
-    <rule id="409d0b81-c389-2a64-541c-4c6e2006b90f" name="Shadow Operatives" hidden="false">
-      <description>The Tactical Value Cost to play any Tactical Action Cards by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -214,6 +332,10 @@
     </rule>
     <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" name="Shadow Operatives" hidden="false">
+      <description>The Tactical Value Cost to play any Tactical Action Cards by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
       <modifiers/>
     </rule>
     <rule id="f798f246-b32a-ec98-bc4f-03996a6b0324" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
