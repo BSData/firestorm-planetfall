@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="5d83089c-c133-cf51-574a-7c79b443a2c5" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b9d90c94-593b-7a59-3571-5a59a764e71f" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="47a82afc-42aa-fa3d-e70e-1ab7476a7fa4" name="Ba&apos;Kash Clan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="15af9c31-b83e-e0cd-d566-307e520f7ac4" name="Ba&apos;Kash Clan Artillery Attacks" hidden="false">
+                  <description>All Ba&apos;Kash Clans Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="a90d44eb-b38a-e270-f764-07e1f9122a99" name="Ba&apos;Kash Clan Artillery Dice" hidden="false">
+                  <description>Ba&apos;Kash Clans Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b035e2c5-9591-014f-29cd-7a204411cb4f" name="Ba&apos;Kash Clan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="baed45cc-2460-957b-2c81-ee576761a68f" name="Ba&apos;Kash Clan Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="77431703-5da9-b21a-c4af-a7438fea33e8" name="Directorate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="f38dabf3-9e5b-6790-8412-be11a403b63b" name="Directorate Artillery Attacks" hidden="false">
+                  <description>All Directorate Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="655f672e-9f3f-62a9-b529-4a247946d622" name="Directorate Artillery Attacks" hidden="false">
+                  <description>Directorate Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f58325e2-c68d-68c5-ec75-35dfff6fb95e" name="Directorate Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="10fa3a59-4e8c-30fd-beae-4074e037173d" name="Directorate Tactical Bonus" hidden="false">
+                  <description>Directorate forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="beef738a-c127-1a54-1c01-aca71428ca05" name="Relthozan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="7bb5b1a3-488a-3ed9-d046-1c9dec7b5d61" name="Relthozan Artillery Attacks" hidden="false">
+                  <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="18bf878e-54bb-63d8-a83f-1aa511f519c7" name="Relthozan Artillery Dice" hidden="false">
+                  <description>Relthozan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="219c6980-1634-4702-bbce-cf00f8b90ce5" name="Relthozan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="45f0e87e-4d7e-c893-5d30-62af492a8f07" name="Relthozan Tactical Bonus" hidden="false">
+                  <description>Relthozan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="486b7aed-efc8-7282-2d38-8f37bdbfc588" name="Works Raptor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="f2ca5218-2086-dca7-d489-db70f5e2a234" name="Works Raptor Artillery Attacks" hidden="false">
+                  <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="8ec9bcbb-0004-6de7-e1cd-054fbdc6dfb6" name="Works Raptor Artillery Dice" hidden="false">
+                  <description>Works Raptor Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="6424968c-cf08-fa5b-4cf4-18ad4b447b05" name="Works Raptor Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="bb8b44c7-e766-be7f-1f69-b311efb129c7" name="Works Raptor Tactical Bonus" hidden="false">
+                  <description>Works Raptor forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -44,6 +160,9 @@
               <modifiers/>
             </link>
             <link id="334392a2-e0e2-f4d2-08be-18bc98445e53" targetId="208c6fd2-a5e4-5268-5cff-21b80130b01c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="55518b85-05c5-7ba5-4f1b-1375552bef21" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -138,6 +257,9 @@
                   <modifiers/>
                 </link>
                 <link id="68a0fc99-802a-37f4-8c48-0a97423d97a3" targetId="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="bce05eed-2dac-a2e6-df02-e5ec0a12c65d" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -245,6 +367,9 @@
             <link id="b779476d-3d95-a4c7-8212-183b23c22e75" targetId="73f23270-e577-c50f-68e6-b27141363ec2" linkType="rule">
               <modifiers/>
             </link>
+            <link id="4d0c9cc8-523c-c01f-b218-c4d40e8cf5d1" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -256,6 +381,10 @@
   <sharedRules>
     <rule id="9a6378e7-4fe0-d97d-0dd4-0b547c672db7" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="34bb965a-75d5-909e-b0a7-21704d463208" name="Built to Last" hidden="false" book="Dindrenzi ORBATS" page="2">
+      <description>All Rense System Navy elements ignore the effects of Debilitating Effect Markers on their DR rating.</description>
       <modifiers/>
     </rule>
     <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">

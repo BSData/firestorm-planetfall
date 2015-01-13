@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="de35edc3-8d7b-5627-bf8c-8e63055a1c41" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="10cc97ca-851f-a2d4-3f92-6181e7ec3476" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d47e9553-1e88-02e9-e765-041f962441a5" name="Hawker Industries" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="a8c707ee-4ef5-0b5f-3aed-ccab60045c97" name="Hawker Industries Artillery Attacks" hidden="false">
+                  <description>All Hawker Industries Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="e10d4436-f562-4e53-e018-015f1890366d" name="Hawker Industries Artillery Dice" hidden="false">
+                  <description>Hawker Industries Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="a8cb9e1e-6689-d335-bbdd-ca0c8ee5d275" name="Hawker Industries Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="bcf84c6c-e6d1-6648-2375-51c2f67ea563" name="Hawker Industries Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="dcf98349-f0f3-91cc-b291-e89ea714c9bb" name="Sorylian Collective" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="ba1bba01-50d5-203e-27d7-5e91ae2a9137" name="Sorylian Collective Artillery Attacks" hidden="false">
+                  <description>All Sorylian Collective Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="e4c5b4b2-f370-f36d-b0b0-ea92ccd0e828" name="Sorylian Collective Artillery Dice" hidden="false">
+                  <description>Sorylian Collective Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="c7b1baf3-4fb9-fa24-fd33-c40a7e65297a" name="Sorylian Collective Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="7104bf5a-5870-506e-5505-3bd80f1f950f" name="Sorylian Collective Tactical Bonus" hidden="false">
+                  <description>Sorylian Collective forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="667d07ba-a9a7-b1d7-8ae4-d607b449b87f" name="Terran Alliance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="0386b37d-3fde-b782-df8c-fadae72c9d9c" name="Terran Alliance Artillery Attacks" hidden="false">
+                  <description>All Terran Alliance Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="a841ff43-7ccb-1493-3017-e22fc5486af8" name="Terran Alliance Artillery Dice" hidden="false">
+                  <description>Terran Alliance Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="c09f803d-493d-a77a-b665-b46e857981d2" name="Terran Alliance Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="fd19b59b-f2b2-060f-827f-c24438dfc344" name="Terran Alliance Tactical Bonus" hidden="false">
+                  <description>Terran Alliance forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ba421ccf-fa04-1225-17c0-a6f9c520e113" name="Veydreth Tribes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="08d04742-e0e6-e9ed-d074-309a248fee81" name="Veydreth Tribes Artillery Attacks" hidden="false">
+                  <description>All Veydreth Tribe Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="9c27b0aa-8308-fda3-2700-7cfc0b3ef178" name="Veydreth Tribes Artillery Dice" hidden="false">
+                  <description>Veydreth Tribe Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="4faeec8e-31b2-8599-dd7b-9041f05da9b6" name="Veydreth Tribes Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="7ed51401-f1b1-18e8-d34d-370299d1acd2" name="Veydreth Tribes Tactical Bonus" hidden="false">
+                  <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="d907cc50-511f-cebd-c710-d70fba91d6c0" name="Anti-Air Battery" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -57,6 +173,9 @@
                   <modifiers/>
                 </link>
                 <link id="aa0e8270-1790-d11f-6e40-c4c4e7b3e9e9" targetId="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c8200755-2358-c26b-91d2-235526b3a041" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -121,6 +240,9 @@
                   <modifiers/>
                 </link>
                 <link id="afedaa3f-5318-52ab-9b8c-9198ea8cb249" targetId="0d98253e-a275-10c5-9e0f-2df36fbd50fa" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="cf9027f0-0851-fd54-05e4-754b6f6bbeee" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -209,6 +331,9 @@
                   <modifiers/>
                 </link>
                 <link id="61adcfbe-db48-89e9-52e4-12c713f691e8" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3841b1a4-fb6f-d9bf-723d-eceb6d647f2e" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -468,6 +593,9 @@
                 <link id="7f8a9896-03fb-9efd-abfc-48139c79a748" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="8d5bb9f7-d49a-cebe-aab0-3413996d60ff" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="1de5d968-9d37-084a-8d42-bf91ce01494b" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -509,6 +637,9 @@
                   <modifiers/>
                 </link>
                 <link id="86161fef-34a6-e023-de5a-027a42c16274" targetId="098f6beb-a316-14f9-69b2-62b37ddd6209" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="d18e857b-bb79-a9cd-a630-080d33625d29" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -566,24 +697,20 @@
     </entry>
   </entries>
   <rules>
-    <rule id="06ebae04-0e33-89df-b01c-d14a76324a30" name="Tactical Bonus" hidden="false">
-      <description>Aquan forces have a Tactics Bonus of +2.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b55c2d9f-fe5e-0fb0-3353-6a57244c0adc" name="Artillery Dice" hidden="false">
-      <description>Aquan Forces use Artillery with 4D6 Attack Dice.</description>
-      <modifiers/>
-    </rule>
-    <rule id="275ffd50-48b9-9c39-498f-fb9811cbf77d" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
-      <modifiers/>
-    </rule>
-    <rule id="9c141dca-e65e-7ad8-7f63-e799d2b3e013" name="Artillery Attacks" hidden="false">
+    <rule id="ddfdfd6e-6253-215e-86bc-548e69afb78e" name="Artillery Attacks" hidden="false">
       <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs.</description>
       <modifiers/>
     </rule>
-    <rule id="f34f10de-92ab-e014-c9f8-287aefd5f1ed" name="Hardened Shell" hidden="false">
-      <description>All un-Damaged Aquan Prime Armoured elements have the Sectored Armour MAR. Any Armoured Aquan model with a Damage Marker loses its Hardened Shell rule and the Sectored Armour MAR no longer applies.</description>
+    <rule id="95b96e77-4f14-889e-f385-6d0e3e6d4454" name="Artillery Dice" hidden="false">
+      <description>Aquan Forces use Artillery with 4D6 Attack Dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Sky Drop Capability" hidden="false">
+      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+      <modifiers/>
+    </rule>
+    <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Tactical Bonus" hidden="false">
+      <description>Aquan forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
   </rules>
@@ -690,6 +817,9 @@
             <link id="788a2073-954f-956e-575d-b601074623bc" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
               <modifiers/>
             </link>
+            <link id="67a2b085-0f57-66ea-8b1a-d8fc5f334dac" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -746,6 +876,9 @@
             <link id="5b09fe0f-f332-3cd5-fa64-8c5d50df14de" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
               <modifiers/>
             </link>
+            <link id="dcbbf65c-b7a5-08fe-696b-7f353cf63702" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -800,6 +933,9 @@
               <modifiers/>
             </link>
             <link id="260ccd61-727a-3863-e2bb-9eac7dffd41c" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="fe5a4c48-b5bf-f93b-744e-3ce5f44db4dd" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -989,6 +1125,10 @@
     </rule>
     <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -2 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c139cd44-61e6-48cc-5455-23769556dce8" name="Hardened Shell" hidden="false">
+      <description>All un-Damaged Aquan Prime Armoured elements have the Sectored Armour MAR. Any Armoured Aquan model with a Damage Marker loses its Hardened Shell rule and the Sectored Armour MAR no longer applies.</description>
       <modifiers/>
     </rule>
     <rule id="6203094a-fd3c-4650-a82f-da72fea85670" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">

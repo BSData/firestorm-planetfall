@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="2396a105-a149-d475-24b5-49a61dda52c8" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="27df4072-00a8-9195-97f0-a1ce54b8276a" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="29bcb034-a6bc-0028-ce90-b28f37ece95f" name="Dindrenzi" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="38f2fac1-1520-6c0c-4680-15ad4b56d013" name="Dindrenzi Artillery Attacks" hidden="false">
+                  <description>All Dindrenzi Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="e2f14e12-065f-7e0a-e398-3996473821b1" name="Dindrenzi Artillery Dice" hidden="false">
+                  <description>Dindrenzi Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="dcf3fb4a-45a4-74ea-2f92-31ad340066dd" name="Dindrenzi Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="560d83ae-c924-3141-54e9-82aad094a8a4" name="Dindrenzi Tactical Bonus" hidden="false">
+                  <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="cb8fa909-cc5b-72e7-d52f-26ed7f9c7c47" name="Directorate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="7ca6d35a-492e-bf89-de51-dba596c739a8" name="Directorate Artillery Attacks" hidden="false">
+                  <description>All Directorate Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="cfef704e-ef47-2dc8-fd70-5c6873abd70c" name="Directorate Artillery Attacks" hidden="false">
+                  <description>Directorate Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="b65ff675-9a44-7e3d-b698-c8afb4f2865d" name="Directorate Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d93060af-3761-3706-7181-2878ab46b079" name="Directorate Tactical Bonus" hidden="false">
+                  <description>Directorate forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="77c12c64-66af-6734-ff40-14193d6b3644" name="Rense System Navy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="13f531da-edab-d561-a42c-5bc24fc87da7" name="Rense System Navy Artillery Attacks" hidden="false">
+                  <description>All Rense System Navy Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="0e950db2-5b50-1b9e-51b2-36eedcbe2864" name="Rense System Navy Artillery Dice" hidden="false">
+                  <description>Rense System Navy Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d11d2df1-41c5-cf73-0d40-b6e365fee7fc" name="Rense System Navy Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="4febe291-6138-61ef-0be8-a8090094a0d5" name="Rense System Navy Tactical Bonus" hidden="false">
+                  <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a639ae97-9e83-2f3a-a0c7-20239f1275e4" name="Works Raptor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="9cf3fee1-e9c4-5e69-ff65-23cbe25d150e" name="Works Raptor Artillery Attacks" hidden="false">
+                  <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="98035dea-bfc8-891b-c4bd-7b58d1186f8f" name="Works Raptor Artillery Dice" hidden="false">
+                  <description>Works Raptor Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f34e23fd-cee0-7a96-8c0b-9e234040bbae" name="Works Raptor Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="3ad1b23a-216d-ccb1-b6e3-7043850ea650" name="Works Raptor Tactical Bonus" hidden="false">
+                  <description>Works Raptor forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="0ed92466-f9e4-9a41-1735-a902ce050313" name="Heavy Ground Attack Flyer Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -25,6 +141,9 @@
               <modifiers/>
             </link>
             <link id="44f1cc34-a97f-f99a-6736-80729743d711" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d826c8c4-4dff-f578-c00e-6c8faa343e6b" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -109,6 +228,9 @@
               <modifiers/>
             </link>
             <link id="76c1c40d-deee-cb43-2f62-8bf79f69cb84" targetId="181a03e8-a501-b720-01fb-ad6ad2a97200" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c0807903-0a7d-ca1b-efa8-6fd226ae34ff" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -197,10 +319,6 @@
       <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="c0aa13de-8495-fd5d-a861-ff0d0ec390ae" name="Apex Predators" hidden="false" book="Relthozan ORBATS" page="2">
-      <description>All Ba&apos;Kash elements have the Recon Specialist MAR. May move in the Recon Phase as per page 120 of the Core Rulebook.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -208,6 +326,10 @@
   <sharedRules>
     <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" name="Apex Predators" hidden="false" book="Relthozan ORBATS" page="2">
+      <description>All Ba&apos;Kash elements have the Recon Specialist MAR. May move in the Recon Phase as per page 120 of the Core Rulebook.</description>
       <modifiers/>
     </rule>
     <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Barrage" hidden="false" book="Core Rulebook" page="116">

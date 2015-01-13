@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="c34239d3-2b44-a819-7cf2-9d43ad7591ce" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ddf07600-ed1b-4627-e1cc-b19b8bc3c453" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="deb5c860-78e4-52fc-a7e3-6d899f924fca" name="Ba&apos;Kash Clan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="7274d136-6302-97bb-199f-b2eabce5c3b9" name="Ba&apos;Kash Clan Artillery Attacks" hidden="false">
+                  <description>All Ba&apos;Kash Clans Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="09993620-e66d-0e80-fb0b-eea9780e303c" name="Ba&apos;Kash Clan Artillery Dice" hidden="false">
+                  <description>Ba&apos;Kash Clans Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="c60d688c-dbb2-5a2a-f8cd-caae4779e23a" name="Ba&apos;Kash Clan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="d8862728-c837-3d14-b82f-718cc165ea51" name="Ba&apos;Kash Clan Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e116e067-48d8-e792-3b0a-68582b12291c" name="Directorate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="78a7823f-a471-28c6-fb58-4583b050ee1c" name="Directorate Artillery Attacks" hidden="false">
+                  <description>All Directorate Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="40b331d3-26d9-2656-c786-d5aab5de8be0" name="Directorate Artillery Attacks" hidden="false">
+                  <description>Directorate Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="8cb5925b-6afe-e0c5-529f-7619c464943b" name="Directorate Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="30ed71b5-8fd2-1237-493b-f92b973ac936" name="Directorate Tactical Bonus" hidden="false">
+                  <description>Directorate forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="db610af1-e6e3-cf9a-0fbf-f0174442f979" name="Relthozan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="71d355d8-f7f6-06d6-2590-a1ba58c659b4" name="Relthozan Artillery Attacks" hidden="false">
+                  <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f4bde37b-599e-59f0-ad53-2e5f6b49db0b" name="Relthozan Artillery Dice" hidden="false">
+                  <description>Relthozan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="6747c7b6-ded8-d739-9a21-608ca26cfe7b" name="Relthozan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="3c460fc2-99a9-0e76-01c7-aacab0bfa54d" name="Relthozan Tactical Bonus" hidden="false">
+                  <description>Relthozan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ae88b3d1-49e0-7073-1277-2a26af73bdae" name="Works Raptor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="d31cacfb-a9ae-2373-d422-2aadd26ac3fd" name="Works Raptor Artillery Attacks" hidden="false">
+                  <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="2bfed6e2-75e6-1094-dd27-70b8ef69b582" name="Works Raptor Artillery Dice" hidden="false">
+                  <description>Works Raptor Forces use Artillery with 5D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="79f83a1d-35c0-7e12-48c1-7472d2d9099f" name="Works Raptor Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="c23fc505-8c7e-0242-7e1f-eaecce9d1726" name="Works Raptor Tactical Bonus" hidden="false">
+                  <description>Works Raptor forces have a Tactics Bonus of +1.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="c97643f2-bbf6-704e-1580-621f491dd64f" name="Heavy Battle Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -40,6 +156,9 @@
               <modifiers/>
             </link>
             <link id="3a9c3750-f417-6a62-8f1e-5ffc85025d2e" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="292f2950-af8b-ac66-d363-c170f806e051" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -132,6 +251,9 @@
               <modifiers/>
             </link>
             <link id="23c0ddf7-73fc-19fe-986a-c4f58422d2f9" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5065bf6a-fb53-dab5-eb62-9656cb3b882b" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -291,6 +413,9 @@
                 <link id="8ada50ea-da9a-0b37-0c81-834cbd717442" targetId="105c9cd2-5e9a-2489-46a1-5a1cce963098" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="5438cae5-f3bc-3807-467d-de2c3a5bf978" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -371,6 +496,9 @@
                 <link id="d809d92f-c9b0-9a6c-5885-8edf412f2ceb" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="7f189023-12c9-671d-f67d-c4b641058f6e" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="7765ff19-2d74-6a7f-029d-365910a96651" name="Medium Specialist Class" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -445,6 +573,9 @@
                 <link id="dd5d9a17-e013-7978-fffc-00ac92511f2b" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="3b862110-145e-f0bf-001c-328c096dbe12" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="2d149889-b406-fe76-10c9-0f396d646baa" name="Medium Specialist Class" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -488,10 +619,6 @@
       <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
       <modifiers/>
     </rule>
-    <rule id="e6424250-c730-bfac-fe26-8c674b6fe38c" name="Punishing CQB" hidden="false" book="Dindrenzi ORBATS" page="2">
-      <description>All Dindrenzi elements may re-roll any Initial Dice rolls of a 1 during any CQB Engagement, the second result must be accepted.</description>
-      <modifiers/>
-    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -529,6 +656,9 @@
               <modifiers/>
             </link>
             <link id="c3d1749f-4e0d-23f9-37d5-b1df6cad6d4f" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="07166806-4743-4669-4912-b3594fddfd16" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -590,6 +720,9 @@
             <link id="fba6aed4-e8e1-0ba7-fec0-f012dfb7ccab" targetId="2c2792dc-c0fc-a93e-2b9b-303b78b28965" linkType="rule">
               <modifiers/>
             </link>
+            <link id="997231cc-dd9d-48b7-ed72-e181751dc1e9" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -641,6 +774,9 @@
               <modifiers/>
             </link>
             <link id="31f10b7f-5bbc-3dd0-599a-07e1f516f98a" targetId="8d8b46e8-9fca-9d13-cfa7-3ab3e6bd9e48" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="81ddc882-daba-3596-a526-d1c419dd5297" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -706,6 +842,9 @@
             <link id="10e351c3-51e5-d7d6-7534-2239231b293d" targetId="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" linkType="rule">
               <modifiers/>
             </link>
+            <link id="27c91539-c22e-619a-33ec-44fc7d04c26b" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="84c4f077-a836-7cfb-f5bd-e4626cf13825" name="Breacher Teams" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -749,6 +888,9 @@
             <link id="c11b5bb4-7def-e6fa-2429-0678b7f23b10" targetId="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" linkType="rule">
               <modifiers/>
             </link>
+            <link id="117530d8-f68e-1044-b42f-8df9b5894f09" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -789,6 +931,9 @@
               <modifiers/>
             </link>
             <link id="872d7976-2f50-0e42-a985-d74f040eb690" targetId="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5f2b010e-68b2-3668-fceb-00f4fe9d0338" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -854,6 +999,10 @@
     </rule>
     <rule id="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" name="Nyx Infantry Deployment" hidden="false" book="Dindrenzi ORBATS" page="3">
       <description>Each Nyx Light Infantry Cadre MUST be deployed via a Damocles MK II Sky Pod.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9708a154-3267-b441-cd5b-b2fe69190f8d" name="Punishing CQB" hidden="false" book="Dindrenzi ORBATS" page="2">
+      <description>All Dindrenzi elements may re-roll any Initial Dice rolls of a 1 during any CQB Engagement, the second result must be accepted.</description>
       <modifiers/>
     </rule>
     <rule id="477a69dc-8258-f309-8b27-6ea67902b2a9" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">

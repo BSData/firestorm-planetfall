@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="c73636b3-d286-27e7-b93a-af76a254a5f0" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8393e986-171a-4cbd-269b-8bad1d03b7aa" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="df04fe96-cc25-4023-2336-87e508f75971" name="Dindrenzi" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="ead67626-5c89-0841-8abe-7f33ca2b94f0" name="Dindrenzi Artillery Attacks" hidden="false">
+                  <description>All Dindrenzi Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="43829bb9-24bd-1430-0636-3abc643dd1b5" name="Dindrenzi Artillery Dice" hidden="false">
+                  <description>Dindrenzi Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="5726b21f-66e8-5e9f-e7b0-d4f917cae312" name="Dindrenzi Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="71016c7e-53fa-2d7c-6b04-8a06b4c65311" name="Dindrenzi Tactical Bonus" hidden="false">
+                  <description>Dindrenzi forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ac03d474-fe4e-3ba3-e9a2-6cf849daa8fc" name="Relthozan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="aab4bf22-a934-9099-791d-0bf3441f4544" name="Relthozan Artillery Attacks" hidden="false">
+                  <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="7538b1ba-70f5-6858-f241-85d2bbf40167" name="Relthozan Artillery Dice" hidden="false">
+                  <description>Relthozan Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="9a5e3a2b-8e23-0ffc-c28f-a3572e32cfe2" name="Relthozan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="4bd91c1c-0621-5786-7b95-dcc6c1916209" name="Relthozan Tactical Bonus" hidden="false">
+                  <description>Relthozan forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e0ba98f6-9b34-1088-6aa2-d9335ffa11f1" name="Rense System Navy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="1ce784f5-d1a6-29cb-9587-5aca84e9095b" name="Rense System Navy Artillery Attacks" hidden="false">
+                  <description>All Rense System Navy Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="bd9da927-89db-e7fe-9c4c-181940c3259d" name="Rense System Navy Artillery Dice" hidden="false">
+                  <description>Rense System Navy Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="cae0f281-af6b-bb5a-ffe9-025cf130188f" name="Rense System Navy Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="2dfcede2-7d3e-3251-4e06-78c32e744670" name="Rense System Navy Tactical Bonus" hidden="false">
+                  <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1a85035d-f8e9-a547-e970-e3289f3275bf" name="Ba&apos;Kash Clan" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="3bdb74e8-9b33-7982-6c58-758af388e1d2" name="Ba&apos;Kash Clan Artillery Attacks" hidden="false">
+                  <description>All Ba&apos;Kash Clans Artillery Attacks use the Barrage and Scatter MARs.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="266ae34e-e24d-c65b-c05e-90f4693c6964" name="Ba&apos;Kash Clan Artillery Dice" hidden="false">
+                  <description>Ba&apos;Kash Clans Forces use Artillery with 4D6 Attack Dice.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="1b64697c-547a-0315-ade9-b74509f0098d" name="Ba&apos;Kash Clan Sky Drop Capability" hidden="false">
+                  <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+                  <modifiers/>
+                </rule>
+                <rule id="f10625ae-734d-7ad0-f250-c432c268b7f5" name="Ba&apos;Kash Clan Tactical Bonus" hidden="false">
+                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="6c5171ba-9642-42f7-f12a-cbb1834c2739" name="Cyber Warfare Tank Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -48,6 +164,9 @@
                   <modifiers/>
                 </link>
                 <link id="bcb6a4b9-8458-d12b-4225-530d7d861812" targetId="68966d35-11cd-01a5-5eb6-74d9da951d32" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="eac82577-0069-d9ca-d803-3a2a22bb2424" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -101,6 +220,9 @@
                         <link id="89f4590b-1989-0816-769b-b32a05ecaeaf" targetId="4613ea28-7967-cf06-2598-54a04f518d0c" linkType="rule">
                           <modifiers/>
                         </link>
+                        <link id="3bb989ea-a226-0eef-e9db-6db788c7404c" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                          <modifiers/>
+                        </link>
                       </links>
                     </entry>
                   </entries>
@@ -128,6 +250,9 @@
                   <modifiers/>
                 </link>
                 <link id="7c378954-d85d-3a72-2a0d-9de8ee7a202a" targetId="37e43eab-26b5-46c2-0513-0ab6f286f7d9" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="bd558375-6635-c982-7739-e8521886dfbf" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -171,6 +296,9 @@
                   <modifiers/>
                 </link>
                 <link id="4903313a-6d1f-46e3-04cb-2d54513a136f" targetId="00228c5e-1a4a-3024-a355-12c23457915d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e6cb65ca-1b21-9d09-19db-e47a6ee3ddab" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -253,6 +381,9 @@
                   <modifiers/>
                 </link>
                 <link id="910fd6bf-d921-9374-24b5-e70c9e249a46" targetId="00228c5e-1a4a-3024-a355-12c23457915d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1f04ec2a-5d58-c6b1-b5c5-b4d10f0ec244" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -378,6 +509,9 @@
                 <link id="ea9848e7-0bd6-f5a7-940a-3400ff7d1d29" targetId="00228c5e-1a4a-3024-a355-12c23457915d" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="2278506e-2b3e-c6fb-3eac-c2047d4d8f72" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -458,6 +592,9 @@
                 <link id="b5b8b036-70b1-db17-1f95-9a48aa69d861" targetId="2870eaa9-97f0-e46f-9cc6-a6e125129c8b" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="c8656a0e-eaee-ffb2-e53c-0d34dbe25649" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -511,6 +648,9 @@
                 <link id="49310241-6ffc-2609-2302-e7432686a932" targetId="238b4d6b-9282-bea2-7474-acb33e329ecd" linkType="entry group">
                   <modifiers/>
                 </link>
+                <link id="c86ede28-9293-ef19-6d4b-5fe0db1c4e38" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
           </entryGroups>
@@ -536,6 +676,9 @@
               <profiles/>
               <links>
                 <link id="95903c97-c5eb-259e-b7a3-8da7feeb782a" targetId="bf757599-aa6c-42cc-b172-fb0441a6358a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="619ca997-e46b-e169-adea-925b0d8e670a" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -593,10 +736,6 @@
       <description>All Directorate Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs.</description>
       <modifiers/>
     </rule>
-    <rule id="65be02a8-b467-e738-d35a-a18a67c2405f" name="Shrapnel Storm" hidden="false">
-      <description>All Directorate elements count their CQB Weaponry as having the Terror Weapon MAR.</description>
-      <modifiers/>
-    </rule>
     <rule id="e434bc2a-e13f-8a17-9c3a-b91b227151a5" name="Sky Drop Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
       <modifiers/>
@@ -646,6 +785,9 @@
                         <link id="9551bf71-c158-21ec-a67a-9b6d2a71b6cf" targetId="4613ea28-7967-cf06-2598-54a04f518d0c" linkType="rule">
                           <modifiers/>
                         </link>
+                        <link id="a399079b-ac94-ff7b-20d3-36b484f2ac91" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                          <modifiers/>
+                        </link>
                       </links>
                     </entry>
                   </entries>
@@ -673,6 +815,9 @@
                   <modifiers/>
                 </link>
                 <link id="476a8db7-5d4f-66b5-3af7-dc7bba97948b" targetId="37e43eab-26b5-46c2-0513-0ab6f286f7d9" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="7e9d6934-a6b7-9e55-5078-0f17d787b5cd" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -728,6 +873,9 @@
             <link id="ca866432-53b5-4b3e-66ff-ae383873d8f7" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
               <modifiers/>
             </link>
+            <link id="c85f323e-d58b-3dac-0c74-9ff00362da5b" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -779,6 +927,9 @@
               <modifiers/>
             </link>
             <link id="4cb32a59-09fe-1000-255b-6de72f690c9e" targetId="7d597ce6-d58a-6e5f-fd03-34ce0c6af45b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d27ca679-00fe-37f5-3908-e690857bff01" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -847,6 +998,9 @@
             <link id="b5366801-941b-b359-7bb6-b9d48e888b21" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
               <modifiers/>
             </link>
+            <link id="30683c90-8c35-2103-27da-91922d8bde32" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="6c5fafbf-bd28-8df5-1e40-9998eea23320" name="Sweeper Teams" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -883,6 +1037,9 @@
               <modifiers/>
             </link>
             <link id="9d515aea-18b7-cd76-3ef2-cbeb61e94558" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1d8378ff-4a2a-fdde-a222-db2a85d69368" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -925,6 +1082,9 @@
               <modifiers/>
             </link>
             <link id="8d65b6c4-0480-cbc7-d144-7e466ad3bf20" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="db9a9200-ece8-51d2-13b6-c8ed061fe037" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -1010,6 +1170,10 @@
     </rule>
     <rule id="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="18d9e1b7-cf78-4481-5c63-2d0173c72507" name="Shrapnel Storm" hidden="false">
+      <description>All Directorate elements count their CQB Weaponry as having the Terror Weapon MAR.</description>
       <modifiers/>
     </rule>
     <rule id="7b33fb72-ef85-b14a-90c0-2944f79a46c7" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
