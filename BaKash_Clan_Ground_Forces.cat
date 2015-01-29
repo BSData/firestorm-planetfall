@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2396a105-a149-d475-24b5-49a61dda52c8" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -127,59 +127,59 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
-              <links/>
+              <profiles>
+                <profile id="50c1d2be-3314-db58-d017-c8ed031b54c9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Ground Attack Flyer - Varuko" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="1466bafc-0dd4-9e86-6729-5589ef595d6d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko - Dirge Missiles" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="9f2cf930-c960-7bef-4873-d68028e87469" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="9dd33edf-4b8d-6756-2502-b20ecd97adb9" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c270ea97-1e9c-4119-77a9-4dbc540f5a80" targetId="181a03e8-a501-b720-01fb-ad6ad2a97200" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1bf14ec0-b626-9557-4ef7-9d4409450b4b" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="b6a2cc7c-a57f-506b-6c46-82ad3c798e03" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="483e35d7-e1b2-efef-0d41-819dcf4f0c60" targetId="181a03e8-a501-b720-01fb-ad6ad2a97200" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="44f1cc34-a97f-f99a-6736-80729743d711" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="d826c8c4-4dff-f578-c00e-6c8faa343e6b" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="6fca953b-d671-ad3e-f655-c1f92bab2877" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko - Dirge Missiles" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
-            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ee627e4b-5b68-bfa2-be07-a6eb9720a447" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Ground Attack Flyer - Varuko" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
-            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
-            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
-            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
-            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
-            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
-            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
-            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="f9bafef9-a232-ac05-2b43-23d035ec28ce" name="Heavy Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -192,8 +192,75 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
-              <links/>
+              <profiles>
+                <profile id="f683cbf8-058b-cd78-12a3-59909c1a8caa" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Novian" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="b0b2f4ae-5d6a-25b1-1ed3-500793272e51" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Dual Dirge Missiles" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="24bc1bb2-42d3-e1ce-16db-74a5b08fc305" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Shriek Cannons" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="fbe80493-f3d0-cf29-27ce-a3b0e737cf09" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="216c3913-90b9-20e4-6420-1ea6cadbfd48" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f46c9f78-7ca5-13b9-ce5a-30e8a5583897" targetId="78d324e1-26b5-599c-6902-cadeeef9985c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="09ce42ac-ffb2-81b1-8733-b258dbffc23d" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="d13f140d-fa24-af16-50ce-716824f9eb2a" targetId="181a03e8-a501-b720-01fb-ad6ad2a97200" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e330fe43-d087-7865-dafb-0e3115a84e24" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="77dcc90b-10d2-6141-587e-c67c8a080af9" targetId="796c596b-4df4-8aa5-c7db-e26ec670a62d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="87454e10-5089-0464-dd4c-b2df651582b7" targetId="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="123e7eba-c3de-6491-05cf-f4c62a2714d5" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -205,79 +272,12 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <links>
-            <link id="182e9c3e-9d53-0948-5753-a7239b0194b6" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e2624d0a-1753-2594-2b72-635022ef6db3" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f92ffedc-3fc9-f061-96df-cd04b03107e6" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="938c9ea2-c0fc-1bb7-be39-eef2741945d8" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="042d70a5-01e4-cbbd-eb7e-6bdae0c36181" targetId="796c596b-4df4-8aa5-c7db-e26ec670a62d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a493e2f7-cefc-552a-a09c-951cd75d6076" targetId="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e9485ca6-fc95-fe02-3fe4-f0a7c9cfb4ad" targetId="78d324e1-26b5-599c-6902-cadeeef9985c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="76c1c40d-deee-cb43-2f62-8bf79f69cb84" targetId="181a03e8-a501-b720-01fb-ad6ad2a97200" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="c0807903-0a7d-ca1b-efa8-6fd226ae34ff" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="8fb92ab1-713b-4ec0-8360-719b14ab2a01" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Shriek Cannons" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="7efdeb58-d53b-196b-e600-7f0f3a9ffd44" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Novian" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
-            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
-            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
-            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
-            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
-            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
-            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
-            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
-            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4b08ebe2-4227-44e0-a694-23be3fcb3089" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Dual Dirge Missiles" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD"/>
-            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
     <entry id="6f120e4f-55b8-1e1b-3d69-027251a00fc2" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
@@ -324,16 +324,8 @@
   <sharedEntries/>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
-      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
-      <modifiers/>
-    </rule>
     <rule id="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" name="Apex Predators" hidden="false" book="Relthozan ORBATS" page="2">
       <description>All Ba&apos;Kash elements have the Recon Specialist MAR. May move in the Recon Phase as per page 120 of the Core Rulebook.</description>
-      <modifiers/>
-    </rule>
-    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Barrage" hidden="false" book="Core Rulebook" page="116">
-      <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
     <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
@@ -356,11 +348,19 @@
       <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="796c596b-4df4-8aa5-c7db-e26ec670a62d" name="Scatter" hidden="false" book="Core Rulebook" page="121">
+    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+      <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
+      <modifiers/>
+    </rule>
+    <rule id="796c596b-4df4-8aa5-c7db-e26ec670a62d" name="Weapon MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
       <description>Scatter Weapons ignore any negative modifiers from the Hard Taret MAR when firing at non-flying Targets.</description>
       <modifiers/>
     </rule>
-    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>

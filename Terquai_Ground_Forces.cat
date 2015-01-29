@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f4986b54-c903-a320-95a2-17589f6e7049" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -136,11 +136,11 @@
                 <profile id="66fa388c-e567-a91f-1849-eb4d9941e296" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Iophon" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
                     <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
                     <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="4"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
@@ -160,6 +160,17 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
+                <profile id="a712e092-a649-65fc-67a3-40123953be9a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Iophon - Nexus Designator" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
               </profiles>
               <links>
                 <link id="d2952515-ee96-2c2b-5bef-80f64fa8319f" targetId="84c7c112-99e0-51d5-5c33-f215b285db0c" linkType="rule">
@@ -171,13 +182,16 @@
                 <link id="b8f89dbb-ab82-db67-0454-e2310e0b369b" targetId="4fddf1fa-4639-8539-da44-031c2eaa9f9d" linkType="rule">
                   <modifiers/>
                 </link>
-                <link id="92cb3855-b9d9-a035-70d8-559de657cce1" targetId="7d85f7b3-bb70-5955-2998-90d7dde550f6" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="e341367e-c8bd-9390-2b35-cfb0465b0cf8" targetId="18268857-4ffe-7ad7-46a3-6f965a36ae57" linkType="rule">
-                  <modifiers/>
-                </link>
                 <link id="a84eebd7-875c-0ba8-84a2-5379c95c4c51" targetId="4370584d-26b1-ffc5-66ba-bc49902295ab" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="104e7059-294d-7268-b151-1e4c10c9fe8b" targetId="18268857-4ffe-7ad7-46a3-6f965a36ae57" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="a16e98f6-2bc5-306d-b79e-f43955dba4bc" targetId="7d85f7b3-bb70-5955-2998-90d7dde550f6" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="097cafe9-b30c-4f2c-c7b0-6889d837707b" targetId="7c57e3a0-58e5-32bc-e5d2-f75138ca17e4" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -209,9 +223,9 @@
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
@@ -264,8 +278,8 @@
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
                     <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="0"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
@@ -310,6 +324,27 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="ddb86f7d-6445-f964-2259-15488869ce21" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+      <entries>
+        <entry id="c680950d-449f-48ef-e6b5-cc0188f44cf3" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f9a0107f-1df2-3b93-9202-a207aab7ea57" targetId="924ab8ac-3403-bcea-a341-c71e58c2e6ee" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules>
     <rule id="f1893d05-bdf9-7661-8870-98a4fb026a3e" name="Artillery Attacks" hidden="false">
@@ -333,10 +368,6 @@
   <sharedEntries/>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="18268857-4ffe-7ad7-46a3-6f965a36ae57" name="Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
-      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
-      <modifiers/>
-    </rule>
     <rule id="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
       <description>These units take up 2 slots in transports.</description>
       <modifiers/>
@@ -393,8 +424,20 @@
       <description>All Terquai Empire Armoured and Aerial elements may gain the Cloaked MAR at the end of their activation provided they do not engage in CQB or perform any Main Ordnance Firing (excluding Nexus Designators) during their activation. The Cloaked MAR lasts until beginning of next activation.</description>
       <modifiers/>
     </rule>
-    <rule id="7d85f7b3-bb70-5955-2998-90d7dde550f6" name="Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="18268857-4ffe-7ad7-46a3-6f965a36ae57" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7c57e3a0-58e5-32bc-e5d2-f75138ca17e4" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7d85f7b3-bb70-5955-2998-90d7dde550f6" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="924ab8ac-3403-bcea-a341-c71e58c2e6ee" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+      <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
       <modifiers/>
     </rule>
   </sharedRules>
