@@ -117,7 +117,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="37a7595b-12a9-674d-59f9-833324c92e1f" name="Heavy Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -127,8 +127,67 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
-              <links/>
+              <profiles>
+                <profile id="607d6400-515a-d4b6-adfb-e50813583982" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="898482b0-db83-e2f1-df64-96e364be0604" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Spear of Dramos (Right Arm)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="4f44c3c6-1314-f75e-3f6f-0a1a0c97153b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Battle Robot - Archangel" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6 / 12"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="e2cb44b7-a36d-d0ec-1b4f-9b2108541b30" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="691f0ecc-7a2d-32ba-b6c3-4ea3f57fded8" targetId="e5e5c646-f5bc-5c85-8af0-b10457704edc" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="d177ab82-cb3b-d384-f2ea-3deb5df4618e" targetId="82856ae3-a39a-94fd-a699-3c82332b51de" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="62bdf52f-e341-a1da-619b-ac95f5668145" targetId="2ee48f64-c695-16f1-c321-58961a2f3690" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="db091751-7d4a-3792-1324-01284139a83f" targetId="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="78291fe3-916a-ee39-6d14-6e9fd9683db7" targetId="208c6fd2-a5e4-5268-5cff-21b80130b01c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6920a1b0-1c5a-1489-89f3-cf03c2665798" targetId="f952dfe9-2c8a-7f89-8063-e277b8006f7a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="28a6e7a0-601e-c4d7-a20c-2ef860012d2e" targetId="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -140,74 +199,15 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <links>
-            <link id="15d367a5-c34f-9e0d-2a9d-320b7d7adb03" targetId="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8c3744a4-6a39-6d3b-0d09-eea3b135b06a" targetId="e5e5c646-f5bc-5c85-8af0-b10457704edc" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="64bd6271-2c0a-d1df-a387-77bcd054a6a3" targetId="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="85602c4d-8aad-9a2a-ba0a-4e96e21eb411" targetId="82856ae3-a39a-94fd-a699-3c82332b51de" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="45e97df7-7e8a-48af-d6f0-562c9826e565" targetId="2ee48f64-c695-16f1-c321-58961a2f3690" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="48392c72-6902-6ee9-9607-3e3df5253513" targetId="f952dfe9-2c8a-7f89-8063-e277b8006f7a" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="334392a2-e0e2-f4d2-08be-18bc98445e53" targetId="208c6fd2-a5e4-5268-5cff-21b80130b01c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="55518b85-05c5-7ba5-4f1b-1375552bef21" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="45dfdee2-59cc-876a-6182-47ef32cfe71d" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Spear of Dramos (Right Arm)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="15c70fbb-5a06-ca34-4dad-496ad184e5d1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L"/>
-            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="59628d12-ff3c-24d8-71c4-dd832fe10348" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Battle Robot - Archangel" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
-            <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-            <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
-            <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
-            <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
-            <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
-            <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-            <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6 / 12"/>
-            <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-            <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-            <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
-    <entry id="f5801d9c-0782-413d-e8b8-a86ae69e6963" name="Light Drone Tank Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f5801d9c-0782-413d-e8b8-a86ae69e6963" name="Light Drone Tank Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="15659c29-311f-8888-2314-386dbaed8bb0" name="Light Drone Tank Class" defaultEntryId="ba189c00-5f9e-90e2-fdfd-47cc1adeb8b4" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -223,9 +223,9 @@
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value=""/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value=""/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
@@ -317,14 +317,14 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="43875354-e1a2-64d7-7b60-90a6a3eb48ba" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sky Drop Transport - Damocles MkII Sky Pod" hidden="false">
+            <profile id="43875354-e1a2-64d7-7b60-90a6a3eb48ba" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sky Drop Transport - Temple of Dramos" hidden="false">
               <characteristics>
                 <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
                 <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="6"/>
-                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value=""/>
+                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
                 <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
@@ -415,7 +415,7 @@
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="089f3202-6c90-42cf-9e58-e1f5af7e5da2" name="Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="089f3202-6c90-42cf-9e58-e1f5af7e5da2" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
@@ -423,11 +423,11 @@
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
-    <rule id="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" name="Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" name="Pinpoint (4)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" name="Weapon MAR:Pinpoint (4)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
@@ -439,7 +439,7 @@
       <description>The Spear of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
       <modifiers/>
     </rule>
-    <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
