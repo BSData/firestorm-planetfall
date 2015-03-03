@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c73636b3-d286-27e7-b93a-af76a254a5f0" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -379,14 +379,7 @@ Squadron in all respects. </description>
             </entry>
           </entries>
           <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="99f9bc51-b3e4-aa26-e6a7-84f050db3387" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="force type" childId="c1eb3aa7-5beb-aa86-7053-986b882b715d" field="selections" type="at least" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <links/>
         </entryGroup>
       </entryGroups>
@@ -815,7 +808,7 @@ Squadron in all respects. </description>
       <modifiers/>
     </rule>
     <rule id="e434bc2a-e13f-8a17-9c3a-b91b227151a5" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
+      <description>Initial Drop Site Markers are set to 6. Initial Artillery Markers are set to 4.</description>
       <modifiers/>
     </rule>
     <rule id="225bf97b-98ec-67b1-93e1-5f2e9c57c4a8" name="Tactical Bonus" hidden="false">
@@ -1299,7 +1292,7 @@ Squadron in all respects. </description>
       <modifiers/>
     </rule>
     <rule id="a6991808-4669-65f9-b711-49bba7796c0b" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 5 points to bid on an Opossed Tactics test.</description>
+      <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="cc3e8e6a-3384-24b1-088d-0d25dc703db1" name="Lumbering" hidden="false" book="Core Rulebook" page="119">

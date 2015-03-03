@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="113a879f-c44e-7068-0356-4c02bb12f399" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Heroes of Tarxon VI - Terrans" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="113a879f-c44e-7068-0356-4c02bb12f399" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Heroes of Tarxon VI - Terrans" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="cee545bf-87b3-31ad-c150-b0b206ab647e" name="Anti-Aircraft Tank Squadron (Assault Helix)" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1219,7 +1219,7 @@
       <modifiers/>
     </rule>
     <rule id="068736f7-9d9b-3191-2925-fb433ad8376a" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+      <description>Initial Drop Site Markers are set to 5. Initial Artillery Markers are set to 5.</description>
       <modifiers/>
     </rule>
     <rule id="e374e7cc-66fc-c275-be79-b6b57fdda0aa" name="Tactical Bonus" hidden="false">
@@ -1231,20 +1231,12 @@
   <sharedEntries/>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="b8c0d6fe-07e5-3745-cd0e-632f784170c9" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
-      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
-      <modifiers/>
-    </rule>
     <rule id="864e8edc-3886-ece2-4a99-7bdee790085c" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
       <description>May use the Artillery Support rules on Page 82.</description>
       <modifiers/>
     </rule>
     <rule id="c8e09cc3-0f8a-2c53-2b7b-64f024f66d20" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
-      <modifiers/>
-    </rule>
-    <rule id="da743f0f-7783-543b-812d-ff7fd0df67e2" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
-      <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
     <rule id="6c5c30be-9145-ce42-666a-411e6dc223d0" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
@@ -1263,10 +1255,6 @@
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="1261f07d-d02e-be6e-3da8-3286f9a5b84b" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
-      <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
-      <modifiers/>
-    </rule>
     <rule id="3905b541-9c28-1031-afee-524491234379" name="Fearless" hidden="false" book="Core Rulebook" page="118">
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
@@ -1283,32 +1271,16 @@
       <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
       <modifiers/>
     </rule>
-    <rule id="5dc59e46-c71e-4741-ac38-107eb4ecc43c" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
-      <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
-      <modifiers/>
-    </rule>
     <rule id="addb3847-bb04-e2d0-60a0-7368597abb91" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 5 points to bid on an Opossed Tactics test.</description>
+      <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="2510f61e-150a-c7d7-8899-791a3c45b424" name="Must Sky Drop" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
-    <rule id="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
-      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
-      <modifiers/>
-    </rule>
     <rule id="e4e94a1b-4d17-3381-7560-56ec8b0ce611" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
       <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6ae82f48-a98d-9fb8-458c-a3ba6109c603" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
-      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
-      <modifiers/>
-    </rule>
-    <rule id="384811d2-862a-3a36-ac0f-841f6b88fad1" name="Weapon MAR:Pinpoint (4)" hidden="false" book="Core Rulebook" page="119">
-      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
     <rule id="477a69dc-8258-f309-8b27-6ea67902b2a9" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">
@@ -1335,10 +1307,6 @@
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="036d9b9e-ad2d-977e-feea-1472c2ddd8ff" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
-      <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
     <rule id="9360a443-1d70-4a1b-4db5-c96b565cc9f7" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
       <description>Impassable Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
 May not Flat Out over Rough Ground / Craters.
@@ -1351,6 +1319,38 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="c40f15e0-8c0a-e522-a4ee-43181065da64" name="Walker" hidden="false" book="Core Rulebook" page="77">
       <description>May not move Flat Out through Vegation or Rivers.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b8c0d6fe-07e5-3745-cd0e-632f784170c9" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+      <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="da743f0f-7783-543b-812d-ff7fd0df67e2" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+      <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1261f07d-d02e-be6e-3da8-3286f9a5b84b" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
+      <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5dc59e46-c71e-4741-ac38-107eb4ecc43c" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+      <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6ae82f48-a98d-9fb8-458c-a3ba6109c603" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="384811d2-862a-3a36-ac0f-841f6b88fad1" name="Weapon MAR:Pinpoint (4)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="036d9b9e-ad2d-977e-feea-1472c2ddd8ff" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+      <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>

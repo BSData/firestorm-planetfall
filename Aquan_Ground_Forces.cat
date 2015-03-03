@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="de35edc3-8d7b-5627-bf8c-8e63055a1c41" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -706,7 +706,7 @@
       <modifiers/>
     </rule>
     <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+      <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
     <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Tactical Bonus" hidden="false">
@@ -1088,7 +1088,7 @@
       <modifiers/>
     </rule>
     <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
+      <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Must Sky Drop" hidden="false">

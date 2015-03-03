@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1b2cbfaf-6a2f-ba2c-2cea-2451187f921d" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -607,7 +607,7 @@
       <modifiers/>
     </rule>
     <rule id="275ffd50-48b9-9c39-498f-fb9811cbf77d" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+      <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
     <rule id="9c141dca-e65e-7ad8-7f63-e799d2b3e013" name="Artillery Attacks" hidden="false">
@@ -853,7 +853,7 @@
       <modifiers/>
     </rule>
     <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
+      <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="4dd6ea7d-9801-598e-e195-eda7c95eb0b4" name="Lumbering" hidden="false" book="Core Rulebook" page="119">

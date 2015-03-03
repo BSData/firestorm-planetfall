@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f4986b54-c903-a320-95a2-17589f6e7049" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -261,6 +261,27 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="ddb86f7d-6445-f964-2259-15488869ce21" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+      <entries>
+        <entry id="c680950d-449f-48ef-e6b5-cc0188f44cf3" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f9a0107f-1df2-3b93-9202-a207aab7ea57" targetId="924ab8ac-3403-bcea-a341-c71e58c2e6ee" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6b9b329c-dddc-f69a-3a51-1b75a8edeed7" name="Temporal Portal" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -324,27 +345,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="ddb86f7d-6445-f964-2259-15488869ce21" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
-      <entries>
-        <entry id="c680950d-449f-48ef-e6b5-cc0188f44cf3" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="f9a0107f-1df2-3b93-9202-a207aab7ea57" targetId="924ab8ac-3403-bcea-a341-c71e58c2e6ee" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </entries>
   <rules>
     <rule id="f1893d05-bdf9-7661-8870-98a4fb026a3e" name="Artillery Attacks" hidden="false">
@@ -356,7 +356,7 @@
       <modifiers/>
     </rule>
     <rule id="20c28010-4d80-b007-bfae-ab86885b9e1b" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Iinitial Artillery Markers are set to 6.</description>
+      <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
     <rule id="5b81e1a8-c1a8-fd05-316f-98a576c2ab2b" name="Tactical Bonus" hidden="false">
@@ -394,6 +394,10 @@
     </rule>
     <rule id="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="924ab8ac-3403-bcea-a341-c71e58c2e6ee" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+      <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="61ce68cc-7a35-94d5-876b-4f104b1dc706" name="Must Sky Drop" hidden="false">
@@ -434,10 +438,6 @@
     </rule>
     <rule id="7d85f7b3-bb70-5955-2998-90d7dde550f6" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="924ab8ac-3403-bcea-a341-c71e58c2e6ee" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 4 points to bid on an Opossed Tactics test.</description>
       <modifiers/>
     </rule>
   </sharedRules>
