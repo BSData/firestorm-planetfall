@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="262b6f02-ded5-8aef-6619-55f0f93b2468" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -322,7 +322,7 @@
       <modifiers/>
     </rule>
     <rule id="9e545086-1c35-b094-b0de-5104d6fce761" name="Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
+      <description>Initial Drop Site Markers are set to 5. Initial Artillery Markers are set to 5.</description>
       <modifiers/>
     </rule>
     <rule id="8467d8a0-2704-cd03-6831-4fde507b2e19" name="Tactical Bonus" hidden="false">
@@ -351,7 +351,7 @@
       <modifiers/>
     </rule>
     <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 5 points to bid on an Opossed Tactics test.</description>
+      <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
