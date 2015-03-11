@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c34239d3-2b44-a819-7cf2-9d43ad7591ce" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1160,7 +1160,7 @@
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="175e-c834-ee03-496b" name="Independant Targeting" hidden="false" book="Core Rulebook" page="119">
+    <rule id="175e-c834-ee03-496b" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
       <modifiers/>
     </rule>

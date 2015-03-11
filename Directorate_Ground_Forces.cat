@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c73636b3-d286-27e7-b93a-af76a254a5f0" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -310,7 +310,7 @@ Squadron in all respects. </description>
                   </entryGroups>
                   <modifiers/>
                   <rules>
-                    <rule id="5bc4-7c51-8c39-5152" name="Disrupton Tank" hidden="false" book="Directorate ORBAT" page="4">
+                    <rule id="5bc4-7c51-8c39-5152" name="Disruption Tank" hidden="false" book="Directorate ORBAT" page="4">
                       <description>When Deployed on the battlefield, ALL enemy elements within 12&quot; of a Haunter Disruption Tank may not gain a bonus die to their Disorder Tests due to being within the Command Range of their Command Element.</description>
                       <modifiers/>
                     </rule>
@@ -1041,7 +1041,7 @@ Squadron in all respects. </description>
                   <modifiers/>
                   <rules/>
                   <profiles>
-                    <profile id="ee5f-794f-bbe8-aac9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Patriot - Peacemaker Missile Launcher" hidden="true">
+                    <profile id="ee5f-794f-bbe8-aac9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Patriot - Peacemaker Missile Launcher" hidden="false">
                       <characteristics>
                         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
                         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
@@ -1283,7 +1283,7 @@ Squadron in all respects. </description>
       <description>Main Ordnance is -2 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="faf9-5ae7-799b-2ff3" name="Independant Targeting" hidden="false" book="Core Rulebook" page="119">
+    <rule id="faf9-5ae7-799b-2ff3" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
       <modifiers/>
     </rule>
@@ -1325,8 +1325,8 @@ May not Flat Out over Rough Ground / Craters.
 Increase Movement by 3&quot; on  Roads.</description>
       <modifiers/>
     </rule>
-    <rule id="7d597ce6-d58a-6e5f-fd03-34ce0c6af45b" name="Transport (9)" hidden="false" book="Core Rulebook" page="122">
-      <description>May act as a transport for 9 slots worth of Infantry.</description>
+    <rule id="7d597ce6-d58a-6e5f-fd03-34ce0c6af45b" name="Transport (10)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 10 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
     <rule id="7ea4-78f7-c215-c95c" name="Transport (Haunter)" hidden="false" book="Core Rulebook" page="122">
