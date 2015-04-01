@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7b88bea-c9ac-2da7-9e2d-e5adaae14b57" revision="9" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c73636b3-d286-27e7-b93a-af76a254a5f0" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -285,19 +285,19 @@ Squadron in all respects. </description>
                   <entryGroups>
                     <entryGroup id="54ac-8c4b-96bf-a9b8" name="Grand Company" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries>
-                        <entry id="beca-bc79-ac81-ba4d" name="Patriot Light Infantry Grand Company" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                        <entry id="afc4-fba3-fc49-e447" name="Patriot Grand Company" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                           <entries/>
                           <entryGroups/>
                           <modifiers/>
                           <rules>
-                            <rule id="b4d4-5463-b6b2-5e35" name="Grand Company Embarked" hidden="false" book="Directorate ORBAT" page="3">
+                            <rule id="f269-5322-c368-cd3d" name="Grand Company Embarked" hidden="false" book="Directorate ORBAT" page="3">
                               <description>The Patriot Grand Company MUST be embarked on the Haunter Disruption Tank at the start of the battle.</description>
                               <modifiers/>
                             </rule>
                           </rules>
                           <profiles/>
                           <links>
-                            <link id="1435-529f-e039-eab5" targetId="5b0a-db36-d655-194c" linkType="entry group">
+                            <link id="7c8a-f842-a668-d946" targetId="5051-f1a6-0a9e-e6bd" linkType="entry group">
                               <modifiers/>
                             </link>
                           </links>
@@ -968,14 +968,7 @@ Squadron in all respects. </description>
               <links/>
             </entryGroup>
           </entryGroups>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="beca-bc79-ac81-ba4d" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
           <links/>
@@ -1158,14 +1151,7 @@ Squadron in all respects. </description>
                         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
                         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 4"/>
                       </characteristics>
-                      <modifiers>
-                        <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="7" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="direct parent" childId="beca-bc79-ac81-ba4d" field="selections" type="equal to" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
+                      <modifiers/>
                     </profile>
                   </profiles>
                   <links>
@@ -1191,40 +1177,10 @@ Squadron in all respects. </description>
           </entryGroups>
           <modifiers>
             <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="5b0a-db36-d655-194c" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="55a2-bf97-973c-1bbe" childId="55a2-bf97-973c-1bbe" field="selections" type="greater than" value="3.0"/>
-                    <condition parentId="direct parent" childId="beca-bc79-ac81-ba4d" field="selections" type="not equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="minSelections" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="5b0a-db36-d655-194c" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="55a2-bf97-973c-1bbe" childId="55a2-bf97-973c-1bbe" field="selections" type="greater than" value="3.0"/>
-                    <condition parentId="direct parent" childId="beca-bc79-ac81-ba4d" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="5b0a-db36-d655-194c" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="55a2-bf97-973c-1bbe" childId="55a2-bf97-973c-1bbe" field="selections" type="greater than" value="3.0"/>
-                    <condition parentId="direct parent" childId="beca-bc79-ac81-ba4d" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition parentId="55a2-bf97-973c-1bbe" childId="55a2-bf97-973c-1bbe" field="selections" type="greater than" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <links>
@@ -1236,6 +1192,220 @@ Squadron in all respects. </description>
       </entryGroups>
       <modifiers/>
       <links/>
+    </entryGroup>
+    <entryGroup id="5051-f1a6-0a9e-e6bd" name="Patriot Shock Infantry Grand Company" minSelections="3" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="25fe-90b0-ce08-3fa4" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="45a7-bb5f-95dd-5ba8" name="Officer" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a058-68db-37ad-fb17" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Shock Infantry - Patriot Officer" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="3"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="cd9d-f8c5-9494-d3ef" targetId="7cc07e10-0881-c89e-86b2-1b2e2e844d97" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="977d-a184-ac83-d69d" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ccd8-824d-6349-e932" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6ba1-70c4-5210-fe5b" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="a656-1100-e3c4-06af" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="0efa-a161-3edc-b4c6" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2935-fcc1-902d-6b0e" name="Gun Teams" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1ba2-eaa7-2a3f-f5ff" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Patriot - Peacemaker Missile Launcher" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="31dd-c939-7047-3a0f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Shock Infantry - Patriot Gun Team" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="3"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="53f3-b56d-94aa-8b4f" targetId="7cc07e10-0881-c89e-86b2-1b2e2e844d97" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b08e-7dfe-0dd4-908f" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="33e7-32fe-1b14-f642" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="5a67-f8e8-6a56-a994" targetId="3771b992-4585-88e3-419b-5d4941b75057" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c145-c0fc-a155-3b42" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="055e-a3ad-45ac-8757" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f7ae-336c-e08a-fbb8" name="Sweeper Teams" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="92cd-381c-ba3c-3f72" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Shock Infantry - Patriot Sweeper Team" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="3"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="04c2-c474-afe7-800d" targetId="7cc07e10-0881-c89e-86b2-1b2e2e844d97" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="577c-88b4-50ad-fdb7" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="07fc-1793-0f89-4a16" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2356-955b-3269-0d4e" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="30fd-f44b-9620-88c8" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="6635-8e6a-0f55-bc17" name="Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e65e-1a87-6391-4e38" name="Patriot" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7269-ca6b-a093-b884" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Shock Infantry - Patriot" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="3"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 7"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="1648-d935-23e8-b947" targetId="7cc07e10-0881-c89e-86b2-1b2e2e844d97" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="88e5-1d2c-6f2c-9e57" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f163-dde8-ff2f-5c7a" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2e41-70ff-aaec-c2f3" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="5b0a-db36-d655-194c" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="5051-f1a6-0a9e-e6bd" childId="5051-f1a6-0a9e-e6bd" field="selections" type="greater than" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <links>
+        <link id="17e4-0a6c-8c0f-0bec" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
