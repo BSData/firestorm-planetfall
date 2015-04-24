@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ec3396b9-c7cc-cc4f-27de-1c7dd096deb1" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -126,19 +126,14 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="e53333a4-f04e-f5ba-5bdc-5a6508770f9d" name="Fire When Flat Out" hidden="false" book="Works Raptor ORBAT" page="8">
-                  <description>This squadron may fire its Main Ordnance while moving Flat Out. These shots are considered Rushed.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
+              <rules/>
               <profiles>
                 <profile id="40c34812-c668-8b94-a885-5fe1931c4d39" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Interceptor - GX-74 &apos;Witch&apos;" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
                     <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
                     <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                     <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
@@ -175,6 +170,9 @@
                   <modifiers/>
                 </link>
                 <link id="5689ea73-6b38-9147-96e3-f7563dbaa9ee" targetId="6d72e33f-b4dc-c8e3-6042-1d84fdb36625" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="37da-5365-1ab4-7bec" targetId="c613-749d-0a4c-88f9" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -361,6 +359,10 @@
     </rule>
     <rule id="6d72e33f-b4dc-c8e3-6042-1d84fdb36625" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c613-749d-0a4c-88f9" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
+      <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
   </sharedRules>

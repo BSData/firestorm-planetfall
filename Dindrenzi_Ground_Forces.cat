@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="9" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="10" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c34239d3-2b44-a819-7cf2-9d43ad7591ce" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -157,18 +157,18 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="97a7-c470-bb76-c461" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Mangonel (Right Arm)" hidden="false">
+                <profile id="97a7-c470-bb76-c461" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Mangonel Rail Gun (Right Arm)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic / Pinpoint (1)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="7ed9-634f-4e3e-5d7d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Estock (Body)" hidden="false">
+                <profile id="7ed9-634f-4e3e-5d7d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Estock Flak Launchers (Body)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
@@ -190,14 +190,14 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="b7f7-1932-2321-7ad0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Mangonel (Left Arm)" hidden="false">
+                <profile id="b7f7-1932-2321-7ad0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Hyperion - Mangonel Rail Gun (Left Arm)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic / Pinpoint (1)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -207,9 +207,6 @@
                   <modifiers/>
                 </link>
                 <link id="54d4-2db7-0daf-b941" targetId="175e-c834-ee03-496b" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="aeb8-86d9-7268-17aa" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
                   <modifiers/>
                 </link>
                 <link id="9336-52be-68da-d846" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
@@ -231,6 +228,9 @@
                   <modifiers/>
                 </link>
                 <link id="68c6-b179-df27-2e00" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6ff6-34d7-455d-448a" targetId="bca0-2cf3-45b5-e65b" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -258,7 +258,7 @@
       <entryGroups>
         <entryGroup id="3e1981ee-3d24-8894-9713-837ea027e108" name="Heavy Battle Tank Class" defaultEntryId="012cb1d9-1c3c-85a1-3ae2-c3005aa1edee" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="012cb1d9-1c3c-85a1-3ae2-c3005aa1edee" name="Kratos" points="230.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="012cb1d9-1c3c-85a1-3ae2-c3005aa1edee" name="Kratos" points="235.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -373,7 +373,7 @@
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic / Pinpoint (1)"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -405,6 +405,12 @@
                   <modifiers/>
                 </link>
                 <link id="2cd5ad55-6788-c899-f2ca-8330e5f38ca7" targetId="7425ec4e-ed87-58a9-d6b1-98ad0136fdba" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="237e-6605-56c5-b610" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7672-c0d3-f255-8f4e" targetId="bca0-2cf3-45b5-e65b" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -641,7 +647,7 @@
       <entryGroups>
         <entryGroup id="13873b12-4c6d-242b-6978-6514df92e0fa" name="Medium Tank Hunter Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="26024fb4-24a4-a8cb-7718-9386280dcbb4" name="Gorgos" points="130.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="26024fb4-24a4-a8cb-7718-9386280dcbb4" name="Gorgos" points="135.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -659,7 +665,7 @@
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
                     <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="7"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -683,6 +689,9 @@
                   <modifiers/>
                 </link>
                 <link id="7f189023-12c9-671d-f67d-c4b641058f6e" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7775-c35a-eaec-ffaf" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -819,17 +828,17 @@
           <profiles>
             <profile id="fe42dc55-cd8d-a842-36a9-2598911e3d5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Infantry - Nyx Officer" hidden="false">
               <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                 <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -841,10 +850,13 @@
             <link id="43eb7073-3e67-f08e-862f-6336153e0253" targetId="f9c92945-534f-5c0d-d35d-21336a7622af" linkType="rule">
               <modifiers/>
             </link>
-            <link id="c3d1749f-4e0d-23f9-37d5-b1df6cad6d4f" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+            <link id="c3d1749f-4e0d-23f9-37d5-b1df6cad6d4f" targetId="8695-3c09-c163-c151" linkType="rule">
               <modifiers/>
             </link>
             <link id="07166806-4743-4669-4912-b3594fddfd16" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9774-19f8-d153-1222" targetId="0d16dbbf-bb38-f65d-7ee9-ba9dcfe09f14" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -941,7 +953,7 @@
                 <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="0"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="1"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -974,7 +986,7 @@
     </entryGroup>
     <entryGroup id="6e0631cc-bbbc-3674-a368-6fa8ec6228b9" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="84321178-66f9-b2a5-f927-ff3adb2321fc" name="Gun Teams" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="84321178-66f9-b2a5-f927-ff3adb2321fc" name="Gun Teams" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -983,7 +995,7 @@
             <profile id="7eed6e80-6cf8-0bd6-9e21-b80636d4e6d8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nyx - Harvester Coil Guns" hidden="true">
               <characteristics>
                 <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
                 <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
                 <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
                 <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
@@ -1000,17 +1012,17 @@
             </profile>
             <profile id="fd67b7a2-1782-be2a-bbad-3f5cd38abce5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Infantry - Nyx Gun Team" hidden="false">
               <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
                 <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                 <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1033,25 +1045,25 @@
             </link>
           </links>
         </entry>
-        <entry id="84c4f077-a836-7cfb-f5bd-e4626cf13825" name="Breacher Teams" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="84c4f077-a836-7cfb-f5bd-e4626cf13825" name="Sweeper Teams" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="9527142a-6cb4-e3da-54f7-1c730e1d8c85" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Infantry - Nyx Breacher Team" hidden="false">
+            <profile id="9527142a-6cb4-e3da-54f7-1c730e1d8c85" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Infantry - Nyx Sweeper Team" hidden="false">
               <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
+                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                 <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
               </characteristics>
               <modifiers>
                 <modifier type="increment" field="b06bce22-dd79-5941-f499-07552e47c603" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1094,14 +1106,14 @@
           <profiles>
             <profile id="63e39b91-88ae-6d19-126f-7bfcce6c9fa0" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Infantry - Nyx" hidden="false">
               <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
+                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
                 <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                 <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
                 <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
@@ -1172,7 +1184,7 @@
       <modifiers/>
     </rule>
     <rule id="addb3847-bb04-e2d0-60a0-7368597abb91" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
-      <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
+      <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
     <rule id="5763-9b1b-500f-b3d6" name="Lumbering" hidden="false" book="Core Rulebook" page="119">
@@ -1237,6 +1249,14 @@
     </rule>
     <rule id="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bca0-2cf3-45b5-e65b" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8695-3c09-c163-c151" name="Kill Team" hidden="false" book="Core Rulebook" page="119">
+      <description>+1 CQB stat when initiating CQB.</description>
       <modifiers/>
     </rule>
   </sharedRules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="23a090e5-4e96-aa27-65e4-7cfccf9257a9" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f4986b54-c903-a320-95a2-17589f6e7049" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -126,12 +126,7 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="db327cf9-8a5b-4e95-1a66-18e6f73d3775" name="Nexus When Flat Out" hidden="false" book="Terquai ORBAT" page="8">
-                  <description>This squadron may fire its Nexus Designator while moving Flat Out.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
+              <rules/>
               <profiles>
                 <profile id="66fa388c-e567-a91f-1849-eb4d9941e296" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Gunship - Iophon" hidden="false">
                   <characteristics>
@@ -194,6 +189,9 @@
                 <link id="097cafe9-b30c-4f2c-c7b0-6889d837707b" targetId="7c57e3a0-58e5-32bc-e5d2-f75138ca17e4" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="b222-29ba-3c4f-8c6d" targetId="6721-4bad-1932-7fb7" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -216,7 +214,12 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules/>
+              <rules>
+                <rule id="b6d5-bb98-e04f-0804" name="May Use Temporal Portals" hidden="false" book="Aquan ORBATS" page="8">
+                  <description>This squadronmay use Temporal Portals.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
               <profiles>
                 <profile id="ede227a7-42d3-b57c-202c-56fb39ea5c0a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Infantry - Nabis" hidden="false">
                   <characteristics>
@@ -438,6 +441,10 @@
     </rule>
     <rule id="7d85f7b3-bb70-5955-2998-90d7dde550f6" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6721-4bad-1932-7fb7" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
+      <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
   </sharedRules>

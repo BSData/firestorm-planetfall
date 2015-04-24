@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3873a854-f023-1fc7-d547-0705b34eedf2" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="de35edc3-8d7b-5627-bf8c-8e63055a1c41" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -215,6 +215,123 @@
         </link>
       </links>
     </entry>
+    <entry id="b780-47e2-de21-dd25" name="Firepower Leviathan" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2a6b-72f4-3272-9669" name="Firepower Leviathan Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6c07-3873-77f6-f9e5" name="El-Shami" points="800.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0e91-8667-983d-5618" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Solar Titan Laser (L-Arm)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (3)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="d1dc-47f3-3063-3258" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Nexus Designator" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="d9ec-1db0-2d54-e003" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Firepower Leviathan - El-Shami" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="13"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="7"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="8"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10 / 4"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="15"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="5122-5c2b-20b8-fa58" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Solar Titan Laser (R-Arm)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (3)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="0f71-5303-44ef-3256" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Venom Missiles (Body)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Terror Weapon"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="f05e-20db-de3e-1455" targetId="8eed-685a-9d1a-9502" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="fbc2-cca3-93c9-5218" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="88fb-c899-cf13-3f6a" targetId="a540-8960-48d1-3f85" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="4dde-15ba-1d34-6d02" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c29c-1b3c-0bcb-a4b7" targetId="bf58-92bb-8470-d9cc" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7e17-f68a-181b-46fb" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="0f6b-d636-fed9-1608" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e3c7-e8ec-5a9a-5422" targetId="383d-765c-07f9-2ad4" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="af088774-0bb0-d336-df55-11b45ce100ec" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="f5ce-91ec-2e5e-b5ff" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="b99c3620-cdd2-3e54-f0af-bc2544003232" name="Heavy Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -307,17 +424,12 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="afc8a5bf-6771-e701-a231-399067e505b9" name="Self Target Lock" hidden="false">
-                  <description>May perform Target Lock for its own Main Ordnance.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
+              <rules/>
               <profiles>
                 <profile id="85fb49a3-e062-7d93-fa19-e6a5e65e3227" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haumea - Dual Heavy Stingray Missiles" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="15"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
@@ -377,7 +489,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="4fe34ad0-fc5a-8566-5ad1-4261f2dc0f94" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="4fe34ad0-fc5a-8566-5ad1-4261f2dc0f94" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -452,76 +564,29 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="48499f24-a5fd-44d1-9e35-da835ff05cfb" name="Light Recon Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="9e5c580b-a2a9-7486-de96-25fa32a58665" name="Light Skimmer Class" defaultEntryId="686a334a-cb0d-3f2e-b168-b26227a0ea89" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="686a334a-cb0d-3f2e-b168-b26227a0ea89" name="Imzani" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="6bcf89f1-dd5c-c4ba-0b1a-437b0bae604b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Skimmer - Imzani" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="972e21dd-17ca-5816-f1c5-3971c71ae7d8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Imzani - Maelstrom Pulse Cannons" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="8ef3c9ff-70e9-a4f8-2020-a1aa797ee9f9" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7d418109-64be-a99c-0bf3-466c02350e21" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="68989ede-02ae-c860-e078-e35a7bcc4f62" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="a65a4f92-4271-7588-8430-11a1c2875ab2" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="15cb1d79-47d1-9952-29d4-9f6b7f905aa2" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="61016f4b-bdd8-6104-2334-328bafec827f" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="5b44-ce34-fa61-636f" targetId="4741-642c-8509-2b6a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f5ce-91ec-2e5e-b5ff" name="Light Recon Skimmer Squadron (Leviathan Helix)" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a682-0403-b723-219c" targetId="e876-a154-9146-1465" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries>
@@ -626,7 +691,7 @@
       <entryGroups>
         <entryGroup id="c87ed675-80ee-075b-9925-01d02a56d733" name="Tank Destroyer Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="e55238a6-f454-40d0-8c18-fb608cacaf25" name="Locatu" points="120.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="e55238a6-f454-40d0-8c18-fb608cacaf25" name="Locatu" points="130.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -670,9 +735,12 @@
                 <link id="d18e857b-bb79-a9cd-a630-080d33625d29" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="51ce-5e2d-d50d-cc4f" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
-            <entry id="5e78f652-a55e-27d6-9474-73840c8606a0" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="5e78f652-a55e-27d6-9474-73840c8606a0" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -737,7 +805,7 @@
                 <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -764,7 +832,7 @@
     </entryGroup>
     <entryGroup id="80849bc5-5db8-5e5f-8c1d-75e6200cd293" name="Crystal Node Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="bfe11390-cac4-78c4-2d4b-9f0b97ada3e4" name="Votari" points="40.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="bfe11390-cac4-78c4-2d4b-9f0b97ada3e4" name="Votari" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -817,7 +885,87 @@
             <link id="788a2073-954f-956e-575d-b601074623bc" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
               <modifiers/>
             </link>
-            <link id="67a2b085-0f57-66ea-8b1a-d8fc5f334dac" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="4741-642c-8509-2b6a" name="Light Recon Skimmer Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0e57-9e0d-0775-1b5c" name="Imzani" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ffa4-0cf2-3b87-75b1" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="92dd-4fd0-871b-bcb6" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="55d3-cf7e-7d4d-10a7" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b021-1e3d-8fe1-e1fb" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1f9c-b768-11f2-569d" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7c44-d5e2-e9dd-a781" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f314-a4fe-237f-af26" targetId="8705-2a9b-0270-81ef" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="02fe-de71-0d97-07b1" targetId="ddf2-aa2c-e532-7082" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="e876-a154-9146-1465" name="Light Recon Skimmer Class (Leviathan)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8f41-6672-a03e-9f0d" name="Imzani" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="021c-dafe-f69e-8b0e" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c721-119d-f76e-b713" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9d8c-9e1c-5b4f-dfad" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8615-8d82-77d3-ad2b" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b3ea-bf66-c9e2-17e9" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="20ed-3142-89f0-3b84" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c930-3452-c509-bde7" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="de8f-b005-9fc6-1086" targetId="8705-2a9b-0270-81ef" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="839a-bd2b-5c9d-1bdc" targetId="ddf2-aa2c-e532-7082" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -959,7 +1107,7 @@
             </link>
           </links>
         </entry>
-        <entry id="a9414abc-841c-8de1-aec1-bcacd069399a" name="Breacher Teams" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a9414abc-841c-8de1-aec1-bcacd069399a" name="Sweeper Teams" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -969,15 +1117,15 @@
               <characteristics>
                 <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                 <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                 <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                 <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                 <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                 <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
                 <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                 <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="-"/>
+                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -1055,6 +1203,10 @@
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
+    <rule id="8eed-685a-9d1a-9502" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
     <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
@@ -1127,6 +1279,10 @@
       <description>May act as a transport for 8 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
+    <rule id="a540-8960-48d1-3f85" name="Walker" hidden="false" book="Core Rulebook" page="77">
+      <description>May not move Flat Out through Vegation or Rivers.</description>
+      <modifiers/>
+    </rule>
     <rule id="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
@@ -1151,8 +1307,43 @@
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
+    <rule id="383d-765c-07f9-2ad4" name="Weapon MAR:Pinpoint (3)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 3d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bf58-92bb-8470-d9cc" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+      <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="8705-2a9b-0270-81ef" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Imzani - Maelstrom Pulse Cannons" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ddf2-aa2c-e532-7082" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Skimmer - Imzani" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="fc41d423-dcc8-6bf4-563f-2527e762efe4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Support - Sirsir" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
