@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="10" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="11" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1b2cbfaf-6a2f-ba2c-2cea-2451187f921d" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -160,7 +160,7 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="ddb3-862b-288b-d694" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons" hidden="false">
+                <profile id="ddb3-862b-288b-d694" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons (1)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
@@ -171,7 +171,7 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="571d-7154-cdea-cb8d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons" hidden="false">
+                <profile id="571d-7154-cdea-cb8d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons (2)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
@@ -547,6 +547,90 @@
         </link>
       </links>
     </entry>
+    <entry id="8721-0efa-5d70-c205" name="Light Walker Squadron (Leviathan Helix)" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a859-b90a-27bb-7042" name="Light Walker Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c5ec-3cc5-e1ae-12ed" name="Namisc" points="50.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="c5ec-3cc5-e1ae-12ed" childId="c5ec-3cc5-e1ae-12ed" field="selections" type="equal to" value="5.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles>
+                <profile id="5510-0c1e-ad2c-8aa8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Walker - Namisc" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
+                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="2994-47ca-2a0f-00cb" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc - Blood-Maw Toxin Projector" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="baba-d90c-6123-faa9" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="e307-9401-fab8-15a0" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2b49-e414-ede9-e2ad" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f765-37b8-1343-f7d5" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="82d9-8186-3187-ab21" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="5895-a89e-a199-66f3" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7605-6441-c0cc-6e6d" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ef5f-d59e-e891-575d" targetId="9391-70ce-0a17-2254" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries>
         <entry id="84708f28-1a1e-378d-5f58-cecbc4172e56" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
@@ -698,100 +782,6 @@
                   <modifiers/>
                 </link>
                 <link id="285ee3fe-ab35-d679-e0cd-9d75ca5d4709" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="8721-0efa-5d70-c205" name="Light Walker Squadron (Leviathan Helix)" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="a859-b90a-27bb-7042" name="Light Walker Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c5ec-3cc5-e1ae-12ed" name="Namisc" points="45.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="f7f6-ee1a-b592-1c6b" name="Kill Team" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="722b-16d3-cbc6-dd08" targetId="9391-70ce-0a17-2254" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="c5ec-3cc5-e1ae-12ed" childId="c5ec-3cc5-e1ae-12ed" field="selections" type="equal to" value="5.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles>
-                <profile id="5510-0c1e-ad2c-8aa8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Walker - Namisc" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="2994-47ca-2a0f-00cb" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc - Blood-Maw Toxin Projector" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="baba-d90c-6123-faa9" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="e307-9401-fab8-15a0" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="2b49-e414-ede9-e2ad" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="f765-37b8-1343-f7d5" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="82d9-8186-3187-ab21" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="5895-a89e-a199-66f3" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7605-6441-c0cc-6e6d" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -1031,6 +1021,10 @@
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
+    <rule id="023c-5cbf-89d0-db67" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
     <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
@@ -1041,6 +1035,10 @@
     </rule>
     <rule id="1a52ffcc-91b7-3c23-4fc9-d6261a297487" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6d17-db12-8b31-f4e4" name="Drone Nexus (16&quot;)" hidden="false" book="Core Rulebook" page="117">
+      <description>Boosts Drones to Regular and gives them +1 CQB within 16&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
     <rule id="cdd32c0e-f41b-9fc3-ce3d-1afa6efb770a" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
@@ -1061,6 +1059,10 @@
     </rule>
     <rule id="c51d047d-ed1f-4869-5867-13a763c22b37" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9391-70ce-0a17-2254" name="Kill Team" hidden="false" book="Core Rulebook" page="119">
+      <description>+1 CQB stat when initiating CQB.</description>
       <modifiers/>
     </rule>
     <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
@@ -1129,18 +1131,6 @@
     </rule>
     <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
-      <modifiers/>
-    </rule>
-    <rule id="023c-5cbf-89d0-db67" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6d17-db12-8b31-f4e4" name="Drone Nexus (16&quot;)" hidden="false" book="Core Rulebook" page="117">
-      <description>Boosts Drones to Regular and gives them +1 CQB within 16&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
-      <modifiers/>
-    </rule>
-    <rule id="9391-70ce-0a17-2254" name="Kill Team" hidden="false" book="Core Rulebook" page="119">
-      <description>+1 CQB stat when initiating CQB.</description>
       <modifiers/>
     </rule>
   </sharedRules>
