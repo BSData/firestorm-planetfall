@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5d83089c-c133-cf51-574a-7c79b443a2c5" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -120,7 +120,7 @@
     <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="37a7595b-12a9-674d-59f9-833324c92e1f" name="Heavy Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="37a7595b-12a9-674d-59f9-833324c92e1f" name="Battle Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="2f1e4261-63e7-7b14-f56d-7a17ebcd3e3a" name="Archangel" points="320.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -134,12 +134,12 @@
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
                     <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="898482b0-db83-e2f1-df64-96e364be0604" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Spear of Dramos (Right Arm)" hidden="false">
+                <profile id="898482b0-db83-e2f1-df64-96e364be0604" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Shard of Dramos (Right Arm)" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
                   </characteristics>
@@ -149,9 +149,9 @@
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
+                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="8"/>
                     <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
                     <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7 / 14"/>
@@ -193,6 +193,12 @@
                 <link id="e298-1ffe-15f4-17e4" targetId="47d398bd-45e4-164a-212e-263cbfecbe83" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="4448-f530-7b82-6a3a" targetId="e494-fa7e-a647-762a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="96ec-92aa-ea27-32af" targetId="3d36-9301-7893-1195" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -228,7 +234,7 @@
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                     <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
                     <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                     <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
@@ -236,7 +242,7 @@
                     <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
                     <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
                     <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -268,9 +274,12 @@
                 <link id="bce05eed-2dac-a2e6-df02-e5ec0a12c65d" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="1163-6747-8854-400b" targetId="e494-fa7e-a647-762a" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
-            <entry id="17be4cd0-3fc1-87a4-851b-72384ddbd537" name="Sky Drop Transport Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="17be4cd0-3fc1-87a4-851b-72384ddbd537" name="Sky Drop Emplacement Squadron" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -336,9 +345,9 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups>
-    <entryGroup id="4b942ab3-b0f6-64f6-f693-e3f8cbf68a5a" name="Sky Drop Transport Class" defaultEntryId="1f50d773-117a-c8e3-ed97-394aebfb35cc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="4b942ab3-b0f6-64f6-f693-e3f8cbf68a5a" name="Sky Drop Emplacement Class" defaultEntryId="1f50d773-117a-c8e3-ed97-394aebfb35cc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="1f50d773-117a-c8e3-ed97-394aebfb35cc" name="Temple of Dramos" points="200.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1f50d773-117a-c8e3-ed97-394aebfb35cc" name="Temple of Dramos" points="240.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -371,6 +380,17 @@
               </characteristics>
               <modifiers/>
             </profile>
+            <profile id="7859-2d0e-ef6e-6b8d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nexus Designator - Temple of Dramos" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
           </profiles>
           <links>
             <link id="638acc94-5b80-e749-4df9-969d9c6e677d" targetId="047c5a03-e8a3-5771-00f3-3f4477fe7d16" linkType="rule">
@@ -379,10 +399,10 @@
             <link id="fed396a6-903b-840c-77ef-4f40cfcee67f" targetId="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" linkType="rule">
               <modifiers/>
             </link>
-            <link id="0892fcbf-e396-5cea-6ec4-5dc49457bb43" targetId="9a6378e7-4fe0-d97d-0dd4-0b547c672db7" linkType="rule">
+            <link id="0892fcbf-e396-5cea-6ec4-5dc49457bb43" targetId="e494-fa7e-a647-762a" linkType="rule">
               <modifiers/>
             </link>
-            <link id="a5717e34-45b0-c670-1c25-f43c5f8268d8" targetId="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" linkType="rule">
+            <link id="a5717e34-45b0-c670-1c25-f43c5f8268d8" targetId="a4c7-b0b5-7aaf-dfdd" linkType="rule">
               <modifiers/>
             </link>
             <link id="fc4ccabe-c93f-c208-8036-b0abc7d5f524" targetId="82856ae3-a39a-94fd-a699-3c82332b51de" linkType="rule">
@@ -395,6 +415,24 @@
               <modifiers/>
             </link>
             <link id="4d0c9cc8-523c-c01f-b218-c4d40e8cf5d1" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="82d5-0a65-0a67-7e14" targetId="0157-e9f1-834f-6437" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4331-3c58-e717-cc03" targetId="7b19-63d3-964d-b166" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1dcd-31cb-1d2c-35ea" targetId="db65-4e85-2ec1-646b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="570b-4a5a-7b8d-d3c2" targetId="089f3202-6c90-42cf-9e58-e1f5af7e5da2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="03dd-9a6c-dd16-5184" targetId="47d398bd-45e4-164a-212e-263cbfecbe83" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="577f-40d9-9f65-1b22" targetId="e758-888a-4e0b-c003" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -414,8 +452,8 @@
       <description>All Rense System Navy elements ignore the effects of Debilitating Effect Markers on their DR rating.</description>
       <modifiers/>
     </rule>
-    <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
-      <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+    <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+      <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="064598f7-0c15-ec8a-aacf-fb40d8519488" name="Drone" hidden="false" book="Core Rulebook" page="117">
@@ -430,8 +468,8 @@
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Fearless Radius" hidden="false" book="Dindrenzi ORBATS" page="7">
-      <description>Once deployed, all Dindrenzi Squadrons within 16&quot; gain the Fearless MAR.</description>
+    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Remember Dramos" hidden="false" book="Dindrenzi ORBATS" page="11">
+      <description>Once deployed, all friendly Dindrenzi or Rense System Navy Elements within 16” gain the Fearless MAR if there are any Terran Alliance or Hawker Industries forces on the Battlefield.</description>
       <modifiers/>
     </rule>
     <rule id="5249f2ef-39ba-92cf-881c-227d5b46c9a2" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
@@ -446,7 +484,7 @@
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Must Sky Drop" hidden="false">
+    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Sky Drop Asset" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
@@ -454,8 +492,8 @@
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
     </rule>
-    <rule id="208c6fd2-a5e4-5268-5cff-21b80130b01c" name="Spear of Dramos" hidden="false" book="Dindreni ORBATS" page="7">
-      <description>The Spear of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
+    <rule id="208c6fd2-a5e4-5268-5cff-21b80130b01c" name="Shard of Dramos" hidden="false" book="Dindreni ORBATS" page="7">
+      <description>The Shard of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
       <modifiers/>
     </rule>
     <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
@@ -464,7 +502,7 @@ May not Flat Out over Rough Ground / Craters.
 Increase Movement by 3&quot; on  Roads.</description>
       <modifiers/>
     </rule>
-    <rule id="73f23270-e577-c50f-68e6-b27141363ec2" name="Transport (Seraph Light Drone Tanks, 6)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="73f23270-e577-c50f-68e6-b27141363ec2" name="Transport (Seraph Light Drones Only, 6)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 6 slots worth of Seraph Light Drone Tanks.</description>
       <modifiers/>
     </rule>
@@ -482,6 +520,34 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e494-fa7e-a647-762a" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
+      <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3d36-9301-7893-1195" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
+      <description>Places 1 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a4c7-b0b5-7aaf-dfdd" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
+      <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0157-e9f1-834f-6437" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+      <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7b19-63d3-964d-b166" name="Command Centre" hidden="false" book="Dindrenzi ORBATs" page="11">
+      <description>A Force that contains this model may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size.</description>
+      <modifiers/>
+    </rule>
+    <rule id="db65-4e85-2ec1-646b" name="Improved Target Nexus" hidden="false" book="Dindrenzi ORBATs" page="11">
+      <description>If the Temple of Dramos successfully targets an enemy target squadron with its Target Lock, all Seraph Drones within Drone Nexus Range gain a Placed Bonus when firing at the same target squadron with Main Ordnance Weapons for that turn only!</description>
+      <modifiers/>
+    </rule>
+    <rule id="e758-888a-4e0b-c003" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
   </sharedRules>

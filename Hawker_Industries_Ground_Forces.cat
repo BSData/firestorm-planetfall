@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="262b6f02-ded5-8aef-6619-55f0f93b2468" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -122,7 +122,7 @@
       <entryGroups>
         <entryGroup id="ec1333f6-1499-65a3-eb3d-0a65cb8f4177" name="Heavy Attack Fighter Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="a1e4141b-7ec2-e4dd-13a3-8c145c78d10e" name="Guardsman" points="95.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a1e4141b-7ec2-e4dd-13a3-8c145c78d10e" name="Guardsman" points="85.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -143,7 +143,7 @@
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="20"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="3"/>
+                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
                     <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="3"/>
                     <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
                     <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
@@ -166,7 +166,7 @@
                 <link id="f855db80-053b-53a9-a3c8-9d61d20310b3" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
                   <modifiers/>
                 </link>
-                <link id="b4878787-8748-c26d-6b49-765914be14d1" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+                <link id="b4878787-8748-c26d-6b49-765914be14d1" targetId="29d9-0d96-60ff-510f" linkType="rule">
                   <modifiers/>
                 </link>
                 <link id="6ed0c77d-4749-c802-2fc7-ecf96bd40245" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
@@ -219,10 +219,10 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="dba00171-c312-c2ad-82bc-910c850e1d55" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator" hidden="false">
+                <profile id="dba00171-c312-c2ad-82bc-910c850e1d55" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator (1)" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
@@ -238,6 +238,17 @@
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
                     <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
                     <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor / Pinpoint (1)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="fd18-7233-d889-5cf2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator (2)" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -354,8 +365,8 @@
       <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
-      <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
+    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Multipurpose Assault" hidden="false" book="Terran Alliance ORBAT" page="10">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
     <rule id="8774c1ed-d743-feda-ac5e-58258e685dec" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
@@ -402,6 +413,10 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
+      <modifiers/>
+    </rule>
+    <rule id="29d9-0d96-60ff-510f" name="Ground Attack" hidden="false" book="Terran Alliance ORBATs" page="10">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
   </sharedRules>
