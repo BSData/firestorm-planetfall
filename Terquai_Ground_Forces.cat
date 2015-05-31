@@ -214,14 +214,9 @@
               <entries/>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="b6d5-bb98-e04f-0804" name="May Use Temporal Portals" hidden="false" book="Aquan ORBATS" page="8">
-                  <description>This squadronmay use Temporal Portals.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
+              <rules/>
               <profiles>
-                <profile id="ede227a7-42d3-b57c-202c-56fb39ea5c0a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Infantry - Nabis" hidden="false">
+                <profile id="ede227a7-42d3-b57c-202c-56fb39ea5c0a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Infantry - Nabis Cadre" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
                     <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -249,6 +244,9 @@
                   <modifiers/>
                 </link>
                 <link id="3bd6b048-4e1a-3794-b0b1-b2982e1818d4" targetId="7490be39-1253-267f-bd1a-eb0a1c31a85a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f463-1edd-7a9a-3022" targetId="66ea-ea88-9d43-44c6" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -403,8 +401,12 @@
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="61ce68cc-7a35-94d5-876b-4f104b1dc706" name="Must Sky Drop" hidden="false">
-      <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
+    <rule id="61ce68cc-7a35-94d5-876b-4f104b1dc706" name="Sky Drop Asset" hidden="false">
+      <description>Unless otherwise noted, this model MUST deploy via Sky Drop. (Page 79 of Core Rulebook)</description>
+      <modifiers/>
+    </rule>
+    <rule id="6721-4bad-1932-7fb7" name="Ground Attack" hidden="false" book="Terran Alliance ORBAT" page="7">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
     <rule id="4cdda248-fbaa-0c30-608f-2ab1677ea2d1" name="Portal Technology (Nabis Drones Only)" hidden="false" book="Core Rulebook" page="82">
@@ -443,8 +445,8 @@
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
-    <rule id="6721-4bad-1932-7fb7" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
-      <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
+    <rule id="66ea-ea88-9d43-44c6" name="Portal Capable" hidden="false" book="Aquan ORBATs" page="11">
+      <description>This Squadron may make use of Temporal Portals.</description>
       <modifiers/>
     </rule>
   </sharedRules>

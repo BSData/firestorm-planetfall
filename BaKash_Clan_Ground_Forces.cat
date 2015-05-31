@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0decf52f-8ec8-ca08-9058-76d87f6a1f13" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2396a105-a149-d475-24b5-49a61dda52c8" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -146,7 +146,7 @@
                 </profile>
                 <profile id="1466bafc-0dd4-9e86-6729-5589ef595d6d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko - Dirge Missiles" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
@@ -167,6 +167,12 @@
                   <modifiers/>
                 </link>
                 <link id="1bf14ec0-b626-9557-4ef7-9d4409450b4b" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="63d9-f060-fe47-66b6" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6b55-04f6-7226-e2e5" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -211,7 +217,7 @@
                 </profile>
                 <profile id="b0b2f4ae-5d6a-25b1-1ed3-500793272e51" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Dual Dirge Missiles" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
                     <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
                     <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
                     <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
@@ -344,7 +350,7 @@
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ordnance When Flat Out" hidden="false" book="Terran Alliance ORBAT" page="7">
+    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ground Attack" hidden="false" book="Relthozan ORBAT" page="10">
       <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
