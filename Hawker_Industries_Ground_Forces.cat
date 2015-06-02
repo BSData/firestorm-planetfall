@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="262b6f02-ded5-8aef-6619-55f0f93b2468" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -117,7 +117,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f9bafef9-a232-ac05-2b43-23d035ec28ce" name="Heavy Attack Fighter Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f9bafef9-a232-ac05-2b43-23d035ec28ce" name="Heavy Attack Fighter Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ec1333f6-1499-65a3-eb3d-0a65cb8f4177" name="Heavy Attack Fighter Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -357,6 +357,10 @@
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
+    <rule id="29d9-0d96-60ff-510f" name="Ground Attack" hidden="false" book="Terran Alliance ORBATs" page="10">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models. These shots are considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
     <rule id="a2aa82e1-7bf4-e124-39ab-b4615695055e" name="Legacy Through Fortitude" hidden="false" book="Terran Alliance ORBATS" page="2">
       <description>All Hawker Industries Armoured adn Aerial elements may attempt to remove a single point of Damage from each Squadron during the Repair Segment of the End Phase on the roll of a 4+.</description>
       <modifiers/>
@@ -413,10 +417,6 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="29d9-0d96-60ff-510f" name="Ground Attack" hidden="false" book="Terran Alliance ORBATs" page="10">
-      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
   </sharedRules>
