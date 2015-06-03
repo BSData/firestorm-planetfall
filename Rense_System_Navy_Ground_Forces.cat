@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5d83089c-c133-cf51-574a-7c79b443a2c5" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -117,7 +117,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b63f8b42-17f4-2f74-a768-38eb098a020d" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="37a7595b-12a9-674d-59f9-833324c92e1f" name="Battle Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -452,12 +452,24 @@
       <description>All Rense System Navy elements ignore the effects of Debilitating Effect Markers on their DR rating.</description>
       <modifiers/>
     </rule>
+    <rule id="e494-fa7e-a647-762a" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
+      <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7b19-63d3-964d-b166" name="Command Centre" hidden="false" book="Dindrenzi ORBATs" page="11">
+      <description>A Force that contains this model may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size.</description>
+      <modifiers/>
+    </rule>
     <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
     <rule id="064598f7-0c15-ec8a-aacf-fb40d8519488" name="Drone" hidden="false" book="Core Rulebook" page="117">
       <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
+      <modifiers/>
+    </rule>
+    <rule id="a4c7-b0b5-7aaf-dfdd" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
+      <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
     <rule id="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
@@ -468,10 +480,6 @@
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Remember Dramos" hidden="false" book="Dindrenzi ORBATS" page="11">
-      <description>Once deployed, all friendly Dindrenzi or Rense System Navy Elements within 16” gain the Fearless MAR if there are any Terran Alliance or Hawker Industries forces on the Battlefield.</description>
-      <modifiers/>
-    </rule>
     <rule id="5249f2ef-39ba-92cf-881c-227d5b46c9a2" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
@@ -480,20 +488,36 @@
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
+    <rule id="db65-4e85-2ec1-646b" name="Improved Target Nexus" hidden="false" book="Dindrenzi ORBATs" page="11">
+      <description>If the Temple of Dramos successfully targets an enemy target squadron with its Target Lock, all Seraph Drones within Drone Nexus Range gain a Placed Bonus when firing at the same target squadron with Main Ordnance Weapons for that turn only!</description>
+      <modifiers/>
+    </rule>
     <rule id="9a98-0a4c-8b57-6456" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Sky Drop Asset" hidden="false">
-      <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
+    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Remember Dramos" hidden="false" book="Dindrenzi ORBATS" page="11">
+      <description>Once deployed, all friendly Dindrenzi or Rense System Navy Elements within 16” gain the Fearless MAR if there are any Terran Alliance or Hawker Industries forces on the Battlefield.</description>
+      <modifiers/>
+    </rule>
+    <rule id="208c6fd2-a5e4-5268-5cff-21b80130b01c" name="Shard of Dramos" hidden="false" book="Dindreni ORBATS" page="7">
+      <description>The Shard of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
       <modifiers/>
     </rule>
     <rule id="f952dfe9-2c8a-7f89-8063-e277b8006f7a" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
     </rule>
-    <rule id="208c6fd2-a5e4-5268-5cff-21b80130b01c" name="Shard of Dramos" hidden="false" book="Dindreni ORBATS" page="7">
-      <description>The Shard of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
+    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Sky Drop Asset" hidden="false">
+      <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
+      <modifiers/>
+    </rule>
+    <rule id="3d36-9301-7893-1195" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
+      <description>Places 1 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0157-e9f1-834f-6437" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+      <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
       <modifiers/>
     </rule>
     <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
@@ -510,6 +534,10 @@ Increase Movement by 3&quot; on  Roads.</description>
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
+    <rule id="e758-888a-4e0b-c003" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
+      <modifiers/>
+    </rule>
     <rule id="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
@@ -520,34 +548,6 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e494-fa7e-a647-762a" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
-      <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
-      <modifiers/>
-    </rule>
-    <rule id="3d36-9301-7893-1195" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
-      <description>Places 1 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
-      <modifiers/>
-    </rule>
-    <rule id="a4c7-b0b5-7aaf-dfdd" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
-      <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
-      <modifiers/>
-    </rule>
-    <rule id="0157-e9f1-834f-6437" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
-      <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7b19-63d3-964d-b166" name="Command Centre" hidden="false" book="Dindrenzi ORBATs" page="11">
-      <description>A Force that contains this model may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size.</description>
-      <modifiers/>
-    </rule>
-    <rule id="db65-4e85-2ec1-646b" name="Improved Target Nexus" hidden="false" book="Dindrenzi ORBATs" page="11">
-      <description>If the Temple of Dramos successfully targets an enemy target squadron with its Target Lock, all Seraph Drones within Drone Nexus Range gain a Placed Bonus when firing at the same target squadron with Main Ordnance Weapons for that turn only!</description>
-      <modifiers/>
-    </rule>
-    <rule id="e758-888a-4e0b-c003" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
-      <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
   </sharedRules>
