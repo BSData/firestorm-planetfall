@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="13" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="14" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c34239d3-2b44-a819-7cf2-9d43ad7591ce" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -941,81 +941,60 @@
         <entryGroup id="4f11-0181-cfd9-72ef" name="Sky Drop Field Gun Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f0f4-89a9-6dc1-5d90" name="Damocles MkI" points="80.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="f331-9591-100e-646d" name="Sky Drop Field Gun Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="b7f0-36ad-8066-51e3" name="Estock Flak Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="f331-9591-100e-646d" childId="02a9-ff29-9a0e-4239" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <rules/>
-                      <profiles>
-                        <profile id="46ac-5025-56e6-44fa" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Estock Flak Launcher" hidden="false">
-                          <characteristics>
-                            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
-                            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-                            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
-                            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
-                          </characteristics>
-                          <modifiers/>
-                        </profile>
-                      </profiles>
-                      <links>
-                        <link id="2e36-7667-7dc2-2ab5" targetId="85dd-fb63-ac39-f0f4" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="02a9-ff29-9a0e-4239" name="Flambard Assault Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="f331-9591-100e-646d" childId="b7f0-36ad-8066-51e3" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <rules/>
-                      <profiles>
-                        <profile id="39bb-8a38-2be4-5430" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Flambard Assault Launcher" hidden="false">
-                          <characteristics>
-                            <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                            <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
-                            <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-                            <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
-                            <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                            <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
-                          </characteristics>
-                          <modifiers/>
-                        </profile>
-                      </profiles>
-                      <links>
-                        <link id="abc3-ea6b-2bbf-568f" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
-                          <modifiers/>
-                        </link>
-                        <link id="202d-51ba-db5f-e39d" targetId="4e6c-b6b1-7fbe-4715" linkType="rule">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
+              <entries>
+                <entry id="37a8-4c7d-7b31-d2fc" name="Estock Flak Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
+                  <rules/>
+                  <profiles>
+                    <profile id="d8f7-5b4b-39b8-a26b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Estock Flak Launcher" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
+                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="f026-8718-d2b3-d031" targetId="85dd-fb63-ac39-f0f4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="c988-fbd2-cea5-c9c3" name="Flambard Assault Launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="c72a-1100-e4a2-8d38" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Damocles MkI - Flambard Assault Launcher" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
+                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+                        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links>
+                    <link id="3c95-99cf-5b10-1c25" targetId="b8c0d6fe-07e5-3745-cd0e-632f784170c9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="e5d3-20d6-6075-da12" targetId="4e6c-b6b1-7fbe-4715" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles>
