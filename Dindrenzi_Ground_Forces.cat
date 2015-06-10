@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="15" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82cf9abe-6efb-0b47-11f2-222b52455128" revision="16" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c34239d3-2b44-a819-7cf2-9d43ad7591ce" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -497,7 +497,7 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="39e93250-d212-0c09-f563-61eaddfd9cf9" targetId="90b25066-2bed-69c0-536b-589734ad9516" linkType="entry group">
+                <link id="39e93250-d212-0c09-f563-61eaddfd9cf9" targetId="941a-c536-bc04-0a4d" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
@@ -919,7 +919,7 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="fe9a90b5-2832-abac-dcc6-f2302ddf58b1" targetId="90b25066-2bed-69c0-536b-589734ad9516" linkType="entry group">
+                <link id="fe9a90b5-2832-abac-dcc6-f2302ddf58b1" targetId="941a-c536-bc04-0a4d" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
@@ -1143,42 +1143,14 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="90b25066-2bed-69c0-536b-589734ad9516" name="Medium Specialist Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="90b25066-2bed-69c0-536b-589734ad9516" name="Medium Specialist Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="7ec39cf0-7166-6030-7ad6-6403f7707d07" name="Medium Specialist - Circe" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7ec39cf0-7166-6030-7ad6-6403f7707d07" name="Medium Specialist - Circe" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="0123a361-263c-8015-3e64-c9c20e6159f5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Specialist - Circe" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
-                <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
-                <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
-                <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
-                <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-                <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+2"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="0e1c87b1-9d8e-c043-2f6d-8a46cb21a915" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Circe - Nexus Designator" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
+          <profiles/>
           <links>
             <link id="c7a6fb21-d524-9758-10f4-31ea60118ff2" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
               <modifiers/>
@@ -1196,6 +1168,12 @@
               <modifiers/>
             </link>
             <link id="997231cc-dd9d-48b7-ed72-e181751dc1e9" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="068b-d5b7-940f-5f02" targetId="88a9-0f7e-592d-295c" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="81bf-8295-9f54-13a0" targetId="02f0-a011-b507-a353" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1446,6 +1424,46 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="941a-c536-bc04-0a4d" name="Medium Specialist Class (Heavy)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4866-6807-c512-9b6d" name="Medium Specialist - Circe" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7d59-f3ec-4439-8ee5" targetId="4bec51c1-8ed1-8edf-6e58-4e1ea62124a2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8ae0-fe5e-06f7-e6a7" targetId="2ed1a424-15a7-f77a-a41c-d7801ec890cc" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="96af-7508-3b7a-f8ce" targetId="18fbbdc5-59a6-9fa2-790b-5fe9dfe89737" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7cd1-2071-2961-0d85" targetId="8273195e-78a8-0b2f-9dcb-05cd5c0caa67" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c0af-b7e4-c598-724c" targetId="2c2792dc-c0fc-a93e-2b9b-303b78b28965" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="fc48-8a0b-dd1c-30fc" targetId="9708a154-3267-b441-cd5b-b2fe69190f8d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8ed7-8290-92b7-3ab8" targetId="88a9-0f7e-592d-295c" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="fdcc-bcdf-85f0-d6ae" targetId="02f0-a011-b507-a353" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="c8e09cc3-0f8a-2c53-2b7b-64f024f66d20" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
@@ -1665,6 +1683,33 @@
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="88a9-0f7e-592d-295c" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Circe - Nexus Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="02f0-a011-b507-a353" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Specialist - Circe" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+2"/>
       </characteristics>
       <modifiers/>
     </profile>
