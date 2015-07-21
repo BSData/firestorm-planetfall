@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2cb99ed0-3ce3-e84d-ab5f-bf959df8d391" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -320,6 +320,9 @@
             <link id="d54c88b2-031d-b6ce-6644-7730fa73907e" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
               <modifiers/>
             </link>
+            <link id="7400-3339-a070-bf57" targetId="fa01-f9ce-e0c4-bc87" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -374,6 +377,10 @@
     </rule>
     <rule id="5db56ae3-2cea-496d-291b-16c428c5d305" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fa01-f9ce-e0c4-bc87" name="Dark Stone Targeting Array" hidden="false" book="Sorylian and Veydreth ORBATs" page="9">
+      <description>When performing a Target Lock Action, a Yok-Ta may re-roll any Initial rolls of a 1.</description>
       <modifiers/>
     </rule>
   </sharedRules>
