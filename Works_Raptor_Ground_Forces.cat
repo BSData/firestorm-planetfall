@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d416a35f-6266-0269-6bad-7e01ba30c68c" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ec3396b9-c7cc-cc4f-27de-1c7dd096deb1" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -127,35 +127,7 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="40c34812-c668-8b94-a885-5fe1931c4d39" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Heavy Interceptor - GX-74 &apos;Witch&apos;" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="fa2dc036-5d0e-45f2-5abe-f5f96211fa56" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="GX-74 &apos;Witch&apos; - Liquidation Missiles" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="441cc26f-0782-788f-22d4-04fdf6f3b8fd" targetId="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" linkType="rule">
                   <modifiers/>
@@ -173,6 +145,18 @@
                   <modifiers/>
                 </link>
                 <link id="37da-5365-1ab4-7bec" targetId="c613-749d-0a4c-88f9" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="68f1-46ec-b8ee-26cb" targetId="1d3c-bdb5-1f74-b51d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6afb-3e3a-08a5-50e7" targetId="8559-239e-d8bc-aa61" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="98ec-649b-d352-9891" targetId="129f-9b69-3daa-cf58" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="f66d-a8f6-ac2e-11e6" targetId="4726-e4d2-2d38-27c6" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -233,35 +217,7 @@
                 </modifier>
               </modifiers>
               <rules/>
-              <profiles>
-                <profile id="e25627d3-b3d8-17a8-ba14-96008cd85b5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Recon Tank - LS-6 &apos;Crone&apos;" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="c00638b6-b125-4bf4-4765-d71c90598583" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="LS-6 &apos;Crone&apos; - Buy-Out Concussion Blasters" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="7a5dd644-671b-0f7a-1df9-f8436870f1f0" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
                   <modifiers/>
@@ -282,6 +238,12 @@
                   <modifiers/>
                 </link>
                 <link id="5093-bdd7-fca8-91e2" targetId="1d3c-bdb5-1f74-b51d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="65a5-fd4e-185e-82d7" targetId="dca0-aa57-03e9-49c2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="c52d-384c-b0ad-6552" targetId="827b-8625-b8e1-2212" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -315,16 +277,28 @@
       <description>Works Raptor forces have a Tactics Bonus of +1.</description>
       <modifiers/>
     </rule>
+    <rule id="fe08-ca7e-8a8c-4fc5" name="Logistic Bid Max" hidden="false">
+      <description>Up to 5 Logistics Points in a single Bid Action.</description>
+      <modifiers/>
+    </rule>
   </rules>
   <links/>
   <sharedEntries/>
   <sharedEntryGroups/>
   <sharedRules>
+    <rule id="c613-749d-0a4c-88f9" name="Aerial Assault" hidden="false" book="Terran Alliance ORBAT" page="7">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed</description>
+      <modifiers/>
+    </rule>
+    <rule id="1d3c-bdb5-1f74-b51d" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
+      <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
+      <modifiers/>
+    </rule>
     <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" name="Flying" hidden="false" book="Core Rulebook" page="118">
+    <rule id="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
@@ -340,16 +314,12 @@
       <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="c613-749d-0a4c-88f9" name="Aerial Assault" hidden="false" book="Terran Alliance ORBAT" page="7">
-      <description> This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
-      <modifiers/>
-    </rule>
     <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
       <modifiers/>
     </rule>
     <rule id="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" name="Shadow Operatives" hidden="false">
-      <description>The Tactical Value Cost to play any Tactical Action Cards by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
+      <description>The Tactical Value Cost to play any TACS by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
       <modifiers/>
     </rule>
     <rule id="f798f246-b32a-ec98-bc4f-03996a6b0324" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
@@ -368,10 +338,65 @@
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="1d3c-bdb5-1f74-b51d" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
-      <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
+    <rule id="8559-239e-d8bc-aa61" name="Dogfighter" hidden="false">
+      <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="129f-9b69-3daa-cf58" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="GX-74 &apos;Witch&apos; - Liquidation Missiles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4726-e4d2-2d38-27c6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="GX-74 &apos;Witch&apos; Heavy Interceptor" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="dca0-aa57-03e9-49c2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="LS-6 &apos;Crone&apos; - Buy-Out Concussion Blasters" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="827b-8625-b8e1-2212" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="LS-6 &apos;Crone&apos; Recon Tank" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>

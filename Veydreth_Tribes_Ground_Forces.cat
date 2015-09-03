@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2cb99ed0-3ce3-e84d-ab5f-bf959df8d391" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -127,35 +127,7 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="e25627d3-b3d8-17a8-ba14-96008cd85b5c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Recon Skiff - Nuk-Su" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="c00638b6-b125-4bf4-4765-d71c90598583" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="7a5dd644-671b-0f7a-1df9-f8436870f1f0" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
                   <modifiers/>
@@ -170,6 +142,12 @@
                   <modifiers/>
                 </link>
                 <link id="6908fedc-1815-7b02-8fd5-aee67f47729a" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="060f-9c97-6084-1e65" targetId="af33-d028-7f57-ddb4" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="e920-e7d8-5b26-803d" targetId="dfa2-29c8-95bf-08ce" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -236,6 +214,10 @@
       <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
+    <rule id="f528-af48-fe69-a7e0" name="Logistic Bid Max" hidden="false">
+      <description>Up to 4 Logistics Points in a single Bid Action.</description>
+      <modifiers/>
+    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -252,46 +234,7 @@
               <modifiers/>
             </rule>
           </rules>
-          <profiles>
-            <profile id="2324b9a3-f456-99ea-a809-f5dbc6193663" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Medium Recon Skiff - Yok-Ta" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
-                <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
-                <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
-                <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
-                <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-                <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="3388ee00-2942-4290-44b3-d2f1d8a897b5" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Dual Ikori Beam Lance" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
-                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="dfc5ba88-1322-3677-04c1-bc481fdf7be7" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Nexus Designator" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
+          <profiles/>
           <links>
             <link id="9c0fa54c-9d67-fe77-10a3-51df5a98d145" targetId="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" linkType="rule">
               <modifiers/>
@@ -323,6 +266,15 @@
             <link id="7400-3339-a070-bf57" targetId="fa01-f9ce-e0c4-bc87" linkType="rule">
               <modifiers/>
             </link>
+            <link id="a75a-01ed-2304-bc7e" targetId="5525-7f9e-d56b-454a" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="5c55-dbbb-8101-74d7" targetId="8af7-26a3-ef3d-78db" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="09c9-a9d5-c45e-801c" targetId="e044-c70b-2230-6ab0" linkType="profile">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -347,6 +299,10 @@
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
+    <rule id="fa01-f9ce-e0c4-bc87" name="Dark Stone Targeting Array" hidden="false" book="Sorylian and Veydreth ORBATs" page="9">
+      <description>When performing a Target Lock Action, a Yok-Ta may re-roll any Initial rolls of a 1.</description>
+      <modifiers/>
+    </rule>
     <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
@@ -364,7 +320,7 @@
       <modifiers/>
     </rule>
     <rule id="1d9d980a-371e-0ac9-c27e-983297d7e2a4" name="Supreme Hunters" hidden="false" book="Sorylian ORBATS" page="2">
-      <description> All Veydreth elements using Pinpoint Weapons during a Main Ordnance Attack may re-roll a single dice when determining if a Pinpoint Attack has caused an additional point of Damage.</description>
+      <description>Any Veydreth Attacks using Pinpoint Weapons during a Main Ordnance Attack may re-roll a single dice when determining if a Pinpoint Attack was successful.</description>
       <modifiers/>
     </rule>
     <rule id="25015a86-21a2-911a-aa69-6f9a20620507" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
@@ -379,10 +335,72 @@
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="fa01-f9ce-e0c4-bc87" name="Dark Stone Targeting Array" hidden="false" book="Sorylian and Veydreth ORBATs" page="9">
-      <description>When performing a Target Lock Action, a Yok-Ta may re-roll any Initial rolls of a 1.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="5525-7f9e-d56b-454a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yok-Ta Medium Recon Skiff" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8af7-26a3-ef3d-78db" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Dual Ikori Beam Lance" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e044-c70b-2230-6ab0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Nexus Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="af33-d028-7f57-ddb4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nuk-Su Light Recon Skiff" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="dfa2-29c8-95bf-08ce" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>

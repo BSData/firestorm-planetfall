@@ -127,41 +127,7 @@
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="607d6400-515a-d4b6-adfb-e50813583982" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="898482b0-db83-e2f1-df64-96e364be0604" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Shard of Dramos (Right Arm)" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="4f44c3c6-1314-f75e-3f6f-0a1a0c97153b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Battle Robot - Archangel" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="8"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7 / 14"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="e2cb44b7-a36d-d0ec-1b4f-9b2108541b30" targetId="34bb965a-75d5-909e-b0a7-21704d463208" linkType="rule">
                   <modifiers/>
@@ -176,9 +142,6 @@
                   <modifiers/>
                 </link>
                 <link id="db091751-7d4a-3792-1324-01284139a83f" targetId="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="78291fe3-916a-ee39-6d14-6e9fd9683db7" targetId="208c6fd2-a5e4-5268-5cff-21b80130b01c" linkType="rule">
                   <modifiers/>
                 </link>
                 <link id="6920a1b0-1c5a-1489-89f3-cf03c2665798" targetId="f952dfe9-2c8a-7f89-8063-e277b8006f7a" linkType="rule">
@@ -197,6 +160,21 @@
                   <modifiers/>
                 </link>
                 <link id="96ec-92aa-ea27-32af" targetId="3d36-9301-7893-1195" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="b187-8aba-dc73-4f17" targetId="718d-f868-a915-7770" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="dfb7-fd04-a13c-3cbd" targetId="3934-a96c-e178-65e1" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="5961-32b5-9146-cd8a" targetId="12fd-48b7-02c4-1f28" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="7bb7-c1e0-ee95-b079" targetId="7054-d323-92d3-85e4" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="d956-7f78-4e44-5738" targetId="dfdd-1bd7-d42c-952e" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -224,40 +202,12 @@
       <entryGroups>
         <entryGroup id="15659c29-311f-8888-2314-386dbaed8bb0" name="Light Drone Tank Class" defaultEntryId="ba189c00-5f9e-90e2-fdfd-47cc1adeb8b4" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="ba189c00-5f9e-90e2-fdfd-47cc1adeb8b4" name="Seraph" points="55.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="ba189c00-5f9e-90e2-fdfd-47cc1adeb8b4" name="Seraph" points="50.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles>
-                <profile id="3ea1d49b-527d-7841-78b2-0f4eff1199d5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Light Drone Tank - Seraph" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
-                    <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
-                    <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-                    <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-                    <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                    <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                    <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                    <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                    <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-                    <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-                    <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="746100a7-4dfe-8d0b-8421-77fce337b883" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Seraph - Asmodian Laser" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-                    <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
-                    <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-                    <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="2"/>
-                    <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                    <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
+              <profiles/>
               <links>
                 <link id="ff8360e5-1ab6-3fa1-d81a-6ff6bb2c4d1a" targetId="064598f7-0c15-ec8a-aacf-fb40d8519488" linkType="rule">
                   <modifiers/>
@@ -275,6 +225,12 @@
                   <modifiers/>
                 </link>
                 <link id="1163-6747-8854-400b" targetId="e494-fa7e-a647-762a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7a92-469c-30d4-9dd6" targetId="5af6-292c-52ae-c072" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="46b8-82de-a447-884e" targetId="561b-215b-e597-0222" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -341,6 +297,10 @@
       <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
       <modifiers/>
     </rule>
+    <rule id="f13c-d766-9e50-2f81" name="Logistic Bid Max" hidden="false">
+      <description>Up to 3 Logistics Points in a single Bid Action.</description>
+      <modifiers/>
+    </rule>
   </rules>
   <links/>
   <sharedEntries/>
@@ -352,46 +312,7 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="43875354-e1a2-64d7-7b60-90a6a3eb48ba" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sky Drop Transport - Temple of Dramos" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
-                <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
-                <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
-                <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
-                <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="6"/>
-                <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-                <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
-                <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-                <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-                <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="cf2d9a79-2c39-323a-0164-ef614edd7408" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Clamare Missiles - Temple of Dramos" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
-                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="7859-2d0e-ef6e-6b8d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nexus Designator - Temple of Dramos" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-                <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
-                <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-                <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-                <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-                <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
+          <profiles/>
           <links>
             <link id="638acc94-5b80-e749-4df9-969d9c6e677d" targetId="047c5a03-e8a3-5771-00f3-3f4477fe7d16" linkType="rule">
               <modifiers/>
@@ -433,6 +354,15 @@
               <modifiers/>
             </link>
             <link id="577f-40d9-9f65-1b22" targetId="e758-888a-4e0b-c003" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f0f3-de8f-38cc-ead9" targetId="3d92-c01c-bc9e-f4be" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="6383-9834-5931-4bd9" targetId="5a35-340f-52e9-83e8" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="89ce-56e2-4772-f9d3" targetId="4d25-c3fd-78c9-f4e7" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -500,10 +430,6 @@
       <description>Once deployed, all friendly Dindrenzi or Rense System Navy Elements within 16” gain the Fearless MAR if there are any Terran Alliance or Hawker Industries forces on the Battlefield.</description>
       <modifiers/>
     </rule>
-    <rule id="208c6fd2-a5e4-5268-5cff-21b80130b01c" name="Shard of Dramos" hidden="false" book="Dindreni ORBATS" page="7">
-      <description>The Shard of Dramos grants the Pinpoint (4) MAR in Leviathan CQB.</description>
-      <modifiers/>
-    </rule>
     <rule id="f952dfe9-2c8a-7f89-8063-e277b8006f7a" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
@@ -550,6 +476,120 @@ Increase Movement by 3&quot; on  Roads.</description>
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
+    <rule id="dfdd-1bd7-d42c-952e" name="Thunderous Charge" hidden="false">
+      <description>The model may perform a Leviathan CQB Action after moving Flat Out. This CQB Attack is considered to be Rushed</description>
+      <modifiers/>
+    </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="718d-f868-a915-7770" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7054-d323-92d3-85e4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Nexus Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3934-a96c-e178-65e1" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Shard of Dramos (Right Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="12fd-48b7-02c4-1f28" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Archangel Battle Robot" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="8"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7 / 14"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="561b-215b-e597-0222" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Seraph - Asmodian Laser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="2"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5af6-292c-52ae-c072" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Seraph Light Drone Tank" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3d92-c01c-bc9e-f4be" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple of Dramos - Clamare Missiles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5a35-340f-52e9-83e8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple of Dramos - Nexus Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4d25-c3fd-78c9-f4e7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Temple of Dramos Sky Drop Transport" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
