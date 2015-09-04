@@ -641,7 +641,7 @@ Squadron in all respects. </description>
     </entry>
     <entry id="d75f-5ceb-b111-6ec4" name="Light Infantry Cadre (Recon)" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="8777-3a32-650e-7e92" name="Infantry Transport" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8777-3a32-650e-7e92" name="Infantry Transport" points="120.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1022,7 +1022,7 @@ Squadron in all respects. </description>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="70ab-b16a-51eb-5a66" name="Combat Carrier" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="70ab-b16a-51eb-5a66" name="Combat Carrier" defaultEntryId="3882-307e-55cd-ad71" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="3882-307e-55cd-ad71" name="Intruder" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1384,6 +1384,10 @@ Squadron in all respects. </description>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="33de-a895-3856-de53" name="Aerial Assault" hidden="false">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
     <rule id="c0c2-d492-196d-f831" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
       <modifiers/>
@@ -1404,8 +1408,16 @@ Squadron in all respects. </description>
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
+    <rule id="23ba-590b-b525-7129" name="Dogfighter" hidden="false">
+      <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
+      <modifiers/>
+    </rule>
     <rule id="4613ea28-7967-cf06-2598-54a04f518d0c" name="Drone" hidden="false" book="Core Rulebook" page="117">
       <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
+      <modifiers/>
+    </rule>
+    <rule id="8035-9726-d9bb-9428" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
+      <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
     <rule id="5073fa66-60e6-e7cc-4115-93f9402325ac" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
@@ -1508,18 +1520,6 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="00228c5e-1a4a-3024-a355-12c23457915d" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="8035-9726-d9bb-9428" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
-      <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
-      <modifiers/>
-    </rule>
-    <rule id="33de-a895-3856-de53" name="Aerial Assault" hidden="false">
-      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
-      <modifiers/>
-    </rule>
-    <rule id="23ba-590b-b525-7129" name="Dogfighter" hidden="false">
-      <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
       <modifiers/>
     </rule>
   </sharedRules>
