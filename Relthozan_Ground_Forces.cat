@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="15" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="73fa634d-bdef-1e41-847f-a2b920d27b7e" revision="16" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1b2cbfaf-6a2f-ba2c-2cea-2451187f921d" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -178,6 +178,58 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="4c35-63a1-7cf4-61fc" name="Drone Pod Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a065-657e-cb58-fefc" name="Drone Pod Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c6cd-e048-be4b-9fc4" name="Halamasc" points="115.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="68cc-b244-f26b-2bc3" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="87f3-8b41-f4e0-4294" targetId="494e-8904-f772-1395" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1e81-ae79-7923-810c" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="dd5f-967a-5370-3699" targetId="c4e7-84a1-1139-4280" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="09b5-0ae4-f9b7-12ad" targetId="8b69-cfa9-8ca9-2c53" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f874-d625-6c75-a0ef" targetId="ccc4-55b4-9e02-af91" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ac3e-8a10-0069-ac7d" targetId="7202-2a26-2135-2f6b" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6f46-a965-a657-1596" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="1822-19f9-4e0e-f2ab" targetId="12de-4a54-dfe7-4b06" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="a37e-492a-2e2a-c815" name="Firepower Leviathan" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -252,7 +304,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="4f51-e616-be65-c333" name="Heavy Battle Suit Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4f51-e616-be65-c333" name="Heavy Battle Suit Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b08d-963f-9632-0820" name="Heavy Battle Suit Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -312,58 +364,6 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="4c35-63a1-7cf4-61fc" name="Drone Pod Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="a065-657e-cb58-fefc" name="Drone Pod Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c6cd-e048-be4b-9fc4" name="Halamasc" points="115.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="68cc-b244-f26b-2bc3" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="87f3-8b41-f4e0-4294" targetId="494e-8904-f772-1395" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="1e81-ae79-7923-810c" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="dd5f-967a-5370-3699" targetId="c4e7-84a1-1139-4280" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="09b5-0ae4-f9b7-12ad" targetId="8b69-cfa9-8ca9-2c53" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="f874-d625-6c75-a0ef" targetId="ccc4-55b4-9e02-af91" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="ac3e-8a10-0069-ac7d" targetId="7202-2a26-2135-2f6b" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6f46-a965-a657-1596" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="1822-19f9-4e0e-f2ab" targetId="12de-4a54-dfe7-4b06" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
           <links/>
         </entryGroup>
       </entryGroups>
@@ -915,6 +915,56 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="6f8f-0928-17f3-eab5" name="Light Walker Class (Leviathan Helix)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ef20-eaca-9e0a-44c9" name="Namisc" points="45.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="ef20-eaca-9e0a-44c9" childId="ef20-eaca-9e0a-44c9" field="selections" type="equal to" value="5.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0430-b343-0255-86eb" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9e68-2a8f-4bff-71c1" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d852-ed12-723b-8fa3" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="574b-299e-1d17-699c" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0350-494e-77c3-54a9" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="278a-b14e-d72c-94e1" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4e7f-ee6f-e91a-6b9b" targetId="0e6d-6c98-4961-5f4f" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="408a-bdb5-5ca6-09e4" targetId="c91d-a499-d6a5-4eaa" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="0d9b-9382-1384-caca" targetId="9391-70ce-0a17-2254" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Drop Transport Class" defaultEntryId="7c436e1c-d440-07e6-d51d-852424aa6156" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7c436e1c-d440-07e6-d51d-852424aa6156" name="Yayiss Spire" points="35.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1011,7 +1061,7 @@
       <entries>
         <entry id="2777e6d4-cd9a-6d61-5f9f-d162486d634e" name="Varic" points="95.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="ce38-0421-0bcf-5668" name="Predator" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="ce38-0421-0bcf-5668" name="Predator" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1057,58 +1107,16 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="6f8f-0928-17f3-eab5" name="Light Walker Class (Leviathan Helix)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ef20-eaca-9e0a-44c9" name="Namisc" points="45.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="ef20-eaca-9e0a-44c9" childId="ef20-eaca-9e0a-44c9" field="selections" type="equal to" value="5.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0430-b343-0255-86eb" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="9e68-2a8f-4bff-71c1" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="d852-ed12-723b-8fa3" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="574b-299e-1d17-699c" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="0350-494e-77c3-54a9" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="278a-b14e-d72c-94e1" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4e7f-ee6f-e91a-6b9b" targetId="0e6d-6c98-4961-5f4f" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="408a-bdb5-5ca6-09e4" targetId="c91d-a499-d6a5-4eaa" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="0d9b-9382-1384-caca" targetId="9391-70ce-0a17-2254" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="ccc4-55b4-9e02-af91" name="Aerial Assault" hidden="false">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a07e-2d3e-0d10-3f38" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
+      <description>May use the Artillery Support rules on Page 82.</description>
+      <modifiers/>
+    </rule>
     <rule id="ff8f7229-1785-a42e-8039-c70d0c36b0b8" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
       <modifiers/>
@@ -1133,6 +1141,10 @@
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
+    <rule id="7202-2a26-2135-2f6b" name="Dogfighter" hidden="false">
+      <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
+      <modifiers/>
+    </rule>
     <rule id="812bc5dd-edfb-99e5-e319-64efca76733f" name="Drone" hidden="false" book="Core Rulebook" page="117">
       <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
       <modifiers/>
@@ -1153,12 +1165,25 @@
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
+    <rule id="c4e7-84a1-1139-4280" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
+      <modifiers/>
+    </rule>
+    <rule id="1bc2-b75e-a67d-56bb" name="Focused Horror" hidden="false">
+      <description>If BOTH Aurelia Shard Cannons fire at the same target Squadron, the weapons gains the Terror Weapon MAR in addition to any
+other effect.</description>
+      <modifiers/>
+    </rule>
     <rule id="af75f07b-2ddb-5a31-045c-791a591e7aa5" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
     <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -2 to hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8b69-cfa9-8ca9-2c53" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">
+      <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
       <modifiers/>
     </rule>
     <rule id="c51d047d-ed1f-4869-5867-13a763c22b37" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
@@ -1253,33 +1278,8 @@
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="1bc2-b75e-a67d-56bb" name="Focused Horror" hidden="false">
-      <description>If BOTH Aurelia Shard Cannons fire at the same target Squadron, the weapons gains the Terror Weapon MAR in addition to any
-other effect.</description>
-      <modifiers/>
-    </rule>
-    <rule id="a07e-2d3e-0d10-3f38" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
-      <description>May use the Artillery Support rules on Page 82.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c4e7-84a1-1139-4280" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
-      <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
-      <modifiers/>
-    </rule>
-    <rule id="ccc4-55b4-9e02-af91" name="Aerial Assault" hidden="false">
-      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7202-2a26-2135-2f6b" name="Dogfighter" hidden="false">
-      <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
-      <modifiers/>
-    </rule>
     <rule id="178f-dd50-0c25-f136" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
-      <modifiers/>
-    </rule>
-    <rule id="8b69-cfa9-8ca9-2c53" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">
-      <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
       <modifiers/>
     </rule>
   </sharedRules>
