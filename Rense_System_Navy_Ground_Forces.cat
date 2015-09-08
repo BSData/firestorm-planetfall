@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89dec6f2-a05c-d378-f26f-bcd41376a088" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5d83089c-c133-cf51-574a-7c79b443a2c5" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -446,6 +446,10 @@
       <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
       <modifiers/>
     </rule>
+    <rule id="dfdd-1bd7-d42c-952e" name="Thunderous Charge" hidden="false">
+      <description>The model may perform a Leviathan CQB Action after moving Flat Out. This CQB Attack is considered to be Rushed</description>
+      <modifiers/>
+    </rule>
     <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
       <description>Impassable Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
 May not Flat Out over Rough Ground / Craters.
@@ -474,10 +478,6 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
     <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
-      <modifiers/>
-    </rule>
-    <rule id="dfdd-1bd7-d42c-952e" name="Thunderous Charge" hidden="false">
-      <description>The model may perform a Leviathan CQB Action after moving Flat Out. This CQB Attack is considered to be Rushed</description>
       <modifiers/>
     </rule>
   </sharedRules>
