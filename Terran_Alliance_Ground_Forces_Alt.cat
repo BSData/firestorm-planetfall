@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c672-37d7-fd48-f266" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c672-37d7-fd48-f266" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8a5c8134-e7b3-6f97-6e23-f5c2f0b28e6f" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -830,35 +830,7 @@
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
-                  <profiles>
-                    <profile id="f6fe-0d38-01a8-a0a1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Baldr - G-38 Heritage Laser" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
-                        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
-                        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
-                        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="4"/>
-                        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-                        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                    <profile id="d8fe-6ba5-2862-5e02" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Tank Destroyer - Baldr" hidden="false">
-                      <characteristics>
-                        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
-                        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
-                        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-                        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
-                        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-                        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-                        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
-                        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-                        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-                        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-                        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 7"/>
-                      </characteristics>
-                      <modifiers/>
-                    </profile>
-                  </profiles>
+                  <profiles/>
                   <links>
                     <link id="2cb3-0dc4-ddd7-2401" targetId="e253-b25f-8e97-ce50" linkType="rule">
                       <modifiers/>
@@ -879,6 +851,12 @@
                       <modifiers/>
                     </link>
                     <link id="9905-618c-d8e0-fd07" targetId="580d99d5-3b1a-8dce-6416-621d41be3782" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="f73d-ecb9-5575-c2f9" targetId="bd4a-7177-5747-2ff4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="e02a-dc68-ef42-63b1" targetId="b5f0-e014-88d9-57f5" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -1305,6 +1283,37 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="e2b5-6455-0ca0-9656" name="Medium APC Tank (Recon Helix)" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="901e-a312-97ae-53d9" name="Sinir" points="85.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="889b-16f0-54a5-bb62" targetId="73ac00b0-a06c-bf5c-4649-15608e98f913" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8408-2672-b8a7-da2b" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c4e1-f5e5-88c1-59d1" targetId="ad0a4ad2-e83a-de34-51c9-ea59b788289a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="124a-f8c1-7aab-f8e3" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="23c3-8281-6ea8-cc5a" targetId="ddea-3e12-3fbf-637b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="833f340f-6457-f3d7-75f4-8a11466e8059" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="a1930d59-1f8d-6b07-d5aa-9e4fca3b84e3" name="Gun Teams" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1380,37 +1389,6 @@
               <modifiers/>
             </link>
             <link id="6304-eeb8-81fa-6d13" targetId="8396-893f-2895-bd98" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="e2b5-6455-0ca0-9656" name="Medium APC Tank (Recon Helix)" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="901e-a312-97ae-53d9" name="Sinir" points="85.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="889b-16f0-54a5-bb62" targetId="73ac00b0-a06c-bf5c-4649-15608e98f913" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8408-2672-b8a7-da2b" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="c4e1-f5e5-88c1-59d1" targetId="ad0a4ad2-e83a-de34-51c9-ea59b788289a" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="124a-f8c1-7aab-f8e3" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="23c3-8281-6ea8-cc5a" targetId="ddea-3e12-3fbf-637b" linkType="profile">
               <modifiers/>
             </link>
           </links>
