@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf8706e9-c4a0-d517-26c3-79b6b8f22c07" revision="22" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf8706e9-c4a0-d517-26c3-79b6b8f22c07" revision="23" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8a5c8134-e7b3-6f97-6e23-f5c2f0b28e6f" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -834,6 +834,12 @@
                   <modifiers/>
                 </link>
                 <link id="fea8-f1f6-9b8f-0187" targetId="4a58362f-a0aa-76c7-1dec-81b7f88b66d0" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="7739-bbb8-bfe0-e07e" targetId="8a17-c6d3-8a75-b10e" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="f72d-5ba5-0d31-2697" targetId="0601-d927-ed34-0193" linkType="profile">
                   <modifiers/>
                 </link>
               </links>

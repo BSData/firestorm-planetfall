@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c672-37d7-fd48-f266" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c672-37d7-fd48-f266" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8a5c8134-e7b3-6f97-6e23-f5c2f0b28e6f" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -918,6 +918,12 @@
                     <link id="0254-c76a-abd7-0845" targetId="4a58362f-a0aa-76c7-1dec-81b7f88b66d0" linkType="rule">
                       <modifiers/>
                     </link>
+                    <link id="352d-b400-ebd3-9fc3" targetId="0601-d927-ed34-0193" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="67df-88f7-a5fa-a0e7" targetId="8a17-c6d3-8a75-b10e" linkType="profile">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -953,7 +959,7 @@
                 </entry>
               </entries>
               <entryGroups>
-                <entryGroup id="f8bb-2a1b-cfe7-c305" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="f8bb-2a1b-cfe7-c305" name="Hirdmen Light Infantry" defaultEntryId="e6d0-f3d4-1ddd-c832" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -1212,7 +1218,7 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="31c75757-6d36-3c4a-535a-c30793e078ef" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="31c75757-6d36-3c4a-535a-c30793e078ef" name="Command" defaultEntryId="6933cd97-b016-1ddb-4591-9bb4b77f435d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="6933cd97-b016-1ddb-4591-9bb4b77f435d" name="Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1373,7 +1379,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="0f59e142-6a50-352f-9b58-026e1b505701" name="Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0f59e142-6a50-352f-9b58-026e1b505701" name="Troops" defaultEntryId="9a6ec126-a340-1190-b098-7effc3fc9e2c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="9a6ec126-a340-1190-b098-7effc3fc9e2c" name="Hirdmen" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
