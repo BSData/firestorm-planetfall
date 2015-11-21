@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d2cacba-78f2-76d0-0042-3349857a61d5" revision="8" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="37d6-1c53-7683-e408" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2cb99ed0-3ce3-e84d-ab5f-bf959df8d391" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -117,64 +117,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="78865eba-cc48-e066-8629-b8724161b131" name="Light Recon Skiff Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="e014951a-d684-604f-1f11-3f04bd988c14" name="Light Recon Skiff Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="49137048-df3a-64fa-2c41-bc99c66a08e4" name="Nuk-Su" points="60.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7a5dd644-671b-0f7a-1df9-f8436870f1f0" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="b2f0407e-42ad-1397-38c4-8debd8b403f3" targetId="a85459e2-b85f-fec7-eb38-615507af1dc4" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6c48cd9c-0d3b-9499-2404-61c6f21a639c" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="9e399793-4c7e-bbac-e3d6-b8f1a026bec7" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6908fedc-1815-7b02-8fd5-aee67f47729a" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="060f-9c97-6084-1e65" targetId="af33-d028-7f57-ddb4" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="e920-e7d8-5b26-803d" targetId="dfa2-29c8-95bf-08ce" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d544f8ee-3090-9384-8c85-bf389035c241" name="Medium Recon Skiff" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fb1d5a27-c062-de54-9c2c-3fbb4453a448" targetId="33d345d5-9dc3-d2cf-11ad-61eff9cdf552" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="cad8eac3-90db-93d8-0c95-6a042474d3bc" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries>
         <entry id="0820fb53-7326-c4c8-db9f-9e0bed9934a7" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
@@ -195,6 +137,131 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="07aa-8376-ebe5-2fd2" name="Veydreth Tribes Recon Helix" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="dc0e-7bef-2d81-7494" name="Light Recon Skiff Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="577e-2921-df56-1258" name="Light Recon Skiff Class" defaultEntryId="0c0f-d538-9f85-d3a2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="3a58-b1e5-cfb8-14b7" name="Nuk-Su" points="60.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="46ba-f6f6-5cfe-6333" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="e48c-d212-8e3a-86c2" targetId="a85459e2-b85f-fec7-eb38-615507af1dc4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="fd2a-f543-230e-c4a7" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="8e1e-1327-5269-2e00" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="48d8-d223-f538-8569" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="4f8a-c79f-8088-4705" targetId="af33-d028-7f57-ddb4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="4d47-d3da-bb9d-fafb" targetId="dfa2-29c8-95bf-08ce" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="0c0f-d538-9f85-d3a2" name="Medium Recon Skiff" points="150.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7dfa-d0f1-6f88-7f35" targetId="5a7e-893d-5a31-dd40" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="5aa2-7c4b-878a-4521" name="Light Recon Skiff Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="fc79-ae8d-78fa-e225" name="Light Recon Skiff Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="07bc-e246-b830-ff83" name="Nuk-Su" points="60.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="e702-77b7-f950-a46f" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2194-346e-2712-7b33" targetId="a85459e2-b85f-fec7-eb38-615507af1dc4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="89a3-6c53-b7b3-895d" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="ec68-2582-ffc4-c0a9" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="7300-64bc-da73-8c76" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="a784-67f7-8966-cba7" targetId="af33-d028-7f57-ddb4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="4094-1cb5-d00e-d952" targetId="dfa2-29c8-95bf-08ce" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="5dda-f62e-a8ed-8893" name="Medium Recon Skiff (Command)" points="150.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="64ed-6e74-fb61-b4a6" targetId="9ef4-4a64-08d9-ae63" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </entries>
   <rules>
@@ -222,7 +289,7 @@
   <links/>
   <sharedEntries/>
   <sharedEntryGroups>
-    <entryGroup id="33d345d5-9dc3-d2cf-11ad-61eff9cdf552" name="Medium Recon Skiff Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="5a7e-893d-5a31-dd40" name="Medium Recon Skiff Class" defaultEntryId="dacdd84a-3f29-13fe-6329-a808523bd297" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="dacdd84a-3f29-13fe-6329-a808523bd297" name="Yok-Ta" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -236,9 +303,6 @@
           </rules>
           <profiles/>
           <links>
-            <link id="9c0fa54c-9d67-fe77-10a3-51df5a98d145" targetId="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" linkType="rule">
-              <modifiers/>
-            </link>
             <link id="74ae4bc1-0d23-9596-c1c7-bfa34f90f187" targetId="b372d823-80b5-4b48-f2e0-f990abd5304a" linkType="rule">
               <modifiers/>
             </link>
@@ -279,14 +343,67 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="force type" childId="49137048-df3a-64fa-2c41-bc99c66a08e4" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="9ef4-4a64-08d9-ae63" name="Medium Recon Skiff Class (Command)" defaultEntryId="420a-be7f-bccd-f79b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="420a-be7f-bccd-f79b" name="Yok-Ta" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="2c58-b735-450d-66af" name="Primary Recon Skiff" hidden="false" book="Works Raptor ORBAT" page="8">
+              <description>Only one Medium Recon Skiff may get the Command Element (8&quot;) MAR per Helix.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="8841-5971-0bd2-26b5" targetId="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5be0-c4a4-0c31-b0fc" targetId="b372d823-80b5-4b48-f2e0-f990abd5304a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6435-b341-6563-f6e0" targetId="20448c6d-96ee-1465-dfaf-2faa1239aec8" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2f75-caf6-9ecb-b8c5" targetId="f69641b9-7a48-9d9e-7020-423c885cf21d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="dafc-0d47-db45-67ee" targetId="a85459e2-b85f-fec7-eb38-615507af1dc4" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7a0c-4efe-e333-d432" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a59f-847b-ec4c-683a" targetId="25015a86-21a2-911a-aa69-6f9a20620507" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4747-c4c4-288b-bb5b" targetId="5db56ae3-2cea-496d-291b-16c428c5d305" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0804-4365-cd15-afa5" targetId="1d9d980a-371e-0ac9-c27e-983297d7e2a4" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4b9f-ebf6-a2ad-5975" targetId="fa01-f9ce-e0c4-bc87" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a0ec-67e5-9595-3c1e" targetId="5525-7f9e-d56b-454a" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="99f6-f1e1-bf1e-713c" targetId="8af7-26a3-ef3d-78db" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="1491-a0aa-3917-8e4b" targetId="e044-c70b-2230-6ab0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
       <links/>
     </entryGroup>
   </sharedEntryGroups>
@@ -337,19 +454,30 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5525-7f9e-d56b-454a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yok-Ta Medium Recon Skiff" hidden="false">
+    <profile id="dfa2-29c8-95bf-08ce" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="af33-d028-7f57-ddb4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nuk-Su Light Recon Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+3"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -375,30 +503,19 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="af33-d028-7f57-ddb4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nuk-Su Light Recon Skiff" hidden="false">
+    <profile id="5525-7f9e-d56b-454a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yok-Ta Medium Recon Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="dfa2-29c8-95bf-08ce" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="+3"/>
       </characteristics>
       <modifiers/>
     </profile>

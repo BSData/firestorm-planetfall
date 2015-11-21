@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fffa253d-7da2-df2e-115a-e4f962390808" revision="10" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0610-e4cd-4be0-d78c" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="262b6f02-ded5-8aef-6619-55f0f93b2468" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -117,118 +117,120 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f9bafef9-a232-ac05-2b43-23d035ec28ce" name="Heavy Attack Fighter Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="ec1333f6-1499-65a3-eb3d-0a65cb8f4177" name="Heavy Attack Fighter Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="a1e4141b-7ec2-e4dd-13a3-8c145c78d10e" name="Guardsman" points="85.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+    <entry id="1b0f-0492-47cd-f0e4" name="Hawker Industries Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4529-ddda-6a15-1552" name="Heavy Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4483-b91e-37d2-4810" name="Heavy Gunship Class" defaultEntryId="60b6-2d40-276d-a48f" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="60b6-2d40-276d-a48f" name="Sheriff" points="235.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cdaf-134d-dfde-3827" targetId="e6fc0961-ace1-c55e-b401-4acca8ef380f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="d987-7595-f3ef-6c95" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="cafb-5925-1803-f61b" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="34ca-e25f-7ac2-c4b5" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="d4cf-fe19-7b90-f902" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="0993-2108-186f-fb09" targetId="fa6a026d-b99b-78e4-9187-1778fab44641" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="18d8-7226-44e6-4f47" targetId="9fc80aca-61a6-7e09-cd30-760244644f3d" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="fd17-cf85-ae07-6def" targetId="78d324e1-26b5-599c-6902-cadeeef9985c" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="f9f0-3302-d22d-bcab" targetId="34197a14-0bc0-8cfd-d73b-4d3a7ebf8a2f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="8799-9298-6e79-6d8e" targetId="1ed6-31ba-d61a-c30e" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="268f-1a03-15d3-c18c" targetId="c1af-8ddc-3cc2-a6a1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="be84-966e-deb6-5aed" targetId="0db6-bb85-03de-e94f" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="60e3-d395-db24-8829" targetId="8067-b5c3-3479-3879" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="4a943448-8c32-18e6-9d54-d19936745e8e" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="62d0a057-5559-9468-de46-880b32dfc3be" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="f855db80-053b-53a9-a3c8-9d61d20310b3" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="b4878787-8748-c26d-6b49-765914be14d1" targetId="29d9-0d96-60ff-510f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6ed0c77d-4749-c802-2fc7-ecf96bd40245" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="0394-2dbd-e1f0-3ef7" targetId="5f77-8cad-7f81-754a" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="cc4b-24a6-29c9-c2d1" targetId="86d0-a1f6-a306-262b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
+          <rules/>
+          <profiles/>
           <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="0ed92466-f9e4-9a41-1735-a902ce050313" name="Heavy Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="837de666-1f34-15e0-af3e-6889a8e67686" name="Heavy Gunship Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d9d48460-00c3-04ce-4fc6-6fbf2ba6e0d9" name="Sheriff" points="235.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+        </entry>
+        <entry id="a78b-129c-fa76-da7b" name="Heavy Attack Fighter Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="af15-676b-d463-d8c9" name="Heavy Attack Fighter Class" defaultEntryId="87ca-c8be-10b5-1809" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="87ca-c8be-10b5-1809" name="Guardsman" points="85.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="4d44-bacd-dd2d-a203" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="3944-5b34-7451-0a96" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="863a-0099-b90d-5694" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="d032-c7c7-8e53-5e7c" targetId="29d9-0d96-60ff-510f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="8af4-1ce9-db8f-5e71" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="c104-4836-38c1-2ccb" targetId="5f77-8cad-7f81-754a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="7c76-1c77-7444-1d11" targetId="86d0-a1f6-a306-262b" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="e175602c-34c1-58d8-e6c3-49e8d446e15e" targetId="e6fc0961-ace1-c55e-b401-4acca8ef380f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="353b2e2f-9125-328a-8bb7-376c0e3e993c" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="89d7b7c3-dbf9-249d-f226-ac199f275c71" targetId="501a8e86-3401-faef-7aff-9f1094200595" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="2e823694-a4f3-c8f1-d892-c4d3c48ad7c3" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="6005639d-4955-3023-80f6-af28c5732959" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="c3bafefa-dd18-d47a-ca06-99631dd27fec" targetId="fa6a026d-b99b-78e4-9187-1778fab44641" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="8b8ba8bd-4d08-ede0-1171-139f02da3af7" targetId="9fc80aca-61a6-7e09-cd30-760244644f3d" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="c2fa8ab8-39e5-a6ce-5f21-61d9c0680bec" targetId="78d324e1-26b5-599c-6902-cadeeef9985c" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="451c5358-0c8c-b242-5981-3f016f5e9865" targetId="34197a14-0bc0-8cfd-d73b-4d3a7ebf8a2f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="fad9-1ca7-2ab2-037c" targetId="1ed6-31ba-d61a-c30e" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="564f-4916-f634-683b" targetId="c1af-8ddc-3cc2-a6a1" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="7e48-a210-e194-071b" targetId="0db6-bb85-03de-e94f" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="741a-35d5-7bd9-e27d" targetId="8067-b5c3-3479-3879" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="0ed92466-f9e4-9a41-1735-a902ce050313" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="force type" childId="f9bafef9-a232-ac05-2b43-23d035ec28ce" field="selections" type="at least" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
           <links/>
-        </entryGroup>
-      </entryGroups>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -358,19 +360,30 @@ Increase Movement by 3&quot; on  Roads.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="1ed6-31ba-d61a-c30e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sheriff Heavy Gunship" hidden="false">
+    <profile id="5f77-8cad-7f81-754a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Guardsman - UX-4B Shredder Cannon" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="86d0-a1f6-a306-262b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Guardsman Heavy Attack Fighter" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="20"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -407,30 +420,19 @@ Increase Movement by 3&quot; on  Roads.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5f77-8cad-7f81-754a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Guardsman - UX-4B Shredder Cannon" hidden="false">
+    <profile id="1ed6-31ba-d61a-c30e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sheriff Heavy Gunship" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="86d0-a1f6-a306-262b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Guardsman Heavy Attack Fighter" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="20"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
       </characteristics>
       <modifiers/>
     </profile>
