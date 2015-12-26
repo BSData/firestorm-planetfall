@@ -1,7 +1,153 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="8e5c-9286-e8d6-5ee0" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Directorate" books="" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="256f-5d74-2572-d77c" name="Directorate Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4308-7762-4a9e-d366" name="Allied Forces / Naturally Allied Forces" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a5d8-3f9b-2a45-9c08" name="Allied Helix" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="44c9-fe1c-c5d1-ccb2" name="Ba&apos;Kash Clans" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b083-467c-39b4-7931" name="Ba&apos;Kash Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="095c-af4e-4055-e32c" name="Rense System Navy" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="7f24-ceab-1320-82bc" name="Rense System Navy Assault Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="b3c3-e454-1fd5-dddd" name="Dindrenzi" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="786d-9fb8-0dfa-6f57" name="Dindrenzi Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="431b-b1ff-aebf-c63d" name="Dindrenzi Heavy Armor Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="2626-5ea5-0914-755f" name="Dindrenzi Leviathan Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="f100-ab12-c18a-b1d4" name="Dindrenzi Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="c992-50c9-e767-d2e1" name="Relthozan" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="bca0-5cab-9648-3aae" name="Relthozan Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="af79-4875-87d6-6674" name="Relthozan Heavy Armor Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="de33-7cc5-5149-9e97" name="Relthozan Leviathan Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="6922-0f93-061b-f7d9" name="Relthozan Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="a81c-e73d-b8ae-cd21" name="Naturally Allied Helix" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4132-fab9-7dcc-58a8" name="Works Raptor" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="a6e5-99ae-1dc6-59b0" name="Works Raptor Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="256f-5d74-2572-d77c" name="Directorate Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="a18f-d5fa-e555-15d4" name="Desolator Heavy Battle Tank" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -103,11 +249,11 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="7267-1976-68b9-5646" name="Directorate Firepower Leviathan Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7267-1976-68b9-5646" name="Directorate Firepower Leviathan Helix" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0fa6-87fe-33d3-0958" name="Firepower Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0fa6-87fe-33d3-0958" name="Firepower Leviathan" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="35dc-8ca8-0d37-8767" name="Embarked Disruption Tank" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="35dc-8ca8-0d37-8767" name="Disruption Tank Class" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -132,14 +278,36 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="2626-5ea5-0914-755f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="af79-4875-87d6-6674" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="431b-b1ff-aebf-c63d" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="de33-7cc5-5149-9e97" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="0341-b469-a6ce-b23d" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="force type" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0341-b469-a6ce-b23d" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="bd0f-fbfd-75f0-2b4e" name="Directorate Ground Attack Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="bd0f-fbfd-75f0-2b4e" name="Directorate Ground Attack Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="730a-d351-440a-7c39" name="Shade Heavy Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="730a-d351-440a-7c39" name="Shade Heavy Ground Attack Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -151,7 +319,7 @@
             </link>
           </links>
         </entry>
-        <entry id="78e8-a1db-3ed6-14ad" name="Phantom Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="78e8-a1db-3ed6-14ad" name="Phantom Ground Attack Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -165,14 +333,81 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f100-ab12-c18a-b1d4" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="786d-9fb8-0dfa-6f57" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b083-467c-39b4-7931" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="2.0"/>
+                <condition parentId="roster" childId="bca0-5cab-9648-3aae" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="6922-0f93-061b-f7d9" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="0002-2d7c-2278-b2ce" name="Directorate Ground Command Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0002-2d7c-2278-b2ce" name="Directorate Ground Command Helix" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2001-18fe-97d4-22ae" name="Arbiter Heavy Command Barge" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2001-18fe-97d4-22ae" name="Arbiter Heavy Command Barge" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -184,7 +419,7 @@
             </link>
           </links>
         </entry>
-        <entry id="7e2e-5600-b596-8fc8" name="Trojan Cyber Warfare Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7e2e-5600-b596-8fc8" name="Trojan Cyber Warfare Tank" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -203,9 +438,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="0341-b469-a6ce-b23d" name="Directorate Heavy Armour Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0341-b469-a6ce-b23d" name="Directorate Heavy Armour Helix" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="5921-ef5b-f5d3-ea87" name="Castigator Heavy Support Tank" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5921-ef5b-f5d3-ea87" name="Castigator Heavy Support Tank" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -220,7 +455,7 @@
             </link>
           </links>
         </entry>
-        <entry id="4913-0ff2-14cc-74a9" name="Avenger Medium Tank Destroyer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4913-0ff2-14cc-74a9" name="Avenger Medium Tank Destroyer" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -237,14 +472,36 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="2626-5ea5-0914-755f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="af79-4875-87d6-6674" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="431b-b1ff-aebf-c63d" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="de33-7cc5-5149-9e97" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="7267-1976-68b9-5646" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="force type" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0341-b469-a6ce-b23d" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="84d2-00d0-0bdf-4f2b" name="Directorate Interceptor Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="84d2-00d0-0bdf-4f2b" name="Directorate Interceptor Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="122d-b09b-50bb-96c4" name="AIC-256 &apos;Revenant&apos; Heavy Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="122d-b09b-50bb-96c4" name="AIC-256 &apos;Revenant&apos; Heavy Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -256,7 +513,7 @@
             </link>
           </links>
         </entry>
-        <entry id="558b-04a9-9ade-e075" name="AIC-90 &apos;Ghost&apos; Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="558b-04a9-9ade-e075" name="AIC-90 &apos;Ghost&apos; Interceptor" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -270,14 +527,82 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f100-ab12-c18a-b1d4" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="786d-9fb8-0dfa-6f57" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b083-467c-39b4-7931" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="2.0"/>
+                <condition parentId="roster" childId="bca0-5cab-9648-3aae" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="6922-0f93-061b-f7d9" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="2.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="force type" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="64c3-3043-e64a-aefc" name="Directorate Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="64c3-3043-e64a-aefc" name="Directorate Recon Helix" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="646c-956f-ac71-60c9" name="Anachist Light Tank" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="646c-956f-ac71-60c9" name="Anachist Light Tank" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -289,7 +614,7 @@
             </link>
           </links>
         </entry>
-        <entry id="e253-1293-1525-a67c" name="Patriot Light Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e253-1293-1525-a67c" name="Patriot Light Infantry" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="8a60-5646-25b8-2cf6" name="Infantry Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -337,7 +662,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2a87-040f-e169-5ff6" name="Deadlock Heavy Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2a87-040f-e169-5ff6" name="Heavy Infantry Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="e001-d0f2-55ce-aae4" name="Infantry Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -367,7 +692,97 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f100-ab12-c18a-b1d4" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="786d-9fb8-0dfa-6f57" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b083-467c-39b4-7931" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="2.0"/>
+                <condition parentId="roster" childId="bca0-5cab-9648-3aae" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="6922-0f93-061b-f7d9" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="2.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="2.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="force type" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="64c3-3043-e64a-aefc" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bd0f-fbfd-75f0-2b4e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="84d2-00d0-0bdf-4f2b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a6e5-99ae-1dc6-59b0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -380,10 +795,9 @@
         <rule id="a541-763f-9250-8bbb" name="Instructions" hidden="false">
           <description>****** REMOVE THIS SELECTION BEFORE PRINTING ******
 
-Natural Allies will appropriately be removed from the roster, but Allied forces require the appropriate &quot;Select if a x or y Helix is taken as an Allied Helix&quot; to be added in order to calculate.
+Use the Allied Forces / Naturally Allied Forces  to add any Allied or Natural Allied Battle Groups. This will block out the Main Force Helices that are no longer available. Be sure that the points for the Natural Allies do not exceed the total of the Core Helix as Battlescribe cannot check for this.
 
 ****** NOVEMBER 26th ORBAT ******
-
 The Infantry from the Nov 26th ORBAT have been added in combination with the infantry from the Sept 1st ORBAT so you can choose which stats to use until one is made official.</description>
           <modifiers/>
         </rule>
@@ -411,51 +825,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
       </links>
-    </entry>
-    <entry id="87b6-75a9-19f4-2948" name="Select if a Leviathan or Heavy Helix is taken as an Allied Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="256f-5d74-2572-d77c" field="selections" type="equal to" value="0.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e729-9c79-fee0-aaf8" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="256f-5d74-2572-d77c" field="selections" type="equal to" value="0.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="c71a-859d-1979-f420" name="Select if an Assault or Field Support Helix is taken as an Allied Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="256f-5d74-2572-d77c" field="selections" type="equal to" value="0.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
     </entry>
   </entries>
   <rules>
@@ -554,9 +923,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="323d-b41c-601f-cbd3" targetId="23ba-590b-b525-7129" linkType="rule">
           <modifiers/>
         </link>
-        <link id="24b6-c355-e431-e7d7" targetId="3771b992-4585-88e3-419b-5d4941b75057" linkType="rule">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="c80b-c154-b259-b9d0" name="Anarchist" points="60.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -614,20 +980,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links>
             <link id="be62-9c52-9a00-231c" targetId="e7c7-0084-e935-5aab" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="category" childId="8793-355c-5bb7-f8f6" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="category" childId="8793-355c-5bb7-f8f6" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
           </links>
         </entry>
@@ -768,7 +1121,20 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     <entry id="e7c7-0084-e935-5aab" name="Deadlock Cadre" points="45.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="8793-355c-5bb7-f8f6" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="8793-355c-5bb7-f8f6" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -856,14 +1222,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
                 <entryGroup id="7ac4-84f9-f722-f775" name="Patriot Light Infantry" minSelections="3" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
-                  <modifiers>
-                    <modifier type="set" field="minSelections" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="7ac4-84f9-f722-f775" childId="7ac4-84f9-f722-f775" field="selections" type="greater than" value="3.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
                   <links>
                     <link id="32c4-6413-131b-1403" targetId="69e4-9bfe-9835-e631" linkType="entry group">
                       <modifiers/>
@@ -918,9 +1277,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="551d-27b7-34c8-0d64" targetId="98ac-d26d-d375-88db" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="91d7-faa7-4b98-d271" targetId="18d9e1b7-cf78-4481-5c63-2d0173c72507" linkType="rule">
           <modifiers/>
         </link>
       </links>

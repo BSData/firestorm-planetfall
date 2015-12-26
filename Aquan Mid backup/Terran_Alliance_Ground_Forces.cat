@@ -173,7 +173,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="be4f-4758-59ec-b3a3" targetId="3b163c89-ec5b-8eca-728e-71040db9cc72" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups>
@@ -198,28 +202,35 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
             <entry id="b5db-4e36-4e72-bf8a" name="Hirdmen Light Infantry Cadre" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="ce9e-919b-c23e-b05f" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="5a6d-6baa-3b9e-34eb" name="Light Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="ce9e-919b-c23e-b05f" childId="ce9e-919b-c23e-b05f" field="selections" type="greater than" value="4.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <links>
-                    <link id="d38d-b74e-8499-c8b5" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                    <link id="9884-8507-0f87-1901" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                    <link id="42ea-78fb-1b7d-fabb" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                  </links>
+                  <entryGroups>
+                    <entryGroup id="3deb-9b7d-698f-8535" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers>
+                        <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions>
+                            <condition parentId="5a6d-6baa-3b9e-34eb" childId="3deb-9b7d-698f-8535" field="selections" type="greater than" value="4.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <links>
+                        <link id="95b7-5609-0872-64de" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
+                          <modifiers/>
+                        </link>
+                        <link id="59d1-71ef-ea66-bc22" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
+                          <modifiers/>
+                        </link>
+                        <link id="882f-bc4c-e671-e56d" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <links/>
                 </entryGroup>
               </entryGroups>
               <modifiers/>
@@ -294,28 +305,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
     <entry id="8f48-3bc3-ee3a-b914" name="Terran Alliance Ground Attack Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="9f83-202f-1817-f300" name="Dellingr Heavy Ground Transport" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9f83-202f-1817-f300" name="Heavy Ground Transport Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="ada9-76f2-c42c-10c0" name="Heavy Ground Transport" defaultEntryId="d416-0e2c-8b08-c77b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="7152-754d-3f2d-5828" name="Embarked Huscarl Heavy Infantry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="1df6-39e9-cfb7-2be2" targetId="27c2-919a-8479-146f" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
+            <entryGroup id="ada9-76f2-c42c-10c0" name="Heavy Ground Transport Class" defaultEntryId="d416-0e2c-8b08-c77b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
               <entryGroups/>
               <modifiers/>
               <links>
                 <link id="d416-0e2c-8b08-c77b" targetId="f12a-8f59-ef91-4e96" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6962-a2a8-dc6d-dedf" targetId="27c2-919a-8479-146f" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -354,44 +355,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
     <entry id="13be-1c1f-9f6e-f826" name="Terran Alliance Ground Command Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2bc3-c4c7-39c2-45f1" name="Slepnir Heavy Command Barge" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2bc3-c4c7-39c2-45f1" name="Slepnir Heavy Command Barge" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="2973-3b7b-2465-3df7" name="Heavy Command Barge" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="86a8-7a29-79c3-d39e" name="Embarked Hirdmen Light Infantry Grand Company" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="1d64-74e2-54bb-bce1" name="Light Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups>
-                        <entryGroup id="5a0b-b7a5-9db5-6606" name="Hirdmen Light Infantry" minSelections="10" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <links>
-                            <link id="703b-d947-98ab-29c2" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
-                              <modifiers/>
-                            </link>
-                            <link id="b77c-8081-237f-a966" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
-                              <modifiers/>
-                            </link>
-                            <link id="6006-bf82-4f6c-e3a2" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entryGroup>
-                      </entryGroups>
-                      <modifiers/>
-                      <links/>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
+              <entries/>
               <entryGroups/>
               <modifiers/>
               <links>
@@ -406,15 +374,47 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="432d-34a3-50aa-9b93" name="Ullr MkI Medium Specialist Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f477-88a0-6ded-212b" name="Hirdmen Light Infantry Cadre" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="614a-4749-b04d-33cd" name="Medium Specialist Tank" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="959b-c511-131d-1cb0" name="Light Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="5fc4-9db4-c7f5-a91f" name="Hirdmen Light Infantry" minSelections="10" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="d737-4c6e-a0f1-f757" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="b5bb-8870-3fe5-3647" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="0fee-e7df-ca8f-7db0" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="432d-34a3-50aa-9b93" name="Ullr MkI Medium Specialist Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="614a-4749-b04d-33cd" name="Medium Specialist Tank" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <links>
-                <link id="701e-6276-1781-eb69" targetId="7724-0bd8-67da-04ff" linkType="entry">
+                <link id="701e-6276-1781-eb69" targetId="a11bea58-8449-1a91-5c27-156385c74581" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -446,7 +446,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="c195-c007-a91c-d057" targetId="ca41-8dd5-2f2c-338c" linkType="entry">
+                    <link id="3db9-3cfd-4ac0-5cbc" targetId="34db-8235-a38c-a249" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
@@ -478,7 +478,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="a079-7f57-073e-0043" targetId="ca41-8dd5-2f2c-338c" linkType="entry">
+                    <link id="a319-00c7-1cda-0d48" targetId="34db-8235-a38c-a249" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
@@ -507,7 +507,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
               <rules/>
               <profiles/>
               <links>
-                <link id="d65b-0a25-e6af-a5d4" targetId="ca41-8dd5-2f2c-338c" linkType="entry">
+                <link id="6658-0b4b-5830-aa84" targetId="34db-8235-a38c-a249" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -519,7 +519,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
               <entryGroups/>
               <modifiers/>
               <links>
-                <link id="47aa-36c2-b32e-dae9" targetId="9a92-2e37-d006-584a" linkType="entry">
+                <link id="5924-d6c5-1ed9-9bf4" targetId="8545-bc74-adf9-5d78" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -558,7 +558,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="0479-1682-d01a-75f3" name="Rindr Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0479-1682-d01a-75f3" name="Rindr Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="76ab-6896-1341-da47" name="Interceptor" defaultEntryId="ddd0-9221-46fd-9260" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -605,95 +605,95 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="6656-8de5-d724-d775" name="Sinir Infantry Transport (Hirdmen)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="134d-7359-4e09-ff6e" name="Embarked Hirmen Light Infantry Cadre" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="4a59-7069-e6e6-7536" name="Light Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups>
-                    <entryGroup id="b83e-38ae-45c1-ef8a" name="Hirdmen Light Infantry" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="4a59-7069-e6e6-7536" childId="b83e-38ae-45c1-ef8a" field="selections" type="greater than" value="4.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <links>
-                        <link id="20ea-5f95-e6d5-6694" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                        <link id="1483-009f-2cd0-9cd7" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                        <link id="7211-fd78-c85b-f5ea" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entryGroup>
-                  </entryGroups>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c39c-31ba-6bc9-714b" targetId="e2b5-6455-0ca0-9656" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="6159-9b91-cfd5-1a52" targetId="8774c1ed-d743-feda-ac5e-58258e685dec" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b9a9-3084-34d5-0137" name="Sinir Infantry Transport (Huscarl)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="a38f-64ab-cb4f-f832" name="Embarked Huscarl Heavy Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="0b0b-e04a-b8b0-f1af" name="Heavy Infantry" defaultEntryId="9726-b963-72eb-b933" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7609-e71c-c509-8862" name="Hirmen Light Infantry Cadre" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="7a36-5e48-5721-cdb1" name="Light Infantry" defaultEntryId="fc66-0027-d762-4165" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="fc66-0027-d762-4165" name="Sinir Infantry Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
+                  <rules/>
+                  <profiles/>
                   <links>
-                    <link id="9726-b963-72eb-b933" targetId="27c2-919a-8479-146f" linkType="entry">
+                    <link id="4bde-f586-824e-79a1" targetId="e2b5-6455-0ca0-9656" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="dd66-2242-312e-1601" targetId="8774c1ed-d743-feda-ac5e-58258e685dec" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="f8bb-2a1b-cfe7-c305" name="Hirdmen Light Infantry" defaultEntryId="e6d0-f3d4-1ddd-c832" minSelections="4" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f8bb-2a1b-cfe7-c305" childId="f8bb-2a1b-cfe7-c305" field="selections" type="greater than" value="4.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <links>
+                    <link id="a61d-c861-bdcd-803b" targetId="833f340f-6457-f3d7-75f4-8a11466e8059" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="e6d0-f3d4-1ddd-c832" targetId="0f59e142-6a50-352f-9b58-026e1b505701" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="acdb-ecf5-2edd-aa82" targetId="31c75757-6d36-3c4a-535a-c30793e078ef" linkType="entry group">
                       <modifiers/>
                     </link>
                   </links>
                 </entryGroup>
               </entryGroups>
               <modifiers/>
-              <rules/>
-              <profiles/>
               <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links>
-            <link id="04cb-2b41-09c4-0100" targetId="e2b5-6455-0ca0-9656" linkType="entry group">
+          <links/>
+        </entry>
+        <entry id="c441-2794-036e-df66" name="Huscarl Heavy Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4585-f229-02a4-35b0" name="Heavy Infantry" defaultEntryId="7dfa-a5b5-3444-d7f3" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="7dfa-a5b5-3444-d7f3" name="Sinir Infantry Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f91b-00a4-8d86-e851" targetId="e2b5-6455-0ca0-9656" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                    <link id="6e63-75e3-ddde-043d" targetId="8774c1ed-d743-feda-ac5e-58258e685dec" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
-            </link>
-            <link id="a610-6475-de43-8126" targetId="8774c1ed-d743-feda-ac5e-58258e685dec" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+              <links>
+                <link id="513f-1812-9324-2d6e" targetId="27c2-919a-8479-146f" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -742,9 +742,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="8c23-f7c9-71e7-7ef4" targetId="96e4-c76a-a200-cc86" linkType="profile">
           <modifiers/>
         </link>
-        <link id="4c39-5294-f899-9ef4" targetId="f344-2dd9-0f26-1a5d" linkType="profile">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="f12a-8f59-ef91-4e96" name="Dellingr" points="180.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -780,7 +777,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="17da-ad74-f629-1c1c" name="Freya" points="60.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="17da-ad74-f629-1c1c" name="Freya" points="55.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -919,26 +916,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     <entry id="5048-66cd-e734-ed1c" name="Hirdmen Light Infantry Cadre" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition parentId="roster" childId="c799-caad-9ff3-c008" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="category" childId="2bc3-c4c7-39c2-45f1" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="c799-caad-9ff3-c008" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
@@ -950,7 +928,15 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="27b3-bae7-c087-34dd" targetId="8396-893f-2895-bd98" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="9372-a7c0-14b4-a57c" targetId="99a1-6027-fff5-f262" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -961,14 +947,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     <entry id="eece-e042-fd5a-405a" name="Hirdmen Light Infantry Gun Team" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="52fa-2d4c-174c-66c2" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
@@ -993,7 +972,15 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="f1aa-c29d-1642-edd5" targetId="4aa7-53c1-8590-fc33" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="1a06-fccf-2d9a-ca18" targetId="1dfa-564b-4d59-3f93" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1004,14 +991,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     <entry id="5362-931e-c564-3ca9" name="Hirdmen Light Infantry Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="8b6f-ea11-a20a-c699" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
@@ -1026,7 +1006,15 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="2dec-6402-df62-2588" targetId="5547-09c3-e598-953e" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="cea5-6450-fb8a-9387" targetId="180d-a22a-f9e9-82bc" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1037,14 +1025,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     <entry id="4dba-e564-73aa-a09c" name="Hirdmen Light Infantry Sweeper Team" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="d0b7-954e-0880-d5d1" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
@@ -1059,7 +1040,15 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="3508-8553-e244-c2d9" targetId="6a37-2c11-0382-58df" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="6f11-00b9-05d9-0d0d" targetId="0378-66f9-e4bf-6557" linkType="profile">
+          <modifiers>
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="f477-88a0-6ded-212b" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -1109,6 +1098,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="32fb-8243-63a0-0501" targetId="0378-66f9-e4bf-6557" linkType="profile">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -1300,9 +1292,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
             <link id="4f22-1855-bcd6-5b5c" targetId="a53c-a7f6-9265-d361" linkType="profile">
               <modifiers/>
             </link>
-            <link id="7875-a91d-0641-801a" targetId="580d99d5-3b1a-8dce-6416-621d41be3782" linkType="rule">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -1336,14 +1325,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="82ac-3ce6-f90e-097d" targetId="10e1-884a-9a26-02a3" linkType="rule">
-          <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="6b03-9d26-7946-5966" childId="2ca9-ca91-bbf9-933e" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="592c-af9f-7ed6-33d1" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
           <modifiers/>
@@ -1355,12 +1337,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="a000-4d92-81e5-bfbb" targetId="0c9e-d1bf-6295-9ac0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="45bb-7774-8c95-a020" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1c1e-1afe-986c-c7f2" targetId="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1395,11 +1371,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="a11bea58-8449-1a91-5c27-156385c74581" name="Ullr MkI" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a11bea58-8449-1a91-5c27-156385c74581" name="Ullr MkI" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="3b163c89-ec5b-8eca-728e-71040db9cc72" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="3b163c89-ec5b-8eca-728e-71040db9cc72" incrementField="selections" incrementValue="5.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -1427,11 +1403,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="3b163c89-ec5b-8eca-728e-71040db9cc72" name="Ullr MkII" points="100.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3b163c89-ec5b-8eca-728e-71040db9cc72" name="Ullr MkII" points="100.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="a11bea58-8449-1a91-5c27-156385c74581" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="3b163c89-ec5b-8eca-728e-71040db9cc72" incrementField="selections" incrementValue="5.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -1555,11 +1531,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="9a92-2e37-d006-584a" name="Ullr MkI (Heavy Helix)" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8545-bc74-adf9-5d78" name="Ullr MkI (Heavy Helix)" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="ca41-8dd5-2f2c-338c" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="3b163c89-ec5b-8eca-728e-71040db9cc72" incrementField="selections" incrementValue="3.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -1567,31 +1543,31 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <rules/>
       <profiles/>
       <links>
-        <link id="0613-e551-9d95-6c56" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+        <link id="51a5-207c-6af5-1551" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
           <modifiers/>
         </link>
-        <link id="27fa-b40a-2334-5df5" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
+        <link id="2988-6034-1a24-11c4" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
           <modifiers/>
         </link>
-        <link id="cf01-cd9a-de10-bb6f" targetId="580d99d5-3b1a-8dce-6416-621d41be3782" linkType="rule">
+        <link id="08c7-8f45-43ae-3e1f" targetId="580d99d5-3b1a-8dce-6416-621d41be3782" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c85e-8a1a-582b-dda2" targetId="adac7cd9-69c0-263a-4f42-3dfa220a9504" linkType="profile">
+        <link id="bc85-a46a-31e7-115d" targetId="adac7cd9-69c0-263a-4f42-3dfa220a9504" linkType="profile">
           <modifiers/>
         </link>
-        <link id="4164-2a38-149d-1045" targetId="d5ca4e9b-0af1-4f75-0f25-0fbd87137207" linkType="profile">
+        <link id="6fd9-0e92-8992-e9c9" targetId="d5ca4e9b-0af1-4f75-0f25-0fbd87137207" linkType="profile">
           <modifiers/>
         </link>
-        <link id="eeed-8a41-33f3-c8af" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+        <link id="a544-609e-bd41-7ebe" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="ca41-8dd5-2f2c-338c" name="Ullr MkII (Heavy Helix)" points="100.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="34db-8235-a38c-a249" name="Ullr MkII (Heavy Helix)" points="100.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="9a92-2e37-d006-584a" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxSelections" value="0.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="3b163c89-ec5b-8eca-728e-71040db9cc72" incrementField="selections" incrementValue="3.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -1599,219 +1575,31 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <rules/>
       <profiles/>
       <links>
-        <link id="3209-f325-5ecd-8c3c" targetId="f4e42c9c-eea9-a167-1c17-60d781a60d51" linkType="rule">
+        <link id="71a4-3960-341a-a0ba" targetId="f4e42c9c-eea9-a167-1c17-60d781a60d51" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c188-2836-1d4e-14a9" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
+        <link id="a4b4-d0b4-c00b-d953" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
           <modifiers/>
         </link>
-        <link id="3223-4ed6-ec3b-5cce" targetId="c22304e5-b682-5fde-de22-38649f44b18d" linkType="profile">
+        <link id="909f-71f3-5f65-ccd0" targetId="c22304e5-b682-5fde-de22-38649f44b18d" linkType="profile">
           <modifiers/>
         </link>
-        <link id="6876-38ed-48d3-73ad" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
+        <link id="c606-32a8-0af4-6347" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
           <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7724-0bd8-67da-04ff" name="Ullr MkI (Ground Command)" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="03f1-7aa0-6c18-0a34" targetId="4e3ac4b5-c681-822a-31cc-b829972c8fd6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c7c8-c1d7-96ae-6e7e" targetId="8ed47ace-e091-ff8d-c8b2-c8e68670b620" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ef57-4174-6f05-c8c8" targetId="580d99d5-3b1a-8dce-6416-621d41be3782" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2582-a3da-d1db-f2d5" targetId="adac7cd9-69c0-263a-4f42-3dfa220a9504" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="65e7-3a3e-919f-0f0f" targetId="d5ca4e9b-0af1-4f75-0f25-0fbd87137207" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="020e-76fa-48eb-ef77" targetId="e03e0a77-7cf8-5e37-b327-7f85caf5e7ce" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c799-caad-9ff3-c008" name="Hirdmen Light Infantry Cadre (NOV 26 ORBAT)" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="5048-66cd-e734-ed1c" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="maxSelections" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition parentId="roster" childId="5048-66cd-e734-ed1c" field="selections" type="equal to" value="0.0"/>
-                <condition parentId="category" childId="2bc3-c4c7-39c2-45f1" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="4ed3-3d71-7867-e3b9" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d47a-d255-5282-85d4" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a00d-c72a-5bf6-ef8f" targetId="99a1-6027-fff5-f262" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="52fa-2d4c-174c-66c2" name="Hirdmen Light Infantry Gun Team (NOV 26 ORBAT)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="eece-e042-fd5a-405a" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1b8c-7d44-00dd-5458" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="250d-0564-1158-6ab1" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3391-3b13-1e6f-134a" targetId="09deee61-ad7d-179d-221f-d13e4866bf94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="577f-3dc4-62d5-980e" targetId="ba12-37cf-0d15-e64f" linkType="profile">
-          <modifiers>
-            <modifier type="show" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="833f340f-6457-f3d7-75f4-8a11466e8059" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="eece-e042-fd5a-405a" field="selections" type="at least" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="e301-e60e-c5a1-16a1" targetId="1dfa-564b-4d59-3f93" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="d0b7-954e-0880-d5d1" name="Hirdmen Light Infantry Sweeper Team (NOV 26 ORBAT)" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="4dba-e564-73aa-a09c" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="0a56-5230-463b-bb0f" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ab80-b216-9682-c42c" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d35d-9fdd-4b20-82e9" targetId="09deee61-ad7d-179d-221f-d13e4866bf94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1840-31e5-02a3-182d" targetId="0378-66f9-e4bf-6557" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="8b6f-ea11-a20a-c699" name="Hirdmen Light Infantry Officer (NOV 26 ORBAT)" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="5362-931e-c564-3ca9" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9c77-5d61-87db-ed6c" targetId="09deee61-ad7d-179d-221f-d13e4866bf94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1a00-5b83-2e50-5cca" targetId="282211f6-939f-d5b8-a5c9-55bd70fc504e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="76d8-3d36-a696-cb65" targetId="a12256c4-fb47-7fca-9af4-a413c5387d63" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9112-4e57-2593-4b27" targetId="180d-a22a-f9e9-82bc" linkType="profile">
-          <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="13be-1c1f-9f6e-f826" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="31c75757-6d36-3c4a-535a-c30793e078ef" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="31c75757-6d36-3c4a-535a-c30793e078ef" name="Command" defaultEntryId="bb25-7010-17d0-3db8" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="3e65-77b6-ed74-31af" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="c9af-712a-0f56-16b7" targetId="5362-931e-c564-3ca9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="21a8-a301-7c36-bce4" targetId="8b6f-ea11-a20a-c699" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="bb25-7010-17d0-3db8" targetId="5362-931e-c564-3ca9" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="893a37b6-f346-1dbd-a317-ac78685bfd52" name="Sinir Medium APC Tank" defaultEntryId="2b9e-b031-9b98-e205" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1848,49 +1636,26 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entryGroup>
     <entryGroup id="833f340f-6457-f3d7-75f4-8a11466e8059" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="663d-6226-581e-ab97" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="5504-a2f0-7c5a-7707" targetId="eece-e042-fd5a-405a" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dca0-0829-358d-4afd" targetId="52fa-2d4c-174c-66c2" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="03d2-4934-a2be-9af1" targetId="4dba-e564-73aa-a09c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bc35-6bfe-0b98-2990" targetId="d0b7-954e-0880-d5d1" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="0ecb-3c28-708a-d325" targetId="eece-e042-fd5a-405a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="10d2-3c10-cdc8-3f51" targetId="4dba-e564-73aa-a09c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="0f59e142-6a50-352f-9b58-026e1b505701" name="Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0f59e142-6a50-352f-9b58-026e1b505701" name="Troops" defaultEntryId="f437-c012-6f1c-91d4" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="d96c-716f-9d27-e637" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="719e-e1b4-d196-80c4" targetId="5048-66cd-e734-ed1c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8579-1018-01d5-5a25" targetId="c799-caad-9ff3-c008" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="f437-c012-6f1c-91d4" targetId="5048-66cd-e734-ed1c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>

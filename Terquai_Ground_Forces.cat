@@ -1,288 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd17-5d57-0da2-602f" revision="1" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai Alt" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd17-5d57-0da2-602f" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Terquai Empire" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="f4986b54-c903-a320-95a2-17589f6e7049" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c11f-15e4-6a81-5a1c" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
-      <entryGroups>
-        <entryGroup id="e401a2d2-b97d-3f98-1ecd-f2ea48227857" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b24cda15-231c-0630-65a7-95ce7ce36a24" name="Hawker Industries" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="d8651a0c-03ea-1f9e-1a96-5bfb68528463" name="Hawker Industries Artillery Attacks" hidden="false">
-                  <description>All Hawker Industries Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="084293bb-1c11-1487-298e-13a60ba01808" name="Hawker Industries Artillery Dice" hidden="false">
-                  <description>Hawker Industries Forces use Artillery with 4D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="7cd731c4-0373-ada9-4f4a-760bad6383b7" name="Hawker Industries Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="cf15b6f4-144a-3109-d384-cd3ebd772c29" name="Hawker Industries Tactical Bonus" hidden="false">
-                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="cfe0e9c9-aaba-7c17-e835-46ecadd4f196" name="Sorylian Collective" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="e70d4cff-3973-7add-2dc9-742d4067a224" name="Sorylian Collective Artillery Attacks" hidden="false">
-                  <description>All Sorylian Collective Artillery Attacks use the Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="7759e519-b343-7c28-dc5b-7648c9efe94c" name="Sorylian Collective Artillery Dice" hidden="false">
-                  <description>Sorylian Collective Forces use Artillery with 5D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="c7618aea-c9b8-e2af-11f2-5881e9d63c44" name="Sorylian Collective Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="efa44b20-80b2-b341-c5b5-16e03709436e" name="Sorylian Collective Tactical Bonus" hidden="false">
-                  <description>Sorylian Collective forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="4d7352cf-9705-7fec-e02a-d1fe61d540bd" name="Terran Alliance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="faf4e8fa-440d-302a-f86f-afcc4abef321" name="Terran Alliance Artillery Attacks" hidden="false">
-                  <description>All Terran Alliance Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="cc14f51c-ca4b-2607-3672-e9618e5c76f0" name="Terran Alliance Artillery Dice" hidden="false">
-                  <description>Terran Alliance Forces use Artillery with 4D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="508792b3-5efc-404d-da2e-85bd0633a351" name="Terran Alliance Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="5abf31cb-e6b8-39b2-e7e0-419cbe8e64a7" name="Terran Alliance Tactical Bonus" hidden="false">
-                  <description>Terran Alliance forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="8be9c485-0706-e4f9-7948-2439e15893f9" name="Veydreth Tribes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="64e179a5-0cfd-c626-33de-411b15f6cb5a" name="Veydreth Tribes Artillery Attacks" hidden="false">
-                  <description>All Veydreth Tribe Artillery Attacks use the Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="5c33841a-28d6-88a0-640c-26ded624b75b" name="Veydreth Tribes Artillery Dice" hidden="false">
-                  <description>Veydreth Tribe Forces use Artillery with 5D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="79116f86-7e8d-d25e-3d6c-7aff37cb656b" name="Veydreth Tribes Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="f34c81cb-8b77-f414-bffc-42a3abdb0f48" name="Veydreth Tribes Tactical Bonus" hidden="false">
-                  <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="ddb86f7d-6445-f964-2259-15488869ce21" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="5bd2-4b4d-0dea-77b6" name="Terquai Empire Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="c680950d-449f-48ef-e6b5-cc0188f44cf3" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+        <entry id="89be-894e-906f-e37c" name="Iophon Heavy Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
+          <entryGroups>
+            <entryGroup id="4b1e-3851-2523-a12b" name="Heavy Gunship" defaultEntryId="a542-a4e8-21a1-d11d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="a542-a4e8-21a1-d11d" targetId="a800-4a43-9d06-97f9" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="3c26-981f-7da1-db71" name="Temporal Portal" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ccd0-469e-a0cc-446c" name="Temporal Portal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7a08-a03c-59b6-0327" targetId="9e49-1252-98f8-b5cc" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links/>
         </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="f9a0107f-1df2-3b93-9202-a207aab7ea57" targetId="924ab8ac-3403-bcea-a341-c71e58c2e6ee" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5bd2-4b4d-0dea-77b6" name="Terquai Empire Recon Helix" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="89be-894e-906f-e37c" name="Heavy Gunship Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0a8b-2352-9e32-74ca" name="Nabis Heavy Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="4b1e-3851-2523-a12b" name="Heavy Gunship Class" defaultEntryId="624e-71af-bd33-65dd" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="624e-71af-bd33-65dd" name="Iophon" points="215.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="2626-9a7c-291c-a266" targetId="84c7c112-99e0-51d5-5c33-f215b285db0c" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="4cdd-4fc1-ac60-2bbd" targetId="92ad4a2c-9359-fc2a-2fd4-e8c6c01e40b7" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="4675-1f6e-4346-32ae" targetId="4fddf1fa-4639-8539-da44-031c2eaa9f9d" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="9498-5c2b-e241-f8bc" targetId="4370584d-26b1-ffc5-66ba-bc49902295ab" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="493b-1b18-8f6b-267f" targetId="18268857-4ffe-7ad7-46a3-6f965a36ae57" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="b5ab-ba72-1960-3c10" targetId="7d85f7b3-bb70-5955-2998-90d7dde550f6" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="f8bb-7d7f-2d9f-ddf9" targetId="7c57e3a0-58e5-32bc-e5d2-f75138ca17e4" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="d760-c723-4fd6-9ddf" targetId="6721-4bad-1932-7fb7" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="668e-1f65-6d2f-acc4" targetId="41aa-71e2-9255-d500" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="0325-7334-877c-ca97" targetId="e183-e9b8-ec7b-9870" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="d3b6-3f2a-dd99-eb89" targetId="d7d8-9ce1-5a5b-0c44" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
+            <entryGroup id="6eb3-bc8e-5d8c-1636" name="Heavy Infantry" defaultEntryId="a9ea-5c01-4663-bb6b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
               <entryGroups/>
               <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="3c26-981f-7da1-db71" name="Temporal Portal" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="2" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="dadb-2d5b-dbe7-933e" name="Temporal Portal" defaultEntryId="a66b-7a3c-bc55-af8f" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="a66b-7a3c-bc55-af8f" name="Temporal Portal" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
+              <links>
+                <link id="a9ea-5c01-4663-bb6b" targetId="d839-6a67-5ed2-9f9b" linkType="entry">
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="d034-d6b9-e416-3ae5" targetId="fcd755dd-6502-37aa-a0f4-588907a2b5c2" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="1f9d-014b-ec7c-c573" targetId="0654a0ed-a564-f83d-778a-cca3a6640806" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="71e4-0fb1-874f-108e" targetId="4cdda248-fbaa-0c30-608f-2ab1677ea2d1" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="06df-8957-3d17-a8ad" targetId="5134434e-bc4c-b8b4-1c31-81873e0eef3d" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="d2d8-4393-6917-eea7" targetId="41458ec0-7191-91b6-cdc1-d7ea05150f98" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="7464-9039-0991-d407" targetId="61ce68cc-7a35-94d5-876b-4f104b1dc706" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="e173-6fff-0ed4-fef6" targetId="b429-17a3-7932-ef55" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="ccb4-ee83-a600-fc8d" targetId="05bd-2760-daf6-3a3e" linkType="rule">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="0a8b-2352-9e32-74ca" name="Heavy Infantry Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="2" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="6eb3-bc8e-5d8c-1636" name="Heavy Infantry Class" defaultEntryId="4089-8b0d-e055-c830" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="4089-8b0d-e055-c830" name="Nabis" points="45.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="36fa-7eed-3c88-0715" targetId="336a2f30-3ea0-3651-1b3c-2277057aa8c3" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="1dac-7d82-00e0-8445" targetId="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="b5fd-b791-34e6-ea41" targetId="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="efc6-d041-8938-2afe" targetId="7490be39-1253-267f-bd1a-eb0a1c31a85a" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="4218-834f-890e-f7ef" targetId="66ea-ea88-9d43-44c6" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="3af0-3b06-099b-e8de" targetId="707d-2cf0-a265-b99b" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers/>
@@ -299,29 +79,128 @@
     </entry>
   </entries>
   <rules>
-    <rule id="f1893d05-bdf9-7661-8870-98a4fb026a3e" name="Artillery Attacks" hidden="false">
-      <description>All Terquai Artillery Attacks use the Barrage and Scatter MARs.</description>
+    <rule id="f1893d05-bdf9-7661-8870-98a4fb026a3e" name="Terquai Empire - Artillery Attacks" hidden="false">
+      <description>All Terquai Artillery Attacks use the Barrage and Scatter MARs  with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="7495018b-c53f-093b-dea7-9aaeab0f560f" name="Artillery Dice" hidden="false">
-      <description>Terquai Forces use Artillery with 4D6 Attack Dice.</description>
-      <modifiers/>
-    </rule>
-    <rule id="20c28010-4d80-b007-bfae-ab86885b9e1b" name="Sky Drop Capability" hidden="false">
+    <rule id="20c28010-4d80-b007-bfae-ab86885b9e1b" name="Terquai Empire - Sky Drop Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="5b81e1a8-c1a8-fd05-316f-98a576c2ab2b" name="Tactical Bonus" hidden="false">
+    <rule id="5b81e1a8-c1a8-fd05-316f-98a576c2ab2b" name="Terquai Empire - Tactical Bonus" hidden="false">
       <description>Terquai forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="6b9a-c3b6-09ae-4c68" name="Logistic Bid Max" hidden="false">
+    <rule id="6b9a-c3b6-09ae-4c68" name="Terquai Empire - Logistic Bid Max" hidden="false">
       <description>Up to 4 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="a800-4a43-9d06-97f9" name="Iophon" points="215.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f280-cf61-feac-d037" targetId="84c7c112-99e0-51d5-5c33-f215b285db0c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6496-e86a-617e-1bbd" targetId="92ad4a2c-9359-fc2a-2fd4-e8c6c01e40b7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7da0-ab2a-3902-f76b" targetId="4fddf1fa-4639-8539-da44-031c2eaa9f9d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5939-4ee6-bbe0-6a27" targetId="4370584d-26b1-ffc5-66ba-bc49902295ab" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0787-b885-daa0-0d3b" targetId="18268857-4ffe-7ad7-46a3-6f965a36ae57" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b839-b5ab-9e4c-26da" targetId="7d85f7b3-bb70-5955-2998-90d7dde550f6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="12d2-d347-3d4f-b5d5" targetId="7c57e3a0-58e5-32bc-e5d2-f75138ca17e4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b476-d327-8639-9fc8" targetId="6721-4bad-1932-7fb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="717e-459f-ea68-044d" targetId="41aa-71e2-9255-d500" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="49db-4dc0-8236-be9e" targetId="e183-e9b8-ec7b-9870" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="80cd-c121-696e-4765" targetId="d7d8-9ce1-5a5b-0c44" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d839-6a67-5ed2-9f9b" name="Nabis" points="45.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1184-8ae3-6bae-6415" targetId="336a2f30-3ea0-3651-1b3c-2277057aa8c3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e2e5-582b-7af8-d00a" targetId="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6601-5dd3-99bd-8d94" targetId="fa16c08c-56d5-2bf8-49c0-66d4d99b48b9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5717-502f-7dbd-bbb3" targetId="7490be39-1253-267f-bd1a-eb0a1c31a85a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c56b-1222-7a07-8df2" targetId="66ea-ea88-9d43-44c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2ab8-ac62-426c-6296" targetId="707d-2cf0-a265-b99b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9e49-1252-98f8-b5cc" name="Temporal Portal" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b0b7-31fc-a321-2437" targetId="fcd755dd-6502-37aa-a0f4-588907a2b5c2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="86eb-b89c-3fd3-a83a" targetId="0654a0ed-a564-f83d-778a-cca3a6640806" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="432f-ee6f-dac4-5cf1" targetId="4cdda248-fbaa-0c30-608f-2ab1677ea2d1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="af9c-2dbd-ac50-b30c" targetId="5134434e-bc4c-b8b4-1c31-81873e0eef3d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7513-21f9-b500-1158" targetId="41458ec0-7191-91b6-cdc1-d7ea05150f98" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c9a-310c-2826-bc55" targetId="61ce68cc-7a35-94d5-876b-4f104b1dc706" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a554-f8bb-eff8-6316" targetId="b429-17a3-7932-ef55" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2b83-dc36-bf75-1e89" targetId="05bd-2760-daf6-3a3e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="d105d61e-c64a-99f7-bbc7-8a2c84a995d8" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">

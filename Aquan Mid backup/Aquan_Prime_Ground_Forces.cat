@@ -1,113 +1,270 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eafd-cf56-7710-f042" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eafd-cf56-7710-f042" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="de35edc3-8d7b-5627-bf8c-8e63055a1c41" name="Allied Force Rules" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="de35edc3-8d7b-5627-bf8c-8e63055a1c41" name="Allied Forces / Naturally Allied Forces" points="0.0" categoryId="155aae08-da7a-c32d-77f7-ff1cc1bcdfce" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="10cc97ca-851f-a2d4-3f92-6181e7ec3476" name="Allied Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d47e9553-1e88-02e9-e765-041f962441a5" name="Hawker Industries" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+        <entryGroup id="10cc97ca-851f-a2d4-3f92-6181e7ec3476" name="Allied Helix" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="4bf0-e074-c95f-b9c1" name="Hawker Industries" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="70d4-c0ee-0648-28dd" name="Hawker Industries Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="a8c707ee-4ef5-0b5f-3aed-ccab60045c97" name="Hawker Industries Artillery Attacks" hidden="false">
-                  <description>All Hawker Industries Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="e10d4436-f562-4e53-e018-015f1890366d" name="Hawker Industries Artillery Dice" hidden="false">
-                  <description>Hawker Industries Forces use Artillery with 4D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="a8cb9e1e-6689-d335-bbdd-ca0c8ee5d275" name="Hawker Industries Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="bcf84c6c-e6d1-6648-2375-51c2f67ea563" name="Hawker Industries Tactical Bonus" hidden="false">
-                  <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
-            </entry>
-            <entry id="dcf98349-f0f3-91cc-b291-e89ea714c9bb" name="Sorylian Collective" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+            </entryGroup>
+            <entryGroup id="bf48-be40-5e58-b9e5" name="Veydreth Tribes" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="d6a2-b416-e4ae-317d" name="Veydreth Tribes Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="ba1bba01-50d5-203e-27d7-5e91ae2a9137" name="Sorylian Collective Artillery Attacks" hidden="false">
-                  <description>All Sorylian Collective Artillery Attacks use the Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="e4c5b4b2-f370-f36d-b0b0-ea92ccd0e828" name="Sorylian Collective Artillery Dice" hidden="false">
-                  <description>Sorylian Collective Forces use Artillery with 5D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="c7b1baf3-4fb9-fa24-fd33-c40a7e65297a" name="Sorylian Collective Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="7104bf5a-5870-506e-5505-3bd80f1f950f" name="Sorylian Collective Tactical Bonus" hidden="false">
-                  <description>Sorylian Collective forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
-            </entry>
-            <entry id="667d07ba-a9a7-b1d7-8ae4-d607b449b87f" name="Terran Alliance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+            </entryGroup>
+            <entryGroup id="818a-c0e2-67d2-cbd1" name="Terran Alliance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="c42a-6d83-1e34-e663" name="Terran Alliance Leviathan Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b61f-a900-5b2a-bb80" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="7270-3b42-8fb6-68da" name="Terran Alliance Heavy Armor Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b61f-a900-5b2a-bb80" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="860c-bdc7-5f4d-c10c" name="Terran Alliance Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="01fc-f942-c9f9-5486" name="Terran Alliance Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="0386b37d-3fde-b782-df8c-fadae72c9d9c" name="Terran Alliance Artillery Attacks" hidden="false">
-                  <description>All Terran Alliance Artillery Attacks use the Corrosive, Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="a841ff43-7ccb-1493-3017-e22fc5486af8" name="Terran Alliance Artillery Dice" hidden="false">
-                  <description>Terran Alliance Forces use Artillery with 4D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="c09f803d-493d-a77a-b665-b46e857981d2" name="Terran Alliance Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 5. Iinitial Artillery Markers are set to 5.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="fd19b59b-f2b2-060f-827f-c24438dfc344" name="Terran Alliance Tactical Bonus" hidden="false">
-                  <description>Terran Alliance forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
-            </entry>
-            <entry id="ba421ccf-fa04-1225-17c0-a6f9c520e113" name="Veydreth Tribes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+            </entryGroup>
+            <entryGroup id="8d72-88e0-1e35-6f44" name="Sorylian Collective" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="3e26-5020-c50f-9075" name="Sorylian Collective Aerial Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="c364-131b-8c05-f290" name="Sorylian Collective Heavy Armor Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b61f-a900-5b2a-bb80" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="9176-63ed-a825-cab0" name="Sorylian Collective Leviathan Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b61f-a900-5b2a-bb80" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="7ed7-8ec6-608f-2fcb" name="Sorylian Collective Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
-              <rules>
-                <rule id="08d04742-e0e6-e9ed-d074-309a248fee81" name="Veydreth Tribes Artillery Attacks" hidden="false">
-                  <description>All Veydreth Tribe Artillery Attacks use the Barrage and Scatter MARs.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="9c27b0aa-8308-fda3-2700-7cfc0b3ef178" name="Veydreth Tribes Artillery Dice" hidden="false">
-                  <description>Veydreth Tribe Forces use Artillery with 5D6 Attack Dice.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="4faeec8e-31b2-8599-dd7b-9041f05da9b6" name="Veydreth Tribes Sky Drop Capability" hidden="false">
-                  <description>Initial Drop Site Markers are set to 6. Iinitial Artillery Markers are set to 4.</description>
-                  <modifiers/>
-                </rule>
-                <rule id="7ed51401-f1b1-18e8-d34d-370299d1acd2" name="Veydreth Tribes Tactical Bonus" hidden="false">
-                  <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles/>
               <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ae24-20b8-90cd-0c26" name="Naturally Allied Helix" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="b1b5-93bf-a2ee-343f" name="Terquai Empire" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b75d-2036-dac5-6cd1" name="Terquai Empire Recon Helix" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <links/>
         </entryGroup>
@@ -117,12 +274,12 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="e792-4b98-94da-a55d" name="Aquan Prime Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e792-4b98-94da-a55d" name="Aquan Prime Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="e193-0a96-731f-51a3" name="Heavy Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e193-0a96-731f-51a3" name="Sedna Heavy Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="e027-2f9e-45e3-4bce" name="Heavy Skimmer Class" defaultEntryId="ca5c-d1b3-bec8-c6ec" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="e027-2f9e-45e3-4bce" name="Heavy Skimmer" defaultEntryId="ca5c-d1b3-bec8-c6ec" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="ca5c-d1b3-bec8-c6ec" name="Sedna" points="230.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -157,7 +314,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="419d-98b8-daee-af48" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="419d-98b8-daee-af48" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -180,10 +337,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="581a-3a81-203b-433f" name="Medium Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="581a-3a81-203b-433f" name="Lamana Medium Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2ac9-aeff-4d0e-459d" name="Medium Skimmer Class" defaultEntryId="febf-ec32-fac7-3d54" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2ac9-aeff-4d0e-459d" name="Medium Skimmer" defaultEntryId="febf-ec32-fac7-3d54" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="febf-ec32-fac7-3d54" name="Lamana" points="120.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -212,7 +369,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="d494-f281-8f07-206a" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="d494-f281-8f07-206a" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -235,7 +392,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="d9a0-869e-e98e-67b6" name="Light Recon Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d9a0-869e-e98e-67b6" name="Imzani Light Recon Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="1" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -247,10 +404,10 @@
             </link>
           </links>
         </entry>
-        <entry id="f5e9-3fe0-cfa5-df3d" name="Anti-Air Battery" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f5e9-3fe0-cfa5-df3d" name="Stingray Anti-Air Battery" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="9808-9bd9-802b-a135" name="Anti-Air Battery Class" defaultEntryId="79ac-bbb6-f715-8546" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9808-9bd9-802b-a135" name="Anti-Air Battery" defaultEntryId="79ac-bbb6-f715-8546" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="79ac-bbb6-f715-8546" name="Stingray" points="85.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -302,7 +459,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="8dea-7973-2fb4-34ec" name="Crystal Node" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8dea-7973-2fb4-34ec" name="Votari Crystal Node" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -314,7 +471,7 @@
             </link>
           </links>
         </entry>
-        <entry id="4ca6-0b12-f764-ad47" name="Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4ca6-0b12-f764-ad47" name="Khitari Strike Shoal Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -333,65 +490,20 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="b61f-a900-5b2a-bb80" name="Aquan Prime Firepower Leviathan Helix" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b61f-a900-5b2a-bb80" name="Aquan Prime Leviathan Helix" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2618-8447-2dd5-8625" name="Firepower Leviathan" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2618-8447-2dd5-8625" name="El-Shami Firepower Leviathan" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="5165-4b50-b858-301e" name="Firepower Leviathan Class" defaultEntryId="35e6-7cea-28af-dda3" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="35e6-7cea-28af-dda3" name="El-Shami" points="820.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="8034-077d-73ac-4eca" targetId="8eed-685a-9d1a-9502" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="f52f-c890-1b61-32ea" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="dde3-0a85-8186-0f06" targetId="a540-8960-48d1-3f85" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="ed22-ac84-b2e9-bbd5" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="7e38-6fe4-5c96-7888" targetId="bf58-92bb-8470-d9cc" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="12cc-64aa-e4a6-5f62" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="8e2f-aefe-b4c1-ae18" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="bd93-d773-fc85-4cbb" targetId="383d-765c-07f9-2ad4" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="6219-a212-3b7b-8feb" targetId="4e75-33e4-2b80-42d3" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="ba7b-82d0-fe63-a5d6" targetId="22c0-7db3-02a3-3443" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="b9b2-5322-7f6b-fdb5" targetId="7fdb-79cb-71a3-ad5f" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="e571-f293-6e05-56f7" targetId="9d2a-56c2-b2bc-e70d" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="ae23-256b-8634-d4e2" targetId="571f-2541-eef3-e840" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
+            <entryGroup id="5165-4b50-b858-301e" name="Firepower Leviathan" defaultEntryId="9802-9304-d643-d9e7" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
               <entryGroups/>
               <modifiers/>
-              <links/>
+              <links>
+                <link id="9802-9304-d643-d9e7" targetId="61f5-9b39-0f78-88d9" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers/>
@@ -399,7 +511,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="d12a-df1a-e22d-4ca4" name="Light Recon Skimmer Squadron" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d12a-df1a-e22d-4ca4" name="Imzani Light Recon Skimmer" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -413,17 +525,30 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="c42a-6d83-1e34-e663" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="7270-3b42-8fb6-68da" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="a5eb-be57-6046-091b" name="Aquan Prime Ground Attack Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a5eb-be57-6046-091b" name="Aquan Prime Ground Attack Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="5053-5e24-ef04-2252" name="Heavy Ground Attack Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+        <entry id="5053-5e24-ef04-2252" name="Kalari Heavy Ground Attack Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
           <entries/>
           <entryGroups>
-            <entryGroup id="adc9-cee1-62a7-96c2" name="Heavy Ground Attack Gunship Class" defaultEntryId="f67f-0bb2-c1ef-bf40" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="adc9-cee1-62a7-96c2" name="Heavy Ground Attack Gunship" defaultEntryId="f67f-0bb2-c1ef-bf40" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="f67f-0bb2-c1ef-bf40" name="Kalari" points="250.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -459,6 +584,9 @@
                     <link id="dd79-3005-afc8-ddfc" targetId="53cb-eff0-2c87-5a2a" linkType="rule">
                       <modifiers/>
                     </link>
+                    <link id="0177-790a-8745-8705" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -472,10 +600,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="422c-e64c-78d5-4421" name="Ground Attack Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="422c-e64c-78d5-4421" name="Comanu Ground Attack Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2d77-70b9-fdc1-7a2f" name="Ground Attack Gunship Class" defaultEntryId="45c4-bd58-3eab-51d3" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2d77-70b9-fdc1-7a2f" name="Ground Attack Gunship" defaultEntryId="45c4-bd58-3eab-51d3" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="45c4-bd58-3eab-51d3" name="Comanu" points="150.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -508,6 +636,9 @@
                     <link id="3e3d-1c48-46e4-b328" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
                       <modifiers/>
                     </link>
+                    <link id="d3d0-8ce1-f0ce-493a" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -524,7 +655,31 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="d6a2-b416-e4ae-317d" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="860c-bdc7-5f4d-c10c" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="70d4-c0ee-0648-28dd" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="01fc-f942-c9f9-5486" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b75d-2036-dac5-6cd1" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -533,12 +688,12 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="cd65-6930-00bf-19ef" name="Aquan Prime Heavy Armour Helix" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cd65-6930-00bf-19ef" name="Aquan Prime Heavy Armour Helix" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="ff46-bb13-4340-adc9" name="Heavy Support Tank Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ff46-bb13-4340-adc9" name="Haumea Heavy Support Tank" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="0a93-c675-a2fb-c90c" name="Heavy Support Tank Class" defaultEntryId="8c2d-99ed-003e-cc9b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="0a93-c675-a2fb-c90c" name="Heavy Support Tank" defaultEntryId="8c2d-99ed-003e-cc9b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="8c2d-99ed-003e-cc9b" name="Haumea" points="280.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -579,7 +734,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="4c2a-75a9-ccce-a6c3" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="4c2a-75a9-ccce-a6c3" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -602,10 +757,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="a2ee-5d0a-dfa0-c81a" name="Tank Destroyer Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a2ee-5d0a-dfa0-c81a" name="Locatu Tank Destroyer" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="37a4-bb9a-dcf9-c38b" name="Tank Destroyer Class" defaultEntryId="f71d-2010-84d0-f5ff" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="37a4-bb9a-dcf9-c38b" name="Tank Destroyer" defaultEntryId="f71d-2010-84d0-f5ff" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="f71d-2010-84d0-f5ff" name="Locatu" points="130.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -634,7 +789,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="a3fd-1c5e-9db9-652e" name="Medium Support Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="a3fd-1c5e-9db9-652e" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -657,7 +812,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="951b-8c88-c81c-ea0b" name="Crystal Node" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="951b-8c88-c81c-ea0b" name="Votari Crystal Node" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -671,17 +826,22 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b61f-a900-5b2a-bb80" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="86cb-7cdd-f961-0f09" name="Aquan Prime Interceptor Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="86cb-7cdd-f961-0f09" name="Aquan Prime Interceptor Aerial Helix" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="e6c3-297d-3dd1-ef7a" name="Heavy Interceptor Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+        <entry id="e6c3-297d-3dd1-ef7a" name="Vorati Heavy Interceptor Gunship" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
           <entries/>
           <entryGroups>
-            <entryGroup id="497c-93c8-413c-8aaf" name="Heavy Interceptor Gunship Class" defaultEntryId="f456-b50f-6278-6a03" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="497c-93c8-413c-8aaf" name="Heavy Interceptor Gunship" defaultEntryId="f456-b50f-6278-6a03" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="f456-b50f-6278-6a03" name="Vorati" points="230.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -729,6 +889,9 @@
                     <link id="bbbd-87c8-dc05-e297" targetId="1133-4911-05f8-731a" linkType="rule">
                       <modifiers/>
                     </link>
+                    <link id="907c-fdc6-e0b6-6339" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -742,10 +905,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2a77-e041-a71a-b3f1" name="Interceptor Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2a77-e041-a71a-b3f1" name="Minnari Interceptor" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="8f6d-c02e-c789-6462" name="Interceptor Class" defaultEntryId="64ef-5886-c01c-3180" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="8f6d-c02e-c789-6462" name="Interceptor" defaultEntryId="64ef-5886-c01c-3180" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="64ef-5886-c01c-3180" name="Minnari" points="90.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -781,6 +944,9 @@
                     <link id="af89-7229-3704-ed71" targetId="1133-4911-05f8-731a" linkType="rule">
                       <modifiers/>
                     </link>
+                    <link id="3536-e37d-413f-e9ca" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -797,7 +963,31 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="decrement" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="5b17-abb2-8183-4bdc" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="d6a2-b416-e4ae-317d" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="70d4-c0ee-0648-28dd" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="860c-bdc7-5f4d-c10c" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="01fc-f942-c9f9-5486" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b75d-2036-dac5-6cd1" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -806,12 +996,12 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5b17-abb2-8183-4bdc" name="Aquan Prime Recon Helix" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5b17-abb2-8183-4bdc" name="Aquan Prime Recon Helix" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2acf-a522-e27b-d711" name="Light Tank Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2acf-a522-e27b-d711" name="Marana Light Tank" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="3d2d-2dfe-da93-762e" name="Light Tank Class" defaultEntryId="7f5e-9a19-2921-0b59" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="3d2d-2dfe-da93-762e" name="Light Tank" defaultEntryId="7f5e-9a19-2921-0b59" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="7f5e-9a19-2921-0b59" name="Marana" points="70.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -850,6 +1040,9 @@
                     <link id="92ba-fbeb-3298-f72d" targetId="2e56-8fed-0b99-cef4" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="2bd9-bd92-03f6-4c58" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
@@ -863,10 +1056,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1ee3-fe56-83ea-b758" name="Medium Transport Squadron" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1ee3-fe56-83ea-b758" name="Larata Medium Transport" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2d38-dcca-f222-4260" name="Medium Transport Class" defaultEntryId="fa69-37d0-018c-793b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2d38-dcca-f222-4260" name="Medium Transport" defaultEntryId="fa69-37d0-018c-793b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="fa69-37d0-018c-793b" name="Larata" points="130.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -918,7 +1111,32 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a5eb-be57-6046-091b" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="86cb-7cdd-f961-0f09" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="70d4-c0ee-0648-28dd" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="860c-bdc7-5f4d-c10c" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="01fc-f942-c9f9-5486" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="b75d-2036-dac5-6cd1" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -944,128 +1162,505 @@
         </link>
       </links>
     </entry>
+    <entry id="ab75-c16a-46fe-ad20" name="Aquan Prime Ground Command Helix" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="902f-a35c-bb2d-4cb1" name="Malani Heavy Command Barge" points="0.0" categoryId="8eceb215-918d-e1f1-4b44-04fc9ac249b0" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="3061-171a-d6d1-aaf5" name="Heavy Command Barge" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="103c-9df5-df9d-6efd" name="Malani" points="500.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="3ef6-65bc-f8aa-e21b" targetId="bfaf-75e8-fa6c-0270" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="9295-afa2-758f-5204" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="0453-1e10-caa2-3496" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="9d34-618b-67a3-e541" targetId="c319-641c-81a8-18fa" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="f05c-d138-d894-6d2a" targetId="3fa0-c087-542c-4003" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="98ce-34d0-a1f2-a8c4" targetId="8ddc-85cb-7248-b5af" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="5506-98f0-9e34-9f38" targetId="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="d2b5-bc96-dad2-8cf1" targetId="1929-a94b-a404-fb53" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="d19c-1d43-86f6-f9c2" targetId="acb7-614e-15a4-2ddb" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="24dd-0f11-ee2a-e853" targetId="c06d-5242-9a8b-f80e" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="17eb-acf5-7173-664c" targetId="dd3e-1a4a-5680-fa73" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="8e0e-dc4f-3a47-5ef8" targetId="3c9b-2f26-b55c-ad94" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="b361-8b1b-0044-dbb8" targetId="76e7-1997-8b1a-9104" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="67b6-e7c9-15a5-584f" targetId="098f6beb-a316-14f9-69b2-62b37ddd6209" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="edef-5ac3-c63a-ca2e" targetId="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="258a-9f06-e033-2336" targetId="284d6761-1c09-49d0-2b6e-424af844765f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="ca53-31c7-f1fd-c697" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="766a-9807-183d-a168" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="5489-5552-4c0e-cb2a" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="83ff-a95f-f54b-278d" name="Votari Crystal Node" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="28cb-198b-7d88-ff83" targetId="80849bc5-5db8-5e5f-8c1d-75e6200cd293" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="faa4-34e2-a09f-b00b" name="Marana Light Tank" points="0.0" categoryId="3ce457ee-bf57-8a28-c696-a063d8510ed2" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="5158-3bf8-ae86-6cb6" name="Light Tank" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b807-ba81-87e0-9e3d" name="Marana" points="70.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="cf6a-37ef-56a1-9891" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="8ec3-b336-4048-926e" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="949d-1f15-802a-046f" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="c861-687a-3ed6-27f6" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="3e26-be3c-c7cc-b129" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="ca10-d50f-c487-733a" targetId="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="0588-4e0a-3be3-7559" targetId="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="6973-9e54-db0b-212e" targetId="284d6761-1c09-49d0-2b6e-424af844765f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2324-54bb-a1ad-dc38" targetId="d649-1b7f-0499-1977" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="28a1-2bac-52e5-3b5d" targetId="2e56-8fed-0b99-cef4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="2425-1658-b4c4-25ec" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="e9e8-5c30-ee7d-76c8" name="Khitari Strike Shoal Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="92cb-5698-2024-2ac6" targetId="47bc-75f7-28e2-0c76" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="cd65-6930-00bf-19ef" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="cbea-1892-ac37-0bc9" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="014b-9693-1512-4222" name="Instructions" hidden="false">
+          <description>****** REMOVE THIS SELECTION BEFORE PRINTING ******
+
+Use the Allied Forces / Naturally Allied Forces  to add any Allied or Natural Allied Battle Groups. This will block out the Main Force Helices that are no longer available. Be sure that the points for the Natural Allies do not exceed the total of the Core Helix as Battlescribe cannot check for this.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
   </entries>
   <rules>
-    <rule id="ddfdfd6e-6253-215e-86bc-548e69afb78e" name="Artillery Attacks" hidden="false">
-      <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs.</description>
+    <rule id="ddfdfd6e-6253-215e-86bc-548e69afb78e" name="Aquan Prime - Artillery Attacks" hidden="false">
+      <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="95b96e77-4f14-889e-f385-6d0e3e6d4454" name="Artillery Dice" hidden="false">
-      <description>Aquan Forces use Artillery with 4D6 Attack Dice.</description>
-      <modifiers/>
-    </rule>
-    <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Sky Drop Capability" hidden="false">
+    <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Aquan Prime - Sky Drop Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Tactical Bonus" hidden="false">
+    <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Aquan Prime - Tactical Bonus" hidden="false">
       <description>Aquan forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="edb1-6c2f-a3e4-1748" name="Logistic Bid Max" hidden="false">
+    <rule id="edb1-6c2f-a3e4-1748" name="Aquan Prime - Logistic Bid Max" hidden="false">
       <description>Up to 4 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="61f5-9b39-0f78-88d9" name="El-Shami" points="820.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0839-9ad0-bc59-91ab" targetId="8eed-685a-9d1a-9502" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6e39-d9bf-79bc-0f98" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cd0e-739f-6067-1a7f" targetId="a540-8960-48d1-3f85" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aca1-62fd-6723-1258" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1559-8b50-e321-2646" targetId="bf58-92bb-8470-d9cc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="29ff-fe37-e04f-4329" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b3aa-2065-76de-ec2b" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c22-33c7-cad4-9ff5" targetId="383d-765c-07f9-2ad4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ad1e-8b1e-3a7b-36e1" targetId="4e75-33e4-2b80-42d3" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3e68-0d04-e458-813d" targetId="22c0-7db3-02a3-3443" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4078-89d6-1e1a-f3ab" targetId="7fdb-79cb-71a3-ad5f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="dec4-ef06-7715-71f2" targetId="9d2a-56c2-b2bc-e70d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cb0a-53ff-3b58-09bc" targetId="571f-2541-eef3-e840" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c394-ce03-2bf5-65bc" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d248-02cf-47a8-eb4d" name="Khitari Strike Shoal Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4465-c78d-2fb8-6e9b" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9c1c-9f09-4a6e-70d6" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ce0c-f553-26f1-9f86" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="13da-42fb-eec3-bd44" targetId="f311bd50-fd65-1ddc-0553-dbed27a62f54" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5222-dca5-64e3-d4d9" targetId="b975-c47b-1aa4-0c94" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d8cb-d44e-c479-fa5d" name="Khitari Strike Shoal Officer (Ground Command)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fc54-3000-343e-0ffc" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f13-beef-d2ac-1583" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2236-f0ee-f362-11f1" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3f8e-0ea0-101b-1808" targetId="f311bd50-fd65-1ddc-0553-dbed27a62f54" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e9b8-7fc5-f093-5e41" targetId="b975-c47b-1aa4-0c94" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="076d-518a-c500-9e56" name="Votari" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ae92-760b-832c-1603" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4ffb-1f47-4c17-6df1" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9fe1-5af2-4185-4d08" targetId="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4714-213f-ef6c-9ea1" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="640f-44b3-386f-1431" targetId="fc270dce-7b96-224e-7eca-f9918b919141" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e9d2-08cd-7ba3-046d" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b401-0ae1-9a20-eccf" targetId="7eb1-e736-fa95-8c41" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="22c7-743d-63b5-7936" targetId="cedd-b132-93ac-4dfe" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1585-2b53-2f04-f4fd" targetId="cd04-4d54-214e-f414" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7466-7497-31a9-903c" name="Imzani" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b336-0ed4-c8b5-96ed" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="449b-943a-1275-0bb2" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9061-f870-b321-9a08" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="081c-2be5-23a9-da9e" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8df6-097d-5674-fbb7" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0556-b589-0a5a-4ed0" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df48-d495-3ec0-bf95" targetId="8705-2a9b-0270-81ef" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f556-8c0f-f550-a021" targetId="ddf2-aa2c-e532-7082" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a0a2-df07-e222-d720" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f27c-c887-29c8-c345" name="Imzani (Leviathan)" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ff30-575b-143f-1f8b" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f9b-9f97-104d-77c2" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f18-ffed-d4c0-8205" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4011-a96a-5c55-13ce" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35d5-a33d-e861-6cb7" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="096d-257f-c65d-46af" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5ad0-b726-9e68-1a85" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="028b-be33-e92a-a223" targetId="8705-2a9b-0270-81ef" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="9a05-5e13-41bf-a0b8" targetId="ddf2-aa2c-e532-7082" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="bfdc-68e7-3458-afd1" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6316-71a4-b8ea-5a23" name="Sirsir" points="110.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f504-fb72-2b5d-a4b6" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f791-4f46-0fe0-1c37" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="83f6-2df4-4f1f-2083" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eae5-a68d-cb28-77cc" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c5ea-140a-6c18-ac82" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f6b-93b6-d984-635e" targetId="fc41d423-dcc8-6bf4-563f-2527e762efe4" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="76fe-a9d5-0ac0-931d" targetId="6b972e8a-b998-04d8-1544-51ceb8e5e5b0" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4cbd-eb67-062c-bdd4" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="7f1a2b3f-62a4-90a1-b085-1a1d8cba9947" name="Command" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="1757ffde-93f6-82e1-9e87-d8edebb1359e" name="Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="18226242-e97a-38b9-81de-c70ac3fe96b9" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e9d2f9e1-84be-c4e0-8745-acd88ec4eb8d" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="62d64f5e-7c6a-09ad-d8a2-f9fce24def08" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f01a2b70-19f9-7c15-0616-5b43c1d96654" targetId="f311bd50-fd65-1ddc-0553-dbed27a62f54" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2964-e3ba-64b9-97af" targetId="b975-c47b-1aa4-0c94" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="80849bc5-5db8-5e5f-8c1d-75e6200cd293" name="Crystal Node Class" defaultEntryId="bfe11390-cac4-78c4-2d4b-9f0b97ada3e4" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="bfe11390-cac4-78c4-2d4b-9f0b97ada3e4" name="Votari" points="30.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
+      <links>
+        <link id="6807-4452-77e7-e269" targetId="d248-02cf-47a8-eb4d" linkType="entry">
           <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="112f1343-6d6f-c7ba-7bf2-66145cd9d7ad" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="058d4372-186c-3785-514c-71e34a1f2a45" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a9c7f987-d59f-938e-eb4c-980c191350af" targetId="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="9f862ad0-c0bd-509c-f0a0-e7a00f45641b" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="630271ec-b768-fdb8-03ae-58742d8613d4" targetId="fc270dce-7b96-224e-7eca-f9918b919141" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="788a2073-954f-956e-575d-b601074623bc" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="1bcb-cb47-4296-5677" targetId="7eb1-e736-fa95-8c41" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e00b-ea4b-431c-f1de" targetId="cedd-b132-93ac-4dfe" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="bdde-6b43-74c5-e416" targetId="cd04-4d54-214e-f414" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="80849bc5-5db8-5e5f-8c1d-75e6200cd293" name="Crystal Node" defaultEntryId="a004-c42d-faf2-04d9" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="a004-c42d-faf2-04d9" targetId="076d-518a-c500-9e56" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="6ce5-8e5e-5397-ba6c" name="Infantry Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="6ce5-8e5e-5397-ba6c" name="Khitari Strike Shoal" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="8db3-f73d-8393-40b8" name="Khitari Strike Shoal Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ee8e-3aa4-303e-94e2" name="Strike Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="6ce5-8e5e-5397-ba6c" field="selections" type="greater than" value="3.0"/>
-              </conditions>
+            <modifier type="set" field="minSelections" value="5.0" repeat="true" numRepeats="1" incrementParentId="ee8e-3aa4-303e-94e2" incrementChildId="ee8e-3aa4-303e-94e2" incrementField="selections" incrementValue="4.0">
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <links>
-            <link id="47bd-68c6-978d-7eb8" targetId="ece00a92-d188-2133-6c07-cb5c46905108" linkType="entry group">
+            <link id="576d-ffbc-455a-5de2" targetId="7f1a2b3f-62a4-90a1-b085-1a1d8cba9947" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="41c7-9d58-e9d1-b0ee" targetId="da0bcf9f-c223-b1bb-390c-9e2a0bdebcff" linkType="entry group">
+            <link id="9989-d197-90d1-9b9e" targetId="da0bcf9f-c223-b1bb-390c-9e2a0bdebcff" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="802f-1416-23ff-5e8b" targetId="7f1a2b3f-62a4-90a1-b085-1a1d8cba9947" linkType="entry group">
+            <link id="e85a-e5e8-2a8e-a29f" targetId="ece00a92-d188-2133-6c07-cb5c46905108" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1074,168 +1669,50 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="4741-642c-8509-2b6a" name="Light Recon Skimmer Class" defaultEntryId="0e57-9e0d-0775-1b5c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0e57-9e0d-0775-1b5c" name="Imzani" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ffa4-0cf2-3b87-75b1" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="92dd-4fd0-871b-bcb6" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="55d3-cf7e-7d4d-10a7" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="b021-1e3d-8fe1-e1fb" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="1f9c-b768-11f2-569d" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="7c44-d5e2-e9dd-a781" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f314-a4fe-237f-af26" targetId="8705-2a9b-0270-81ef" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="02fe-de71-0d97-07b1" targetId="ddf2-aa2c-e532-7082" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="4741-642c-8509-2b6a" name="Light Recon Skimmer" defaultEntryId="7306-e355-0708-ad4a" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="7306-e355-0708-ad4a" targetId="7466-7497-31a9-903c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="e876-a154-9146-1465" name="Light Recon Skimmer Class (Leviathan)" defaultEntryId="8f41-6672-a03e-9f0d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="8f41-6672-a03e-9f0d" name="Imzani" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="021c-dafe-f69e-8b0e" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="c721-119d-f76e-b713" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="9d8c-9e1c-5b4f-dfad" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8615-8d82-77d3-ad2b" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="b3ea-bf66-c9e2-17e9" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="20ed-3142-89f0-3b84" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="c930-3452-c509-bde7" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="de8f-b005-9fc6-1086" targetId="8705-2a9b-0270-81ef" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="839a-bd2b-5c9d-1bdc" targetId="ddf2-aa2c-e532-7082" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="e876-a154-9146-1465" name="Light Recon Skimmer (Leviathan)" defaultEntryId="fce4-71c5-c8be-85d1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="fce4-71c5-c8be-85d1" targetId="f27c-c887-29c8-c345" linkType="entry">
+          <modifiers>
+            <modifier type="increment" field="points" value="300.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="c6bc7114-84d2-9118-958b-746efc5782ee" name="Medium Support Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2777e6d4-cd9a-6d61-5f9f-d162486d634e" name="Medium Support - Sirsir" points="110.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f5ba1293-3e39-ae08-8782-a2989233ba08" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="13380a62-1bc1-ea6b-4201-36014597da60" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="1503d34c-93aa-151d-fa30-4f395fecd6d8" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="5b09fe0f-f332-3cd5-fa64-8c5d50df14de" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="dcbbf65c-b7a5-08fe-696b-7f353cf63702" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2e86a1af-03b6-1b06-47f8-581619fb4fb7" targetId="fc41d423-dcc8-6bf4-563f-2527e762efe4" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="880a0191-1711-9600-276d-c5a611b967be" targetId="6b972e8a-b998-04d8-1544-51ceb8e5e5b0" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="7ad9-7692-49c6-0e48" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="c6bc7114-84d2-9118-958b-746efc5782ee" name="Medium Support" defaultEntryId="655c-0622-3e8c-b5d5" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="655c-0622-3e8c-b5d5" targetId="6316-71a4-b8ea-5a23" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="ea09857b-66d1-bcce-b58d-aa1dfee94b00" name="Medium Support Class (Heavy)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="462c1920-da0e-34e2-ec6b-11ead6af41e9" name="Medium Support - Sirsir" points="110.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bdf41d72-274b-96b8-070b-fbabf0cd3721" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="65997361-43b7-49ba-80d6-913599bf7386" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="694451ad-2267-25da-4dc4-da52c4036875" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="260ccd61-727a-3863-e2bb-9eac7dffd41c" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="fe5a4c48-b5bf-f93b-744e-3ce5f44db4dd" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="86250b82-68eb-c86d-ec4f-5ae9feb953e9" targetId="fc41d423-dcc8-6bf4-563f-2527e762efe4" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="a7d0c16d-a496-b115-5e83-344946acd3e2" targetId="6b972e8a-b998-04d8-1544-51ceb8e5e5b0" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="e3a1-b0e4-d59c-fa53" targetId="442c5fc1-73df-37d4-b235-183b9027f954" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="ea09857b-66d1-bcce-b58d-aa1dfee94b00" name="Medium Support (Heavy)" defaultEntryId="2074-a518-4546-5869" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="2074-a518-4546-5869" targetId="6316-71a4-b8ea-5a23" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="ece00a92-d188-2133-6c07-cb5c46905108" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1331,6 +1808,133 @@
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="47bc-75f7-28e2-0c76" name="Khitari Strike Shoal (Ground Command)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="c988-bda2-881d-ace6" name="Strike Shoal" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8060-5b18-5ea4-485e" targetId="0691-d56d-d55f-4dfe" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="1927-5e4c-9bcd-58b3" targetId="3ff6-4d99-fe85-be68" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="4f9e-2e97-19bd-4601" targetId="a5c4-11a1-a6e3-cfb3" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="a5c4-11a1-a6e3-cfb3" name="Command (Ground Command)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0396-5de4-2673-ae78" targetId="d8cb-d44e-c479-fa5d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="0691-d56d-d55f-4dfe" name="Specialist Troops (Ground Command)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="1e85-49f5-fad0-b296" name="Gun Teams" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="fe6e-0fca-6f82-0b30" targetId="f311bd50-fd65-1ddc-0553-dbed27a62f54" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6e2a-7168-ca8d-e6cf" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2d7f-e8c5-9b12-b610" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="e57a-3570-79c6-4c0d" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d166-4ea6-3edd-60aa" targetId="d620-2ffd-397c-ac10" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="ed60-4ae5-3a0a-3ec1" targetId="4d11-02ed-0022-410d" linkType="profile">
+              <modifiers>
+                <modifier type="show" field="None" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="ece00a92-d188-2133-6c07-cb5c46905108" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="0691-d56d-d55f-4dfe" childId="1e85-49f5-fad0-b296" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entry>
+        <entry id="60dd-c147-c431-f49a" name="Sweeper Teams" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b872-7a2f-21a8-e405" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b567-d209-3c31-e824" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4a2c-6305-8db1-1d0a" targetId="f311bd50-fd65-1ddc-0553-dbed27a62f54" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3220-1f57-bc55-c79e" targetId="1493-acef-e8bb-c4eb" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="ece00a92-d188-2133-6c07-cb5c46905108" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="ece00a92-d188-2133-6c07-cb5c46905108" field="selections" type="greater than" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <links/>
+    </entryGroup>
+    <entryGroup id="3ff6-4d99-fe85-be68" name="Troops (Ground Command)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="729e-f9df-bcd5-cd18" name="Khitari" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="72f3-a123-f2bf-d7b2" targetId="5657507a-551e-d73e-8241-0e2f0698e049" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c6e6-af09-27f4-6f37" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a7ee-f8d4-2c81-3b07" targetId="957e-ec50-6a0b-8c45" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="8e11-6e73-0d1d-f658" name="Aerial Assault" hidden="false">
@@ -1402,7 +2006,7 @@
       <modifiers/>
     </rule>
     <rule id="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
-      <description>May move in the Recon Phase.</description>
+      <description>The Squadron chosen may choose to make a free Flat Out Movement Action during the Recon Phase provided the move does not bring the Element within 16&quot; of an enemy Model at any time during its movement.</description>
       <modifiers/>
     </rule>
     <rule id="7eb1-e736-fa95-8c41" name="Robust" hidden="false" book="Aquan ORBATs" page="7">
@@ -1489,6 +2093,22 @@
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
+    <rule id="c319-641c-81a8-18fa" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
+      <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8ddc-85cb-7248-b5af" name="Transport (16)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 16 slots worth of Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1929-a94b-a404-fb53" name="Command Centre" hidden="false">
+      <description>A Force that contains a Malani Command Barge may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size. In addition no friendly Aquan forces within the Malani’s Command Radius are required to take Disorder Tests due to the loss of their own Command Element </description>
+      <modifiers/>
+    </rule>
+    <rule id="3fa0-c087-542c-4003" name="Crystal Resonance" hidden="false">
+      <description>If a Malani Command Barge is deployed on the battlefield, all friendly Votari Crystals increase their range to 30” and any attacks they execute are ALWAYS considered to be Placed.</description>
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5329-aab2-bb7e-d529" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Comanu Ground Attack Gunship" hidden="false">
@@ -1507,7 +2127,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ac53-937f-94a1-5c32" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Comanu Sunflare Burst Laser" hidden="false">
+    <profile id="ac53-937f-94a1-5c32" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Comanu - Sunflare Burst Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
@@ -2023,6 +2643,77 @@
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="0"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="acb7-614e-15a4-2ddb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Malani Heavy Command Barge" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="8"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="6"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c06d-5242-9a8b-f80e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Dual Corona Heavy Laser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="dd3e-1a4a-5680-fa73" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Dual Stingray Missiles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3c9b-2f26-b55c-ad94" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Maelstrom Pulse Cannons (R)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="R"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="76e7-1997-8b1a-9104" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Maelstrom Pulse Cannons (L)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="L"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bfaf-75e8-fa6c-0270" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Nexus Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
       </characteristics>
       <modifiers/>
     </profile>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a981ec51-f4da-35c0-c9a1-9fd8a1a25fa4" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Heroes of Tarxon VI - Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a981ec51-f4da-35c0-c9a1-9fd8a1a25fa4" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Heroes of Tarxon VI - Dindrenzi" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="7e052f26-cd1a-4e7a-0116-297dea3baf97" name="Anti-Aircraft Tank Squadron (Assault Helix)" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7e052f26-cd1a-4e7a-0116-297dea3baf97" name="Anti-Aircraft Tank Squadron (Assault Helix)" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -13,7 +13,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4c9f3110-054a-c2c5-2d52-cec4b8addb6e" name="Anti-Aircraft Tank Squadron (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4c9f3110-054a-c2c5-2d52-cec4b8addb6e" name="Anti-Aircraft Tank Squadron (Field Support Helix)" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -25,7 +25,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3e594b3f-452a-3bc3-efbe-7bcab24aeefb" name="Anti-Aircraft Tank Squadron (Heavy Helix)" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e594b3f-452a-3bc3-efbe-7bcab24aeefb" name="Anti-Aircraft Tank Squadron (Heavy Helix)" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -37,7 +37,7 @@
         </link>
       </links>
     </entry>
-    <entry id="06ce15e4-3e2a-f127-6cb1-789b172bd3f5" name="Battle Robot Squadron" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="06ce15e4-3e2a-f127-6cb1-789b172bd3f5" name="Battle Robot Squadron" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="fb8c69e0-14d8-e2d7-1447-678e43487b15" name="Battle Robot Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -171,7 +171,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4df72fa1-22e6-021d-8215-49cb620bfa0b" name="Command Barge Squadron" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4df72fa1-22e6-021d-8215-49cb620bfa0b" name="Command Barge Squadron" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="3bee8a14-8ec8-f802-b202-1d80c6520368" name="Command Barge Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -289,7 +289,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="d63ab029-a14d-d225-ef63-dac5bc82bc42" name="Heavy Battle Tank Squadron" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d63ab029-a14d-d225-ef63-dac5bc82bc42" name="Heavy Battle Tank Squadron" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="52ee3da9-e16a-c371-0ba1-e5dc3c0fc922" name="Heavy Battle Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -378,7 +378,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="cd908c7d-8e37-0dad-f541-8f7fcd469a61" name="Heavy Gunship Squadron" points="0.0" categoryId="017e365f-ee66-ee7e-1e49-d70a94dcfba2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cd908c7d-8e37-0dad-f541-8f7fcd469a61" name="Heavy Gunship Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="d4a5d8de-f6cd-e586-8f8d-b1021b9dccfe" name="Heavy Gunship Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -466,7 +466,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="922b6d80-d6dd-3c0f-d3ce-7cc3f1af792a" name="Light Tank Squadron (Assault Helix)" points="0.0" categoryId="4756c69a-7202-b92d-f15d-2f1a75fe14b0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="922b6d80-d6dd-3c0f-d3ce-7cc3f1af792a" name="Light Tank Squadron (Assault Helix)" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="a54cbdeb-e532-0d3b-20f4-01e42c1c5acc" name="Light Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -537,7 +537,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="df96ece9-2d77-ae65-52c4-b57fd3c23116" name="Light Tank Squadron (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="df96ece9-2d77-ae65-52c4-b57fd3c23116" name="Light Tank Squadron (Field Support Helix)" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="796955bc-99af-b575-877b-2f2ef52f38da" name="Light Tank Class" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -608,7 +608,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5d261200-4f11-7531-8baf-e7ba27581932" name="Light Tank Squadron (Heavy Helix)" points="0.0" categoryId="56a3e91a-f89f-edfe-c382-412fe4704ce7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5d261200-4f11-7531-8baf-e7ba27581932" name="Light Tank Squadron (Heavy Helix)" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="658115c3-92ce-0455-5726-c3d1c742de9c" name="Light Tank Class" defaultEntryId="426b2bb9-e152-1db1-bc4b-fdca61c957bc" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -851,7 +851,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="cd115b3c-ebee-edd1-5e38-b6584a8abdab" name="Sky Drop Field Gun Emplacement (Field Support Helix)" points="0.0" categoryId="fb38e71c-fe5b-5ee1-8102-dbc7544d2384" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cd115b3c-ebee-edd1-5e38-b6584a8abdab" name="Sky Drop Field Gun Emplacement (Field Support Helix)" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="1cc9ebe8-9eb7-d6d5-78c3-8e6fda0daac1" name="Sky Drop Field Gun Emplacement" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
