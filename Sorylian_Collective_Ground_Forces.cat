@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed10-fe7b-580d-ca95" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed10-fe7b-580d-ca95" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ca25-d587-12d5-9a55" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -316,7 +316,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
               <entryGroups/>
               <modifiers/>
               <links>
-                <link id="856a-165e-3115-0661" targetId="0fc8-5e0a-974d-f6ac" linkType="entry">
+                <link id="856a-165e-3115-0661" targetId="e882-e256-b325-cd1d" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -601,6 +601,33 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="8aff-cb3e-64a3-3ab1" targetId="8566-4c3a-f504-2806" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e66f-1b10-25f9-e0dc" name="Bor&apos;Ka" points="125.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0489-50f2-581d-5dc1" targetId="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4731-3d0c-7309-fb1f" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5428-ecb8-be06-42dd" targetId="d1cd0eb6-b61d-0123-949f-7069d8b87529" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4560-1088-49f7-a95d" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4659-25e0-ca8b-1cc4" targetId="d2c6-cca9-0713-34cf" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="693f-1cb1-9743-deeb" targetId="e8d0-9398-e8ea-12a8" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1219,6 +1246,33 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
+    <entry id="a31e-8530-b9db-4fc5" name="Sor&apos;Ka" points="140.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c26b-05f5-2d43-ffa8" targetId="3771b992-4585-88e3-419b-5d4941b75057" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0cbc-5861-317d-ec89" targetId="da4f5cc1-a75b-72dd-f60c-eeaa2c58fa08" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1e67-3123-107c-6f0e" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6a4c-f5dd-8f60-e2a2" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b1ad-026f-c0b8-c8e3" targetId="db41-43e5-1fc6-a44b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="959e-405b-79a9-4d1a" targetId="9ef9-fec2-ad2b-c882" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="0553-60e3-8b9b-2e1e" name="Vro&apos;Mak" points="140.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1248,60 +1302,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="fd2e-5400-67e0-7103" targetId="f4bd-8080-16a4-171f" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e66f-1b10-25f9-e0dc" name="Bor&apos;Ka" points="125.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="0489-50f2-581d-5dc1" targetId="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4731-3d0c-7309-fb1f" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5428-ecb8-be06-42dd" targetId="d1cd0eb6-b61d-0123-949f-7069d8b87529" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4560-1088-49f7-a95d" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4659-25e0-ca8b-1cc4" targetId="d2c6-cca9-0713-34cf" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="693f-1cb1-9743-deeb" targetId="e8d0-9398-e8ea-12a8" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a31e-8530-b9db-4fc5" name="Sor&apos;Ka" points="140.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="c26b-05f5-2d43-ffa8" targetId="3771b992-4585-88e3-419b-5d4941b75057" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0cbc-5861-317d-ec89" targetId="da4f5cc1-a75b-72dd-f60c-eeaa2c58fa08" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1e67-3123-107c-6f0e" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6a4c-f5dd-8f60-e2a2" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b1ad-026f-c0b8-c8e3" targetId="db41-43e5-1fc6-a44b" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="959e-405b-79a9-4d1a" targetId="9ef9-fec2-ad2b-c882" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1409,6 +1409,19 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="c4ea5b5c-d50a-a6f0-6419-312b8380b47e" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="23e9-58e1-b56f-d84f" targetId="3588-7995-3c2d-350d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c2d4-cff5-d26c-24ba" targetId="c4ff-b194-b478-ef1e" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
     <entryGroup id="389af62a-7850-ae36-33bf-b501d7b1a558" name="Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -1454,19 +1467,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </entryGroups>
       <modifiers/>
       <links/>
-    </entryGroup>
-    <entryGroup id="c4ea5b5c-d50a-a6f0-6419-312b8380b47e" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="23e9-58e1-b56f-d84f" targetId="3588-7995-3c2d-350d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c2d4-cff5-d26c-24ba" targetId="c4ff-b194-b478-ef1e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
