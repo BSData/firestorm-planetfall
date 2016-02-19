@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ee4-ec29-a08b-669f" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ee4-ec29-a08b-669f" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="488c-7947-df2a-3bd6" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -424,7 +424,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <entryGroups>
             <entryGroup id="1c8a-eca1-ad76-b0b1" name="Heavy Infantry" defaultEntryId="0506-52e3-0e99-9f68" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="0506-52e3-0e99-9f68" name="Yayiss Spire Sky Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0506-52e3-0e99-9f68" name=" Yayiss-Ya Heavy Sky Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1450,7 +1450,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="7071-9909-13ca-d7f1" targetId="0365-d974-01ad-b863" linkType="entry">
+        <link id="7071-9909-13ca-d7f1" targetId="6a7f-fca6-152e-87ef" linkType="entry">
           <modifiers/>
         </link>
       </links>
