@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="34d7-b647-2d57-94d3" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="34d7-b647-2d57-94d3" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Works Raptor" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="d356-11cd-ef4a-5ce3" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="d356-11cd-ef4a-5ce3" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -9,12 +9,12 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5a2d-a152-43f7-4e7f" name="Works Raptor Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5a2d-a152-43f7-4e7f" name="Works_Raptor_Recon_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="f72f-f9e7-88e7-ea9c" name="GX-74 &apos;Witch&apos; Heavy Interceptor Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f72f-f9e7-88e7-ea9c" name="GX-74_&apos;Witch&apos;_Heavy_Interceptor_Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="160e-743e-43b0-97ae" name="Heavy Interceptor" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="160e-743e-43b0-97ae" name="Heavy_Interceptor" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -30,10 +30,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="0fe2-e3eb-870e-fa67" name="LS-6 &apos;Crone&apos; Recon Tank" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0fe2-e3eb-870e-fa67" name="LS-6_&apos;Crone&apos;_Recon_Tank" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="67bc-d28d-4ebc-3883" name="Recon Tank" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="67bc-d28d-4ebc-3883" name="Recon_Tank" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -58,26 +58,26 @@
     </entry>
   </entries>
   <rules>
-    <rule id="900d4605-02a4-76ce-0978-4ba9dddc4a8e" name="Works Raptor Artillery Attacks" hidden="false">
+    <rule id="900d4605-02a4-76ce-0978-4ba9dddc4a8e" name="Works_Raptor---Artillery_Attacks" hidden="false">
       <description>All Works Raptor Artillery Attacks use the Barrage, Scatter and Terror Weapon MARs with 5D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="7d202cfd-369d-2dd3-a1d9-dd6b456e85e2" name="Works Raptor Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 4.</description>
+    <rule id="7d202cfd-369d-2dd3-a1d9-dd6b456e85e2" name="Works_Raptor---Sky_Drop_Capability" hidden="false">
+      <description>Initial Sky Drop Markers are set to 6. Initial Artillery Markers are set to 4.</description>
       <modifiers/>
     </rule>
-    <rule id="09617fe3-a35d-f5ff-9d57-25af292161a0" name="Works Raptor Tactical Bonus" hidden="false">
+    <rule id="09617fe3-a35d-f5ff-9d57-25af292161a0" name="Works_Raptor---Tactical_Bonus" hidden="false">
       <description>Works Raptor forces have a Tactics Bonus of +1.</description>
       <modifiers/>
     </rule>
-    <rule id="fe08-ca7e-8a8c-4fc5" name="Works Raptor Logistic Bid Max" hidden="false">
+    <rule id="fe08-ca7e-8a8c-4fc5" name="Works_Raptor---Logistical_Strength" hidden="false">
       <description>Up to 5 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="5071-9fab-875d-17ef" name="GX-74 &apos;Witch&apos;" points="125.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5071-9fab-875d-17ef" name="GX-74_&apos;Witch&apos;" points="125.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -114,9 +114,15 @@
         <link id="20db-c064-1fcf-fb4d" targetId="4726-e4d2-2d38-27c6" linkType="profile">
           <modifiers/>
         </link>
+        <link id="fc7c-3ccd-6630-8ff3" targetId="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fa0c-93af-3fff-f276" targetId="d81e-c962-096f-c8a4" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="5e37-eaa5-e6ee-1c67" name="LS-6 &apos;Crone&apos;" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5e37-eaa5-e6ee-1c67" name="LS-6_&apos;Crone&apos;" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -162,7 +168,7 @@
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="c613-749d-0a4c-88f9" name="Aerial Assault" hidden="false" book="Terran Alliance ORBAT" page="7">
+    <rule id="c613-749d-0a4c-88f9" name="Aerial_Assault" hidden="false" book="Terran Alliance ORBAT" page="7">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed</description>
       <modifiers/>
     </rule>
@@ -170,7 +176,7 @@
       <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
       <modifiers/>
     </rule>
-    <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command_Element(16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
@@ -178,60 +184,64 @@
       <description>This Squadron may ignore the Sectored Armour MAR when targeting Flying models. Flying Target models may therefore suffer Flanking or Rear penalties to their Damage Rating when attacked by a Dogfighter!</description>
       <modifiers/>
     </rule>
-    <rule id="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="926e6d57-4b95-31e5-5cce-2f1282d5c2ed" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="a85459e2-b85f-fec7-eb38-615507af1dc4" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="a85459e2-b85f-fec7-eb38-615507af1dc4" name="Hover_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" name="Shadow Operatives" hidden="false">
-      <description>The Tactical Value Cost to play any TACS by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
+    <rule id="d81e-c962-096f-c8a4" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
+      <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
       <modifiers/>
     </rule>
-    <rule id="f798f246-b32a-ec98-bc4f-03996a6b0324" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+    <rule id="0ceb6a46-c8da-9a36-c4f3-c0944ddafd54" name="Shadow_Operatives" hidden="false">
+      <description>The Tactical Value Cost to play any Tactical Action Cards by an enemy force increases by 1 while Works Raptor squadrons are present on the battlefield.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f798f246-b32a-ec98-bc4f-03996a6b0324" name="Take_&amp;_Hold" hidden="false" book="Core Rulebook" page="121">
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="614c978a-3d9e-f7d5-f0b2-b54b5cc5d928" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="614c978a-3d9e-f7d5-f0b2-b54b5cc5d928" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="1ab7ac22-fcaf-223b-a4d2-d9741ab0201c" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
+    <rule id="1ab7ac22-fcaf-223b-a4d2-d9741ab0201c" name="Weapon_MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
       <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="6d72e33f-b4dc-c8e3-6042-1d84fdb36625" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="6d72e33f-b4dc-c8e3-6042-1d84fdb36625" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="129f-9b69-3daa-cf58" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="GX-74 &apos;Witch&apos; - Liquidation Missiles" hidden="false">
+    <profile id="129f-9b69-3daa-cf58" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="GX-74_&apos;Witch&apos;---Liquidation_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4726-e4d2-2d38-27c6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="GX-74 &apos;Witch&apos; Heavy Interceptor" hidden="false">
+    <profile id="4726-e4d2-2d38-27c6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="GX-74_&apos;Witch&apos;_Heavy_Interceptor" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="28"/>
@@ -247,7 +257,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="dca0-aa57-03e9-49c2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="LS-6 &apos;Crone&apos; - Buy-Out Concussion Blasters" hidden="false">
+    <profile id="dca0-aa57-03e9-49c2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="LS-6_&apos;Crone&apos;---Buy-Out_Concussion_Blasters" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -258,11 +268,11 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="827b-8625-b8e1-2212" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="LS-6 &apos;Crone&apos; Recon Tank" hidden="false">
+    <profile id="827b-8625-b8e1-2212" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="LS-6_&apos;Crone&apos;_Recon_Tank" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
@@ -270,7 +280,7 @@
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_5"/>
       </characteristics>
       <modifiers/>
     </profile>

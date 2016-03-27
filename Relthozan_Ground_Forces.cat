@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ee4-ec29-a08b-669f" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ee4-ec29-a08b-669f" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="488c-7947-df2a-3bd6" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -20,7 +20,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics_Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -35,14 +35,47 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="d5a9-9209-e955-5b55" name="Relthoza Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c81e-4ae1-4f3f-9bbf" name="Relthoza_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="9051-41be-36b2-f4f9" name="Visith Heavy Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0f03-60ef-f756-f892" name="Salavi-Kei_Battle_Warrior" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0d77-02d5-deca-79fc" targetId="12fe-28ea-fae6-2155" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a776-763e-159e-784d" name="Jakariss_Light_Tank" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="379e-c897-c96c-266d" targetId="5112-da44-22e3-0cf0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d5a9-9209-e955-5b55" name="Relthoza_Core_Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9051-41be-36b2-f4f9" name="Visith_Heavy_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="36c6-9026-3ab7-2160" name="Heavy Tank" defaultEntryId="9665-9956-0ed4-d58e" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="36c6-9026-3ab7-2160" name="Heavy_Walker" defaultEntryId="9665-9956-0ed4-d58e" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="624c-72ec-5a63-5377" name="Support Walker Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="624c-72ec-5a63-5377" name="Support_Walker_Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -69,12 +102,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="93dc-75d9-82ee-b34a" name="Salamas Medium Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="93dc-75d9-82ee-b34a" name="Salamas_Medium_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="0b7a-c0e1-b587-ec25" name="Medium Tank" defaultEntryId="94f0-d1c2-0cb8-a742" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="0b7a-c0e1-b587-ec25" name="Medium_Tank" defaultEntryId="94f0-d1c2-0cb8-a742" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="7bf6-4b85-3fd4-0f07" name="Support Walker Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="7bf6-4b85-3fd4-0f07" name="Support_Walker_Squadron" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -101,7 +134,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="5ad2-8bd3-70b4-78d6" name="Namisc Light Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5ad2-8bd3-70b4-78d6" name="Namisc_Light_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -113,12 +146,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
             </link>
           </links>
         </entry>
-        <entry id="d465-d718-d07b-dcce" name="Jabri Drone Swarm Light Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d465-d718-d07b-dcce" name="Jabri_Drone_Swarm_Light_Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="3ae1-9532-3586-77f8" name="Light Infantry" defaultEntryId="bfbb-4726-3b31-08e2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="3ae1-9532-3586-77f8" name="Light_Infantry" defaultEntryId="bfbb-4726-3b31-08e2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="bfbb-4726-3b31-08e2" name="Spy Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="bfbb-4726-3b31-08e2" name="Spy_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -152,12 +185,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="0156-92a3-8131-2a4b" name="Relthoza Firepower Leviathan Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0156-92a3-8131-2a4b" name="Relthoza_Firepower_Leviathan_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="bfe5-5084-2037-7ec3" name="Varisei-Kei Firepower Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="bfe5-5084-2037-7ec3" name="Varisei-Kei_Firepower_Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="edb4-58ee-3a20-c063" name="Firepower Leviathan" defaultEntryId="fe2b-3bb3-c8da-3f25" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="edb4-58ee-3a20-c063" name="Firepower_Leviathan" defaultEntryId="fe2b-3bb3-c8da-3f25" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -173,7 +206,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="47ff-49ca-5812-ee7c" name="Light Walker Squadron" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="47ff-49ca-5812-ee7c" name="Light_Walker_Squadron" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -192,12 +225,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="c0a0-d2ab-6e0e-aefa" name="Relthoza Ground Attack Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c0a0-d2ab-6e0e-aefa" name="Relthoza_Ground_Attack_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="91fa-c76a-42ed-1774" name="Vaxiss Ground Attack Leviathan" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="91fa-c76a-42ed-1774" name="Vaxiss_Ground_Attack_Leviathan" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="26ec-3176-b11a-329a" name="Ground Attack Leviathan" defaultEntryId="343d-3f6b-e28d-4516" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="26ec-3176-b11a-329a" name="Ground_Attack_Leviathan" defaultEntryId="343d-3f6b-e28d-4516" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -213,10 +246,10 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="008c-c773-a7f2-0d64" name="Massith Sky Drop Drone Node" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="008c-c773-a7f2-0d64" name="Massith_Sky_Drop_Drone_Node" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="1106-92cd-74ca-0917" name="Sky Drop Drone Node" defaultEntryId="dea5-bcbc-7f98-4722" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="1106-92cd-74ca-0917" name="Sky_Drop_Drone_Node" defaultEntryId="dea5-bcbc-7f98-4722" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -239,11 +272,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="251a-edfc-cc50-32d5" name="Relthoza Ground Command Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="251a-edfc-cc50-32d5" name="Relthoza_Ground_Command_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="6e32-abd7-efd9-628a" name="Javi Heavy Command Spire" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6e32-abd7-efd9-628a" name="Javi_Command_Spire" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="404c-2208-7200-2c6a" name="Embarked Salamas Medium Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="404c-2208-7200-2c6a" name="Embarked_Salamas_Medium_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -266,15 +299,15 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
             </link>
           </links>
         </entry>
-        <entry id="d6fd-eb0e-02ac-eb91" name="Narissa Gunnery Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="67e4-5298-7901-2461" name="Narissa_Gunnery_Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="e41b-0f51-485f-9385" name="Gunnery Node" defaultEntryId="730f-c77e-fd4e-306a" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="aac6-b852-07f7-f1be" name="Gunnery_Node" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <links>
-                <link id="730f-c77e-fd4e-306a" targetId="fe53-0a28-cd24-2dc4" linkType="entry">
+                <link id="8fe8-7f0d-a2d6-b7c6" targetId="fe53-0a28-cd24-2dc4" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -292,12 +325,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="6086-b5e8-d8b7-a14b" name="Relthoza Heavy Armour Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6086-b5e8-d8b7-a14b" name="Relthoza_Heavy_Armour_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0713-59e0-837b-a1ee" name="Vardiss Heavy Support Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0713-59e0-837b-a1ee" name="Vardiss_Heavy_Support_Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="83bc-4ff0-6006-7545" name="Heavy Support Tank" defaultEntryId="2211-d956-99be-8d40" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="83bc-4ff0-6006-7545" name="Heavy_Support_Walker" defaultEntryId="2211-d956-99be-8d40" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -313,10 +346,10 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="053f-87a5-aeb6-92cd" name="Talamis Tank Destroyer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="053f-87a5-aeb6-92cd" name="Talamis_Tank_Destroyer_Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="4125-bf3a-677d-d0fa" name="Tank Destroyer" defaultEntryId="2ada-6c2a-28f6-b7e6" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="4125-bf3a-677d-d0fa" name="Tank_Destroyer_Walker" defaultEntryId="2ada-6c2a-28f6-b7e6" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -332,7 +365,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="b69a-6988-7ed8-75a8" name="Namisc Light Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b69a-6988-7ed8-75a8" name="Namisc_Light_Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -351,12 +384,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="dbca-40be-8bfb-f07d" name="Relthoza Interceptor Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="dbca-40be-8bfb-f07d" name="Relthoza_Interceptor_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="679e-72bc-930c-df52" name="Savimasc Heavy Battle Suit" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="679e-72bc-930c-df52" name="Savimasc_Heavy_Battle_Suit" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="9377-2914-ba0f-62c1" name="Heavy Battle Suit" defaultEntryId="49b4-9136-8649-f031" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9377-2914-ba0f-62c1" name="Heavy_Battle_Suit" defaultEntryId="49b4-9136-8649-f031" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -372,10 +405,10 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="44c0-b094-381d-c3a5" name="Halamasc Drone Pod" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="44c0-b094-381d-c3a5" name="Halamasc_Drone_Pod" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="ee45-cd64-22b7-bdb9" name="Drone Pod" defaultEntryId="43fe-02b4-6f8f-9305" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="ee45-cd64-22b7-bdb9" name="Drone_Pod" defaultEntryId="43fe-02b4-6f8f-9305" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -398,12 +431,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="2c6c-f7ff-b438-7542" name="Relthoza Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2c6c-f7ff-b438-7542" name="Relthoza_Recon_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0651-5a67-e9fe-41a7" name="Caramis Anti-Air Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0651-5a67-e9fe-41a7" name="Caramis_Anti-Air_Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2b47-53f6-50d9-29ca" name="Anti-Air Walker" defaultEntryId="c523-3436-24a3-c0ae" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2b47-53f6-50d9-29ca" name="Anti-Air_Walker" defaultEntryId="c523-3436-24a3-c0ae" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -419,12 +452,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="2091-b809-5369-d939" name="Jamriss Heavy Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2091-b809-5369-d939" name="Jamriss_Heavy_Infantry" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="1c8a-eca1-ad76-b0b1" name="Heavy Infantry" defaultEntryId="0506-52e3-0e99-9f68" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="1c8a-eca1-ad76-b0b1" name="Heavy_Infantry" defaultEntryId="0506-52e3-0e99-9f68" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="0506-52e3-0e99-9f68" name=" Yayiss-Ya Heavy Sky Pod Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0506-52e3-0e99-9f68" name=" Yayiss-Ya_Heavy_Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -437,49 +470,13 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
                   </links>
                 </entry>
               </entries>
-              <entryGroups>
-                <entryGroup id="25d6-a55f-53cc-0b62" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="9c04-1ecb-6f14-b472" targetId="15a5-0b89-3f34-f903" linkType="entry">
-                      <modifiers>
-                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="category" childId="d425-2983-ee1a-4b5a" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="category" childId="d425-2983-ee1a-4b5a" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                    <link id="121e-0c0f-9718-f589" targetId="d425-2983-ee1a-4b5a" linkType="entry">
-                      <modifiers>
-                        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="category" childId="15a5-0b89-3f34-f903" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="category" childId="15a5-0b89-3f34-f903" field="selections" type="at least" value="1.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
+              <entryGroups/>
               <modifiers/>
-              <links/>
+              <links>
+                <link id="d16b-d232-4ed0-fdd0" targetId="15a5-0b89-3f34-f903" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
             </entryGroup>
           </entryGroups>
           <modifiers/>
@@ -494,7 +491,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="f38f-0dfc-562b-6b51" name="Select if a Leviathan or Heavy Helix is taken as an Allied Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="f38f-0dfc-562b-6b51" name="Select_if_a_Leviathan_or_Heavy_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -509,7 +506,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="6c9a-410f-e4f4-52e6" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="6c9a-410f-e4f4-52e6" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -524,7 +521,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="87a5-7876-abad-7f80" name="Select if an Assault or Field Support Helix is taken as an Allied Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="87a5-7876-abad-7f80" name="Select_if_an_Assault-or_Field_Support_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -541,26 +538,31 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
   </entries>
   <rules>
-    <rule id="06ebae04-0e33-89df-b01c-d14a76324a30" name="Relthozan - Tactical Bonus" hidden="false">
+    <rule id="06ebae04-0e33-89df-b01c-d14a76324a30" name="Relthozan---Tactical_Bonus" hidden="false">
       <description>Relthozan forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="275ffd50-48b9-9c39-498f-fb9811cbf77d" name="Relthozan - Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4 (Set as 5 in NOV 26 ORBAT). Initial Artillery Markers are set to 6.</description>
+    <rule id="275ffd50-48b9-9c39-498f-fb9811cbf77d" name="Relthozan---Sky_Drop_Capability" hidden="false">
+      <description>Initial Drop Site Markers are set to 5. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="9c141dca-e65e-7ad8-7f63-e799d2b3e013" name="Relthozan - Artillery Attacks" hidden="false">
+    <rule id="9c141dca-e65e-7ad8-7f63-e799d2b3e013" name="Relthozan---Artillery_Attacks" hidden="false">
       <description>All Relthozan Artillery Attacks use the Barrage and Scatter MARs with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="0467-a4ae-ca43-b819" name="Relthozan - Logistic Bid Max" hidden="false">
-      <description>Up to 4 Logistics Points in a single Bid Action.</description>
+    <rule id="0467-a4ae-ca43-b819" name="Relthozan---Logistical_Strength" hidden="false">
+      <description>Relthoza Forces may spend up to 4 Logistics Points in a single Bid Action.
+• Relthoza Forces may elect to spend Logistics Points during the Play TACs Step of the Pre-Turn Phase to place Squadrons on Overwatch:
+• It costs 1 Logistics Point to place a Light Squadron on Overwatch.
+• It costs 2 Logistics Points to place an Armoured Squadron on Overwatch, unless it is a Heavy Armoured Squadron (identified as having the word Heavy in its designation) or Leviathan Squadron (identified as having the word Leviathan in its designation) which cost 3 Logistics Points to place on Overwatch.
+• Aerial Forces may NOT use Logistics Points to be placed on Overwatch unless specifically noted.
+• In the case of mixed Squadrons (A Squadron made up of Light and Armoured Elements for example) use the largest Logistics Cost.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="a4d4-e754-53f8-6c19" name="Caramis" points="110.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a4d4-e754-53f8-6c19" name="Caramis" points="125.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -612,9 +614,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <rules/>
       <profiles/>
       <links>
-        <link id="fa10-3aa1-67b6-501e" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="0588-f4e4-2ce1-1a8e" targetId="494e-8904-f772-1395" linkType="rule">
           <modifiers/>
         </link>
@@ -645,9 +644,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="c483-563a-7982-217d" targetId="8547-7f32-de26-6de2" linkType="profile">
           <modifiers/>
         </link>
+        <link id="2416-aff7-a0a2-cb71" targetId="e213-b03e-14b6-bcb2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="7785-f8a2-aa8e-f436" name="Jabri Drone Swarm" points="20.0" categoryId="(No Category)" type="model" minSelections="8" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7785-f8a2-aa8e-f436" name="Jabri_Drone_Swarm" points="20.0" categoryId="(No Category)" type="model" minSelections="8" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -668,17 +670,56 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="15a5-0b89-3f34-f903" name="Jamriss Swarm" points="45.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5112-da44-22e3-0cf0" name="Jakariss" points="60.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4906-4114-9706-a822" name="Predator" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8131-cb5c-527b-31fd" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5d3a-a83d-c29f-ce13" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6675-2f96-47d3-8851" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca6f-2ffc-2282-c0d3" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ad1c-89a2-fbca-5427" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ba93-13ec-7a10-e793" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="93bd-d345-c12e-9a78" targetId="ed91e2b9-0248-8030-c107-2646713fc6bb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f955-f4ab-a7fd-dc91" targetId="f126-6081-dfab-0c58" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="fef2-1bd5-586e-687d" targetId="5015-5b59-c20e-cf0e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="15a5-0b89-3f34-f903" name="Jamriss_Swarm" points="45.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="minSelections" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="15a5-0b89-3f34-f903" childId="15a5-0b89-3f34-f903" field="selections" type="equal to" value="4.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
@@ -694,9 +735,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="e657-be0b-1686-27fe" targetId="262a-e78b-0bef-dd2d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9be8-4edc-8993-d305" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="ab7d-615d-3084-9dce" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
           <modifiers/>
         </link>
@@ -707,39 +745,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="a67e-1695-ee59-1e5f" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d425-2983-ee1a-4b5a" name="Jamriss Swarm (NOV 26 ORBAT)" points="45.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="4288-f1b3-d840-3ef2" targetId="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cddf-f649-bb3c-94c8" targetId="812bc5dd-edfb-99e5-e319-64efca76733f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="95ce-3fb2-f619-45d2" targetId="262a-e78b-0bef-dd2d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5d2c-8b32-5d28-ece2" targetId="af75f07b-2ddb-5a31-045c-791a591e7aa5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="adda-15c8-eea3-e21e" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a41b-041b-37a1-c0b0" targetId="7e9a-6bf9-f334-5176" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="2b33-90b7-5b8e-50e1" targetId="9e6e-e21c-e75c-e6d1" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6ed0-7e8b-6894-d8f1" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -792,7 +797,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="2ed4-15b3-a10a-f74f" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="2ed4-15b3-a10a-f74f" name="Logistics_Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -888,7 +893,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
     <entry id="fe53-0a28-cd24-2dc4" name="Narissa" points="60.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="d128-2c8d-6220-84e0" name="Spinnaret Flak Launcher  - OR - Chelicerae Missiles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d128-2c8d-6220-84e0" name="Spinnaret_Flak_Launcher---OR---Chelicerae_Missiles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -940,9 +945,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="d163-22c9-c846-7892" name="Salamas" points="155.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d163-22c9-c846-7892" name="Salamas" points="160.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="e663-47ca-b067-a883" name="Predator" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Relthozan ORBATs" page="6">
+        <entry id="e663-47ca-b067-a883" name="Predator" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Relthozan ORBATs" page="6">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -979,6 +984,70 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="340d-9149-d8db-005b" targetId="0c21-8f44-4b93-0bb1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="12fe-28ea-fae6-2155" name="Salavi-Kei" points="380.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="91a5-2b02-1ed3-785b" name="Predator" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8753-5a73-f584-1c28" targetId="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3b66-b286-0bc9-1c55" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bcaa-bba5-60de-6ee0" targetId="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="09d5-981f-f14b-1933" targetId="b5c11b01-5a10-cbbf-1705-946928e7cd30" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f5a-5e60-fdca-8bec" targetId="957e-9690-9e0b-46e9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4d03-e903-dd6d-7fc5" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a8d1-1699-c753-1bec" targetId="1a52ffcc-91b7-3c23-4fc9-d6261a297487" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a0cb-fc93-b5cc-e3f0" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="94f9-93e3-6d51-4273" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9815-e69f-55b1-2c8d" targetId="18b213fe-9af2-dcf1-2d39-872a9d0c239a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6d8c-7085-27cb-578a" targetId="b6c6-d2ee-c0f1-637a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3a0c-28bb-d4a6-712b" targetId="14c2-f5f3-030e-7b8f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d989-2bef-7dd7-2ed7" targetId="aec7-6f5b-43cf-33f5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a514-3b91-5b63-7aa7" targetId="2024-94e3-5b6a-606f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b7c5-01ac-1498-2e28" targetId="fb75-0c05-2fb0-2836" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1032,6 +1101,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="679b-bb9e-dde0-e7ae" targetId="94de-1404-7e2b-8b89" linkType="profile">
           <modifiers/>
         </link>
+        <link id="6f6a-d7ae-b3ba-6f8d" targetId="e213-b03e-14b6-bcb2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9c6f-5bae-36ef-2cd4" name="Talamis" points="150.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1077,9 +1149,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="9a4f-181d-d557-0dbc" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
           <modifiers/>
         </link>
-        <link id="988f-a29c-04c2-a190" targetId="4dd6ea7d-9801-598e-e195-eda7c95eb0b4" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="9d15-1ef4-2638-156b" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
           <modifiers/>
         </link>
@@ -1107,14 +1176,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="8b12-1c8f-5e87-39dd" targetId="c51d047d-ed1f-4869-5867-13a763c22b37" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9079-79d0-a3b4-361b" targetId="1bc2-b75e-a67d-56bb" linkType="rule">
-          <modifiers/>
-        </link>
       </links>
     </entry>
-    <entry id="c890-2803-9160-bdb9" name="Varic" points="95.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c890-2803-9160-bdb9" name="Varic" points="100.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="57a1-7ae7-6c40-4728" name="Predator" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="57a1-7ae7-6c40-4728" name="Predator" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1204,6 +1270,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="1239-16d8-6922-14d1" targetId="1bc2-b75e-a67d-56bb" linkType="rule">
           <modifiers/>
         </link>
+        <link id="729f-86eb-41d6-00d8" targetId="fd17-b82e-96b0-3155" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0ebe-8bee-6c71-b07d" name="Vaxiss" points="525.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1268,7 +1337,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
     <entry id="1ca4-36ec-d49c-1ed9" name="Visith" points="260.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="8917-615c-8863-c0a7" name="Predator" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entry id="8917-615c-8863-c0a7" name="Predator" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1293,9 +1362,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="0f8f-2016-1710-ef2e" targetId="a9d1f7f2-b530-3ce5-a4c7-490a4aecc5cf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4f6e-1cb5-d857-96e4" targetId="4dd6ea7d-9801-598e-e195-eda7c95eb0b4" linkType="rule">
           <modifiers/>
         </link>
         <link id="43fb-100c-4adf-976b" targetId="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" linkType="rule">
@@ -1330,46 +1396,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="0365-d974-01ad-b863" name="Yayiss Spire" points="35.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="b95d-df28-5e98-77f5" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="abef-56c2-342c-8f20" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9894-27bf-2db7-3ad5" targetId="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1247-d865-48e6-c369" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7216-7c04-d2e3-5a0e" targetId="0d98253e-a275-10c5-9e0f-2df36fbd50fa" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="971d-62fd-0edf-74c9" targetId="ff8f7229-1785-a42e-8039-c70d0c36b0b8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="aa6f-a4a1-4ded-d0dd" targetId="1a52ffcc-91b7-3c23-4fc9-d6261a297487" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e7c9-18d5-9dd9-e79f" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9205-f325-58c4-63a1" targetId="e213-b03e-14b6-bcb2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f494-3812-2e49-33b0" targetId="8590-de29-0d2a-1372" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6a7f-fca6-152e-87ef" name="Yayiss-Ya" points="45.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6a7f-fca6-152e-87ef" name="Yayiss-Ya" points="40.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1403,14 +1430,47 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="3706-b98c-156d-d24f" targetId="4d2f-f0a4-c022-233f" linkType="profile">
           <modifiers/>
         </link>
-        <link id="7ccb-adce-c1b3-e081" targetId="ff8f7229-1785-a42e-8039-c70d0c36b0b8" linkType="rule">
+      </links>
+    </entry>
+    <entry id="0365-d974-01ad-b863" name="Yayiss_Spire" points="35.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b95d-df28-5e98-77f5" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="abef-56c2-342c-8f20" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9894-27bf-2db7-3ad5" targetId="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1247-d865-48e6-c369" targetId="41ab302c-d58f-f0c6-3687-843e6b49e277" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7216-7c04-d2e3-5a0e" targetId="0d98253e-a275-10c5-9e0f-2df36fbd50fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aa6f-a4a1-4ded-d0dd" targetId="1a52ffcc-91b7-3c23-4fc9-d6261a297487" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e7c9-18d5-9dd9-e79f" targetId="6fac6d35-6455-4c54-7c8d-bd367cf7f639" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9205-f325-58c4-63a1" targetId="e213-b03e-14b6-bcb2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f494-3812-2e49-33b0" targetId="8590-de29-0d2a-1372" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" name="Light Walker Class" defaultEntryId="da5a-28ba-b7e5-3c7f" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="998ee6ca-aefe-0244-3b8b-d7aed3ad55eb" name="Light_Walker_Class" defaultEntryId="da5a-28ba-b7e5-3c7f" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1420,7 +1480,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="6f8f-0928-17f3-eab5" name="Light Walker Class (Leviathan Helix)" defaultEntryId="a27a-74ba-fc79-f4d1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="6f8f-0928-17f3-eab5" name="Light_Walker_Class_(Leviathan_Helix)" defaultEntryId="a27a-74ba-fc79-f4d1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1435,7 +1495,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky Drop Transport Class" defaultEntryId="3ff7-9907-20ed-1938" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="40f0c3bc-a2f9-b551-9a64-eaff03ac30ae" name="Sky_Drop_Transport_Class" defaultEntryId="3ff7-9907-20ed-1938" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1445,7 +1505,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="0d79-9ff7-f8c2-23d4" name="Sky Drop Transport Class (Recon)" defaultEntryId="7071-9909-13ca-d7f1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0d79-9ff7-f8c2-23d4" name="Sky_Drop_Transport_Class_(Recon)" defaultEntryId="7071-9909-13ca-d7f1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1455,7 +1515,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c6bc7114-84d2-9118-958b-746efc5782ee" name="Support Walker Class" defaultEntryId="2c5f-84de-7683-02d7" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="c6bc7114-84d2-9118-958b-746efc5782ee" name="Support_Walker_Class" defaultEntryId="2c5f-84de-7683-02d7" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1467,19 +1527,19 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="ccc4-55b4-9e02-af91" name="Aerial Assault" hidden="false">
+    <rule id="ccc4-55b4-9e02-af91" name="Aerial_Assault" hidden="false">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="a07e-2d3e-0d10-3f38" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="a07e-2d3e-0d10-3f38" name="Artillery_Support(2)" hidden="false" book="Core Rulebook" page="116">
       <description>May use the Artillery Support rules on Page 82.</description>
       <modifiers/>
     </rule>
-    <rule id="ff8f7229-1785-a42e-8039-c70d0c36b0b8" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
+    <rule id="ff8f7229-1785-a42e-8039-c70d0c36b0b8" name="Assault_Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
       <modifiers/>
     </rule>
-    <rule id="262a-e78b-0bef-dd2d" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="262a-e78b-0bef-dd2d" name="Bulky(2)" hidden="false" book="Core Rulebook" page="116">
       <description>These units take up 2 slots in transports.</description>
       <modifiers/>
     </rule>
@@ -1487,27 +1547,27 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
       <modifiers/>
     </rule>
-    <rule id="f71f-f046-974e-201e" name="Command Centre" hidden="false">
+    <rule id="f71f-f046-974e-201e" name="Command_Centre" hidden="false">
       <description>A Force that contains a Javi Command Spire may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size. In addition friendly Relthozan forces within the Command Spire’s Command Radius are ALWAYS considered to be within range of their Command Element, even if this is not possible (due to their Command Element being destroyed or out of range!)</description>
       <modifiers/>
     </rule>
-    <rule id="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" name="Command_Element(12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="023c-5cbf-89d0-db67" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="023c-5cbf-89d0-db67" name="Command_Element(16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="e33d-cf37-ff01-0cfd" name="Command Element (20&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="e33d-cf37-ff01-0cfd" name="Command_Element(20&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 20&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command_Element(8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="0d0b-94f9-0eb1-b449" name="Dialled In Asset" hidden="false" book="">
+    <rule id="0d0b-94f9-0eb1-b449" name="Dialled_In_Asset" hidden="false" book="">
       <description>The Commanding player need not specify which type of weapon the squadron will be armed with until the Squadron is nominated for Sky Drop deployment during a Game Turn.</description>
       <modifiers/>
     </rule>
@@ -1519,19 +1579,19 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
       <modifiers/>
     </rule>
-    <rule id="1a52ffcc-91b7-3c23-4fc9-d6261a297487" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="1a52ffcc-91b7-3c23-4fc9-d6261a297487" name="Drone_Nexus(12&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
-    <rule id="6d17-db12-8b31-f4e4" name="Drone Nexus (16&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="6d17-db12-8b31-f4e4" name="Drone_Nexus(16&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 16&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
-    <rule id="2e98-eca7-ad5d-8bd1" name="Drone Nexus (20&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="2e98-eca7-ad5d-8bd1" name="Drone_Nexus(20&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 20&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
-    <rule id="cdd32c0e-f41b-9fc3-ce3d-1afa6efb770a" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="cdd32c0e-f41b-9fc3-ce3d-1afa6efb770a" name="Drone_Nexus(8&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 8&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
@@ -1539,52 +1599,52 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="c4e7-84a1-1139-4280" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="c4e7-84a1-1139-4280" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="1bc2-b75e-a67d-56bb" name="Focused Horror" hidden="false">
+    <rule id="1bc2-b75e-a67d-56bb" name="Focused_Horror" hidden="false">
       <description>If BOTH Aurelia Shard Cannons fire at the same target Squadron, the weapons gains the Terror Weapon MAR in addition to any
 other effect.</description>
       <modifiers/>
     </rule>
-    <rule id="5d05-d6c2-769d-b653" name="Frenzy Node" hidden="false">
+    <rule id="5d05-d6c2-769d-b653" name="Frenzy_Node" hidden="false">
       <description>All Relthozan Drone Infantry within 8” gain the Kill Team MAR</description>
       <modifiers/>
     </rule>
-    <rule id="ecb2-f806-43b3-e164" name="Ground Attack" hidden="false">
+    <rule id="ecb2-f806-43b3-e164" name="Ground_Attack" hidden="false">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="b510-297c-c1b7-bf00" name="Gunnery Nodes" hidden="false">
+    <rule id="b510-297c-c1b7-bf00" name="Gunnery_Nodes" hidden="false">
       <description>The Javi Command Spire Squadron MUST include 2 to 4 Narissa Gunnery Nodes. These are placed onto the battlefield within coherency of the Javi after its own deployment has been determined. All Gunnery Nodes deployed are considered to form a Squadron with the Command Spire.</description>
       <modifiers/>
     </rule>
-    <rule id="af75f07b-2ddb-5a31-045c-791a591e7aa5" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="af75f07b-2ddb-5a31-045c-791a591e7aa5" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard_Target(-2)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -2 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="8b69-cfa9-8ca9-2c53" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">
+    <rule id="8b69-cfa9-8ca9-2c53" name="Hit_&amp;_Run" hidden="false" book="Core Rulebook" page="118">
       <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
       <modifiers/>
     </rule>
-    <rule id="6e90-fe8c-cb36-19c1" name="Icon of the Empire" hidden="false">
+    <rule id="6e90-fe8c-cb36-19c1" name="Icon_of_the_Empire" hidden="false">
       <description>All friendly Relthozan Infantry Cadres within 12” of this model gain the Fearless MAR.M</description>
       <modifiers/>
     </rule>
-    <rule id="c51d047d-ed1f-4869-5867-13a763c22b37" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
+    <rule id="c51d047d-ed1f-4869-5867-13a763c22b37" name="Independent_Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
       <modifiers/>
     </rule>
-    <rule id="9391-70ce-0a17-2254" name="Kill Team" hidden="false" book="Core Rulebook" page="119">
+    <rule id="9391-70ce-0a17-2254" name="Kill_Team" hidden="false" book="Core Rulebook" page="119">
       <description>+1 CQB stat when initiating CQB.</description>
       <modifiers/>
     </rule>
-    <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
@@ -1596,55 +1656,59 @@ other effect.</description>
       <description>All Relthozan non-Infantry elements gain the Enhanced Repair Systems MAR. (Page 118, Core Rulebook). Gains +1 to repair rolls.</description>
       <modifiers/>
     </rule>
-    <rule id="dc85-32f3-0743-f3c2" name="Quake Deployment" hidden="false">
+    <rule id="dc85-32f3-0743-f3c2" name="Quake_Deployment" hidden="false">
       <description>When this model deploys into the battlefield from Sky Drop, all enemy Squadrons within 12” of its eventual entry point must take a Disorder Test requiring TWO successes.</description>
       <modifiers/>
     </rule>
-    <rule id="41ab302c-d58f-f0c6-3687-843e6b49e277" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">
+    <rule id="41ab302c-d58f-f0c6-3687-843e6b49e277" name="Rear_Echelon" hidden="false" book="Core Rulebook" page="120">
       <description>A model with this MAR is considered to be activated on the turn it is deployed.</description>
       <modifiers/>
     </rule>
-    <rule id="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>The Squadron chosen may choose to make a free Flat Out Movement Action during the Recon Phase provided the move does not bring the Element within 16&quot; of an enemy Model at any time during its movement.</description>
       <modifiers/>
     </rule>
-    <rule id="e213-b03e-14b6-bcb2" name="Sectored Armour" hidden="false" book="Core Rulebook" page="121">
+    <rule id="e213-b03e-14b6-bcb2" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
       <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
       <modifiers/>
     </rule>
-    <rule id="ed9fa94a-3064-728d-8a4a-b3321ef96fde" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
+    <rule id="ed9fa94a-3064-728d-8a4a-b3321ef96fde" name="Sky_Drop" hidden="false" book="Core Rulebook" page="121">
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
     </rule>
-    <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Sky Drop Asset" hidden="false">
+    <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Sky_Drop_Asset" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
-    <rule id="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
+    <rule id="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" name="Sky_Drop_Nexus(1)" hidden="false" book="Core Rulebook" page="121">
       <description>Places 1 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="f17d899b-d141-ef5c-076b-908d2441c5c8" name="Sky Drop Nexus (2)" hidden="false" book="Core Rulebook" page="121">
+    <rule id="f17d899b-d141-ef5c-076b-908d2441c5c8" name="Sky_Drop_Nexus(2)" hidden="false" book="Core Rulebook" page="121">
       <description>Places 2 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="b48c-6658-c98e-dd21" name="Strafing Run" hidden="false">
+    <rule id="b48c-6658-c98e-dd21" name="Strafing_Run" hidden="false">
       <description>This Squadron may initiate a CQB Attack during its own activation while moving Flat Out provided the target squadron are Surface Models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+    <rule id="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" name="Take_&amp;_Hold" hidden="false" book="Core Rulebook" page="121">
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="87b6-088c-d97f-c4a1" name="Transport (10)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="fb75-0c05-2fb0-2836" name="Thunderous_Charge" hidden="false">
+      <description>The Leviathan may perform a Leviathan CQB Action after moving Flat Out. These attacks are considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="87b6-088c-d97f-c4a1" name="Transport(10)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 10 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="0d98253e-a275-10c5-9e0f-2df36fbd50fa" name="Transport (8)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="0d98253e-a275-10c5-9e0f-2df36fbd50fa" name="Transport(8)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 8 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="d3b6-487e-7892-71aa" name="Transport (Salamas Only, 2)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="d3b6-487e-7892-71aa" name="Transport_(Salamas_Only,_2)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 2 slots worth of Salamas Medium Walkers.</description>
       <modifiers/>
     </rule>
@@ -1652,59 +1716,63 @@ other effect.</description>
       <description>May not move Flat Out through Vegation or Rivers.</description>
       <modifiers/>
     </rule>
-    <rule id="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="ed91e2b9-0248-8030-c107-2646713fc6bb" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+    <rule id="ed91e2b9-0248-8030-c107-2646713fc6bb" name="Weapon_MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
       <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
-    <rule id="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
+    <rule id="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" name="Weapon_MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
       <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="12de-4a54-dfe7-4b06" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="12de-4a54-dfe7-4b06" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="905da261-b852-0234-5e7b-fbfe0f1000a0" name="Weapon MAR:Kinetic" hidden="false" book="Core Rulebook" page="119">
+    <rule id="905da261-b852-0234-5e7b-fbfe0f1000a0" name="Weapon_MAR:Kinetic" hidden="false" book="Core Rulebook" page="119">
       <description>Shield saves against this weapon use the Blue Heavy Dice mechanic if the weapon is in Effective Range.</description>
       <modifiers/>
     </rule>
-    <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Weapon_MAR:Nexus_Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="494e-8904-f772-1395" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="494e-8904-f772-1395" name="Weapon_MAR:Pinpoint(1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="957e-9690-9e0b-46e9" name="Weapon_MAR:Pinpoint(4)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8ed5-f5f4-77ae-40fc" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Caramis - Nexus Designator" hidden="false">
+    <profile id="8ed5-f5f4-77ae-40fc" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Caramis---Nexus_Designator" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="57e4-4720-7b1a-1f6a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Caramis - Spinnaret Flak Launcher" hidden="false">
+    <profile id="57e4-4720-7b1a-1f6a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Caramis---Spinnaret_Flak_Launcher" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d55a-53bc-c48b-0327" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Caramis Anti-Air Walker" hidden="false">
+    <profile id="d55a-53bc-c48b-0327" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Caramis_Anti-Air_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
@@ -1716,26 +1784,26 @@ other effect.</description>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8547-7f32-de26-6de2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Halamasc - Spinneret Flak Launcher" hidden="false">
+    <profile id="8547-7f32-de26-6de2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Halamasc---Spinneret_Flak_Launcher" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4d58-b788-01ad-f488" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Halamasc Drone Pod" hidden="false">
+    <profile id="4d58-b788-01ad-f488" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Halamasc_Drone_Pod" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
@@ -1747,7 +1815,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="824e-2201-eb17-a8d4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jabri Drone Swarm Light Infantry" hidden="false">
+    <profile id="824e-2201-eb17-a8d4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jabri_Drone_Swarm_Light_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1763,18 +1831,34 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4528-287d-6db6-1564" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jamriss Swarm - Blood-Maw Bio Toxin Projector" hidden="false">
+    <profile id="f126-6081-dfab-0c58" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jakariss---Chelicerae_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="3"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9e6e-e21c-e75c-e6d1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jamriss Swarm - Blood-Maw Bio Toxin Projector (NOV 26 ORBAT)" hidden="false">
+    <profile id="5015-5b59-c20e-cf0e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jakariss_Light_Walker" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4528-287d-6db6-1564" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jamriss_Swarm---Blood-Maw_Bio_Toxin_Projector" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -1785,23 +1869,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="cacd-ec08-b0e5-d6cc" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jamriss Swarm Heavy Infantry" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="5"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="7e9a-6bf9-f334-5176" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jamriss Swarm Heavy Infantry (NOV 26 ORBAT)" hidden="false">
+    <profile id="cacd-ec08-b0e5-d6cc" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jamriss_Swarm_Heavy_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1817,7 +1885,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="daec-ebf4-390e-456c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Javi Heavy Command Spire" hidden="false">
+    <profile id="daec-ebf4-390e-456c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Javi_Heavy_Command_Spire" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
@@ -1833,7 +1901,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3137-acfa-dabd-00db" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Massith Sky Drop Drone Node" hidden="false">
+    <profile id="3137-acfa-dabd-00db" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Massith_Sky_Drop_Drone_Node" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
@@ -1849,7 +1917,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c91d-a499-d6a5-4eaa" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc - Blood-Maw Toxin Projector" hidden="false">
+    <profile id="c91d-a499-d6a5-4eaa" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Namisc---Blood-Maw_Toxin_Projector" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
@@ -1860,7 +1928,7 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0e6d-6c98-4961-5f4f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Namisc Light Walker" hidden="false">
+    <profile id="0e6d-6c98-4961-5f4f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Namisc_Light_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
@@ -1872,33 +1940,33 @@ other effect.</description>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 5"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_5"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="cf43-b2ef-8bf6-08f6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Narissa - Chelicerae Missiles" hidden="false">
+    <profile id="cf43-b2ef-8bf6-08f6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Narissa---Chelicerae_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage / +Corrosive in NOV 26th ORBAT"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a28c-01ae-9ca1-2762" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Narissa - Spinnaret Flak Launcher" hidden="false">
+    <profile id="a28c-01ae-9ca1-2762" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Narissa---Spinnaret_Flak_Launcher" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e381-b6fd-8650-b7ea" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Narissa Gunnery Node" hidden="false">
+    <profile id="e381-b6fd-8650-b7ea" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Narissa_Gunnery_Node" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
@@ -1914,18 +1982,18 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0c21-8f44-4b93-0bb1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Salamas - Aurelia Shard Cannon" hidden="false">
+    <profile id="0c21-8f44-4b93-0bb1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Salamas---Aurelia_Shard_Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ef66-17dd-e102-07b6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Salamas Medium Walker" hidden="false">
+    <profile id="ef66-17dd-e102-07b6" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Salamas_Medium_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
@@ -1934,36 +2002,80 @@ other effect.</description>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="94de-1404-7e2b-8b89" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Savimasc - Heavy Spinneret Flak Launcher" hidden="false">
+    <profile id="2024-94e3-5b6a-606f" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Salavi-Kei---Extended_Claws" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="aec7-6f5b-43cf-33f5" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Salavi-Kei---Nexus_Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="14c2-f5f3-030e-7b8f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Salavi-Kei---Quad_Blood-Maw_Biotoxin_Projectors" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="18"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="15"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b6c6-d2ee-c0f1-637a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Salavi-Kei_Battle_Warrior" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="10"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="10"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10/20"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="94de-1404-7e2b-8b89" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Savimasc---Heavy_Spinneret_Flak_Launcher" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5186-b96b-8e36-4afc" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Savimasc - Nexus Designator" hidden="false">
+    <profile id="5186-b96b-8e36-4afc" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Savimasc---Nexus_Designator" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3326-d432-b7c0-a76e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Savimasc Heavy Battle Suit" hidden="false">
+    <profile id="3326-d432-b7c0-a76e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Savimasc_Heavy_Battle_Suit" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -1979,18 +2091,18 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="dc62-81c7-d114-7ad4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Talamis - Nympha Shard Cannons" hidden="false">
+    <profile id="dc62-81c7-d114-7ad4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Talamis---Nympha_Shard_Cannons" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="48"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="30"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5873-75fb-bb6e-b845" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Talamis Tank Destroyer" hidden="false">
+    <profile id="5873-75fb-bb6e-b845" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Talamis_Tank_Destroyer_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="11"/>
@@ -2006,40 +2118,40 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a91f-5de0-c1ba-e2ad" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Heavy Aurelia Shard Cannon (1)" hidden="false">
+    <profile id="a91f-5de0-c1ba-e2ad" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss---Heavy_Aurelia_Shard_Cannon(1)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="30"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a0fb-7a0d-dbf6-5639" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Heavy Aurelia Shard Cannon (2)" hidden="false">
+    <profile id="a0fb-7a0d-dbf6-5639" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss---Heavy_Aurelia_Shard_Cannon(2)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="30"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a4cd-6037-8bc7-653d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss - Nexus Designator" hidden="false">
+    <profile id="a4cd-6037-8bc7-653d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vardiss---Nexus_Designator" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="99a0-94ac-afce-72ed" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vardiss Heavy Support Tank" hidden="false">
+    <profile id="99a0-94ac-afce-72ed" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vardiss_Heavy_Support_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="13"/>
@@ -2051,22 +2163,22 @@ other effect.</description>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3495-f9b9-1910-26a3" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varic - Nexus Designator" hidden="false">
+    <profile id="3495-f9b9-1910-26a3" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varic---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1bec-8514-5c41-f5b8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varic Support Walker" hidden="false">
+    <profile id="1bec-8514-5c41-f5b8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varic_Support_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="11"/>
@@ -2082,40 +2194,51 @@ other effect.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9eb4-1388-6951-8825" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons (1)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="dd94-150a-68c9-890d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Chrysalis Shard Cannons (2)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="0a74-29bc-381d-eaa2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei - Quad Blood-Maw Biotoxin Projectors" hidden="false">
+    <profile id="0a74-29bc-381d-eaa2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei---Blood-Maw_Biotoxin_Projectors" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="aa52-d358-a362-4f84" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varisei-Kei Firepower Leviathan" hidden="false">
+    <profile id="9eb4-1388-6951-8825" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei---Chrysalis_Shard_Cannons(1)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/R"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="dd94-150a-68c9-890d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei---Chrysalis_Shard_Cannons(2)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/R"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fd17-b82e-96b0-3155" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varisei-Kei---Nexus_Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="aa52-d358-a362-4f84" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varisei-Kei_Firepower_Leviathan" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="11"/>
@@ -2124,47 +2247,47 @@ other effect.</description>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="11"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="11"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10 / 10"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10/5"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="15"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3ea7-2294-953b-9bc1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss - Chelicerae Missiles" hidden="false">
+    <profile id="3ea7-2294-953b-9bc1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss---Chelicerae_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage / +Corrosive in NOV 26th ORBAT"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5ec5-51d3-3c2a-7d1e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss - Dual Pupa Shard Cannons" hidden="false">
+    <profile id="5ec5-51d3-3c2a-7d1e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss---Dual_Pupa_Shard_Cannons" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="18"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="15"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2a35-e7c3-837b-5f8f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss - Nexus Designator" hidden="false">
+    <profile id="2a35-e7c3-837b-5f8f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vaxiss---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0235-d76b-1605-ed51" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vaxiss Ground Attack Leviathan" hidden="false">
+    <profile id="0235-d76b-1605-ed51" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vaxiss_Ground_Attack_Leviathan" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -2173,47 +2296,47 @@ other effect.</description>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="9"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12 / 4"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12/4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="214d-a450-4b28-c045" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Chelicerae Missiles" hidden="false">
+    <profile id="214d-a450-4b28-c045" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith---Chelicerae_Missiles" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="7"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage / +Corrosive in NOV 26th ORBAT"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2421-405b-5373-1c04" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Chrysalis Shard Cannon" hidden="false">
+    <profile id="2421-405b-5373-1c04" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith---Chrysalis_Shard_Cannon" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Kinetic"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="eafe-ea88-3f3e-248b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith - Nexus Designator" hidden="false">
+    <profile id="eafe-ea88-3f3e-248b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Visith---Nexus_Designator" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ff49-d908-e03e-6fba" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Visith Heavy Tank" hidden="false">
+    <profile id="ff49-d908-e03e-6fba" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Visith_Heavy_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="13"/>
@@ -2225,27 +2348,11 @@ other effect.</description>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_9"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8590-de29-0d2a-1372" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yayiss Spire Sky Drop Transport" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="4"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="0"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4d2f-f0a4-c022-233f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yayiss-Ya Sky Drop Transport" hidden="false">
+    <profile id="4d2f-f0a4-c022-233f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yayiss-Ya_Sky_Drop_Transport" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
@@ -2258,6 +2365,22 @@ other effect.</description>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8590-de29-0d2a-1372" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yayiss_Spire_Sky_Drop_Transport" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="4"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="4"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Militia"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="0"/>
       </characteristics>
       <modifiers/>
     </profile>

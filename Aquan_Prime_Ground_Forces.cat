@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eafd-cf56-7710-f042" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eafd-cf56-7710-f042" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="e792-4b98-94da-a55d" name="Aquan Prime Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5189-e7b5-1133-394a" name="Aquan_Prime_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="e193-0a96-731f-51a3" name="Sedna Heavy Skimmer Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="15bd-b357-96cf-cf61" name="Ju-Fa-Shami_Robot" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c3fa-c03f-96d4-ff60" targetId="61f5-9b39-0f78-88d9" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f052-731d-a6dc-0248" name="Sakatar_Medium_Tank" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8982-34af-8e75-094a" targetId="4741-642c-8509-2b6a" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e792-4b98-94da-a55d" name="Aquan_Prime_Core_Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e193-0a96-731f-51a3" name="Sedna_Heavy_Skimmer_Squadron" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="0324-cf1f-3bd3-e194" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="0324-cf1f-3bd3-e194" name="Sirsir_Medium_Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -33,9 +66,9 @@
             </link>
           </links>
         </entry>
-        <entry id="581a-3a81-203b-433f" name="Lamana Medium Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="581a-3a81-203b-433f" name="Lamana_Medium_Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="9e99-2972-cb87-9b40" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="9e99-2972-cb87-9b40" name="Sirsir_Medium_Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -63,7 +96,7 @@
             </link>
           </links>
         </entry>
-        <entry id="d9a0-869e-e98e-67b6" name="Imzani Light Recon Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d9a0-869e-e98e-67b6" name="Imzani_Light_Recon_Skimmer" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -75,7 +108,7 @@
             </link>
           </links>
         </entry>
-        <entry id="f5e9-3fe0-cfa5-df3d" name="Stingray Anti-Air Battery" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f5e9-3fe0-cfa5-df3d" name="Stingray_Anti-Air_Battery" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -87,7 +120,7 @@
             </link>
           </links>
         </entry>
-        <entry id="8dea-7973-2fb4-34ec" name="Votari Crystal Node" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8dea-7973-2fb4-34ec" name="Votari_Crystal_Node" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -99,13 +132,13 @@
             </link>
           </links>
         </entry>
-        <entry id="4ca6-0b12-f764-ad47" name="Khitari Strike Shoal Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4ca6-0b12-f764-ad47" name="Khitari_Strike_Shoal_Infantry" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="d001-ac59-4f60-b66b" name="Strike Shoal" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="d001-ac59-4f60-b66b" name="Strike_Shoal" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="4e56-a601-5db7-6424" name="Khitari Strike Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="4e56-a601-5db7-6424" name="Khitari_Strike_Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -145,9 +178,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="b61f-a900-5b2a-bb80" name="Aquan Prime Firepower Leviathan Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b61f-a900-5b2a-bb80" name="Aquan_Prime_Firepower_Leviathan_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="f2ae-e5c1-d2a1-59cc" name="El-Shami Firepower Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f2ae-e5c1-d2a1-59cc" name="El-Shami_Firepower_Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -159,7 +192,7 @@
             </link>
           </links>
         </entry>
-        <entry id="5bf3-24c7-ed88-d093" name="Imzani Light Recon Skimmer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5bf3-24c7-ed88-d093" name="Imzani_Light_Recon_Skimmer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -178,9 +211,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="a5eb-be57-6046-091b" name="Aquan Prime Ground Attack Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a5eb-be57-6046-091b" name="Aquan_Prime_Ground_Attack_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="4473-c03f-cdf4-616b" name="Comanu Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4473-c03f-cdf4-616b" name="Comanu_Ground_Attack_Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -192,7 +225,7 @@
             </link>
           </links>
         </entry>
-        <entry id="1770-408e-a28c-949a" name="Kalari Heavy Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+        <entry id="1770-408e-a28c-949a" name="Kalari_Heavy_Ground_Attack_Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -211,14 +244,14 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="ab75-c16a-46fe-ad20" name="Aquan Prime Ground Command Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ab75-c16a-46fe-ad20" name="Aquan_Prime_Ground_Command_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="a2f2-a02e-fb18-b4b2" name="Malani Heavy Command Barge" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a2f2-a02e-fb18-b4b2" name="Malani_Command_Barge" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="9ecf-a241-0695-25b1" name="Embarked Strike Shoal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="9ecf-a241-0695-25b1" name="Embarked_Strike_Shoal_Grand_Company" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="72ac-52ab-b1ad-cbf0" name="Khitari Strike Shoal" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="72ac-52ab-b1ad-cbf0" name="Khitari_Strike_Shoal_Grand_Company" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -251,7 +284,7 @@
             </link>
           </links>
         </entry>
-        <entry id="27b6-31d7-3c86-e1a9" name="Marana Light Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="27b6-31d7-3c86-e1a9" name="Marana_Light_Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -263,7 +296,7 @@
             </link>
           </links>
         </entry>
-        <entry id="6d81-a715-0c79-410a" name="Votari Crystal Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6d81-a715-0c79-410a" name="Votari_Crystal_Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -282,11 +315,11 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="cd65-6930-00bf-19ef" name="Aquan Prime Heavy Armour Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="cd65-6930-00bf-19ef" name="Aquan_Prime_Heavy_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="d4ff-41be-e413-546d" name="Haumea Heavy Support Tank" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d4ff-41be-e413-546d" name="Haumea_Heavy_Support_Tank" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="63e5-13a7-5bc9-53b5" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="63e5-13a7-5bc9-53b5" name="Sirsir_Medium_Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -314,9 +347,9 @@
             </link>
           </links>
         </entry>
-        <entry id="9318-1ac0-ba16-36c8" name="Locatu Tank Destroyer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9318-1ac0-ba16-36c8" name="Locatu_Tank_Destroyer" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="bf6a-83bf-a0c4-009e" name="Sirsir Medium Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="bf6a-83bf-a0c4-009e" name="Sirsir_Medium_Support" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers>
@@ -340,7 +373,7 @@
             </link>
           </links>
         </entry>
-        <entry id="55fd-1c63-f28d-a1e4" name="Votari Crystal Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="55fd-1c63-f28d-a1e4" name="Votari_Crystal_Node" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -359,9 +392,9 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="86cb-7cdd-f961-0f09" name="Aquan Prime Interceptor Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="86cb-7cdd-f961-0f09" name="Aquan_Prime_Interceptor_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="c228-52b5-2376-3c42" name="Minnari Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c228-52b5-2376-3c42" name="Minnari Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -392,14 +425,14 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5b17-abb2-8183-4bdc" name="Aquan Prime Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5b17-abb2-8183-4bdc" name="Aquan_Prime_Recon_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="7530-5682-31ed-0fd0" name="Larata Medium Transport" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7530-5682-31ed-0fd0" name="Larata_Medium_Transport" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="6c4d-2939-55fd-9cf6" name="Embarked Strike Shoal (Embarked)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="6c4d-2939-55fd-9cf6" name="Embarked_Strike_Shoal_(Embarked)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="34b9-8f60-54d1-a563" name="Khitari Strike Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="34b9-8f60-54d1-a563" name="Khitari_Strike_Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -439,7 +472,7 @@
             </link>
           </links>
         </entry>
-        <entry id="266b-42b5-08d3-accc" name="Marana Light Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="266b-42b5-08d3-accc" name="Marana_Light_Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -477,7 +510,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="40f4e159-bb00-5313-1c49-51e52b65f755" name="Logistics_Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -492,7 +525,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="0739-c8fa-f41f-0164" name="Select if a Leviathan or Heavy Helix is taken as an Allied Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="0739-c8fa-f41f-0164" name="Select_if_a_Leviathan_or_Heavy_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -507,7 +540,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="9ec5-5f83-2ff3-84c6" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="9ec5-5f83-2ff3-84c6" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -522,7 +555,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="80dc-de11-a3f8-b2d4" name="Select if an Assault or Field Support Helix is taken as an Allied Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="80dc-de11-a3f8-b2d4" name="Select_if_an_Assault_or_Field_Support_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -539,26 +572,30 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
   </entries>
   <rules>
-    <rule id="ddfdfd6e-6253-215e-86bc-548e69afb78e" name="Aquan Prime - Artillery Attacks" hidden="false">
+    <rule id="ddfdfd6e-6253-215e-86bc-548e69afb78e" name="Aquan_Prime---Artillery_Attacks" hidden="false">
       <description>All Aquan Artillery Attacks use the Barrage and Scatter MARs with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Aquan Prime - Sky Drop Capability" hidden="false">
-      <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
+    <rule id="98512863-9dcf-589a-b275-f8c1b88c5040" name="Aquan_Prime---Sky_Drop_Capability" hidden="false">
+      <description>Initial Sky Drop Markers are set to 4. Initial Artillery Drop Site Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Aquan Prime - Tactical Bonus" hidden="false">
+    <rule id="239b48ff-50cf-6dd9-e275-9d6152da7117" name="Aquan_Prime---Tactical_Bonus" hidden="false">
       <description>Aquan forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="edb1-6c2f-a3e4-1748" name="Aquan Prime - Logistic Bid Max" hidden="false">
-      <description>Up to 4 Logistics Points in a single Bid Action.</description>
+    <rule id="edb1-6c2f-a3e4-1748" name="Aquan_Prime---Logistical_Strength" hidden="false">
+      <description>Aquan Prime Forces may elect to spend Logistics Points during the Play TACs Step of the Pre-Turn Phase to place Squadrons on Overwatch:
+• It costs 1 Logistics Point to place a Light Squadron on Overwatch.
+• It costs 2 Logistics Points to place an Armoured Squadron on Overwatch, unless it is a Heavy Armoured Squadron (identified as having the word Heavy in its designation) or Leviathan Squadron (identified as having the word Leviathan in its designation) which cost 3 Logistics Points to place on Overwatch.
+• Aerial Forces may NOT use Logistics Points to be placed on Overwatch unless specifically noted.
+• In the case of mixed Squadrons (A Squadron made up of Light and Armoured Elements for example) use the largest Logistics Cost.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="5b26-e233-877c-8a74" name="Comanu" points="150.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5b26-e233-877c-8a74" name="Comanu" points="135.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -589,7 +626,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="bb2a-c6f0-183b-d0e6" targetId="ed9fa94a-3064-728d-8a4a-b3321ef96fde" linkType="rule">
           <modifiers/>
         </link>
-        <link id="33e8-c830-ed12-a053" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+        <link id="33e8-c830-ed12-a053" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -622,7 +659,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="b3aa-2065-76de-ec2b" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1c22-33c7-cad4-9ff5" targetId="383d-765c-07f9-2ad4" linkType="rule">
+        <link id="1c22-33c7-cad4-9ff5" targetId="b7c6-29fd-8644-c091" linkType="rule">
           <modifiers/>
         </link>
         <link id="ad1e-8b1e-3a7b-36e1" targetId="4e75-33e4-2b80-42d3" linkType="profile">
@@ -641,6 +678,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="c394-ce03-2bf5-65bc" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="76ca-1d21-03b3-cdc5" targetId="c319-641c-81a8-18fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8742-a8b7-b1ef-13a4" targetId="7d3f-adae-f054-a9e9" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -684,7 +727,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="7466-7497-31a9-903c" name="Imzani" points="65.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7466-7497-31a9-903c" name="Imzani" points="60.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -715,9 +758,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="f556-8c0f-f550-a021" targetId="ddf2-aa2c-e532-7082" linkType="profile">
           <modifiers/>
         </link>
-        <link id="a0a2-df07-e222-d720" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="9459-1c49-fee3-e990" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
           <modifiers>
             <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -730,7 +770,52 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="956f-63e6-2af1-a26e" name="Kalari" points="250.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ffb6-62ef-8e53-5b8b" name="Ju-Fa-Shami" points="250.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="adb9-ca43-6b27-91fb" targetId="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3b40-4771-5f63-5646" targetId="0950e59d-0e2c-c97c-75cb-b313f64b0ceb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8f6e-96d2-d4e6-d258" targetId="a540-8960-48d1-3f85" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c0a-da57-7452-e75e" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d2e7-546e-a89a-d570" targetId="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4373-ef86-7850-1a42" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1894-8092-0149-3819" targetId="96db-0716-c6dd-1caa" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b974-0b03-2e59-5a9e" targetId="298e-19e6-0917-af74" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cbd7-b8b8-a800-70eb" targetId="9956-9a1f-0468-d717" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0976-74a8-2ec9-0a19" targetId="098f6beb-a316-14f9-69b2-62b37ddd6209" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2476-e5e4-2a32-8495" targetId="5cb5-63eb-5c5c-e569" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="723f-7652-f23f-a56a" targetId="1952-da40-85d3-f76b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="956f-63e6-2af1-a26e" name="Kalari" points="230.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -764,12 +849,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="d546-02b7-7b59-0609" targetId="53cb-eff0-2c87-5a2a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="76bc-0ec7-ba21-daa6" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+        <link id="46a3-cd79-24eb-5d3d" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="248d-8d21-8d78-377c" name="Khitari Strike Shoal Gun Team" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="248d-8d21-8d78-377c" name="Khitari_Strike_Shoal_Gun_Team" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -790,7 +875,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="2363-b218-df50-496d" targetId="d620-2ffd-397c-ac10" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="5" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -808,7 +893,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="43c1-5491-bc98-2907" name="Khitari Strike Shoal Infantry" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="43c1-5491-bc98-2907" name="Khitari_Strike_Shoal_Infantry" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -830,7 +915,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="dfe4-ef85-eb2b-e164" targetId="957e-ec50-6a0b-8c45" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="5" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -838,7 +923,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="d248-02cf-47a8-eb4d" name="Khitari Strike Shoal Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d248-02cf-47a8-eb4d" name="Khitari_Strike_Shoal_Officer" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -859,7 +944,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="5222-dca5-64e3-d4d9" targetId="b975-c47b-1aa4-0c94" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="5" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -867,7 +952,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="6964-82c7-469f-fdf5" name="Khitari Strike Shoal Sweeper Team" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6964-82c7-469f-fdf5" name="Khitari_Strike_Shoal_Sweeper_Team" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -885,7 +970,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
         <link id="22e1-f49d-942e-6154" targetId="1493-acef-e8bb-c4eb" linkType="profile">
           <modifiers>
-            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="5" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" value="6" repeat="true" numRepeats="1" incrementParentId="category" incrementChildId="ab75-c16a-46fe-ad20" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -983,7 +1068,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="b0e1-7807-5786-7697" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="b0e1-7807-5786-7697" name="Logistics_Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -991,7 +1076,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="92e4-078b-ce97-8584" name="Malani" points="500.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="92e4-078b-ce97-8584" name="Malani" points="550.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1057,7 +1142,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="c5e2-3713-d1ef-5a1c" name="Marana" points="70.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c5e2-3713-d1ef-5a1c" name="Marana" points="65.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1101,9 +1186,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="b931-9446-4fd6-5ad9" targetId="2e56-8fed-0b99-cef4" linkType="profile">
           <modifiers/>
         </link>
-        <link id="3aa3-a1b8-a4e9-4f26" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="a318-267b-38d0-6211" name="Minnari" points="90.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1140,7 +1222,37 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="2e54-85aa-f277-f8f6" targetId="1133-4911-05f8-731a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="64de-4e2d-82dd-f2ff" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+        <link id="64de-4e2d-82dd-f2ff" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4e81-42f5-f659-fb7d" name="Sakatar" points="130.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b0a5-85f5-62e9-debd" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3010-f45e-ffb3-cab9" targetId="6203094a-fd3c-4650-a82f-da72fea85670" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b50c-f477-d8cb-293f" targetId="b820ee63-105f-14ee-342e-e0df343968c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1da4-87b9-02a3-4a52" targetId="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5611-3576-e243-8884" targetId="bf58-92bb-8470-d9cc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4522-847b-be7f-33a9" targetId="4794-dcf2-1563-6ca4" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="192a-3b11-a75a-9609" targetId="dd98-00b7-26f7-cf8b" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1293,7 +1405,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="7a8f-2748-9050-57db" targetId="1133-4911-05f8-731a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7965-62af-ab85-5d49" targetId="c139cd44-61e6-48cc-5455-23769556dce8" linkType="rule">
+        <link id="7965-62af-ab85-5d49" targetId="60addc22-1246-7572-ce89-12038c86149d" linkType="rule">
           <modifiers/>
         </link>
         <link id="0712-ca48-2a16-75ad" targetId="e137-b185-23a3-d285" linkType="rule">
@@ -1356,7 +1468,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="4741-642c-8509-2b6a" name="Light Recon Skimmer" defaultEntryId="7306-e355-0708-ad4a" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="4741-642c-8509-2b6a" name="Light_Recon_Skimmer" defaultEntryId="7306-e355-0708-ad4a" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1373,7 +1485,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="9814-846f-d07c-a171" name="Medium Support" defaultEntryId="bea9-f604-eacf-2053" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="9814-846f-d07c-a171" name="Medium_Support" defaultEntryId="bea9-f604-eacf-2053" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1383,7 +1495,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="ece00a92-d188-2133-6c07-cb5c46905108" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="ece00a92-d188-2133-6c07-cb5c46905108" name="Specialist_Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1435,36 +1547,36 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="8e11-6e73-0d1d-f658" name="Aerial Assault" hidden="false">
+    <rule id="8e11-6e73-0d1d-f658" name="Aerial_Assault" hidden="false">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="f311bd50-fd65-1ddc-0553-dbed27a62f54" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="f311bd50-fd65-1ddc-0553-dbed27a62f54" name="Bulky(2)" hidden="false" book="Core Rulebook" page="116">
       <description>These units take up 2 slots in transports.</description>
       <modifiers/>
     </rule>
-    <rule id="1929-a94b-a404-fb53" name="Command Centre" hidden="false">
-      <description>A Force that contains a Malani Command Barge may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size. In addition no friendly Aquan forces within the Malani’s Command Radius are required to take Disorder Tests due to the loss of their own Command Element </description>
+    <rule id="1929-a94b-a404-fb53" name="Command_Centre" hidden="false">
+      <description>A Force that contains a Malani Command Barge may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size. In addition no friendly Aquan forces within the Malani’s Command Radius are required to take Disorder Tests due to the loss of their own Command Element</description>
       <modifiers/>
     </rule>
-    <rule id="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="bac1b742-dda4-1e7d-c21b-50b0c37e7bee" name="Command_Element(12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="8eed-685a-9d1a-9502" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="8eed-685a-9d1a-9502" name="Command_Element(16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="bbab61d8-7f04-06c6-44d5-b2ebf654f2f1" name="Command_Element(8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="fc270dce-7b96-224e-7eca-f9918b919141" name="Crystal Formation" hidden="false" book="Core Rulebook" page="117">
+    <rule id="fc270dce-7b96-224e-7eca-f9918b919141" name="Crystal_Formation" hidden="false" book="Core Rulebook" page="117">
       <description>May be targeted by friendly Laser weapons. Will redirect this fire to an enemy target within the Mirror Crystal&apos;s range. This redirected shot cannot benefit from weapon MARs such as Pinpoint.</description>
       <modifiers/>
     </rule>
-    <rule id="3fa0-c087-542c-4003" name="Crystal Resonance" hidden="false">
-      <description>If a Malani Command Barge is deployed on the battlefield, all friendly Votari Crystals increase their range to 30” and any attacks they execute are ALWAYS considered to be Placed.</description>
+    <rule id="3fa0-c087-542c-4003" name="Crystal_Resonance" hidden="false">
+      <description>If a Malani Command Barge is deployed on the battlefield, all friendly Votari Crystals increase their range to 30” and any attacks they execute are ALWAYS considered to be Placed</description>
       <modifiers/>
     </rule>
     <rule id="850d-21be-5f75-5179" name="Dogfighter" hidden="false">
@@ -1475,95 +1587,107 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="1133-4911-05f8-731a" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="1133-4911-05f8-731a" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="670c-ba99-f851-acc8" name="Ground Attack" hidden="false">
-      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
+    <rule id="7d3f-adae-f054-a9e9" name="Focused_Horror" hidden="false">
+      <description>If BOTH Solar Titan Lasers fire at the same target squadron, the weapons gain the Terror Weapon MAR in addition to any other effects. This Attack may NOT be combined with other weapons on the Leviathan.</description>
       <modifiers/>
     </rule>
-    <rule id="af75f07b-2ddb-5a31-045c-791a591e7aa5" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="670c-ba99-f851-acc8" name="Ground_Attack" hidden="false">
+      <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models – These shots are considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="af75f07b-2ddb-5a31-045c-791a591e7aa5" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="5657507a-551e-d73e-8241-0e2f0698e049" name="Hard_Target(-2)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -2 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="c139cd44-61e6-48cc-5455-23769556dce8" name="Hardened Shell" hidden="false">
-      <description>All un-Damaged Aquan Prime Non-Infantry Elements have the Sectored Armour MAR. Any Aquan Non-Infantry element with a Damage Marker loses its Hardened Shell rule and the Sectored Armour MAR no longer applies.</description>
+    <rule id="c139cd44-61e6-48cc-5455-23769556dce8" name="Hardened_Shell" hidden="false">
+      <description>All un-Damaged Aquan Armoured and Leviathan elements are considered to have the Sectored Armour MAR. Any Aquan Armoured and Leviathan element with a Damage Marker loses its Hardened Shell rule and the Sectored Armour MAR no longer applies.</description>
       <modifiers/>
     </rule>
-    <rule id="6203094a-fd3c-4650-a82f-da72fea85670" name="Hit &amp; Run" hidden="false" book="Core Rulebook" page="118">
+    <rule id="6203094a-fd3c-4650-a82f-da72fea85670" name="Hit_&amp;_Run" hidden="false" book="Core Rulebook" page="118">
       <description>May shoot and move OR move and move. May not move Flat Out if this rule is used. When shooting then moving, the unit cannot take advantage of Target Locks or Specialist Fire Orders such as Overwatch or Focused Fire.</description>
       <modifiers/>
     </rule>
-    <rule id="b820ee63-105f-14ee-342e-e0df343968c9" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="b820ee63-105f-14ee-342e-e0df343968c9" name="Hover_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="c319-641c-81a8-18fa" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
+    <rule id="5cb5-63eb-5c5c-e569" name="Hunting_Pack" hidden="false">
+      <description>If BOTH members of the Squadron manage to engage in Leviathan CQB against the same foe, increase the Pinpoint Value MAR of their Leviathan CQB attack to 4.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c319-641c-81a8-18fa" name="Independent_Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
       <modifiers/>
     </rule>
-    <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="4c77f424-c732-5a47-99c1-b7885d7d8c8d" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="41ab302c-d58f-f0c6-3687-843e6b49e277" name="Rear Echelon" hidden="false" book="Core Rulebook" page="120">
+    <rule id="41ab302c-d58f-f0c6-3687-843e6b49e277" name="Rear_Echelon" hidden="false" book="Core Rulebook" page="120">
       <description>A model with this MAR is considered to be activated on the turn it is deployed.</description>
       <modifiers/>
     </rule>
-    <rule id="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="fe8b5ad4-948a-5625-3c64-a0477cc9b32f" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>The Squadron chosen may choose to make a free Flat Out Movement Action during the Recon Phase provided the move does not bring the Element within 16&quot; of an enemy Model at any time during its movement.</description>
       <modifiers/>
     </rule>
     <rule id="7eb1-e736-fa95-8c41" name="Robust" hidden="false" book="Aquan ORBATs" page="7">
-      <description>Unlike other Aquan Armoured elements, Votari Crystal Nodes do not lose Sectored Armour MAR when they gain a damage marker.</description>
+      <description>Unlike other Aquan Armoured elements, this element does not lose Sectored Armour MAR when they gain a damage marker.</description>
       <modifiers/>
     </rule>
-    <rule id="60addc22-1246-7572-ce89-12038c86149d" name="Sectored Armour" hidden="false" book="Core Rulebook" page="121">
+    <rule id="60addc22-1246-7572-ce89-12038c86149d" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
       <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
       <modifiers/>
     </rule>
-    <rule id="ed9fa94a-3064-728d-8a4a-b3321ef96fde" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
+    <rule id="ed9fa94a-3064-728d-8a4a-b3321ef96fde" name="Sky_Drop" hidden="false" book="Core Rulebook" page="121">
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
     </rule>
-    <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Sky Drop Asset" hidden="false">
+    <rule id="10c35217-7ea5-3a13-5f7b-9511ec4f69f1" name="Sky_Drop_Asset" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
-    <rule id="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" name="Sky Drop Nexus (2)" hidden="false" book="Core Rulebook" page="121">
+    <rule id="94d98de6-9b4d-8ac7-20e0-024f22d68f0c" name="Sky_Drop_Nexus(2)" hidden="false" book="Core Rulebook" page="121">
       <description>Places 2 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="53cb-eff0-2c87-5a2a" name="Strafing Run" hidden="false">
+    <rule id="53cb-eff0-2c87-5a2a" name="Strafing_Run" hidden="false">
       <description>This Squadron may initiate a CQB Attack during its own activation while moving Flat Out provided the target squadron are Surface Models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+    <rule id="56d112bc-f406-ea1f-1c08-c3e1cf5d6539" name="Take_&amp;_Hold" hidden="false" book="Core Rulebook" page="121">
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="442c5fc1-73df-37d4-b235-183b9027f954" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+    <rule id="442c5fc1-73df-37d4-b235-183b9027f954" name="Target_Lock" hidden="false" book="Core Rulebook" page="122">
       <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
       <modifiers/>
     </rule>
-    <rule id="8ddc-85cb-7248-b5af" name="Transport (16)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="1952-da40-85d3-f76b" name="Thunderous_Charge" hidden="false">
+      <description>The Leviathan may perform a Leviathan CQB Action after moving Flat Out.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c316-abcb-2520-6b50" name="Transport(10)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 10 slots worth of Infantry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8ddc-85cb-7248-b5af" name="Transport(16)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 16 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="0d98253e-a275-10c5-9e0f-2df36fbd50fa" name="Transport (8)" hidden="false" book="Core Rulebook" page="122">
-      <description>May act as a transport for 8 slots worth of Infantry.</description>
+    <rule id="0d98253e-a275-10c5-9e0f-2df36fbd50fa" name="Transport(6)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 6 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="c316-abcb-2520-6b50" name="Transport (9)" hidden="false" book="Core Rulebook" page="122">
-      <description>May act as a transport for 9 slots worth of Infantry.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e137-b185-23a3-d285" name="Votari Focal Point" hidden="false">
+    <rule id="e137-b185-23a3-d285" name="Votari_Focal_Point" hidden="false">
       <description>When fired upon by friendly Aquan Beam Weaponry, all attacks are treated as Placed prior to normal modifications</description>
       <modifiers/>
     </rule>
@@ -1571,56 +1695,60 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>May not move Flat Out through Vegation or Rivers.</description>
       <modifiers/>
     </rule>
-    <rule id="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="b92b2fa4-8c24-d0f9-ba2d-a158541d36f1" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
+    <rule id="dd0a6f20-6b72-7858-d3c4-2f84e148f5f2" name="Weapon_MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
       <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="284d6761-1c09-49d0-2b6e-424af844765f" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="284d6761-1c09-49d0-2b6e-424af844765f" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="18b213fe-9af2-dcf1-2d39-872a9d0c239a" name="Weapon_MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="71e1128e-3be8-0006-f4d6-bac61017e468" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="71e1128e-3be8-0006-f4d6-bac61017e468" name="Weapon_MAR:Pinpoint(1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="098f6beb-a316-14f9-69b2-62b37ddd6209" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="098f6beb-a316-14f9-69b2-62b37ddd6209" name="Weapon_MAR:Pinpoint(2)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="383d-765c-07f9-2ad4" name="Weapon MAR:Pinpoint (3)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="383d-765c-07f9-2ad4" name="Weapon_MAR:Pinpoint(3)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 3d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="19d9-98ef-57d1-1b95" name="Weapon MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
+    <rule id="b7c6-29fd-8644-c091" name="Weapon_MAR:Pinpoint(4)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="19d9-98ef-57d1-1b95" name="Weapon_MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
       <description>Scatter Weapons ignore any negative modifiers from the Hard Taret MAR when firing at non-flying Targets.</description>
       <modifiers/>
     </rule>
-    <rule id="bf58-92bb-8470-d9cc" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="bf58-92bb-8470-d9cc" name="Weapon_MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="ac53-937f-94a1-5c32" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Comanu - Sunflare Burst Laser" hidden="false">
+    <profile id="ac53-937f-94a1-5c32" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Comanu---Sunflare_Burst_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1) / Scatter"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(1)/Scatter"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5329-aab2-bb7e-d529" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Comanu Ground Attack Gunship" hidden="false">
+    <profile id="5329-aab2-bb7e-d529" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Comanu_Ground_Attack_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -1636,51 +1764,51 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4e75-33e4-2b80-42d3" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Nexus Designator" hidden="false">
+    <profile id="4e75-33e4-2b80-42d3" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="22c0-7db3-02a3-3443" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Solar Titan Laser (L-Arm)" hidden="false">
+    <profile id="22c0-7db3-02a3-3443" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami---Solar_Titan_Laser_(L-Arm)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (3) / Pinpoint (4) in NOV 26th ORBAT"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7fdb-79cb-71a3-ad5f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Solar Titan Laser (R-Arm)" hidden="false">
+    <profile id="7fdb-79cb-71a3-ad5f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami---Solar_Titan_Laser_(R-Arm)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (3) / Pinpoint (4) in NOV 26th ORBAT"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9d2a-56c2-b2bc-e70d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami - Venom Missiles (Body)" hidden="false">
+    <profile id="9d2a-56c2-b2bc-e70d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="El-Shami---Venom_Missiles_(Body)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="14"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="571f-2541-eef3-e840" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="El-Shami Firepower Leviathan" hidden="false">
+    <profile id="571f-2541-eef3-e840" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="El-Shami_Firepower_Leviathan" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="7"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="13"/>
@@ -1689,39 +1817,39 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="7"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="8"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12 / 6"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12/6"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="14"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f10b-2f96-a40a-4632" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haumea - Dual Heavy Stingray Missiles" hidden="false">
+    <profile id="f10b-2f96-a40a-4632" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haumea---Dual_Heavy_Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e0d0-55ee-4500-f774" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haumea - Nexus Designator" hidden="false">
+    <profile id="e0d0-55ee-4500-f774" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Haumea---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a21d-beea-3bfd-c842" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Haumea Heavy Support Tank" hidden="false">
+    <profile id="a21d-beea-3bfd-c842" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Haumea_Heavy_Support_Tank" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
@@ -1734,7 +1862,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8705-2a9b-0270-81ef" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Imzani - Maelstrom Pulse Cannons" hidden="false">
+    <profile id="8705-2a9b-0270-81ef" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Imzani---Maelstrom_Pulse_Cannons" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
@@ -1745,10 +1873,10 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ddf2-aa2c-e532-7082" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Imzani Light Recon Skimmer" hidden="false">
+    <profile id="ddf2-aa2c-e532-7082" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Imzani_Light_Recon_Skimmer" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="18"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="20"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
@@ -1757,22 +1885,55 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="692d-bcf3-570b-2b85" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kalari - Venom Missiles" hidden="false">
+    <profile id="9956-9a1f-0468-d717" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ju-Fa-Shami---Maelstrom_Pulse_Cannons" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="298e-19e6-0917-af74" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Ju-Fa-Shami---Malian_Battle_Crest" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Corrosive/Pinpoint(2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="96db-0716-c6dd-1caa" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ju-Fa-Shami_Battle_Walker" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="5"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7/14"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="692d-bcf3-570b-2b85" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kalari---Venom_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personel / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personel/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="705c-4387-e15c-b55c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kalari Heavy Ground Attack Gunship" hidden="false">
+    <profile id="705c-4387-e15c-b55c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kalari_Heavy_Ground_Attack_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="20"/>
@@ -1784,11 +1945,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flyer"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_9"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4d11-02ed-0022-410d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Khitari Strike Shoal - Maelstrom Pulse Cannon" hidden="true">
+    <profile id="4d11-02ed-0022-410d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Khitari_Strike_Shoal---Maelstrom_Pulse_Cannon" hidden="true">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -1799,7 +1960,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d620-2ffd-397c-ac10" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari Strike Shoal Gun Team Infantry" hidden="false">
+    <profile id="d620-2ffd-397c-ac10" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari_Strike_Shoal_Gun_Team_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1811,11 +1972,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 3"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2_or_3"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="957e-ec50-6a0b-8c45" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari Strike Shoal Infantry" hidden="false">
+    <profile id="957e-ec50-6a0b-8c45" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari_Strike_Shoal_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1827,11 +1988,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 3"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2_or_3"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b975-c47b-1aa4-0c94" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari Strike Shoal Officer Infantry" hidden="false">
+    <profile id="b975-c47b-1aa4-0c94" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari_Strike_Shoal_Officer_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1843,11 +2004,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 3"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2_or_3"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1493-acef-e8bb-c4eb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari Strike Shoal Sweeper Team Infantry" hidden="false">
+    <profile id="1493-acef-e8bb-c4eb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Khitari_Strike_Shoal_Sweeper_Team_Infantry" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="9"/>
@@ -1859,24 +2020,24 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2 or 3"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="2_or_3"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e2c6-ee31-3a61-06a2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Lamana - Sunburst Laser" hidden="false">
+    <profile id="e2c6-ee31-3a61-06a2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Lamana---Sunburst_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="4"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d34c-c0c3-39c0-1ba9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Lamana Medium Skimmer" hidden="false">
+    <profile id="d34c-c0c3-39c0-1ba9" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Lamana_Medium_Skimmer" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
@@ -1886,51 +2047,51 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 6"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_6"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c308-152c-48e2-aa99" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Larata - Heavy Sunflare Burst Laser" hidden="false">
+    <profile id="c308-152c-48e2-aa99" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Larata---Heavy_Sunflare_Burst_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1) / Scatter"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(1)/Scatter"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="82dd-ec78-0d49-2520" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Larata Medium Transport Tank" hidden="false">
+    <profile id="82dd-ec78-0d49-2520" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Larata_Medium_Transport_Tank" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="18"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="3"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2b79-53bd-e700-8980" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Locatu - Corona Heavy Laser" hidden="false">
+    <profile id="2b79-53bd-e700-8980" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Locatu---Corona_Heavy_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="5"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="bb43-3259-4351-2598" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Locatu Tank Destroyer" hidden="false">
+    <profile id="bb43-3259-4351-2598" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Locatu_Tank_Destroyer" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
@@ -1944,62 +2105,62 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c06d-5242-9a8b-f80e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Dual Corona Heavy Laser" hidden="false">
+    <profile id="c06d-5242-9a8b-f80e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani---Dual_Corona_Heavy_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="dd3e-1a4a-5680-fa73" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Dual Stingray Missiles" hidden="false">
+    <profile id="dd3e-1a4a-5680-fa73" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani---Dual_Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="76e7-1997-8b1a-9104" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Maelstrom Pulse Cannons (L)" hidden="false">
+    <profile id="76e7-1997-8b1a-9104" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani---Maelstrom_Pulse_Cannons_(L)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="L"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/A"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3c9b-2f26-b55c-ad94" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Maelstrom Pulse Cannons (R)" hidden="false">
+    <profile id="3c9b-2f26-b55c-ad94" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani---Maelstrom_Pulse_Cannons_(R)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/R/A"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="bfaf-75e8-fa6c-0270" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani - Nexus Designator" hidden="false">
+    <profile id="bfaf-75e8-fa6c-0270" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Malani---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="acb7-614e-15a4-2ddb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Malani Heavy Command Barge" hidden="false">
+    <profile id="acb7-614e-15a4-2ddb" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Malani_Heavy_Command_Barge" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
@@ -2015,26 +2176,26 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2e56-8fed-0b99-cef4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Marana - Stingray Missiles" hidden="false">
+    <profile id="2e56-8fed-0b99-cef4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Marana---Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d649-1b7f-0499-1977" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Marana Light Tank" hidden="false">
+    <profile id="d649-1b7f-0499-1977" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Marana_Light_Tank" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="13"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="17"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="20"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="4"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
@@ -2042,18 +2203,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d925-ab00-473c-d2ad" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Minnari - Stingray Missiles" hidden="false">
+    <profile id="d925-ab00-473c-d2ad" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Minnari---Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7c9e-a065-6fce-7e7c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Minnari Interceptor" hidden="false">
+    <profile id="7c9e-a065-6fce-7e7c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Minnari_Interceptor" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -2069,21 +2230,48 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ddd8-f3aa-332b-53e4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sedna - Dual Corona Heavy Laser" hidden="false">
+    <profile id="dd98-00b7-26f7-cf8b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sakatar---Venom_Missiles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="7"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel/Terror_Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4794-dcf2-1563-6ca4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sakatar_Medium_Battle_Tank" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="5"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_7"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ddd8-f3aa-332b-53e4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sedna---Dual_Corona_Heavy_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="18"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="36"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2a04-923e-5313-4e14" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sedna Heavy Skimmer" hidden="false">
+    <profile id="2a04-923e-5313-4e14" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sedna_Heavy_Skimmer" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
@@ -2092,24 +2280,24 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 8"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_8"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6b972e8a-b998-04d8-1544-51ceb8e5e5b0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sirsir - Nexus Designator" hidden="false">
+    <profile id="6b972e8a-b998-04d8-1544-51ceb8e5e5b0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sirsir---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="fc41d423-dcc8-6bf4-563f-2527e762efe4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sirsir Medium Support" hidden="false">
+    <profile id="fc41d423-dcc8-6bf4-563f-2527e762efe4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sirsir_Medium_Support" hidden="false">
       <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="5"/>
@@ -2123,18 +2311,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5302-b4c5-c36c-15e9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Stingray - Stingray Missiles" hidden="false">
+    <profile id="5302-b4c5-c36c-15e9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Stingray---Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6116-5262-113f-77b4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Stingray Anti-Air Battery" hidden="false">
+    <profile id="6116-5262-113f-77b4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Stingray_Anti-Air_Battery" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
@@ -2150,7 +2338,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1709-33da-5759-47fb" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vorati - Mirror Crystal" hidden="false">
+    <profile id="1709-33da-5759-47fb" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vorati---Mirror_Crystal" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="*"/>
@@ -2161,18 +2349,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="87d7-f46d-c315-b33e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vorati - Stingray Missiles" hidden="false">
+    <profile id="87d7-f46d-c315-b33e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vorati---Stingray_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9c60-0054-a9b1-4f7c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vorati Heavy Interceptor Gunship" hidden="false">
+    <profile id="9c60-0054-a9b1-4f7c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vorati_Heavy_Interceptor_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="14"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="20"/>
@@ -2188,7 +2376,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="cd04-4d54-214e-f414" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Votari - Mirror Crystal" hidden="false">
+    <profile id="cd04-4d54-214e-f414" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Votari---Mirror_Crystal" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="*"/>
@@ -2199,7 +2387,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="cedd-b132-93ac-4dfe" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Votari Crystal Node" hidden="false">
+    <profile id="cedd-b132-93ac-4dfe" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Votari_Crystal_Node" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80a9-5f12-c236-f6e9" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80a9-5f12-c236-f6e9" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Ba&apos;Kash Clan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="f4cb-8f2f-1a99-a8f5" name="Ba’Kash Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f4cb-8f2f-1a99-a8f5" name="Ba’Kash_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="a222-8322-0e09-c134" name="Novian Heavy Gunship" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a222-8322-0e09-c134" name="Novian_Heavy_Gunship" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -15,7 +15,7 @@
             </link>
           </links>
         </entry>
-        <entry id="65e4-172a-6dd2-df2f" name="Varuko Heavy Ground Attack Flyer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="65e4-172a-6dd2-df2f" name="Varuko_Heavy_Ground_Attack_Flyer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -34,7 +34,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="7bd2-c97c-7d02-c878" name="Select if a Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7bd2-c97c-7d02-c878" name="Select_if_a_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -44,15 +44,15 @@
     </entry>
   </entries>
   <rules>
-    <rule id="ae9673ed-e86d-3991-6638-b7992854f11d" name="Ba&apos;Kash Clan - Artillery Attacks" hidden="false">
+    <rule id="ae9673ed-e86d-3991-6638-b7992854f11d" name="Ba&apos;Kash_Clan---Artillery_Attacks" hidden="false">
       <description>All Ba&apos;Kash Clans Artillery Attacks use the Barrage and Scatter MARs with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="9e545086-1c35-b094-b0de-5104d6fce761" name="Ba&apos;Kash Clan - Sky Drop Capability" hidden="false">
+    <rule id="9e545086-1c35-b094-b0de-5104d6fce761" name="Ba&apos;Kash_Clan---Sky_Drop_Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="8467d8a0-2704-cd03-6831-4fde507b2e19" name="Ba&apos;Kash Clan - Tactical Bonus" hidden="false">
+    <rule id="8467d8a0-2704-cd03-6831-4fde507b2e19" name="Ba&apos;Kash_Clan---Tactical_Bonus" hidden="false">
       <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
@@ -99,6 +99,12 @@
         <link id="03a6-8f56-bfef-d135" targetId="7f83-0846-97e2-a287" linkType="profile">
           <modifiers/>
         </link>
+        <link id="9577-b13f-5a7d-e777" targetId="12d9-b68d-cf09-2d66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f4c-1ef9-2aa9-ac0f" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9040-ae7f-0200-c62c" name="Varuko" points="80.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -129,16 +135,22 @@
         <link id="f748-00fb-5f83-47bc" targetId="9e0f-1032-6df1-1fb8" linkType="profile">
           <modifiers/>
         </link>
+        <link id="d2eb-2640-3d00-8355" targetId="12d9-b68d-cf09-2d66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5acc-51a1-2d7e-42cd" targetId="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" name="Apex Predators" hidden="false" book="Relthozan ORBATS" page="2">
-      <description>All Ba’Kash Armoured and Light elements have the Recon Specialist MAR.</description>
+    <rule id="ce26cd29-4c63-94b0-b7bd-3b3e47bb4103" name="Apex_Predators" hidden="false" book="Relthozan ORBATS" page="2">
+      <description>All Ba’Kash Aerial and Light elements have the Recon Specialist MAR.</description>
       <modifiers/>
     </rule>
-    <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command_Element(12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
@@ -146,62 +158,66 @@
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ground Attack" hidden="false" book="Relthozan ORBAT" page="10">
+    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Ground_Attack" hidden="false" book="Relthozan ORBAT" page="10">
       <description>This squadron may fire its Main Ordnance while moving Flat Out, but may only target Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="12d9-b68d-cf09-2d66" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
+      <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Weapon_MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
       <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
-    <rule id="796c596b-4df4-8aa5-c7db-e26ec670a62d" name="Weapon MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
+    <rule id="796c596b-4df4-8aa5-c7db-e26ec670a62d" name="Weapon_MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
       <description>Scatter Weapons ignore any negative modifiers from the Hard Taret MAR when firing at non-flying Targets.</description>
       <modifiers/>
     </rule>
-    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon_MAR:Terror_Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8dfc-ab58-3aa3-5bbe" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Dual Dirge Missiles" hidden="false">
+    <profile id="8dfc-ab58-3aa3-5bbe" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian---Dual_Dirge_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel/Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="7f83-0846-97e2-a287" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian - Shriek Cannons" hidden="false">
+    <profile id="7f83-0846-97e2-a287" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Novian---Shriek_Cannons" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2657-a05e-3942-0f53" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Novian Heavy Gunship" hidden="false">
+    <profile id="2657-a05e-3942-0f53" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Novian_Heavy_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="32"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
@@ -214,21 +230,21 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9e0f-1032-6df1-1fb8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko - Dirge Missiles" hidden="false">
+    <profile id="9e0f-1032-6df1-1fb8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Varuko---Dirge_Missiles" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel/Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b2ea-d5c3-8805-800b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varuko Heavy Ground Attack Flyer" hidden="false">
+    <profile id="b2ea-d5c3-8805-800b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Varuko_Heavy_Ground_Attack_Flyer" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="18"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="36"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="7"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
