@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed10-fe7b-580d-ca95" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed10-fe7b-580d-ca95" revision="5" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="ca25-d587-12d5-9a55" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -20,7 +20,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="94a1e194-b8fe-e241-9335-253794c49bce" name="Logistics Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="94a1e194-b8fe-e241-9335-253794c49bce" name="Logistics_Points" points="0.0" categoryId="6124ca5f-4ae5-6c10-6b25-01af704031f6" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -35,7 +35,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="258e-6869-2fc0-a059" name="Select if a Leviathan or Heavy Helix is taken as an Allied Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="258e-6869-2fc0-a059" name="Select_if_a_Leviathan_or_Heavy_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -50,7 +50,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="3101-6610-547f-8d62" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="3101-6610-547f-8d62" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -65,7 +65,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="317a-f38e-a2aa-5ad7" name="Select if an Assault or Field Support Helix is taken as an Allied Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="317a-f38e-a2aa-5ad7" name="Select_if_an_Assault_or_Field_Support_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -80,47 +80,66 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="e3d2-b0ed-77b6-7a19" name="Sorylian Core Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3db7-91f9-06bb-7c3c" name="Sorylian_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="cd78-b9f3-f787-78d6" name="Huk&apos;Ka Heavy Battle Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e162-cf5d-fe43-ed26" name="Jyal&apos;Ro_&apos;Old_One&apos;_Battle_Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="ddb9-c752-9237-1ef3" name="Heavy Battle Walker" defaultEntryId="16b9-2352-4e60-8a9d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="16b9-2352-4e60-8a9d" targetId="6ac8-d096-344f-e1c5" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
-        </entry>
-        <entry id="0c61-b2f7-97b1-b15c" name="Bor&apos;Ka Medium Battle Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="4fed-892e-13f7-2517" name="Medium Battle Walker Class" defaultEntryId="f3dc-dd9a-9244-8fc5" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
+          <links>
+            <link id="9bc4-c9aa-714c-9c6c" targetId="3615-542f-74d0-24eb" linkType="entry">
               <modifiers/>
-              <links>
-                <link id="f3dc-dd9a-9244-8fc5" targetId="e66f-1b10-25f9-e0dc" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+            </link>
+          </links>
+        </entry>
+        <entry id="c927-8103-f291-7766" name="Samaru_Medium_Battle_Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="a51b-eb57-fe05-e4fe" targetId="5b0b-360d-8995-a03b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="23f0-2492-c346-d3b6" name="Ka&apos;Kun Light Skiff" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e3d2-b0ed-77b6-7a19" name="Sorylian_Core_Helix" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="cd78-b9f3-f787-78d6" name="Huk&apos;Ka_Heavy_Battle_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7c4e-c9c6-1d8b-e931" targetId="6ac8-d096-344f-e1c5" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0c61-b2f7-97b1-b15c" name="Bor&apos;Ka_Medium_Battle_Walker" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="cea9-1b99-bca8-6b75" targetId="e66f-1b10-25f9-e0dc" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="23f0-2492-c346-d3b6" name="Ka&apos;Kun_Light_Skiff" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -132,12 +151,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
             </link>
           </links>
         </entry>
-        <entry id="5b05-3dd2-a1bd-a526" name="Mul&apos;Kat Light Infantry Cadre" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5b05-3dd2-a1bd-a526" name="Mul&apos;Kat_Light_Infantry_Cadre" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2cf9-2f35-bfae-c01a" name="Light Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2cf9-2f35-bfae-c01a" name="Light_Infantry" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="b7df-99c8-a80e-8eed" name="Bol&apos;Vak Medium Transport Skiff" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="b7df-99c8-a80e-8eed" name="Bol&apos;Vak_Medium_Transport_Skiff" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -151,7 +170,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
                 </entry>
               </entries>
               <entryGroups>
-                <entryGroup id="71b7-468e-f374-1a8a" name="Mul&apos;Kat Light Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="71b7-468e-f374-1a8a" name="Mul&apos;Kat_Light_Infantry" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -184,7 +203,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="88dd-e78a-8ac7-720c" name="Kul&apos;Vok Heavy Infantry Cadre" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="88dd-e78a-8ac7-720c" name="Kul&apos;Vok_Heavy_Infantry_Cadre" points="0.0" categoryId="b3b00e3b-81d8-1d89-9804-56bb2487197f" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -203,28 +222,21 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="273b-ce06-d49f-ba97" name="Sorylian Firepower Leviathan Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="273b-ce06-d49f-ba97" name="Sorylian_Firepower_Leviathan_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="f51f-5b7d-176d-d13f" name="Nor&apos;Bar&apos;Ro Firepower Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f51f-5b7d-176d-d13f" name="Nor&apos;Bar&apos;Ro_Firepower_Leviathan" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="ce9d-b298-bd44-af3b" name="Firepower Leviathan" defaultEntryId="5b0a-d377-818b-aaa6" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="5b0a-d377-818b-aaa6" targetId="0fc8-5e0a-974d-f6ac" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="e745-c11b-3339-5fe3" targetId="0fc8-5e0a-974d-f6ac" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="dd02-98db-5ffc-80b7" name="Ka&apos;Kun Light Skiff" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="dd02-98db-5ffc-80b7" name="Ka&apos;Kun_Light_Skiff" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -243,45 +255,31 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="98ca-9470-9e67-672b" name="Sorylian Ground Attack Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="98ca-9470-9e67-672b" name="Sorylian_Ground_Attack_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="4c2a-d751-1fe7-bc2e" name="Sar&apos;Mak Heavy Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4c2a-d751-1fe7-bc2e" name="Sar&apos;Mak_Heavy_Ground_Attack_Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="6ea0-62a1-8688-6798" name="Heavy Ground Attack Gunship" defaultEntryId="d860-f36d-93e5-543b" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="d860-f36d-93e5-543b" targetId="9d25-3580-e478-2bfe" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="0809-d27e-da54-8245" targetId="9d25-3580-e478-2bfe" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="3ca2-f04c-c3b9-6daf" name="Vro&apos;Mak Ground Attack Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3ca2-f04c-c3b9-6daf" name="Vro&apos;Mak_Ground_Attack_Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="dbf3-abfc-024d-2a32" name="Ground Attack Gunship" defaultEntryId="6e39-c0d3-1f1a-87a1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="6e39-c0d3-1f1a-87a1" targetId="0553-60e3-8b9b-2e1e" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="72c7-573a-1379-364e" targetId="0553-60e3-8b9b-2e1e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -290,14 +288,14 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="6b5c-dbb6-1043-650e" name="Sorylian Ground Command Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6b5c-dbb6-1043-650e" name="Sorylian_Ground_Command_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="a410-969f-4f66-f5a9" name="Jol&apos;Tak Heavy Command Skiff" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a410-969f-4f66-f5a9" name="Jol&apos;Tak_Heavy_Command_Skiff" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="562d-b478-6527-3c24" name="Heavy Command Skiff" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="562d-b478-6527-3c24" name="Heavy_Command_Skiff" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="1e8c-bfd4-fef0-b3e9" name="Embarked Kul&apos;Vok Heavy Infantry Cadre" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="1e8c-bfd4-fef0-b3e9" name="Embarked_Kul&apos;Vok_Heavy_Infantry_Cadre" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -327,24 +325,17 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <profiles/>
           <links/>
         </entry>
-        <entry id="a8d2-dc41-747c-5824" name="Ja&apos;Gor Light Battle Walker" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a8d2-dc41-747c-5824" name="Ja&apos;Gor_Light_Recon_Walker" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="0c87-e9d9-21c0-692f" name="Light Battle Walker" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="b182-0658-7a1e-4af5" targetId="8585-5704-020e-06ea" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="283a-81ae-d69b-1bf3" targetId="8585-5704-020e-06ea" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -353,47 +344,33 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="8691-1d24-631f-af1c" name="Sorylian Heavy Armour Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8691-1d24-631f-af1c" name="Sorylian_Heavy_Armour_Helix" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="64d5-f0c6-f7df-4f74" name="Huk&apos;Vok&apos;Ka Heavy Support Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="64d5-f0c6-f7df-4f74" name="Huk&apos;Vok&apos;Ka_Heavy_Support_Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="9d86-5e3e-ea72-4898" name="Heavy Support Walker" defaultEntryId="0ced-61ab-be3d-6fbc" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="0ced-61ab-be3d-6fbc" targetId="8a40-4192-6e0f-a707" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
-        </entry>
-        <entry id="d3d7-f4fd-44ba-1175" name="Sor&apos;ka Tank Destroyer Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="7175-7f1c-7ea3-b3bc" name="Tank Destroyer Walker Class" defaultEntryId="0a3a-2978-0496-bef1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
+          <links>
+            <link id="493f-9eec-dc2d-7b7a" targetId="8a40-4192-6e0f-a707" linkType="entry">
               <modifiers/>
-              <links>
-                <link id="0a3a-2978-0496-bef1" targetId="a31e-8530-b9db-4fc5" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+            </link>
+          </links>
+        </entry>
+        <entry id="d3d7-f4fd-44ba-1175" name="Sor&apos;ka_Tank-Destroyer_Walker" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="d4de-9cab-9526-57dd" targetId="a31e-8530-b9db-4fc5" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="dd2e-59f1-551d-687c" name="Ka&apos;Kun Light Skiff" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="dd2e-59f1-551d-687c" name="Ka&apos;Kun_Light_Skiff" points="0.0" categoryId="8a0e-13df-2db9-14b3" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -412,45 +389,31 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="6e59-875d-8566-a099" name="Sorylian Interceptor Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6e59-875d-8566-a099" name="Sorylian_Interceptor_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="4e15-3a4f-302c-cb2c" name="Jor&apos;Mak&apos;Ta Heavy Interceptor Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4e15-3a4f-302c-cb2c" name="Jor&apos;Mak&apos;Ta_Heavy_Interceptor_Gunship" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="87a6-a3ed-b895-bcb9" name="Heavy Interceptor Gunship" defaultEntryId="2803-2c38-10de-cd79" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="2803-2c38-10de-cd79" targetId="6988-15a6-5d17-6e4d" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="47f5-b2f5-125e-7ede" targetId="6988-15a6-5d17-6e4d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="0393-95bd-c68d-8c59" name="Mak&apos;Kun Heavy Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0393-95bd-c68d-8c59" name="Mak&apos;Kun_Heavy_Interceptor" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="b119-ac4b-1ed1-64a3" name="Heavy Interceptor" defaultEntryId="76de-80e2-daf9-a71c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="76de-80e2-daf9-a71c" targetId="c5e3-b3d9-918d-0d99" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="d666-49b1-9a19-9fed" targetId="c5e3-b3d9-918d-0d99" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -459,30 +422,23 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="d222-af26-fd35-81c0" name="Sorylian Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d222-af26-fd35-81c0" name="Sorylian_Recon_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="989e-77bd-8d93-8eb4" name="Ja&apos;Gor Light Battle Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="989e-77bd-8d93-8eb4" name="Ja&apos;Gor_Light_Recon_Walker" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="a1ea-4aaa-56e3-9181" name="Light Battle Walker" defaultEntryId="4cdc-a5f2-7210-675c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="4cdc-a5f2-7210-675c" targetId="8585-5704-020e-06ea" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="1c79-37d5-ee99-0641" targetId="8585-5704-020e-06ea" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
-        <entry id="9068-7340-7d76-725b" name="Bol&apos;Vok&apos;Ra Heavy Transport Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9068-7340-7d76-725b" name="Bol&apos;Vok&apos;Ra_Heavy_Transport_Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="3142-5060-93bd-7e60" name="Embarked Kul&apos;Vok Heavy Infantry Cadre" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="3142-5060-93bd-7e60" name="Embarked_Kul&apos;Vok_Heavy_Infantry_Cadre" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -514,20 +470,25 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entry>
   </entries>
   <rules>
-    <rule id="892d74ab-01f9-d491-d336-8cb0aa8f004c" name="Sorylian Collective - Artillery Attacks" hidden="false">
+    <rule id="892d74ab-01f9-d491-d336-8cb0aa8f004c" name="Sorylian_Collective---Artillery_Attacks" hidden="false">
       <description>All Sorylian Collective Artillery Attacks use the Barrage and Scatter MARs with 5D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="e434bc2a-e13f-8a17-9c3a-b91b227151a5" name="Sorylian Collective - Sky Drop Capability" hidden="false">
+    <rule id="e434bc2a-e13f-8a17-9c3a-b91b227151a5" name="Sorylian_Collective---Sky_Drop_Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 6. Initial Artillery Markers are set to 4.</description>
       <modifiers/>
     </rule>
-    <rule id="225bf97b-98ec-67b1-93e1-5f2e9c57c4a8" name="Sorylian Collective - Tactical Bonus" hidden="false">
+    <rule id="225bf97b-98ec-67b1-93e1-5f2e9c57c4a8" name="Sorylian_Collective---Tactical-Bonus" hidden="false">
       <description>Sorylian Collective forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="ede9-2459-c226-94f6" name="Sorylian Collective - Logistic Bid Max" hidden="false">
-      <description>Up to 4 Logistics Points in a single Bid Action.</description>
+    <rule id="ede9-2459-c226-94f6" name="Sorylian_Collective---Logistical_Strength" hidden="false">
+      <description>Sorylian Collective Forces may spend up to 4 Logistics Points in a single Bid Action.
+• Sorylian Collective Forces may elect to spend Logistics Points during the Play TACs Step of the Pre-Turn Phase to place Squadrons on Overwatch:
+• It costs 1 Logistics Point to place a Light Squadron on Overwatch.
+• It costs 2 Logistics Points to place an Armoured Squadron on Overwatch, unless it is a Heavy Armoured Squadron (identified as having the word Heavy in its designation) or Leviathan Squadron (identified as having the word Leviathan in its designation) which cost 3 Logistics Points to place on Overwatch.
+• Aerial Forces may NOT use Logistics Points to be placed on Overwatch unless specifically noted.
+• In the case of mixed Squadrons (A Squadron made up of Light and Armoured Elements for example) use the largest Logistics Cost.</description>
       <modifiers/>
     </rule>
   </rules>
@@ -639,9 +600,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <rules/>
       <profiles/>
       <links>
-        <link id="5587-b424-0724-6577" targetId="cc3e8e6a-3384-24b1-088d-0d25dc703db1" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="8243-76f9-10f0-9ae8" targetId="c9dd0b43-e5c8-95f5-573d-2f6d32097d39" linkType="rule">
           <modifiers/>
         </link>
@@ -679,9 +637,6 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links>
         <link id="42b7-ea8f-2a07-a4cd" targetId="73463651-158a-76d2-1eea-7e3bd67a25ec" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="def4-a4f0-0a8f-de8e" targetId="cc3e8e6a-3384-24b1-088d-0d25dc703db1" linkType="rule">
           <modifiers/>
         </link>
         <link id="bd12-01c5-a255-3f60" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
@@ -806,7 +761,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="6988-15a6-5d17-6e4d" name="Jor&apos;Mak&apos;Ta" points="270.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6988-15a6-5d17-6e4d" name="Jor&apos;Mak&apos;Ta" points="250.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -850,6 +805,54 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="bdb4-5555-43c5-0626" targetId="1d27-b46a-6bb1-d800" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0dfa-64cc-dd8d-7796" targetId="ca65-a482-dfd6-3bde" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3615-542f-74d0-24eb" name="Jyal&apos;Ro" points="235.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f8f1-5b86-c03d-8a81" targetId="d1cd0eb6-b61d-0123-949f-7069d8b87529" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a1f-174c-e830-ebb1" targetId="33a0-0d64-5c92-bcbf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1b6a-562c-2246-150f" targetId="00228c5e-1a4a-3024-a355-12c23457915d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5175-9bc0-c3f7-59fe" targetId="73463651-158a-76d2-1eea-7e3bd67a25ec" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1ddd-0120-1969-68db" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0d20-841e-659e-dbf0" targetId="80fe-f0e4-3ce2-f13c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3638-8ad3-efbd-e2d4" targetId="8b83-de42-8d3c-934e" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7094-620f-4af6-a6f5" targetId="5d8a-9f28-380c-6163" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="aada-fd82-b7ee-17d2" targetId="ca65-a482-dfd6-3bde" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c7f8-fc4e-a05d-e468" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1f39-d24d-f147-0fd4" targetId="53dd-2ded-ce0d-77ab" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c12d-567c-b183-7439" targetId="e405-1ae1-515b-172b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -901,7 +904,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="dc55-fb88-0859-6daf" name="Kul&apos;Vok Heavy Infantry Cadre" points="60.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="dc55-fb88-0859-6daf" name="Kul&apos;Vok_Heavy_Infantry_Cadre" points="60.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -926,39 +929,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="e001-e652-6626-47e6" targetId="6c77-e21c-af67-0668" linkType="profile">
           <modifiers/>
         </link>
-      </links>
-    </entry>
-    <entry id="f717-d55d-6585-dc19" name="Kul&apos;Vok Heavy Infantry Cadre (NOV 26 ORBAT)" points="60.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="8b90-d893-7f92-79a4" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1615-221d-f76a-af1a" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2ad5-a4bd-bee0-331a" targetId="d0c0fcab-2a57-344c-352b-81ed2eb00a71" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ed22-195d-f18c-1bc0" targetId="47c44a18-6711-c389-58f8-5c8d113754c2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5b34-17b1-699f-c8c6" targetId="9db1-08b6-7d89-2c1d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="9ec7-493c-4ce7-48eb" targetId="6c77-e21c-af67-0668" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="c2c8-01de-71a7-44e2" targetId="868ca32c-73e1-98c7-e533-60e7324d7b34" linkType="rule">
+        <link id="3031-188e-4099-473d" targetId="868ca32c-73e1-98c7-e533-60e7324d7b34" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="1cb7-fd5a-1b5d-2ff1" name="Logistics Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
+    <entry id="1cb7-fd5a-1b5d-2ff1" name="Logistics_Points" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core Rulebook" page="58">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -966,7 +942,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <profiles/>
       <links/>
     </entry>
-    <entry id="c5e3-b3d9-918d-0d99" name="Mak&apos;Kun" points="100.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c5e3-b3d9-918d-0d99" name="Mak&apos;Kun" points="120.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -994,9 +970,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="d550-c9ef-8a8d-204b" targetId="3fb9-bb63-4972-5a0c" linkType="profile">
           <modifiers/>
         </link>
+        <link id="39d1-4495-bbad-53df" targetId="ca65-a482-dfd6-3bde" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="d207-edff-c487-19e1" name="Mul&apos;Kat Light Infantry Cadre" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d207-edff-c487-19e1" name="Mul&apos;Kat_Light_Infantry_Cadre" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1017,28 +996,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="cf3f-a952-4a3b-0bb6" name="Mul&apos;Kat Light Infantry Cadre (NOV 26 ORBAT)" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d700-e7fc-deab-aeab" targetId="7cc07e10-0881-c89e-86b2-1b2e2e844d97" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ceff-2a48-b61e-2c6e" targetId="f9a6943e-fc39-2615-3aba-e48ac40128e1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1cda-d070-ca9e-ad9a" targetId="7b33fb72-ef85-b14a-90c0-2944f79a46c7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2729-7e13-0504-1758" targetId="9132-052e-c7bb-1ba7" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3588-7995-3c2d-350d" name="Mul&apos;Kat Light Infantry Gun Team" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3588-7995-3c2d-350d" name="Mul&apos;Kat_Light_Infantry_Gun_Team" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1075,7 +1033,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="2a81-37a1-bf82-dc70" name="Mul&apos;Kat Light Infantry Officer" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2a81-37a1-bf82-dc70" name="Mul&apos;Kat_Light_Infantry_Officer" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1099,7 +1057,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="c4ff-b194-b478-ef1e" name="Mul&apos;Kat Light Infantry Sweeper Team" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c4ff-b194-b478-ef1e" name="Mul&apos;Kat_Light_Infantry_Sweeper_Team" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1169,9 +1127,12 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="3af6-8654-30cb-9b54" targetId="8d89-e7b4-8ed1-973f" linkType="profile">
           <modifiers/>
         </link>
+        <link id="5e27-e4cf-0ddd-233b" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="c1b9-0fd8-1da4-64b9" name="Ro&apos;Mul&apos;Kat War Chief" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c1b9-0fd8-1da4-64b9" name="Ro&apos;Mul&apos;Kat" points="80.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1204,7 +1165,52 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="9d25-3580-e478-2bfe" name="Sar&apos;Mak" points="270.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5b0b-360d-8995-a03b" name="Samaru" points="135.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="decc-f536-7246-fa3a" name="Munitions_Upgrade" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b8da-ec57-0db6-96ca" targetId="68f7-6815-6d80-7651" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1b01-c3b5-3d5e-8793" targetId="d0c0fcab-2a57-344c-352b-81ed2eb00a71" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3879-d08e-877e-bbd1" targetId="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fcb4-97b7-e237-6147" targetId="2c0eec6c-effd-de66-edb0-cf3ef085013c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="60b3-4e2d-8c7a-4be0" targetId="1c97-dd28-a189-ccad" linkType="profile">
+          <modifiers>
+            <modifier type="append" field="1ca5160e-30b4-5594-dd7f-7b574cd2068f" value="/Barrage" repeat="true" numRepeats="1" incrementParentId="5b0b-360d-8995-a03b" incrementChildId="decc-f536-7246-fa3a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="2e4a-b42a-84ea-7605" targetId="9131-cae8-7737-8c0c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5695-a183-6452-7633" targetId="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9d25-3580-e478-2bfe" name="Sar&apos;Mak" points="220.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1246,7 +1252,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entry>
-    <entry id="a31e-8530-b9db-4fc5" name="Sor&apos;Ka" points="140.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a31e-8530-b9db-4fc5" name="Sor&apos;Ka" points="140.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1318,53 +1324,17 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="24a5-24af-2288-46cc" name="Heavy Infantry Cadre" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="24a5-24af-2288-46cc" name="Heavy_Infantry_Cadre" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="b975-ff4b-f96e-c1a9" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="e06c-4168-5164-31f5" targetId="dc55-fb88-0859-6daf" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="f717-d55d-6585-dc19" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="f717-d55d-6585-dc19" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="4ba7-a15b-64f3-eed3" targetId="f717-d55d-6585-dc19" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dc55-fb88-0859-6daf" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dc55-fb88-0859-6daf" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="10cf-61cc-b71e-1a8b" targetId="dc55-fb88-0859-6daf" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
-    <entryGroup id="a3fa-dc51-c324-7224" name="Heavy Transport Skiff (Recon)" defaultEntryId="d5a0-e7c3-a636-90c1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="a3fa-dc51-c324-7224" name="Heavy_Transport_Skiff(Recon)" defaultEntryId="d5a0-e7c3-a636-90c1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1374,7 +1344,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="085f2c8d-2066-a5f1-c361-fa1bbc1a6cd7" name="Light Skiff Class" defaultEntryId="d4db-b665-32b1-b554" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="085f2c8d-2066-a5f1-c361-fa1bbc1a6cd7" name="Light_Skiff_Class" defaultEntryId="d4db-b665-32b1-b554" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1384,7 +1354,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="65db-9121-90a6-3d5a" name="Light Skiff Class (Leviathan Helix)" defaultEntryId="2b24-48ad-7323-2b8d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="65db-9121-90a6-3d5a" name="Light_Skiff_Class(Leviathan_Helix)" defaultEntryId="2b24-48ad-7323-2b8d" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1399,7 +1369,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="bd762206-4425-6f9d-da56-b39190008661" name="Medium Transport Skiff" defaultEntryId="6aaa-cc7e-6420-f8b7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="bd762206-4425-6f9d-da56-b39190008661" name="Medium_Transport_Skiff" defaultEntryId="6aaa-cc7e-6420-f8b7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1409,7 +1379,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c4ea5b5c-d50a-a6f0-6419-312b8380b47e" name="Specialist Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="c4ea5b5c-d50a-a6f0-6419-312b8380b47e" name="Specialist_Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1424,89 +1394,53 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
     </entryGroup>
     <entryGroup id="389af62a-7850-ae36-33bf-b501d7b1a558" name="Troops" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="a6e5-198a-1498-022d" name="ORBAT" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="0381-dd9c-e5e8-9065" targetId="d207-edff-c487-19e1" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cf3f-a952-4a3b-0bb6" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cf3f-a952-4a3b-0bb6" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="2a11-6221-ae06-031f" targetId="cf3f-a952-4a3b-0bb6" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="d207-edff-c487-19e1" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="d207-edff-c487-19e1" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="866a-0771-3d1a-f6b7" targetId="d207-edff-c487-19e1" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="39de-dca6-7bc6-6347" name="Aerial Assault" hidden="false">
+    <rule id="39de-dca6-7bc6-6347" name="Aerial_Assault" hidden="false">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="6f78-2535-9f61-c497" name="Artillery Nexus" hidden="false">
+    <rule id="6f78-2535-9f61-c497" name="Artillery_Nexus" hidden="false">
       <description>When called upon to deliver an Artillery Strike with a Nexus Designator this model may CHOOSE the direction of Deviation measured from the Artillery Marker rather than determining randomly</description>
       <modifiers/>
     </rule>
-    <rule id="96a662da-c2d5-b709-5386-c77f3e929b33" name="Artillery Support (1)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="96a662da-c2d5-b709-5386-c77f3e929b33" name="Artillery_Support(1)" hidden="false" book="Core Rulebook" page="116">
       <description>May use the Artillery Support rules on Page 82.</description>
       <modifiers/>
     </rule>
-    <rule id="47c44a18-6711-c389-58f8-5c8d113754c2" name="Bulky (2)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="47c44a18-6711-c389-58f8-5c8d113754c2" name="Bulky(2)" hidden="false" book="Core Rulebook" page="116">
       <description>These units take up 2 slots in transports.</description>
       <modifiers/>
     </rule>
-    <rule id="4318-02f8-d73e-42b7" name="Command Centre" hidden="false">
+    <rule id="4318-02f8-d73e-42b7" name="Command_Centre" hidden="false">
       <description>A Force that contains a Jol’Tak Command Barge may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size. In addition no friendly Sorylian forces within the Jol’Tak s Command Radius are required to take Disorder Tests due to the loss of their own Command Element</description>
       <modifiers/>
     </rule>
-    <rule id="c9dd0b43-e5c8-95f5-573d-2f6d32097d39" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="c9dd0b43-e5c8-95f5-573d-2f6d32097d39" name="Command_Element(12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="aad3-bd3f-77e3-8706" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="aad3-bd3f-77e3-8706" name="Command_Element(16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="6be0-546e-a196-ac90" name="Command Element (24&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="6be0-546e-a196-ac90" name="Command_Element(24&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 24&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="73463651-158a-76d2-1eea-7e3bd67a25ec" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="73463651-158a-76d2-1eea-7e3bd67a25ec" name="Command_Element(8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="21f0-0bd0-dcb0-b6f4" name="Directed Fury" hidden="false">
+    <rule id="21f0-0bd0-dcb0-b6f4" name="Directed_Fury" hidden="false">
       <description>All friendly Sorylian Infantry Cadres within 8” of this model gain the Focused Assault MAR.</description>
       <modifiers/>
     </rule>
@@ -1518,39 +1452,39 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="d66d-d595-e247-f3a2" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="d66d-d595-e247-f3a2" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="9490-a605-9e55-303d" name="Focused Assault" hidden="false">
+    <rule id="9490-a605-9e55-303d" name="Focused_Assault" hidden="false">
       <description>When Infantry Cadres with this MAR perform a Storming Action, resolve their Attacks simultaneously with the Defenders rather than afterwards.</description>
       <modifiers/>
     </rule>
-    <rule id="0107-6369-66a2-fff9" name="Ground Attack" hidden="false">
+    <rule id="0107-6369-66a2-fff9" name="Ground_Attack" hidden="false">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Flying models – These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="868ca32c-73e1-98c7-e533-60e7324d7b34" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="868ca32c-73e1-98c7-e533-60e7324d7b34" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="7cc07e10-0881-c89e-86b2-1b2e2e844d97" name="Hard Target (-2)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="7cc07e10-0881-c89e-86b2-1b2e2e844d97" name="Hard_Target(-2)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -2 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="8eaa335e-fe5c-9613-32f6-b201cb95d66a" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="8eaa335e-fe5c-9613-32f6-b201cb95d66a" name="Hover_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="20c8-7db4-49e7-48f7" name="Independent Targeting" hidden="false" book="Core Rulebook" page="119">
+    <rule id="20c8-7db4-49e7-48f7" name="Independent_Targeting" hidden="false" book="Core Rulebook" page="119">
       <description>May target any target in range regardless of what the rest of the Squadron targets.</description>
       <modifiers/>
     </rule>
-    <rule id="f9a6943e-fc39-2615-3aba-e48ac40128e1" name="Kill Team" hidden="false" book="Core Rulebook" page="119">
+    <rule id="f9a6943e-fc39-2615-3aba-e48ac40128e1" name="Kill_Team" hidden="false" book="Core Rulebook" page="119">
       <description>+1 CQB stat when initiating CQB.</description>
       <modifiers/>
     </rule>
-    <rule id="a6991808-4669-65f9-b711-49bba7796c0b" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="a6991808-4669-65f9-b711-49bba7796c0b" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
@@ -1558,92 +1492,138 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       <description>The model must use the turning template.</description>
       <modifiers/>
     </rule>
-    <rule id="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="7cf84782-3750-a16a-d4ad-6c0ad2495f7c" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="2c0eec6c-effd-de66-edb0-cf3ef085013c" name="Saturation Fire" hidden="false" book="Sorylian ORBATS" page="2">
-      <description>All Sorylian Armoured Squadrons may re-roll any Initial Dice rolls of 1 during a Main Ordnance Attack fired at Effective Range, the second result must be accepted.</description>
+    <rule id="2c0eec6c-effd-de66-edb0-cf3ef085013c" name="Saturation_Fire" hidden="false" book="Sorylian ORBATS" page="2">
+      <description>All Sorylian Armoured and Leviathan Elements may reroll any Initial rolls of a 1 during a Main Ordnance Attack fired at Effective Range, the second result must be accepted.</description>
       <modifiers/>
     </rule>
-    <rule id="ca65-a482-dfd6-3bde" name="Sectored Armour" hidden="false" book="Core Rulebook" page="121">
+    <rule id="ca65-a482-dfd6-3bde" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
       <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
       <modifiers/>
     </rule>
-    <rule id="9654-4f57-8372-cda9" name="Shield Projector (2, 12”)" hidden="false" book="Core Rulebook" page="121">
+    <rule id="9654-4f57-8372-cda9" name="Shield_Projector(2,_12”)" hidden="false" book="Core Rulebook" page="121">
       <description>All friendly Elements within 12&quot; have a Shield Rating equal to 2. This Shield Save is not cumulative with any other Cover/Shield saves but MAY provide Elements without Shield Ratings a degree of protection.</description>
       <modifiers/>
     </rule>
-    <rule id="4002-003b-e91f-d3b7" name="Strafing Run" hidden="false">
+    <rule id="4002-003b-e91f-d3b7" name="Strafing_Run" hidden="false">
       <description>This Squadron may initiate a CQB Attack during its own activation while moving Flat Out provided the target squadron are Surface Models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="7b33fb72-ef85-b14a-90c0-2944f79a46c7" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+    <rule id="7b33fb72-ef85-b14a-90c0-2944f79a46c7" name="Take_&amp;_Hold" hidden="false" book="Core Rulebook" page="121">
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="2268-05b1-4407-c969" name="Transport (10)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="53dd-2ded-ce0d-77ab" name="Thunderous_Charge" hidden="false">
+      <description>The Leviathan may perform a Leviathan CQB Action after moving Flat Out. This CQB Attack is considered to be Rushed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2268-05b1-4407-c969" name="Transport(10)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for10 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="82647206-98a5-3ac6-d2be-e0302133f2cc" name="Transport (8)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="82647206-98a5-3ac6-d2be-e0302133f2cc" name="Transport(8)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 8 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="53bf-7367-5820-74d0" name="Transport (Heavy Infantry Only, 8)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="53bf-7367-5820-74d0" name="Transport(Heavy_Infantry_Only,_8)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 8 slots worth of Light Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="7d597ce6-d58a-6e5f-fd03-34ce0c6af45b" name="Transport (Light Infantry Only, 9)" hidden="false" book="Core Rulebook" page="122">
-      <description>May act as a transport for 9 slots worth of Light Infantry.</description>
+    <rule id="7d597ce6-d58a-6e5f-fd03-34ce0c6af45b" name="Transport(Light_Infantry_Only,_10)" hidden="false" book="Core Rulebook" page="122">
+      <description>May act as a transport for 10 slots worth of Light Infantry.</description>
       <modifiers/>
     </rule>
     <rule id="ddc4397b-0b55-07d6-10bd-7cab4e571b7a" name="Walker" hidden="false" book="Core Rulebook" page="77">
       <description>May not move Flat Out through Vegation or Rivers.</description>
       <modifiers/>
     </rule>
-    <rule id="d0c0fcab-2a57-344c-352b-81ed2eb00a71" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="d0c0fcab-2a57-344c-352b-81ed2eb00a71" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="68f7-6815-6d80-7651" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+    <rule id="68f7-6815-6d80-7651" name="Weapon_MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
       <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
-    <rule id="3771b992-4585-88e3-419b-5d4941b75057" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="3771b992-4585-88e3-419b-5d4941b75057" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="c083e36b-fca0-dafb-5512-2d0d45f6ac11" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="c083e36b-fca0-dafb-5512-2d0d45f6ac11" name="Weapon_MAR:Nexus_Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="da4f5cc1-a75b-72dd-f60c-eeaa2c58fa08" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="da4f5cc1-a75b-72dd-f60c-eeaa2c58fa08" name="Weapon_MAR:Pinpoint(2)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="d1cd0eb6-b61d-0123-949f-7069d8b87529" name="Weapon MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
+    <rule id="e405-1ae1-515b-172b" name="Weapon_MAR:Pinpoint(3)" hidden="false" book="Core Rulebook" page="119">
+      <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 3d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d1cd0eb6-b61d-0123-949f-7069d8b87529" name="Weapon_MAR:Scatter" hidden="false" book="Core Rulebook" page="121">
       <description>Scatter Weapons ignore any negative modifiers from the Hard Taret MAR when firing at non-flying Targets.</description>
       <modifiers/>
     </rule>
-    <rule id="00228c5e-1a4a-3024-a355-12c23457915d" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="00228c5e-1a4a-3024-a355-12c23457915d" name="Weapon_MAR:Terror_Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="3562-b613-b7c4-f37d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak - Koli Concussion Gun" hidden="false">
+    <profile id="50c0-d744-cd78-19b8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak&apos;Ra---Nexus_Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7fe7-fda4-d815-64f5" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak&apos;Ra---Vaan_Scatter_Cannons" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8566-4c3a-f504-2806" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bol&apos;Vak&apos;Ra_Heavy_Transport_Skiff" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="9"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="1"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3562-b613-b7c4-f37d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak---Koli_Concussion_Gun" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="242d-71ad-2bf1-e843" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bol&apos;Vak Medium Transport Skiff" hidden="false">
+    <profile id="242d-71ad-2bf1-e843" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bol&apos;Vak_Medium_Transport_Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="9"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
@@ -1659,59 +1639,21 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="50c0-d744-cd78-19b8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak&apos;Ra - Nexus Designator" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="7fe7-fda4-d815-64f5" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bol&apos;Vak&apos;Ra - Vaan Scatter Cannons" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="8566-4c3a-f504-2806" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bol&apos;Vak&apos;Ra Heavy Transport Skiff" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="9"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="5"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="3"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
-        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="d2c6-cca9-0713-34cf" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bor&apos;Ka - Vaan Scatter Cannons" hidden="false">
+    <profile id="d2c6-cca9-0713-34cf" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Bor&apos;Ka---Vaan_Scatter_Cannons" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/R"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e8d0-9398-e8ea-12a8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bor&apos;Ka Medium Battle Walker" hidden="false">
+    <profile id="e8d0-9398-e8ea-12a8" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Bor&apos;Ka_Medium_Battle_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="10"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="6"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
@@ -1720,33 +1662,33 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 6"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_6"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0b3d-97a5-c032-a6df" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Ka - Kor&apos;Nak Heavy Cannon" hidden="false">
+    <profile id="0b3d-97a5-c032-a6df" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Ka---Kor&apos;Nak_Heavy_Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="79ea-b692-20a3-093d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Ka - Vaan Scatter Cannons" hidden="false">
+    <profile id="79ea-b692-20a3-093d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Ka---Vaan_Scatter_Cannons" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="7"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
         <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c91a-6f81-23b3-7793" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Huk&apos;Ka Heavy Battle Walker" hidden="false">
+    <profile id="c91a-6f81-23b3-7793" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Huk&apos;Ka_Heavy_Battle_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
@@ -1758,44 +1700,44 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_9"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ea82-ea49-17b7-aba2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka - Dual Nar&apos;Vak Titan Cannon" hidden="false">
+    <profile id="ea82-ea49-17b7-aba2" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka---Dual_Nar&apos;Vak_Titan_Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="48"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="16"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f99a-4fa8-971e-31bd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka - Nexus Designator (1)" hidden="false">
+    <profile id="f99a-4fa8-971e-31bd" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka---Nexus_Designator(1)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="36"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4e59-45fd-6043-6847" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka - Nexus Designator (2)" hidden="false">
+    <profile id="4e59-45fd-6043-6847" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Huk&apos;Vok&apos;Ka---Nexus_Designator(2)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="36"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1d6d-75c6-490a-2d52" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Huk&apos;Vok&apos;Ka Heavy Support Walker" hidden="false">
+    <profile id="1d6d-75c6-490a-2d52" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Huk&apos;Vok&apos;Ka_Heavy_Support_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
@@ -1811,18 +1753,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0a81-2553-ba38-f48d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ja&apos;Gor - Har&apos;Mok Precision Missiles" hidden="false">
+    <profile id="0a81-2553-ba38-f48d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ja&apos;Gor---Har&apos;Mok_Precision_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="3"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="25ae-bbd3-8e44-5470" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ja&apos;Gor Light Battle Walker" hidden="false">
+    <profile id="25ae-bbd3-8e44-5470" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ja&apos;Gor_Light_Recon_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
@@ -1838,7 +1780,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6e9f-3cbb-7a32-c078" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak - Heavy Sar&apos;Nav Grenade Launchers (L)" hidden="false">
+    <profile id="6e9f-3cbb-7a32-c078" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak---Heavy_Sar&apos;Nav_Grenade_Launchers(L)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
@@ -1849,7 +1791,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6391-9d8a-d258-ac43" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak - Heavy Sar&apos;Nav Grenade Launchers (R)" hidden="false">
+    <profile id="6391-9d8a-d258-ac43" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak---Heavy_Sar&apos;Nav_Grenade_Launchers(R)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
@@ -1860,94 +1802,127 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="986a-7e16-28fd-44c0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak - Nar&apos;Vak Titan Cannon" hidden="false">
+    <profile id="986a-7e16-28fd-44c0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak---Nar&apos;Vak_Titan_Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="48"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="16"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9318-61ac-8507-b141" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak - Nexus Designator" hidden="false">
+    <profile id="9318-61ac-8507-b141" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jol&apos;Tak---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="36"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8987-25ff-4f15-ca0f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jol&apos;Tak Heavy Command Skiff" hidden="false">
+    <profile id="8987-25ff-4f15-ca0f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jol&apos;Tak_Heavy_Command_Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="9"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="8"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="15cc-9e93-c66a-9be9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta - Har&apos;Mok Precision Missiles (1)" hidden="false">
+    <profile id="15cc-9e93-c66a-9be9" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta---Har&apos;Mok_Precision_Missiles(1)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="7"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / A"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1d27-b46a-6bb1-d800" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta - Har&apos;Mok Precision Missiles (2)" hidden="false">
+    <profile id="1d27-b46a-6bb1-d800" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta---Har&apos;Mok_Precision_Missiles(2)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="24"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="7"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / R / A"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="aaa1-31f2-c57d-7c9f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta - Heavy Koli Concussion Gun" hidden="false">
+    <profile id="aaa1-31f2-c57d-7c9f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jor&apos;Mak&apos;Ta---Heavy_Koli_Concussion_Gun" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6dbb-be2e-74ed-9cbf" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jor&apos;Mak&apos;Ta Heavy Interceptor Gunship" hidden="false">
+    <profile id="6dbb-be2e-74ed-9cbf" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jor&apos;Mak&apos;Ta_Heavy_Interceptor_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="15"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="20"/>
         <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="8"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="6"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="8"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f357-57fc-5efe-636a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ka&apos;Kun - Light Sar&apos;Nav Grenade Launchers" hidden="false">
+    <profile id="5d8a-9f28-380c-6163" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Jyal&apos;Ro---Gurak_Power_Fist(Left_Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint(3)/Terror_Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8b83-de42-8d3c-934e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Jyal&apos;Ro---Koli_Concussion_Gun(Right_Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="15"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="80fe-f0e4-3ce2-f13c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Jyal&apos;Ro_Battle_Walker" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="8"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="6"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="4"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="6/12"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_9"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f357-57fc-5efe-636a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ka&apos;Kun---Light_Sar&apos;Nav_Grenade_Launchers" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -1958,7 +1933,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="b806-de0e-d191-40fc" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ka&apos;Kun Light Skiff" hidden="false">
+    <profile id="b806-de0e-d191-40fc" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ka&apos;Kun_Light_Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="15"/>
@@ -1970,11 +1945,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_5"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6c77-e21c-af67-0668" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kul&apos;Vok - Sar&apos;Nav Grenade Launchers" hidden="false">
+    <profile id="6c77-e21c-af67-0668" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Kul&apos;Vok---Sar&apos;Nav_Grenade_Launchers" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -1985,23 +1960,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3607-6fc7-abd0-cdc5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kul&apos;Vok Heavy Infantry Cadre" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
-        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="6"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="-"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
-        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
-        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
-        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
-        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="9db1-08b6-7d89-2c1d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kul&apos;Vok Heavy Infantry Cadre (NOV 26 ORBAT)" hidden="false">
+    <profile id="3607-6fc7-abd0-cdc5" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Kul&apos;Vok_Heavy_Infantry_Cadre" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
@@ -2017,18 +1976,18 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="df0c-8008-cfaf-e62e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Mak&apos;Kun - Har&apos;Mok Precision Missiles" hidden="false">
+    <profile id="df0c-8008-cfaf-e62e" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Mak&apos;Kun---Har&apos;Mok_Precision_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3fb9-bb63-4972-5a0c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mak&apos;Kun Heavy Interceptor" hidden="false">
+    <profile id="3fb9-bb63-4972-5a0c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mak&apos;Kun_Heavy_Interceptor" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="20"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -2044,7 +2003,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3d21-9b54-2aa9-5e98" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Mul&apos;Kat - Sar&apos;Nav Grenade Launcher" hidden="true">
+    <profile id="3d21-9b54-2aa9-5e98" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Mul&apos;Kat---Sar&apos;Nav_Grenade_Launcher" hidden="true">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
@@ -2055,7 +2014,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="79f9-c7c3-f6ce-5075" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat Gun Team Light Infantry Cadre" hidden="false">
+    <profile id="79f9-c7c3-f6ce-5075" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat_Gun_Team_Light_Infantry_Cadre" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
@@ -2067,11 +2026,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9132-052e-c7bb-1ba7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat Light Infantry Cadre" hidden="false">
+    <profile id="9132-052e-c7bb-1ba7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat_Light_Infantry_Cadre" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
@@ -2083,11 +2042,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="31e8-982a-879b-6803" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat Officer Light Infantry Cadre" hidden="false">
+    <profile id="31e8-982a-879b-6803" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat_Officer_Light_Infantry_Cadre" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
@@ -2099,11 +2058,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="97c9-2c69-5f02-8f10" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat Sweeper Team Light Infantry Cadre" hidden="false">
+    <profile id="97c9-2c69-5f02-8f10" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Mul&apos;Kat_Sweeper_Team_Light_Infantry_Cadre" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="4"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="6"/>
@@ -2115,71 +2074,71 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="4"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3 or 4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="3_or_4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="a523-7cfa-964f-2dc6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro - Dual Nar&apos;Vak Titan Cannon" hidden="false">
+    <profile id="a523-7cfa-964f-2dc6" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro---Dual_Nar&apos;Vak_Titan_Cannon" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="15"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="48"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="18"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ba9b-7c5e-e001-72bf" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro - Har&apos;Mok Precision Missiles (1)" hidden="false">
+    <profile id="4eb3-b287-3447-00d0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro---Har&apos;Mok_Precision_Missiles(L)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / R"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/A"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4eb3-b287-3447-00d0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro - Har&apos;Mok Precision Missiles (2)" hidden="false">
+    <profile id="ba9b-7c5e-e001-72bf" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro---Har&apos;Mok_Precision_Missiles(R)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="9"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/R/A"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8d89-e7b4-8ed1-973f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro - Koli Concussion Gun (Body)" hidden="false">
+    <profile id="8d89-e7b4-8ed1-973f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nor&apos;Bar&apos;Ro---Koli_Concussion_Gun(Body)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="8"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="15"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="16"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c401-baad-4dfd-3c63" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nor&apos;Bar&apos;Ro Firepower Leviathan" hidden="false">
+    <profile id="c401-baad-4dfd-3c63" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nor&apos;Bar&apos;Ro_Firepower_Leviathan" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="11"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="12"/>
         <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="10"/>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="10"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="9"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="3"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="8 / 8"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="12/12"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Elevated"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="13"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="90c4-c3fb-4cdc-c688" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ro&apos;Mul&apos;Kat - Sar&apos;Nav Grenade Launchers" hidden="false">
+    <profile id="90c4-c3fb-4cdc-c688" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Ro&apos;Mul&apos;Kat---Sar&apos;Nav_Grenade_Launchers" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
@@ -2190,7 +2149,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9b57-6428-2892-8e2d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ro&apos;Mul&apos;Kat War Chief" hidden="false">
+    <profile id="9b57-6428-2892-8e2d" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Ro&apos;Mul&apos;Kat_War_Chief" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="8"/>
@@ -2206,18 +2165,45 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d52c-1434-81c3-fd73" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sar&apos;Mak - Heavy Koli Concussion Gun" hidden="false">
+    <profile id="1c97-dd28-a189-ccad" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Samaru---Sar&apos;Nav_Grenade_Launchers" hidden="true">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="10"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="7"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9131-cae8-7737-8c0c" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Samaru_Medium_Battle_Walker" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="6"/>
+        <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="12"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="7"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
+        <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
+        <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="2"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7"/>
+        <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
+        <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="7"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d52c-1434-81c3-fd73" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sar&apos;Mak---Heavy_Koli_Concussion_Gun" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="15"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Scatter/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3004-9c8e-d349-5e25" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sar&apos;Mak Ground Attack Gunship" hidden="false">
+    <profile id="3004-9c8e-d349-5e25" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sar&apos;Mak_Ground_Attack_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="12"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
@@ -2229,22 +2215,22 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="8"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 9"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4_or_9"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="db41-43e5-1fc6-a44b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sor&apos;Ka - Har&apos;Mok Precision Missiles" hidden="false">
+    <profile id="db41-43e5-1fc6-a44b" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sor&apos;Ka---Har&apos;Mok_Precision_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="40"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="6"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9ef9-fec2-ad2b-c882" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sor&apos;Ka Tank Destroyer Walker" hidden="false">
+    <profile id="9ef9-fec2-ad2b-c882" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sor&apos;Ka_Tank_Destroyer_Walker" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="5"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="7"/>
@@ -2256,11 +2242,11 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4 or 7"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="7"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="79b9-4994-1b7d-e41d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vro&apos;Mak - Sar&apos;Nav Grenade Launcher" hidden="false">
+    <profile id="79b9-4994-1b7d-e41d" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Vro&apos;Mak---Sar&apos;Nav_Grenade_Launcher" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="8"/>
@@ -2271,7 +2257,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f4bd-8080-16a4-171f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vro&apos;Mak Ground Attack Gunship" hidden="false">
+    <profile id="f4bd-8080-16a4-171f" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Vro&apos;Mak_Ground_Attack_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>

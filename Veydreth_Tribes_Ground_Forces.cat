@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="37d6-1c53-7683-e408" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="37d6-1c53-7683-e408" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Veydreth_Tribes" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="8183-7970-a64e-2019" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="8183-7970-a64e-2019" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -9,11 +9,11 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="07aa-8376-ebe5-2fd2" name="Veydreth Tribes Recon Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="07aa-8376-ebe5-2fd2" name="Veydreth_Tribes_Recon_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="c7bd-e898-d718-b424" name="Yok-Ta Medium Recon Skiff (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c7bd-e898-d718-b424" name="Yok-Ta_Medium_Recon_Skiff(Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="5bdf-ce06-9266-82d9" name="Light Recon Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="5bdf-ce06-9266-82d9" name="Light_Recon_Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -39,9 +39,9 @@
             </link>
           </links>
         </entry>
-        <entry id="588e-dc92-7e13-283f" name="Yok-Ta Medium Recon Skiff" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="588e-dc92-7e13-283f" name="Yok-Ta_Medium_Recon_Skiff" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="2690-fde2-34ee-ceee" name="Light Recon Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="2690-fde2-34ee-ceee" name="Light_Recon_Skiff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -73,19 +73,19 @@
     </entry>
   </entries>
   <rules>
-    <rule id="900d4605-02a4-76ce-0978-4ba9dddc4a8e" name="Veydreth Tribes - Artillery Attacks" hidden="false">
+    <rule id="900d4605-02a4-76ce-0978-4ba9dddc4a8e" name="Veydreth_Tribes---Artillery_Attacks" hidden="false">
       <description>All Veydreth Tribe Artillery Attacks use the Barrage and Scatter MARs with 5D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="7d202cfd-369d-2dd3-a1d9-dd6b456e85e2" name="Veydreth Tribes - Sky Drop Capability" hidden="false">
+    <rule id="7d202cfd-369d-2dd3-a1d9-dd6b456e85e2" name="Veydreth_Tribes---Sky_Drop_Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 6. Initial Artillery Markers are set to 4.</description>
       <modifiers/>
     </rule>
-    <rule id="09617fe3-a35d-f5ff-9d57-25af292161a0" name="Veydreth Tribes - Tactical Bonus" hidden="false">
+    <rule id="09617fe3-a35d-f5ff-9d57-25af292161a0" name="Veydreth_Tribes---Tactical_Bonus" hidden="false">
       <description>Veydreth Tribe forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="f528-af48-fe69-a7e0" name="Veydreth Tribes - Logistic Bid Max" hidden="false">
+    <rule id="f528-af48-fe69-a7e0" name="Veydreth_Tribes---Logistical_Strength" hidden="false">
       <description>Up to 4 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
@@ -170,64 +170,64 @@
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="20448c6d-96ee-1465-dfaf-2faa1239aec8" name="Artillery Support (1)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="20448c6d-96ee-1465-dfaf-2faa1239aec8" name="Artillery_Support(1)" hidden="false" book="Core Rulebook" page="116">
       <description>May use the Artillery Support rules on Page 82.</description>
       <modifiers/>
     </rule>
-    <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command Element (8&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="0dbc2ae4-8c5e-a3bd-e9af-5c70610971b5" name="Command_Element(8&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 8&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="fa01-f9ce-e0c4-bc87" name="Dark Stone Targeting Array" hidden="false" book="Sorylian and Veydreth ORBATs" page="9">
+    <rule id="fa01-f9ce-e0c4-bc87" name="Dark_Stone_Targeting_Array" hidden="false" book="Sorylian and Veydreth ORBATs" page="9">
       <description>When performing a Target Lock Action, a Yok-Ta may re-roll any Initial rolls of a 1.</description>
       <modifiers/>
     </rule>
-    <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="f69641b9-7a48-9d9e-7020-423c885cf21d" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="a85459e2-b85f-fec7-eb38-615507af1dc4" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="a85459e2-b85f-fec7-eb38-615507af1dc4" name="Hover_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="96ee851c-9c37-40da-f8ad-cac05dd96d0f" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="da1f5ad5-1fbd-38e8-30ff-1c5b03a7e223" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>The Squadron chosen may choose to make a free Flat Out Movement Action during the Recon Phase provided the move does not bring the Element within 16&quot; of an enemy Model at any time during its movement.</description>
       <modifiers/>
     </rule>
-    <rule id="1d9d980a-371e-0ac9-c27e-983297d7e2a4" name="Supreme Hunters" hidden="false" book="Sorylian ORBATS" page="2">
-      <description>Any Veydreth Attacks using Pinpoint Weapons during a Main Ordnance Attack may re-roll a single dice when determining if a Pinpoint Attack was successful.</description>
+    <rule id="1d9d980a-371e-0ac9-c27e-983297d7e2a4" name="Supreme_Hunters" hidden="false" book="Sorylian ORBATS" page="2">
+      <description>Any Veydreth Attacks using Pinpoint Weapons during a Main Ordnance Attack may re-roll a single dice when determining if a Pinpoint Attack has successful.</description>
       <modifiers/>
     </rule>
-    <rule id="25015a86-21a2-911a-aa69-6f9a20620507" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+    <rule id="25015a86-21a2-911a-aa69-6f9a20620507" name="Target_Lock" hidden="false" book="Core Rulebook" page="122">
       <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
       <modifiers/>
     </rule>
-    <rule id="b372d823-80b5-4b48-f2e0-f990abd5304a" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="b372d823-80b5-4b48-f2e0-f990abd5304a" name="Weapon_MAR:Nexus_Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="5db56ae3-2cea-496d-291b-16c428c5d305" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="5db56ae3-2cea-496d-291b-16c428c5d305" name="Weapon_MAR:Pinpoint(1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="dfa2-29c8-95bf-08ce" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su - Ikori Beam Lance" hidden="false">
+    <profile id="dfa2-29c8-95bf-08ce" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Nuk-Su---Ikori_Beam_Lance" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="af33-d028-7f57-ddb4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nuk-Su Light Recon Skiff" hidden="false">
+    <profile id="af33-d028-7f57-ddb4" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Nuk-Su_Light_Recon_Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
@@ -236,36 +236,36 @@
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="-"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="1"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="2"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Light"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Regular"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8af7-26a3-ef3d-78db" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Dual Ikori Beam Lance" hidden="false">
+    <profile id="8af7-26a3-ef3d-78db" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta---Dual_Ikori_Beam_Lance" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e044-c70b-2230-6ab0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta - Nexus Designator" hidden="false">
+    <profile id="e044-c70b-2230-6ab0" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Yok-Ta---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="24"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5525-7f9e-d56b-454a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yok-Ta Medium Recon Skiff" hidden="false">
+    <profile id="5525-7f9e-d56b-454a" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Yok-Ta_Medium_Recon_Skiff" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="11"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>

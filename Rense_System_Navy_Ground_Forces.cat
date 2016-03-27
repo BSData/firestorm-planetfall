@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b9ff-fd74-7692-94f3" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b9ff-fd74-7692-94f3" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Rense System Navy" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="47bf-9747-0b73-aa76" name="Rense System Navy Assault Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="47bf-9747-0b73-aa76" name="Rense_System_Navy_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="a4d7-0dac-a49f-2adf" name="Archangel Battle Robot" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a4d7-0dac-a49f-2adf" name="Archangel_Battle_Robot" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="9203-0d83-2475-7229" name="Battle Robot" defaultEntryId="159b-b512-2eca-765c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9203-0d83-2475-7229" name="Battle_Robot" defaultEntryId="159b-b512-2eca-765c" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -22,9 +22,9 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="0e9c-3346-d487-f473" name="Temple of Dramos Sky Drop Emplacement" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0e9c-3346-d487-f473" name="Temple_of_Dramos_Sky_Drop_Emplacement" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="5d2a-bf53-8cda-a170" name="Embarked Seraph Light Drone Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="5d2a-bf53-8cda-a170" name="Embarked_Seraph_Light_Drone_Tank" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -54,7 +54,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="85a8-1d75-2ef7-ed79" name="Select if an Assault or Field Support Helix is taken as an Allied Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="85a8-1d75-2ef7-ed79" name="Select_if_an_Assault_or_Field_Support_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -64,26 +64,26 @@
     </entry>
   </entries>
   <rules>
-    <rule id="3cc90eb2-41dc-129b-7e96-feee57b0e5bb" name="Rense System Navy - Artillery Attacks" hidden="false">
+    <rule id="3cc90eb2-41dc-129b-7e96-feee57b0e5bb" name="Rense_System_Navy---Artillery_Attacks" hidden="false">
       <description>All Rense System Navy Artillery Attacks use the Barrage and Scatter MARs with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="d5ffc1f2-766e-cfc1-ec39-694a12333eb1" name="Rense System Navy - Sky Drop Capability" hidden="false">
+    <rule id="d5ffc1f2-766e-cfc1-ec39-694a12333eb1" name="Rense_System_Navy---Sky_Drop_Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 4. Initial Artillery Markers are set to 6.</description>
       <modifiers/>
     </rule>
-    <rule id="49d2fb24-b1a5-f567-954d-1aa4fe5e01ce" name="Rense System Navy - Tactical Bonus" hidden="false">
+    <rule id="49d2fb24-b1a5-f567-954d-1aa4fe5e01ce" name="Rense_System_Navy---Tactical_Bonus" hidden="false">
       <description>Rense System Navy forces have a Tactics Bonus of +3.</description>
       <modifiers/>
     </rule>
-    <rule id="f13c-d766-9e50-2f81" name="Rense System Navy - Logistic Bid Max" hidden="false">
+    <rule id="f13c-d766-9e50-2f81" name="Rense_System_Navy---Logistical_Strength" hidden="false">
       <description>Up to 3 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="5fa7-86ca-44ce-7c23" name="Archangel" points="320.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5fa7-86ca-44ce-7c23" name="Archangel" points="290.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -138,9 +138,12 @@
         <link id="b76c-de4b-0ea2-58f7" targetId="dfdd-1bd7-d42c-952e" linkType="rule">
           <modifiers/>
         </link>
+        <link id="b3d6-5fe6-6ef8-a3b5" targetId="6f86-6068-fea2-f890" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="dccd-53e8-3d7f-aa02" name="Seraph" points="50.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="dccd-53e8-3d7f-aa02" name="Seraph" points="45.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -171,9 +174,12 @@
         <link id="504b-1595-e3d0-9721" targetId="561b-215b-e597-0222" linkType="profile">
           <modifiers/>
         </link>
+        <link id="2f37-4c3b-193c-d762" targetId="8846-34c0-0025-98ab" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="42c8-f25f-0f25-2d40" name="Temple of Dramos" points="240.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="42c8-f25f-0f25-2d40" name="Temple_of_Dramos" points="240.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -231,40 +237,47 @@
         <link id="4d2d-e60c-e51e-6b48" targetId="4d25-c3fd-78c9-f4e7" linkType="profile">
           <modifiers/>
         </link>
+        <link id="bec3-86cc-239b-008c" targetId="b853-b8cd-3195-ab54" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="9a6378e7-4fe0-d97d-0dd4-0b547c672db7" name="Assault Vehicle" hidden="false" book="Core Rulebook" page="116">
+    <rule id="9a6378e7-4fe0-d97d-0dd4-0b547c672db7" name="Assault_Vehicle" hidden="false" book="Core Rulebook" page="116">
       <description>Models embarked may elect to activate immediately after the Assault Vehicle has finished its activation.</description>
       <modifiers/>
     </rule>
-    <rule id="34bb965a-75d5-909e-b0a7-21704d463208" name="Built to Last" hidden="false" book="Dindrenzi ORBATS" page="2">
-      <description>All Rense System Navy elements ignore the effects of Debilitating Effect Markers on their DR rating.</description>
+    <rule id="34bb965a-75d5-909e-b0a7-21704d463208" name="Built_to_Last" hidden="false" book="Dindrenzi ORBATS" page="2">
+      <description>All Rense System Navy elements ignore the effects of Damage on their Attack Successes during Main Ordnance Attacks.</description>
       <modifiers/>
     </rule>
     <rule id="e494-fa7e-a647-762a" name="Cloaked" hidden="false" book="Core Rulebook" page="116">
       <description>Explosive Dice (red) ordnance is rolled as Heavy Dice (blue) instead.</description>
       <modifiers/>
     </rule>
-    <rule id="7b19-63d3-964d-b166" name="Command Centre" hidden="false" book="Dindrenzi ORBATs" page="11">
+    <rule id="7b19-63d3-964d-b166" name="Command_Centre" hidden="false" book="Dindrenzi ORBATs" page="11">
       <description>A Force that contains this model may take an ADDITIONAL Tactical Action Card over and above the number stated for the game size.</description>
       <modifiers/>
     </rule>
-    <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command Element (12&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="e5e5c646-f5bc-5c85-8af0-b10457704edc" name="Command_Element(12&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 12&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8846-34c0-0025-98ab" name="Conditional_Deployment" hidden="false">
+      <description>Seraph Squadrons MUST be deployed via a Temple of Dramos.</description>
       <modifiers/>
     </rule>
     <rule id="064598f7-0c15-ec8a-aacf-fb40d8519488" name="Drone" hidden="false" book="Core Rulebook" page="117">
       <description>Drones within range of a Drone Nexus become Regular and gain +1 CQB.	</description>
       <modifiers/>
     </rule>
-    <rule id="a4c7-b0b5-7aaf-dfdd" name="Drone Nexus (12&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="a4c7-b0b5-7aaf-dfdd" name="Drone_Nexus(12&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 12&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
-    <rule id="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" name="Drone Nexus (8&quot;)" hidden="false" book="Core Rulebook" page="117">
+    <rule id="d22fe4d8-71d2-b293-38cf-b5db9f768a1d" name="Drone_Nexus(8&quot;)" hidden="false" book="Core Rulebook" page="117">
       <description>Boosts Drones to Regular and gives them +1 CQB within 8&quot;. Each point of damage lowers the Nexus range by 4&quot;.</description>
       <modifiers/>
     </rule>
@@ -272,107 +285,87 @@
       <description>Unit never takes Disordered Tests.</description>
       <modifiers/>
     </rule>
-    <rule id="5249f2ef-39ba-92cf-881c-227d5b46c9a2" name="Hard Target (-1)" hidden="false" book="Core Rulebook" page="118">
+    <rule id="5249f2ef-39ba-92cf-881c-227d5b46c9a2" name="Hard_Target(-1)" hidden="false" book="Core Rulebook" page="118">
       <description>Main Ordnance is -1 to hit this unit.</description>
       <modifiers/>
     </rule>
-    <rule id="2ee48f64-c695-16f1-c321-58961a2f3690" name="Hover Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="2ee48f64-c695-16f1-c321-58961a2f3690" name="Hover_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>Vehicles with this MAR is treated as Hard Target (-1) when fired at with weapons in Long Range. This does not combine with other Hard Target rules.</description>
       <modifiers/>
     </rule>
-    <rule id="db65-4e85-2ec1-646b" name="Improved Target Nexus" hidden="false" book="Dindrenzi ORBATs" page="11">
+    <rule id="db65-4e85-2ec1-646b" name="Improved_Target_Nexus" hidden="false" book="Dindrenzi ORBATs" page="11">
       <description>If the Temple of Dramos successfully targets an enemy target squadron with its Target Lock, all Seraph Drones within Drone Nexus Range gain a Placed Bonus when firing at the same target squadron with Main Ordnance Weapons for that turn only!</description>
       <modifiers/>
     </rule>
-    <rule id="9a98-0a4c-8b57-6456" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="9a98-0a4c-8b57-6456" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 4 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Remember Dramos" hidden="false" book="Dindrenzi ORBATS" page="11">
+    <rule id="6f86-6068-fea2-f890" name="Reflective_Inner_Plating" hidden="false" book="">
+      <description>All successful Pinpoint rolls that would cause additional Damage to this element must be re-rolled.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4b80a0ed-dc68-270a-4d84-7c5eb8aa5046" name="Remember_Dramos" hidden="false" book="Dindrenzi ORBATS" page="11">
       <description>Once deployed, all friendly Dindrenzi or Rense System Navy Elements within 16” gain the Fearless MAR if there are any Terran Alliance or Hawker Industries forces on the Battlefield.</description>
       <modifiers/>
     </rule>
-    <rule id="f952dfe9-2c8a-7f89-8063-e277b8006f7a" name="Sky Drop" hidden="false" book="Core Rulebook" page="121">
+    <rule id="b853-b8cd-3195-ab54" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
+      <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f952dfe9-2c8a-7f89-8063-e277b8006f7a" name="Sky_Drop" hidden="false" book="Core Rulebook" page="121">
       <description>May use the Sky Drop Deployment rules on Page 79.</description>
       <modifiers/>
     </rule>
-    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Sky Drop Asset" hidden="false">
+    <rule id="047c5a03-e8a3-5771-00f3-3f4477fe7d16" name="Sky_Drop_Asset" hidden="false">
       <description>This squadron MUST deploy via Sky Drop (Page 79 of Core Rulebook)</description>
       <modifiers/>
     </rule>
-    <rule id="3d36-9301-7893-1195" name="Sky Drop Nexus (1)" hidden="false" book="Core Rulebook" page="121">
+    <rule id="3d36-9301-7893-1195" name="Sky_Drop_Nexus(1)" hidden="false" book="Core Rulebook" page="121">
       <description>Places 1 Drop Site Markers in the Place Drop-Sites Segment of the Pre-Game Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="0157-e9f1-834f-6437" name="Target Lock" hidden="false" book="Core Rulebook" page="122">
+    <rule id="0157-e9f1-834f-6437" name="Target_Lock" hidden="false" book="Core Rulebook" page="122">
       <description>May use Nexus Designator to target an enemy unit befor the rest of the unit fires Main Ordnance. 0-3 hits : No Effect. 4+ Hits : Firing Squadron gains a placed bonus when firing their Main Ordnance.</description>
       <modifiers/>
     </rule>
-    <rule id="dfdd-1bd7-d42c-952e" name="Thunderous Charge" hidden="false">
-      <description>The model may perform a Leviathan CQB Action after moving Flat Out. This CQB Attack is considered to be Rushed</description>
+    <rule id="dfdd-1bd7-d42c-952e" name="Thunderous_Charge" hidden="false">
+      <description>The model may perform a Leviathan CQB Action after moving Flat Out</description>
       <modifiers/>
     </rule>
-    <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
+    <rule id="4784ab0d-7313-f92a-f5e1-9bfc36d11c5b" name="Tracked/Wheeled_Vehicle" hidden="false" book="Core Rulebook" page="122">
       <description>Impassable Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
 May not Flat Out over Rough Ground / Craters.
 Increase Movement by 3&quot; on  Roads.</description>
       <modifiers/>
     </rule>
-    <rule id="73f23270-e577-c50f-68e6-b27141363ec2" name="Transport (Seraph Light Drones Only, 6)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="73f23270-e577-c50f-68e6-b27141363ec2" name="Transport_(Seraph_Light_Drones_Only,_6)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 6 slots worth of Seraph Light Drone Tanks.</description>
       <modifiers/>
     </rule>
-    <rule id="089f3202-6c90-42cf-9e58-e1f5af7e5da2" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="089f3202-6c90-42cf-9e58-e1f5af7e5da2" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="e758-888a-4e0b-c003" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="e758-888a-4e0b-c003" name="Weapon_MAR:Nexus_Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" name="Weapon MAR:Pinpoint (2)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="de2fcfac-b113-e86d-1300-b5ce4e28fb8e" name="Weapon_MAR:Pinpoint(2)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 2d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" name="Weapon MAR:Pinpoint (4)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="8d5f9c5b-5a3d-4fb2-cbd3-eddc07ab9f50" name="Weapon_MAR:Pinpoint(4)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="47d398bd-45e4-164a-212e-263cbfecbe83" name="Weapon_MAR:Terror_Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="718d-f868-a915-7770" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Clamare Missiles (Left Arm)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F / L / R"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="7054-d323-92d3-85e4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel - Nexus Designator" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
-        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
-        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
-        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="3934-a96c-e178-65e1" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel - Shard of Dramos (Right Arm)" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint (4)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="12fd-48b7-02c4-1f28" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Archangel Battle Robot" hidden="false">
+    <profile id="12fd-48b7-02c4-1f28" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Archange_Battle_Robot" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="16"/>
@@ -381,25 +374,53 @@ Increase Movement by 3&quot; on  Roads.</description>
         <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="8"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="7 / 14"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="8/16"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="6"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="561b-215b-e597-0222" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Seraph - Asmodian Laser" hidden="false">
+    <profile id="718d-f868-a915-7770" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel---Clamare_Missiles_(Left_Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="8"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F/L/R"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Terror_Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7054-d323-92d3-85e4" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Archangel---Nexus_Designator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
+        <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
+        <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
+        <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3934-a96c-e178-65e1" profileTypeId="e0e86e6f-7cbc-581b-fc4d-e8a96c3e497f" name="Archangel---Shard_of_Dramos_(Right_Arm)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="da4d7de0-2bb3-70e7-a3f0-4ba3afccbcae" name="MARs" value="Pinpoint(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="561b-215b-e597-0222" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Seraph---Asmodian_Laser" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="3"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="2"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint (2)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Pinpoint(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5af6-292c-52ae-c072" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Seraph Light Drone Tank" hidden="false">
+    <profile id="5af6-292c-52ae-c072" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Seraph_Light_Drone_Tank" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="10"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="14"/>
@@ -415,38 +436,38 @@ Increase Movement by 3&quot; on  Roads.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3d92-c01c-bc9e-f4be" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple of Dramos - Clamare Missiles" hidden="false">
+    <profile id="3d92-c01c-bc9e-f4be" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple_of_Dramos---Clamare_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="16"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="12"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="32"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="9"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor / Terror Weapon"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Interceptor/Terror_Weapon"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5a35-340f-52e9-83e8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple of Dramos - Nexus Designator" hidden="false">
+    <profile id="5a35-340f-52e9-83e8" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Temple_of_Dramos---Nexus_Designator" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="30"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="6"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="4d25-c3fd-78c9-f4e7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Temple of Dramos Sky Drop Transport / Emplacement" hidden="false">
+    <profile id="4d25-c3fd-78c9-f4e7" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Temple_of_Dramos_Sky_Drop_Transport/Emplacement" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="0"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="0"/>
-        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="9"/>
-        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="8"/>
-        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="7"/>
+        <characteristic characteristicId="37d832b5-effe-31e5-3d80-be0e0f0facaa" name="DR1" value="10"/>
+        <characteristic characteristicId="38ce15ef-6608-ccd3-d7c1-b01ee9c81ffa" name="DR2" value="10"/>
+        <characteristic characteristicId="98e41e8c-6557-e695-6a0e-87db5a68f78c" name="DR3" value="9"/>
         <characteristic characteristicId="12cafa00-4b8f-fce7-d690-eb7a2d7be421" name="DR4" value="-"/>
         <characteristic characteristicId="4f478de8-54c8-4f22-5cbc-6b00963ccce1" name="SH" value="0"/>
-        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="10"/>
+        <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="15"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Armoured"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
         <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>

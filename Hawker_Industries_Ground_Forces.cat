@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0610-e4cd-4be0-d78c" revision="2" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0610-e4cd-4be0-d78c" revision="3" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Hawker Industries" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="1b0f-0492-47cd-f0e4" name="Hawker Industries Aerial Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1b0f-0492-47cd-f0e4" name="Hawker_Industries_Aerial_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="4529-ddda-6a15-1552" name="Sheriff Heavy Gunship Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4529-ddda-6a15-1552" name="Sheriff_Heavy_Gunship_Squadron" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="4483-b91e-37d2-4810" name="Heavy Gunship" defaultEntryId="bf34-6146-30dc-1c07" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="4483-b91e-37d2-4810" name="Heavy_Gunship" defaultEntryId="bf34-6146-30dc-1c07" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -22,10 +22,10 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="a78b-129c-fa76-da7b" name="Guardsman Heavy Attack Fighter" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a78b-129c-fa76-da7b" name="Guardsman_Heavy_Attack_Fighter" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="af15-676b-d463-d8c9" name="Heavy Attack Fighter" defaultEntryId="44d9-601b-86d2-8001" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="af15-676b-d463-d8c9" name="Heavy_Attack_Fighter" defaultEntryId="44d9-601b-86d2-8001" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -48,7 +48,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f910-660a-d08f-8cf5" name="Select if an Air or Recon Helix is taken as an Allied Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="f910-660a-d08f-8cf5" name="Select_if_an_Air_or_Recon_Helix_is_taken_as_an_Allied_Helix" points="0.0" categoryId="b5e3-9583-3fcd-2774" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -58,26 +58,26 @@
     </entry>
   </entries>
   <rules>
-    <rule id="b956-c67d-20f7-18b2" name="Hawker Industries - Artillery Attacks" hidden="false">
+    <rule id="b956-c67d-20f7-18b2" name="Hawker_Industries---Artillery_Attacks" hidden="false">
       <description>All Hawker Industries Artillery Attacks use the Corrosive, Barrage and Scatter MARs  with 4D6 Attack Dice.</description>
       <modifiers/>
     </rule>
-    <rule id="9e545086-1c35-b094-b0de-5104d6fce761" name="Hawker Industries - Sky Drop Capability" hidden="false">
+    <rule id="9e545086-1c35-b094-b0de-5104d6fce761" name="Hawker_Industries---Sky_Drop_Capability" hidden="false">
       <description>Initial Drop Site Markers are set to 5. Initial Artillery Markers are set to 5.</description>
       <modifiers/>
     </rule>
-    <rule id="8467d8a0-2704-cd03-6831-4fde507b2e19" name="Hawker Industries - Tactical Bonus" hidden="false">
+    <rule id="8467d8a0-2704-cd03-6831-4fde507b2e19" name="Hawker_Industries---Tactical_Bonus" hidden="false">
       <description>Hawker Industries forces have a Tactics Bonus of +2.</description>
       <modifiers/>
     </rule>
-    <rule id="32d5-6a93-90db-2376" name="Hawker Industries - Logistic Bid Max" hidden="false">
-      <description>Up to 5 Logistics Points in a single Bid Action.</description>
+    <rule id="32d5-6a93-90db-2376" name="Hawker_Industries---Logistical_Strength" hidden="false">
+      <description>Up to 4 Logistics Points in a single Bid Action.</description>
       <modifiers/>
     </rule>
   </rules>
   <links/>
   <sharedEntries>
-    <entry id="81e7-23f4-6448-6768" name="Guardsman" points="85.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="81e7-23f4-6448-6768" name="Guardsman" points="80.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -93,9 +93,6 @@
         <link id="4743-66ac-f795-f64c" targetId="33b6e081-d57d-37ec-141a-8005f443649c" linkType="rule">
           <modifiers/>
         </link>
-        <link id="abc6-c62f-e976-307b" targetId="29d9-0d96-60ff-510f" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="4297-81c1-0245-8482" targetId="a2aa82e1-7bf4-e124-39ab-b4615695055e" linkType="rule">
           <modifiers/>
         </link>
@@ -105,9 +102,15 @@
         <link id="f339-3942-833b-55c3" targetId="86d0-a1f6-a306-262b" linkType="profile">
           <modifiers/>
         </link>
+        <link id="d811-dcc6-0bba-efe8" targetId="1126-1b44-48ca-a3b7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3774-31c6-0dbf-4e3c" targetId="61bddc41-0441-5f4d-2773-89dc5a700c7c" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="c74f-830b-9d55-df9d" name="Sheriff" points="235.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c74f-830b-9d55-df9d" name="Sheriff" points="260.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -153,99 +156,113 @@
         <link id="9d58-f4f4-00d2-ee8f" targetId="8067-b5c3-3479-3879" linkType="profile">
           <modifiers/>
         </link>
+        <link id="1aa6-b97f-da78-1b44" targetId="1126-1b44-48ca-a3b7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e28-df76-13f6-44e8" targetId="d10b-7f9b-d475-e54d" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="e6fc0961-ace1-c55e-b401-4acca8ef380f" name="Artillery Support (2)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="e6fc0961-ace1-c55e-b401-4acca8ef380f" name="Artillery_Support(2)" hidden="false" book="Core Rulebook" page="116">
       <description>May use the Artillery Support rules on Page 82.</description>
       <modifiers/>
     </rule>
-    <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command Element (16&quot;)" hidden="false" book="Core Rulebook" page="116">
+    <rule id="78d324e1-26b5-599c-6902-cadeeef9985c" name="Command_Element(16&quot;)" hidden="false" book="Core Rulebook" page="116">
       <description>All helix squadrons in 16&quot; gain an additional morale die when testing for disorder. If this model is detroyed all squadrons in the helix must take a disorder test requiring two successes.</description>
       <modifiers/>
     </rule>
-    <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying Vehicle" hidden="false" book="Core Rulebook" page="118">
+    <rule id="501a8e86-3401-faef-7aff-9f1094200595" name="Flying_Vehicle" hidden="false" book="Core Rulebook" page="118">
       <description>When moving at Cruising Speed the unit gains Hard Target (-1), when moving at Flat Out the unit gains Hard Target (-2).</description>
       <modifiers/>
     </rule>
-    <rule id="29d9-0d96-60ff-510f" name="Ground Attack" hidden="false" book="Terran Alliance ORBATs" page="10">
+    <rule id="29d9-0d96-60ff-510f" name="Ground_Attack" hidden="false" book="Terran Alliance ORBATs" page="10">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out provided the target squadron are Surface models. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="a2aa82e1-7bf4-e124-39ab-b4615695055e" name="Legacy Through Fortitude" hidden="false" book="Terran Alliance ORBATS" page="2">
+    <rule id="a2aa82e1-7bf4-e124-39ab-b4615695055e" name="Legacy_Through_Fortitude" hidden="false" book="Terran Alliance ORBATS" page="2">
       <description>All Hawker Industries Armoured adn Aerial elements may attempt to remove a single point of Damage from each Squadron during the Repair Segment of the End Phase on the roll of a 4+.</description>
       <modifiers/>
     </rule>
-    <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics Points" hidden="false" book="Core Rulebook" page="58">
+    <rule id="165a2748-17cf-41f6-039e-98d07da4d54a" name="Logistics_Points" hidden="false" book="Core Rulebook" page="58">
       <description>May use up to 5 points to bid on an Opposed Tactics test.</description>
       <modifiers/>
     </rule>
-    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Multipurpose Assault" hidden="false" book="Terran Alliance ORBAT" page="10">
+    <rule id="61bddc41-0441-5f4d-2773-89dc5a700c7c" name="Multipurpose_Assault" hidden="false" book="Terran Alliance ORBAT" page="10">
       <description>This Squadron may fire its Main Ordnance while moving Flat Out. These shots are considered to be Rushed.</description>
       <modifiers/>
     </rule>
-    <rule id="8774c1ed-d743-feda-ac5e-58258e685dec" name="Recon Specialist" hidden="false" book="Core Rulebook" page="120">
+    <rule id="d10b-7f9b-d475-e54d" name="Overwatch_Capable" hidden="false">
+      <description>This Model may be placed on Overwatch using Logistics Points at the start of a Game Turn. It costs 3 Logistics Points to put this Model in Overwatch</description>
+      <modifiers/>
+    </rule>
+    <rule id="8774c1ed-d743-feda-ac5e-58258e685dec" name="Recon_Specialist" hidden="false" book="Core Rulebook" page="120">
       <description>May move in the Recon Phase.</description>
       <modifiers/>
     </rule>
-    <rule id="a12256c4-fb47-7fca-9af4-a413c5387d63" name="Take &amp; Hold" hidden="false" book="Core Rulebook" page="121">
+    <rule id="1126-1b44-48ca-a3b7" name="Sectored_Armour" hidden="false" book="Core Rulebook" page="121">
+      <description>Model never suffers penalties to DR from Flank or Aft Main Ordnance attacks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a12256c4-fb47-7fca-9af4-a413c5387d63" name="Take_&amp;_Hold" hidden="false" book="Core Rulebook" page="121">
       <description>This unit may claim objectives.</description>
       <modifiers/>
     </rule>
-    <rule id="4e3ac4b5-c681-822a-31cc-b829972c8fd6" name="Tracked/Wheeled Vehicle" hidden="false" book="Core Rulebook" page="122">
+    <rule id="4e3ac4b5-c681-822a-31cc-b829972c8fd6" name="Tracked/Wheeled_Vehicle" hidden="false" book="Core Rulebook" page="122">
       <description>Impassible Terrain : Vegetation/Forests/Jungle, Huge Rocks/Spires, Rivers (Non Lethal), Walkway (Buildings Only).
 May not Flat Out over Rough Ground / Craters.
 Increase Movement by 3&quot; on  Roads.</description>
       <modifiers/>
     </rule>
-    <rule id="ad0a4ad2-e83a-de34-51c9-ea59b788289a" name="Transport (9)" hidden="false" book="Core Rulebook" page="122">
+    <rule id="ad0a4ad2-e83a-de34-51c9-ea59b788289a" name="Transport(9)" hidden="false" book="Core Rulebook" page="122">
       <description>May act as a transport for 9 slots worth of Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Weapon MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
+    <rule id="d94bfcdd-e185-0337-aad7-c7bbd7b1b8ce" name="Weapon_MAR:Anti-Personnel" hidden="false" book="Core Rulebook" page="116">
       <description>Weapon ignores Hard Target rules when targeting Infantry.</description>
       <modifiers/>
     </rule>
-    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Weapon MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
+    <rule id="33b6e081-d57d-37ec-141a-8005f443649c" name="Weapon_MAR:Barrage" hidden="false" book="Core Rulebook" page="116">
       <description>Models targeted by a Barrage weapon do not receive cover saves.</description>
       <modifiers/>
     </rule>
-    <rule id="8ed47ace-e091-ff8d-c8b2-c8e68670b620" name="Weapon MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
+    <rule id="8ed47ace-e091-ff8d-c8b2-c8e68670b620" name="Weapon_MAR:Corrosive" hidden="false" book="Core Rulebook" page="116">
       <description>Models damaged by this weapon, but not destroyed receive a Debilitating Effect Marker. These markets give -1 DR until repaired. Multiple Markers may be placed, but the effect is not cumulative.</description>
       <modifiers/>
     </rule>
-    <rule id="fa6a026d-b99b-78e4-9187-1778fab44641" name="Weapon MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
+    <rule id="fa6a026d-b99b-78e4-9187-1778fab44641" name="Weapon_MAR:Interceptor" hidden="false" book="Core Rulebook" page="119">
       <description>Flying targets do not gain the benefit of Hard Target against these weapons.</description>
       <modifiers/>
     </rule>
-    <rule id="9fc80aca-61a6-7e09-cd30-760244644f3d" name="Weapon MAR:Nexus Designator" hidden="false" book="Core Rulebook" page="79">
+    <rule id="9fc80aca-61a6-7e09-cd30-760244644f3d" name="Weapon_MAR:Nexus_Designator" hidden="false" book="Core Rulebook" page="79">
       <description>Weapon is used to reduce Sky Drop Markers micro dice.</description>
       <modifiers/>
     </rule>
-    <rule id="34197a14-0bc0-8cfd-d73b-4d3a7ebf8a2f" name="Weapon MAR:Pinpoint (1)" hidden="false" book="Core Rulebook" page="119">
+    <rule id="34197a14-0bc0-8cfd-d73b-4d3a7ebf8a2f" name="Weapon_MAR:Pinpoint(1)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 1d6. If one or more 6&apos;s are rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
       <modifiers/>
     </rule>
-    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon MAR:Terror Weapon" hidden="false" book="Core Rulebook" page="122">
+    <rule id="de5b2eaa-1c18-3a7a-31ae-c81487b5f5bd" name="Weapon_MAR:Terror_Weapon" hidden="false" book="Core Rulebook" page="122">
       <description>Disorder Tests caused by this weapon roll one less die.</description>
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5f77-8cad-7f81-754a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Guardsman - UX-4B Shredder Cannon" hidden="false">
+    <profile id="5f77-8cad-7f81-754a" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Guardsman---UX-4B_Shredder_Cannon" hidden="false">
       <characteristics>
-        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="12"/>
-        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
+        <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="15"/>
+        <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="5"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel / Barrage"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Anti-Personnel/Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="86d0-a1f6-a306-262b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Guardsman Heavy Attack Fighter" hidden="false">
+    <profile id="86d0-a1f6-a306-262b" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Guardsman_Heavy_Attack_Fighter" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="20"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="30"/>
@@ -257,44 +274,44 @@ Increase Movement by 3&quot; on  Roads.</description>
         <characteristic characteristicId="ee559769-1294-e5f0-4b2f-5a39c3e493c9" name="CQB" value="3"/>
         <characteristic characteristicId="49777571-f40c-c499-3529-609f3a86e6d3" name="LoS Class" value="Flying"/>
         <characteristic characteristicId="20182b1e-6f26-0e46-1095-259ac59a2ea9" name="Quality" value="Elite"/>
-        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="4"/>
+        <characteristic characteristicId="be9c10f1-4bb5-f111-5fe8-a1eca79c317c" name="TV" value="5"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c1af-8ddc-3cc2-a6a1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator (1)" hidden="false">
+    <profile id="c1af-8ddc-3cc2-a6a1" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff---Nexus_Designator(1)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0db6-bb85-03de-e94f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Nexus Designator (2)" hidden="false">
+    <profile id="0db6-bb85-03de-e94f" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff---Nexus_Designator(2)" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="20"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="4"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="-"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="-"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="AR"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus Designator"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Nexus_Designator"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="8067-b5c3-3479-3879" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff - Swift Spear Missiles" hidden="false">
+    <profile id="8067-b5c3-3479-3879" profileTypeId="b6d7a892-595b-4a15-1099-dd0af68911b9" name="Sheriff---Swift_Spear_Missiles" hidden="false">
       <characteristics>
         <characteristic characteristicId="12f4d7d4-ce09-7c6c-2b69-7d2dd3baf892" name="EF" value="10"/>
         <characteristic characteristicId="9cb66a39-5ffc-c785-5c2e-7e68e7e7dd32" name="EF-AD" value="16"/>
         <characteristic characteristicId="dc0770ac-599e-1efc-fbca-37fb2fb088cb" name="LR" value="20"/>
         <characteristic characteristicId="27dc470e-85e8-929a-80ed-7058a163b995" name="LR-AD" value="10"/>
         <characteristic characteristicId="88222587-060a-9230-b947-2bffa3b052dd" name="Arc" value="F"/>
-        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive / Interceptor / Pinpoint (1)"/>
+        <characteristic characteristicId="1ca5160e-30b4-5594-dd7f-7b574cd2068f" name="MARs" value="Corrosive/Interceptor/Pinpoint(1)"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1ed6-31ba-d61a-c30e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sheriff Heavy Gunship" hidden="false">
+    <profile id="1ed6-31ba-d61a-c30e" profileTypeId="601947e0-0125-7417-9d3a-5e3caf6e031d" name="Sheriff_Heavy_Gunship" hidden="false">
       <characteristics>
         <characteristic characteristicId="b06bce22-dd79-5941-f499-07552e47c603" name="Mv Cr" value="16"/>
         <characteristic characteristicId="45a72717-f553-eda0-574a-ed9c863706e4" name="Mv FO" value="24"/>
