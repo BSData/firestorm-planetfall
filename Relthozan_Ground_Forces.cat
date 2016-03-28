@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ee4-ec29-a08b-669f" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6ee4-ec29-a08b-669f" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthozan" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="488c-7947-df2a-3bd6" name="Instructions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -151,7 +151,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <entryGroups>
             <entryGroup id="3ae1-9532-3586-77f8" name="Light_Infantry" defaultEntryId="bfbb-4726-3b31-08e2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="bfbb-4726-3b31-08e2" name="Spy_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="bfbb-4726-3b31-08e2" name="Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -457,7 +457,7 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <entryGroups>
             <entryGroup id="1c8a-eca1-ad76-b0b1" name="Heavy_Infantry" defaultEntryId="0506-52e3-0e99-9f68" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="0506-52e3-0e99-9f68" name=" Yayiss-Ya_Heavy_Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0506-52e3-0e99-9f68" name=" Yayiss-Ya_Heavy_Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1430,6 +1430,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
         <link id="3706-b98c-156d-d24f" targetId="4d2f-f0a4-c022-233f" linkType="profile">
           <modifiers/>
         </link>
+        <link id="7717-f608-78bf-7d2b" targetId="4ef0-a0ae-106d-e4c2" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0365-d974-01ad-b863" name="Yayiss_Spire" points="35.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1464,6 +1467,9 @@ The Infantry from the Nov 26th ORBAT have been added in combination with the inf
           <modifiers/>
         </link>
         <link id="f494-3812-2e49-33b0" targetId="8590-de29-0d2a-1372" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="74b8-afb0-526d-3b31" targetId="4ef0-a0ae-106d-e4c2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1746,6 +1752,10 @@ other effect.</description>
     </rule>
     <rule id="957e-9690-9e0b-46e9" name="Weapon_MAR:Pinpoint(4)" hidden="false" book="Core Rulebook" page="119">
       <description>If a Pinpoint weapon damages, but fails to destroy non-infantry, roll 4d6. If a 6 is rolled, the target suffers an additional point of damage. If multiple weapons combine with Pinpoint, use the highest value only.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4ef0-a0ae-106d-e4c2" name="Infantry_Must_Embark" hidden="false">
+      <description>Infantry taken with this unit MUST be deployed embarked on it.</description>
       <modifiers/>
     </rule>
   </sharedRules>
