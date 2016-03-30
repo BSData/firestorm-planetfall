@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3342-0906-2375-ede5" revision="4" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3342-0906-2375-ede5" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="974a-475c-a430-8f45" name="Dindrenzi_Federation_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -108,16 +108,16 @@
             </link>
           </links>
         </entry>
-        <entry id="b377-59cc-6888-28c7" name="Damocles_MKII_Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="882a-e753-524b-90ca" name="Nyx_Light_Infantry_Cadre" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="e406-fe05-8c04-c6e9" name="Nyx_Light_Infantry_Cadre_(Embarked)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="2b9e-1cce-acef-ca01" name="Damocles_MKII_Sky_Pod_Transport" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="8f32-3b2f-9bd2-2fb7" targetId="9729-3ac9-4ff1-389d" linkType="entry group">
+                <link id="0528-10f0-a539-1e5e" targetId="858b7c7d-a4b2-f869-9bfb-3e7919db1c2b" linkType="entry group">
                   <modifiers/>
                 </link>
               </links>
@@ -128,7 +128,7 @@
           <rules/>
           <profiles/>
           <links>
-            <link id="606b-5d8a-913c-1d07" targetId="858b7c7d-a4b2-f869-9bfb-3e7919db1c2b" linkType="entry group">
+            <link id="0f8f-4138-d204-e180" targetId="9729-3ac9-4ff1-389d" linkType="entry group">
               <modifiers/>
             </link>
           </links>
