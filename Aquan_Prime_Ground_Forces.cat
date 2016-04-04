@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eafd-cf56-7710-f042" revision="6" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eafd-cf56-7710-f042" revision="7" gameSystemId="fdb1b3af-37de-0c1a-4772-a6dd227e268c" gameSystemRevision="1" battleScribeVersion="1.15" name="Aquan Prime" authorName="Steve" authorContact="steve_990@hotmail.com" authorUrl="http://thedicehateme.wordpress.com/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5189-e7b5-1133-394a" name="Aquan_Prime_Assault_Helix" points="0.0" categoryId="bfb8-a2d8-3a3e-a671" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -10,7 +10,7 @@
           <rules/>
           <profiles/>
           <links>
-            <link id="c3fa-c03f-96d4-ff60" targetId="61f5-9b39-0f78-88d9" linkType="entry">
+            <link id="c3fa-c03f-96d4-ff60" targetId="ffb6-62ef-8e53-5b8b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -138,7 +138,7 @@
             <entryGroup id="d001-ac59-4f60-b66b" name="Strike_Shoal" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="4e56-a601-5db7-6424" name="Khitari_Strike_Shoal" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="4e56-a601-5db7-6424" name="Khitari_Strike_Shoal" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
